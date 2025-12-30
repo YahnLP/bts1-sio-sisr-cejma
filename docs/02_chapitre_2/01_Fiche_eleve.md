@@ -4,7 +4,7 @@ title: 01 Fiche élève
 ---
 
 
-# Séance 1 – Diagnostic  
+
 ## Analyse d’un produit cosmétique simple
 
 ### 🎯 Objectifs de la séance
