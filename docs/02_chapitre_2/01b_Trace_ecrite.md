@@ -7,7 +7,7 @@ title: 01 📖 Trace écrite
 # 01 Diagnostique : 📖 Trace écrite
 
 
-## Analyse d’un produit cosmétique simple
+**Analyse d’un produit cosmétique simple**
 
 ### Corps pur – Mélanges
 

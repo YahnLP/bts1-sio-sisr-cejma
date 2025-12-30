@@ -5,7 +5,7 @@ title: 01 📝 Fiche élève
 
 # 01 Diagnostic : 📝 Fiche élève
 
-## Analyse d’un produit cosmétique simple
+**Analyse d’un produit cosmétique simple**
 
 ### 🎯 Objectifs de la séance
 - Décrire un produit cosmétique de manière scientifique
