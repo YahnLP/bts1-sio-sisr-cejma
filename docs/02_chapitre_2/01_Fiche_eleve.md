@@ -96,9 +96,11 @@ Complétez les phrases suivantes :
 
 ---
 
-## 🧾 Trace écrite (à compléter en classe)
+## 🧾 Trace écrite 
 
 ### Définitions
+
+Pour vous comment définiriez vous :
 
 - **Corps pur** :  
   ..............................................................................
