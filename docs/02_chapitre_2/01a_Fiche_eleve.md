@@ -1,9 +1,9 @@
 ﻿---
 author: ELP
-title: 01 Fiche élève
+title: 01 📝 Fiche élève
 ---
 
-# 01 Diagnostic : Fiche élève
+# 01 Diagnostic : 📝 Fiche élève
 
 ## Analyse d’un produit cosmétique simple
 
@@ -13,6 +13,8 @@ title: 01 Fiche élève
 - Apprendre à lire une situation professionnelle et à identifier les données utiles
 
 ---
+
+
 
 ## 🧴 Situation professionnelle
 

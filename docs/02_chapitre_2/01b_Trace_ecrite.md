@@ -1,10 +1,10 @@
 ---
 author: ELP
-title: 01 🧾 Trace écrite
+title: 01 📖 Trace écrite
 ---
 
 
-# 01 Diagnostique : 🧾 Trace écrite
+# 01 Diagnostique : 📖 Trace écrite
 
 
 ## Analyse d’un produit cosmétique simple
@@ -97,8 +97,7 @@ Pour répondre à une question scientifique en BTS :
 
 ## 🔗 Transition vers la suite
 
-Lors de la prochaine séance, nous apprendrons à **décrire quantitativement** les mélanges homogènes
-à l’aide de la notion de **solution**.
+Lors de la prochaine séance, nous apprendrons à **décrire quantitativement** les mélanges homogènes à l’aide de la notion de **solution**.
 
 ---
 
