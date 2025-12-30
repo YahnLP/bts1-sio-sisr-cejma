@@ -1,11 +1,11 @@
 ---
 author: ELP
-title: 01 Trace écrite
+title: 01 🧾 Trace écrite
 ---
 
 
 
-# 🧾 TRACE ÉCRITE – SÉANCE 1
+
 
 ## Analyse d’un produit cosmétique simple
 
@@ -102,23 +102,3 @@ Lors de la prochaine séance, nous apprendrons à **décrire quantitativement** 
 
 ---
 
-## ✅ Pourquoi cette trace écrite est parfaite pour l’inspection
-
-✔ claire et structurée
-✔ vocabulaire scientifique précis mais accessible
-✔ lien explicite observation ↔ composition
-✔ méthode BTS clairement posée
-✔ transition pédagogique visible
-✔ réutilisable toute l’année (solutions, pH, concentration…)
-
----
-
-### 👉 Étape suivante logique
-
-On peut maintenant :
-
-* construire **`S02_Solutions/`** en continuité directe,
-* ou créer une **fiche “Méthode E2 : analyser un système”**,
-* ou enrichir la séance 1 avec une **évaluation diagnostique courte**.
-
-Dis-moi simplement ce que tu veux faire ensuite.
