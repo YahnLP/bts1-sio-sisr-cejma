@@ -10,6 +10,9 @@ liées à la cosmétologie et à l’épreuve E2.
 ### 📥 Ressource à télécharger
 
 📘 **Document élève**  
+
 ➡️ [Télécharger la fiche élève (PDF)](01_fiche_eleve.pdf)
+
 ➡️ [Télécharger la trace écrite (PDF)](01_trace_ecrite.pdf)
+
 ➡️ [Télécharger l'évaluation (PDF)](01_evaluation.pdf)
