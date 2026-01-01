@@ -13,8 +13,7 @@ title: 02 📖 Trace écrite
 
 ## 1️⃣ De mélange homogène à solution
 
-Lors de la séance précédente, nous avons montré que certains produits cosmétiques
-(comme la lotion micellaire) sont des **mélanges homogènes**.
+Lors de la séance précédente, nous avons montré que certains produits cosmétiques (comme la lotion micellaire) sont des **mélanges homogènes**.
 
 En physique-chimie, un mélange homogène liquide est appelé une **solution**.
 
@@ -33,6 +32,7 @@ Une **solution** est un **mélange homogène** constitué :
 🔹 **Exemple**
 
 * Lotion micellaire
+
 * Sérum aqueux
 
 ---
@@ -96,8 +96,7 @@ Pour décrire une solution en BTS :
 4. Identifier le(s) **soluté(s)**
 5. **Justifier** avec la définition
 
-👉 Cette méthode sera attendue tout au long de l’année
-et à l’épreuve **E2 – Expertise scientifique et technologique**.
+👉 Cette méthode sera attendue tout au long de l’année et à l’épreuve **E2 – Expertise scientifique et technologique**.
 
 ➡️ Voir : [*Fiche méthode 01 – Justifier une réponse en physique-chimie*](https://bts-mecp-physique-chimie-688080.forge.apps.education.fr/Methodologie/01_fiche_methode/)
 
@@ -126,5 +125,4 @@ Pour décrire une solution :
 
 ## 🔗 Transition vers la suite
 
-Lors de la prochaine séance, nous apprendrons à **décrire quantitativement**
-une solution à l’aide de la notion de **concentration**.
+Lors de la prochaine séance, nous apprendrons à **décrire quantitativement** une solution à l’aide de la notion de **concentration**.

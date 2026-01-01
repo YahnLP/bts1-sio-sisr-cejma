@@ -22,11 +22,9 @@ title: 02 📝 Fiche élève
 
 Vous travaillez dans un laboratoire cosmétique.
 
-Lors de la séance précédente, vous avez montré que la **lotion micellaire**
-est un **mélange homogène**.
+Lors de la séance précédente, vous avez montré que la **lotion micellaire** est un **mélange homogène**.
 
-Afin d’aller plus loin dans l’analyse scientifique du produit,
-il est maintenant nécessaire de **décrire précisément la nature de ce mélange**.
+Afin d’aller plus loin dans l’analyse scientifique du produit, il est maintenant nécessaire de **décrire précisément la nature de ce mélange**.
 
 ---
 
@@ -34,7 +32,7 @@ il est maintenant nécessaire de **décrire précisément la nature de ce mélan
 
 Le produit étudié est le même que lors de la séance précédente :
 
-![Lotion micellaire cosmétique](Micellar-water-ultra-reactive-skin_400ml_01_La-Roche-Posay.jpg)
+![Lotion micellaire cosmétique](Micellar-water-ultra-reactive-skin_400ml_01_La-Roche-Posay.jpg){ width=50%; : .center }
 
 *Lotion micellaire cosmétique (produit homogène, principalement aqueux).*
 
@@ -47,8 +45,9 @@ Le produit étudié est le même que lors de la séance précédente :
 
 2. Justifiez brièvement votre réponse.  
 
-   ..............................................................................
-   ..............................................................................
+   <br>
+   <br>
+   <br>
 
 ---
 
@@ -65,28 +64,33 @@ On appelle **solution** un mélange homogène constitué :
 
 2. Justifiez votre réponse.  
 
-   ..............................................................................
-   ..............................................................................
+   <br>
+   <br>
+   <br>
 
 ---
 
 ## 🧪 Travail 3 – Identifier solvant et soluté(s)
 
-À partir de la composition du produit (vue lors de la séance 1) :
+À partir de la composition du produit (vue lors de la séance précédente) :
 
 1. Quel est le **solvant** de la lotion micellaire ?  
 
-   ..............................................................................
+   <br>
+   <br>
+   <br>
 
 2. Citez **un ou deux solutés** présents dans la lotion micellaire.  
 
-   ..............................................................................
-   ..............................................................................
+      <br>
+   <br>
+   <br>
 
 3. Justifiez votre choix à l’aide de la définition d’une solution.  
 
-   ..............................................................................
-   ..............................................................................
+      <br>
+   <br>
+   <br>
 
 ---
 
@@ -108,17 +112,19 @@ Complétez les phrases suivantes :
 Pour vous, comment définiriez-vous :
 
 - **Solution** :  
-  ..............................................................................
+   <br>
+   <br>
 
 - **Solvant** :  
-  ..............................................................................
+   <br>
+   <br>
 
 - **Soluté** :  
-  ..............................................................................
+   <br>
+   <br>
 
 ---
 
 ## 🔗 Pour la suite…
 
-Lors de la prochaine séance, nous apprendrons à **décrire quantitativement**
-une solution à l’aide de la notion de **concentration**.
+Lors de la prochaine séance, nous apprendrons à **décrire quantitativement** une solution à l’aide de la notion de **concentration**.

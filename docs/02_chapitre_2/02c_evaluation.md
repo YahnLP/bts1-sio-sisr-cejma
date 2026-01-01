@@ -26,8 +26,9 @@ On vous présente une **lotion cosmétique aqueuse**, limpide et uniforme.
 
 3. Justifiez votre réponse.  
 
-..............................................................................
-..............................................................................
+<br>
+<br>
+<br>
 
 ---
 
@@ -36,19 +37,19 @@ On vous présente une **lotion cosmétique aqueuse**, limpide et uniforme.
 Une lotion est composée principalement d’eau, à laquelle on ajoute de la glycérine
 et un actif hydrosoluble.
 
-1. Quel est le **solvant** de cette solution ?  
-
-..............................................................................
+1\. Quel est le **solvant** de cette solution ?  
+<br>
+<br>
 
 2\. Citez **un ou deux solutés** présents dans cette solution.  
+<br>
+<br>
 
-..............................................................................
-..............................................................................
 
 3\. Justifiez votre réponse à l’aide des définitions.  
+<br>
+<br>
 
-..............................................................................
-..............................................................................
 
 ---
 

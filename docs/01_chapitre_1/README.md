@@ -17,6 +17,11 @@ Les notions abordées (corps pur, mélange homogène, mélange hétérogène) se
 * Extraire les informations pertinentes
 * Commencer à **raisonner** avant de calculer
 
+## 🧠 Compétences travaillées
+
+* Analyser une situation professionnelle
+* Identifier la nature d’un système
+* Utiliser un vocabulaire scientifique simple et précis
 
 ### 📥 Ressource à télécharger
 
