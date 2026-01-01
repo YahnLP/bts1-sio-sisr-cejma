@@ -1,4 +1,4 @@
-# Séance 1 – Diagnostic : corps pur et mélanges
+# Séance 1 – Corps pur et mélanges
 
 Cette séance introductive a pour objectif de diagnostiquer les acquis des étudiants et d’installer les bases du raisonnement scientifique attendu en BTS MECP.
 
