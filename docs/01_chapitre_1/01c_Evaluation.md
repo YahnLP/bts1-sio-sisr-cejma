@@ -5,7 +5,7 @@ title: 01 🖊️ Évaluation diagnostique
 
 # 01 Diagnostic : 🖊️ Évaluation diagnostique 
 
-## Corps pur et mélanges
+**Corps pur et mélanges**
 
 ⏱️ Durée : 15 à 20 minutes  
 
