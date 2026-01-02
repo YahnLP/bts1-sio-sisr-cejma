@@ -115,6 +115,14 @@ Il est nécessaire de relier :
 
 ---
 
+## 🔧 Outil méthodologique associé
+
+Pour choisir une méthode de dilution adaptée et argumenter ce choix dans une situation professionnelle, se référer à :
+
+➡️ [**Fiche méthode 04 – Interpréter une mesure physique**]((https://bts-mecp-physique-chimie-688080.forge.apps.education.fr/Methodologie/04_fiche_methode/))
+
+---
+
 ## 🔗 Transition vers la suite
 
 Ce raisonnement sera réutilisé pour exploiter d’autres **résultats expérimentaux** (pH, conductivité, stabilité, efficacité) et **analyser leur cohérence**, exactement comme dans l’épreuve  **E2 – Expertise scientifique et technologique**.
