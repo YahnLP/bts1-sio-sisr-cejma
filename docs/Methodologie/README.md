@@ -72,13 +72,13 @@ même si le résultat final est partiellement incorrect.
 
 📘 **Document élève**  
 
-➡️ [Télécharger la fiche *Justifier une réponse scientifique* (PDF)](01_fiche_methode.pdf)
+➡️ [Télécharger la fiche 1 *Justifier une réponse scientifique* (PDF)](01_fiche_methode.pdf)
 
-➡️ [Télécharger la fiche *Calculer et interpréter une concentration* (PDF)](02_fiche_methode.pdf)
+➡️ [Télécharger la fiche 2 *Calculer et interpréter une concentration* (PDF)](02_fiche_methode.pdf)
 
-➡️ [Télécharger la fiche *Exploiter un TP à l'écrit* (PDF)](03_fiche_methode.pdf)
+➡️ [Télécharger la fiche 3 *Exploiter un TP à l'écrit* (PDF)](03_fiche_methode.pdf)
 
-➡️ [Télécharger la fiche *Interpréter une mesure physique en E2* (PDF)](04_fiche_methode.pdf)
+➡️ [Télécharger la fiche 4 *Interpréter une mesure physique en E2* (PDF)](04_fiche_methode.pdf)
 
-➡️ [Télécharger la fiche *Lire une représentation microscopique dans un dossier scientifique* (PDF)](05_fiche_methode.pdf)
+➡️ [Télécharger la fiche 5 *Lire une représentation microscopique dans un dossier scientifique* (PDF)](05_fiche_methode.pdf)
 
