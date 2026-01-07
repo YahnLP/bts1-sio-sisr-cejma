@@ -119,7 +119,7 @@ Il est nécessaire de relier :
 
 Pour choisir une méthode de dilution adaptée et argumenter ce choix dans une situation professionnelle, se référer à :
 
-➡️ [**Fiche méthode 04 – Interpréter une mesure physique**]((https://bts-mecp-physique-chimie-688080.forge.apps.education.fr/Methodologie/04_fiche_methode/))
+➡️ [**Fiche méthode 04 – Interpréter une mesure physique**]((../../Methodologie/04_fiche_methode/))
 
 ---
 

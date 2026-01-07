@@ -1,4 +1,4 @@
-# Séance 2 – Solutions : solvant et soluté
+# 2 – Solutions : solvant et soluté
 
 Cette séance a pour objectif d’introduire la **notion de solution** à partir de l’étude
 d’un produit cosmétique homogène.
