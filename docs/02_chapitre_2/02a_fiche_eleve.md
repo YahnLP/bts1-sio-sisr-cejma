@@ -51,7 +51,31 @@ Le produit étudié est le même que lors de la séance précédente :
 
 ---
 
-## 🧠 Travail 2 – Introduction de la notion de solution
+
+## 🧪 Travail  2 – Diagnostic de miscibilité 
+
+On cherche à incorporer un parfum (phase huileuse) dans une base aqueuse (phase eau).
+
+1\. Eau et huile sont-elles miscibles ?
+
+☐ Oui  ☐ Non
+
+2\. Si elles ne sont pas miscibles, citer **une solution de formulation** possible (au choix) :
+
+- ☐ ajouter un solubilisant / tensioactif
+- ☐ ajouter de l'huile
+- ☐ changer de forme galénique (ex : huile de soin au lieu de lotion aqueuse)
+
+3\. Quel risque observe-t-on si on ne fait rien ?
+
+   <br>
+   <br>
+   <br>
+
+---
+
+
+## 🧠 Travail 3 – Introduction de la notion de solution
 
 On appelle **solution** un mélange homogène constitué :
 
@@ -70,7 +94,7 @@ On appelle **solution** un mélange homogène constitué :
 
 ---
 
-## 🧪 Travail 3 – Identifier solvant et soluté(s)
+## 🧪 Travail 4 – Identifier solvant et soluté(s)
 
 À partir de la composition du produit (vue lors de la séance précédente) :
 
@@ -94,7 +118,7 @@ On appelle **solution** un mélange homogène constitué :
 
 ---
 
-## ✍️ Travail 4 – Rédaction guidée (attendus BTS)
+## ✍️ Travail 5 – Rédaction guidée (attendus BTS)
 
 Complétez les phrases suivantes :
 
@@ -105,7 +129,7 @@ Complétez les phrases suivantes :
 
 ---
 
-## 🧪 Travail 5 – Stabilité d’une solution cosmétique : solubilité et miscibilité
+## 🧪 Travail 6 – Stabilité d’une solution cosmétique : solubilité et miscibilité
 
 En formulation, un produit homogène doit aussi être **stable** (rester homogène dans le temps).
 

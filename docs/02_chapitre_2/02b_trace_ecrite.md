@@ -71,7 +71,35 @@ Le **soluté** est une substance **dissoute dans le solvant**, présente en plus
 
 ---
 
-## 4️⃣ Application au produit étudié
+
+
+## 4️⃣ Dissolution, miscibilité, solubilité : trois idées à ne pas confondre
+
+### Dissolution (solide → solution)
+Un **solide** (ex : sel, sulfate de cuivre, acide hyaluronique en poudre…) peut **se dissoudre** dans un liquide (souvent l’eau).
+
+- Si le solide “disparaît” et que le mélange reste homogène : il y a **dissolution**.
+- Si une partie reste au fond : la dissolution est **incomplète** → on a atteint une limite.
+
+### Miscibilité (liquide/liquide)
+
+Deux **liquides** peuvent :
+
+- être **miscibles** (ils se mélangent totalement) : eau + alcool
+- être **non miscibles** (ils se séparent) : eau + huile
+
+👉 En cosmétique, eau/huile non miscibles → on doit utiliser une **stratégie de formulation** (solubilisant, tensioactif, émulsion…).
+
+### Solubilité (limite de dissolution)
+
+La **solubilité** correspond à la **quantité maximale** de soluté que l’on peut dissoudre dans un solvant, à une température donnée.
+
+- Si on dépasse la solubilité : on observe un **dépôt** (ou une instabilité, turbidité…).
+
+📌 En formulation, c’est un critère de **stabilité** : un actif doit rester dissous pendant la durée de vie du produit.
+
+
+## 5️⃣ Application au produit étudié
 
 La **lotion micellaire** :
 
@@ -126,8 +154,11 @@ Pour décrire une solution :
 - Les solutés sont les constituants **dissous**
 - Le vocabulaire scientifique est indispensable en BTS
 
+
 ---
 
-## 🔗 Transition vers la suite
+### 🔁 Pont vers la suite (S03)
 
-Lors de la prochaine séance, nous apprendrons à **décrire quantitativement** une solution à l’aide de la notion de **concentration**.
+En S02, on raisonne surtout avec la **masse** et la **solubilité** pour décider si un actif peut rester dissous.
+En S03, on ira plus loin en utilisant la **quantité de matière (mol)** pour raisonner sur la **pertinence d’une concentration** et l’efficacité d’un actif.
+
