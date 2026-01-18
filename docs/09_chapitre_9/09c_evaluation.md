@@ -37,8 +37,7 @@ Le dossier fournit plusieurs **résultats de pH mesurés** sur différentes form
 
 Le candidat doit **exploiter ces résultats** afin d’en apprécier la **cohérence scientifique** et les **conséquences sur l’efficacité et la tolérance cutanée** du produit cosmétique.
 
-⚠️ Aucune manipulation n’est demandée.  
-⚠️ Les résultats sont **fournis**.
+
 
 ---
 
@@ -98,7 +97,13 @@ On s’intéresse à la **formulation B (pH = 7,8)**.
 
 <br><br>
 
-2\. Expliquer, à l’aide des documents, pourquoi ce pH peut être **peu adapté** à une application cutanée quotidienne.
+2\. Compléter  :
+
+- pH = 4,8 : solution ☐ acide ☐ neutre ☐ basique ; espèce majoritaire : ☐ H₃O⁺ ☐ HO⁻
+- pH = 8,2 : solution ☐ acide ☐ neutre ☐ basique ; espèce majoritaire : ☐ H₃O⁺ ☐ HO⁻
+
+
+3\. Expliquer, à l’aide des documents, pourquoi ce pH peut être **peu adapté** à une application cutanée quotidienne.
 
 <br><br><br><br>
 

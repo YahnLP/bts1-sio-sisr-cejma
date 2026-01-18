@@ -51,6 +51,8 @@ Justifiez votre réponse en mobilisant vos connaissances sur le pH.
 
 <br><br><br><br>
 
+
+
 2\. Rappelez ce que signifie une **valeur élevée de pH** du point de vue physico-chimique.
 
 <br><br><br><br>
@@ -79,7 +81,15 @@ On rappelle que :
 
 Justifiez.
 
-<br><br><br><br>
+<br><br><br><br><br><br>
+
+
+
+Compléter :
+
+- Si le pH est inférieur à 7, la solution est _______ et la proportion de _______ est plus élevée.
+- Si le pH est supérieur à 7, la solution est _______ et la proportion de _______ est plus élevée.
+
 
 5\. Le pH est :
 

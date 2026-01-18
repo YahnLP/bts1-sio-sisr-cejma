@@ -27,6 +27,20 @@ L’objectif de l’épreuve n’est donc **pas de produire une valeur**, mais d
 
 ---
 
+## 🔬 Lien chimique minimal : H₃O⁺ / HO⁻ 
+
+- En solution aqueuse, l’acidité est liée à la présence d’ions **oxonium H₃O⁺**.
+- La basicité est liée à la présence d’ions **hydroxyde HO⁻**.
+
+👉 Interprétation qualitative :
+- **pH < 7** : solution **acide** → proportion de **H₃O⁺** plus importante.
+- **pH = 7** : solution **neutre** (référence) → équilibre entre **H₃O⁺** et **HO⁻**.
+- **pH > 7** : solution **basique** → proportion de **HO⁻** plus importante.
+
+📌 **Repère** : le pH moyen d’une peau saine est d’environ **5,5** (peau légèrement acide).
+
+---
+
 ## 2️⃣ Le pH : une mesure expérimentale à interpréter
 
 Le pH est une **mesure expérimentale** réalisée en laboratoire.

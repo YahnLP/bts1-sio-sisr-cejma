@@ -36,6 +36,9 @@ Voici l’exemple du produit que nous analyserons :
 
 *Lotion micellaire cosmétique (produit transparent, homogène à l’œil nu).* 
 
+**Liste des ingrédients (INCI)** :
+Aqua/Water, PEG-7 Caprylic/Capric Glycerides, Poloxamer 124, Poloxamer 184, PEG-6 Caprylic/Capric Glycerides, Glycerin, Polysorbate 80, Disodium EDTA, BHT, Myrtrimonium Bromide, Parfum/Fragrance.
+
 ---
 
 ## 🔍 Travail 1 – Observation du produit
@@ -58,9 +61,9 @@ Voici l’exemple du produit que nous analyserons :
 
 ---
 
-## 🌐 Travail 2 – Recherche de la composition (PC + Internet)
+## 🌐 Travail 2 – Recherche de la composition (dossier fourni / étiquette)
 
-À l’aide d’Internet (site de la marque, base INCI, etc.) :
+À l’aide du document fourni, répondez aux questions suivantes :
 
 1\. Relevez **au moins trois ingrédients** du produit :  
 
