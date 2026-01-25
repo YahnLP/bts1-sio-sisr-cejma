@@ -12,14 +12,13 @@ title: 03 📖 Trace écrite
 
 Un **produit cosmétique liquide homogène** est généralement une **solution**.
 
-Décrire scientifiquement une solution ne consiste pas seulement à citer ses constituants :   il est nécessaire de **quantifier la quantité d’actif présente** dans le produit.
+Décrire scientifiquement une solution ne consiste pas seulement à citer ses constituants : il est nécessaire de **quantifier la quantité d’actif présente** dans le produit.
 
 👉 En formulation cosmétique, on cherche à répondre à la question suivante :
 
 > **Quelle masse d’actif est présente dans un volume donné de produit ?**
 
 Cette question conduit à définir une grandeur permettant de comparer des produits : la **concentration massique**.
-
 
 ---
 
@@ -48,7 +47,7 @@ Le **soluté** est la substance **dissoute** dans le solvant
 
 ### 🔹 Définition
 
-La **concentration massique** d’un soluté est la **masse de soluté dissoute** dans un  **volume de solution**.
+La **concentration massique** d’un soluté est la **masse de soluté dissoute** dans un **volume de solution**.
 
 Elle permet de **décrire quantitativement un actif cosmétique**.
 
@@ -56,15 +55,13 @@ Elle permet de **décrire quantitativement un actif cosmétique**.
 
 ### 🔹 Relation utilisée
 
-
 $C_m = \frac{m}{V}$
-
 
 avec :
 
 - $C_m$ : concentration massique (g·L⁻¹)  
 - $m$ : masse du soluté (g)  
-- $V$    : volume de solution (L)
+- $V$ : volume de solution (L)
 
 ---
 
@@ -72,8 +69,7 @@ avec :
 
 Un sérum contient **5,0 g** d’acide hyaluronique dissous dans **250 mL** de solution.
 
-
-$C_m = \frac{5{,}0}{0{,}250} = 20 \ \text{g·L}^{-1}$
+$C_m = \frac{5{,}0}{0{,}250} = 20 \ \ g·L^{-1}$
 
 👉 Cela signifie que **chaque litre de solution contient 20 g d’actif**.
 
@@ -93,7 +89,7 @@ Pour résoudre un exercice de concentration en BTS MECP :
 📌 **Important**  
 Un calcul sans unité ou sans interprétation est **incomplet**.
 
-Cette méthode est **explicitement attendue** à l’épreuve  **E2 – Expertise scientifique et technologique**.
+Cette méthode est **explicitement attendue** à l’épreuve **E2 – Expertise scientifique et technologique**.
 
 ---
 
@@ -104,15 +100,15 @@ En cosmétique, un actif est souvent caractérisé par :
 - une **masse**,
 - ou un **pourcentage massique**.
 
-Cependant, deux produits contenant la **même masse d’actif**  peuvent ne pas présenter la **même efficacité cosmétique**.
+Cependant, deux produits contenant la **même masse d’actif** peuvent ne pas présenter la **même efficacité cosmétique**.
 
-👉 La masse ne permet pas toujours de décrire ce qui se passe à l’**échelle chimique**,  là où ont lieu les interactions.
+👉 La masse ne permet pas toujours de décrire ce qui se passe à l’**échelle chimique**, là où ont lieu les interactions.
 
 ---
 
 ## 6️⃣ Actif cosmétique et entités chimiques
 
-Un actif cosmétique est constitué d’un très grand nombre  d’**entités chimiques** (le plus souvent des **molécules**).
+Un actif cosmétique est constitué d’un très grand nombre d’**entités chimiques** (le plus souvent des **molécules**).
 
 L’efficacité d’un actif dépend notamment :
 
@@ -138,6 +134,8 @@ Elle ne correspond :
 
 mais à un **nombre d’entités chimiques**.
 
+📌 Elle est notée **$n$** et s’exprime en **mole (mol)**.
+
 ---
 
 ## 8️⃣ Lien entre masse et quantité de matière
@@ -147,7 +145,7 @@ mais à un **nombre d’entités chimiques**.
 - un actif constitué de **petites molécules** contient un **plus grand nombre de molécules**,
 - un actif constitué de **grosses molécules** contient un **plus petit nombre de molécules**.
 
-c'est à dire que la **quantité de matière** n’est pas la même.
+C’est-à-dire que la **quantité de matière** n’est pas la même.
 
 👉 **La masse seule ne suffit donc pas** pour comparer des actifs chimiques différents.
 
@@ -156,9 +154,29 @@ La **quantité de matière** permet de relier :
 - une **masse mesurée expérimentalement**,
 - au **nombre d’entités chimiques réellement présentes**.
 
+📌 **Relation** (avec $M$ fournie dans les dossiers) :  
+$ n = \frac{m}{M} $  
+avec $m$ en g, $M$ en g·mol⁻¹ et $n$ en mol.
+
 ---
 
-## 9️⃣ Intérêt de la quantité de matière en cosmétique
+## 9️⃣ Concentration en quantité de matière (concentration molaire)
+
+Pour comparer des actifs au **niveau moléculaire**, on utilise parfois la **concentration molaire** :
+
+$ C = \frac{n}{V} $
+
+avec :
+
+- $C$ : concentration molaire (mol·L⁻¹)  
+- $n$ : quantité de matière (mol)  
+- $V$ : volume de solution (L)
+
+👉 Elle exprime la quantité d’actif **au sens “nombre de molécules”** par litre de solution.
+
+---
+
+## 🔟 Intérêt de la quantité de matière en cosmétique
 
 En formulation et en contrôle qualité, la quantité de matière permet :
 
@@ -180,9 +198,6 @@ En formulation et en contrôle qualité, la quantité de matière permet :
 
 ---
 
-
-
-
 ## 🔧 Outil méthodologique associé
 
 Pour calculer et interpréter correctement une concentration dans un contexte cosmétique, se référer à :
@@ -190,7 +205,6 @@ Pour calculer et interpréter correctement une concentration dans un contexte co
 ➡️ [**Fiche méthode 02 – Calculer et interpréter une concentration**](https://bts-mecp-physique-chimie-688080.forge.apps.education.fr/Methodologie/02_fiche_methode/)
 
 ---
-
 
 ## 🔗 Transition vers la suite de la progression
 
