@@ -188,16 +188,19 @@ Justifiez.
 
 ---
 
-## 🧾 Trace écrite – À compléter
+## ✍️ Synthèse personnelle (brouillon E2 – 6 lignes max)
 
-- Vérifier la cohérence d’un résultat expérimental, c’est :  
-<br><br><br>
+Avec tes mots, explique :
 
-- Un **ordre de grandeur** permet de :  
-<br><br><br>
+- ce que signifie **vérifier la cohérence** d’un résultat expérimental,
+- à quoi sert un **ordre de grandeur**,
+- pourquoi on doit analyser un **ensemble de résultats** (et pas une seule mesure) en cosmétique.
 
-- Pourquoi l’analyse d’un **ensemble de résultats** est indispensable en cosmétique :  
-<br><br><br>
+**Mots obligatoires à placer** :  
+**cohérent – ordre de grandeur – incertitude – répétabilité – interpréter – justifier**
+
+<br><br><br><br><br>
+
 
 ---
 

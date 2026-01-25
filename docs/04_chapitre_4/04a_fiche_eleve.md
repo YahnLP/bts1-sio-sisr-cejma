@@ -191,32 +191,19 @@ Rédigez une **réponse argumentée (4 à 6 lignes)**.
 
 ---
 
-## 🧾 Trace écrite – À compléter
+## ✍️ Synthèse personnelle (brouillon E2 – 6 lignes max)
 
-Complétez les définitions suivantes :
+Avec tes mots, explique :
 
-- **Dilution** :  
-   
- <br>  
-<br>   
-<br>
-<br>   
-   
+- ce qu’est une **dilution** (ce qui change / ce qui ne change pas),
+- ce que signifie la **conservation de la masse (ou quantité) de soluté** lors d’une dilution,
+- comment tu peux **justifier** le choix d’une méthode de dilution en cosmétique (verrerie, précision, sécurité…).
 
-- **Conservation de la masse de soluté** :  
-   
-<br>  
-<br>   
-<br>
-<br>   
-   
+**Mots obligatoires à placer** :  
+**diluer – volume – concentration – soluté – conserver – justifier**
 
-- **Critères de choix d’une méthode de dilution en cosmétique** :  
-   
-<br>  
-<br>   
-<br>
-<br>  
+<br><br><br>
+
 
 
 ---

@@ -116,26 +116,19 @@ Complétez les phrases suivantes :
 
 ---
 
-## 🧾 Trace écrite 
+## ✍️ Synthèse personnelle (brouillon E2 – 6 lignes max)
 
-### Définitions
+Avec tes mots, explique :
 
-Pour vous, comment définiriez-vous :
+- ce qu’est un **corps pur**,
+- la différence entre **mélange homogène** et **mélange hétérogène**,
+- comment tu peux **justifier** ce choix à partir d’une observation.
 
+**Mots obligatoires à placer** :  
+**homogène – hétérogène – constituants – observable – justifier**
 
-- **Corps pur** :  
-   <br>
-   <br>
+<br><br><br><br><br><br>
 
-
-- **Mélange homogène** :  
-   <br>
-   <br>
-
-
-- **Mélange hétérogène** :  
-   <br>
-   <br>
 
 ---
 

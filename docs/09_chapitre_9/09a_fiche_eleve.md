@@ -168,17 +168,19 @@ Le laboratoire doit choisir un produit adapté à un **usage cutané quotidien**
 
 ---
 
-## 🧾 Trace écrite  
-### À compléter
+## ✍️ Synthèse personnelle (brouillon E2 – 6 lignes max)
 
-- **pH d’un produit cosmétique** :  
-<br><br><br><br>
+Avec tes mots, explique :
 
-- **Lien entre pH et tolérance cutanée** :  
-<br><br><br><br>
+- ce que représente le **pH** d’un produit cosmétique,
+- le lien entre **pH** et **tolérance cutanée**,
+- pourquoi une mesure de pH doit être **interprétée** dans un contexte professionnel (formulation, usage, public, conservation…).
 
-- **Pourquoi une mesure de pH doit être interprétée en contexte professionnel** :  
-<br><br><br><br>
+**Mots obligatoires à placer** :  
+**acidité – basique – tolérance – peau – interpréter – justifier**
+
+<br><br><br><br><br>
+
 
 ---
 

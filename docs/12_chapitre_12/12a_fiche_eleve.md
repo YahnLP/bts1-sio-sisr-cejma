@@ -185,16 +185,19 @@ Un **composé ionique** est **globalement neutre** :
 
 ---
 
-## 🧾 Trace écrite – À compléter
+## ✍️ Synthèse personnelle (brouillon E2 – 6 lignes max)
 
-- **Différence entre atome, ion et molécule** :  
-<br><br><br><br>
+Avec tes mots, explique :
 
-- **Rôle des électrons de valence** :  
-<br><br><br><br>
+- la différence entre **atome**, **ion** et **molécule**,
+- le rôle des **électrons de valence** (lien avec réactivité / stabilité),
+- comment la présence d’**ions** peut influencer des propriétés mesurables comme le **pH** ou la **conductivité**.
 
-- **Lien entre ions et propriétés mesurables (pH, conductivité)** :  
-<br><br><br><br>
+**Mots obligatoires à placer** :  
+**charge – électrons de valence – réactivité – ions – pH – conductivité**
+
+<br><br><br><br><br>
+
 
 ---
 

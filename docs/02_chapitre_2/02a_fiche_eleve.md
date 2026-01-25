@@ -106,13 +106,13 @@ On appelle **solution** un mélange homogène constitué :
 
 2\. Citez **un ou deux solutés** présents dans la lotion micellaire.  
 
-      <br>
+   <br>
    <br>
    <br>
 
 3\. Justifiez votre choix à l’aide de la définition d’une solution.  
 
-      <br>
+   <br>
    <br>
    <br>
 
@@ -145,6 +145,7 @@ Compléter :
 
 - Un soluté est **soluble** s’il peut _______________________ dans le solvant.
 - Si on ajoute “trop” de soluté et qu’il ne se dissout plus, on peut observer :
+
   ☐ un dépôt / cristaux   ☐ une séparation en 2 phases   ☐ rien du tout
 
 3\. Conclusion professionnelle (2–3 lignes)
@@ -153,23 +154,19 @@ Expliquez, avec des mots simples, pourquoi **solubilité** et **miscibilité** s
 
 ---
 
-## 🧾 Trace écrite
+## ✍️ Synthèse personnelle (brouillon E2 – 6 lignes max)
 
-### Définitions
+Avec tes mots, explique :
 
-Pour vous, comment définiriez-vous :
+- ce qu’est une **solution**,
+- comment reconnaître le **solvant**,
+- ce qu’est un **soluté**.
 
-- **Solution** :  
-   <br>
-   <br>
+**Mots obligatoires à placer** :  
+**homogène – majoritaire – dissous – vocabulaire – justifier**
 
-- **Solvant** :  
-   <br>
-   <br>
+<br><br><br><br><br>
 
-- **Soluté** :  
-   <br>
-   <br>
 
 ---
 

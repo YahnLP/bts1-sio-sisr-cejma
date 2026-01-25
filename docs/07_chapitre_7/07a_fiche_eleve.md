@@ -171,21 +171,18 @@ Rédigez une réponse argumentée (4 à 5 lignes), en reliant explicitement :
 
 ---
 
-## 🧾 Trace écrite – À compléter (logique E2)
+## ✍️ Synthèse personnelle (brouillon E2 – 6 lignes max)
 
-Complétez les phrases suivantes en lien avec la situation étudiée :
+Avec tes mots, explique :
 
-- **Masse volumique (sens)** :  
-<br>
-<br>
+- ce que représente la **masse volumique** (sens),
+- à quoi sert la **densité** (rôle / comparaison),
+- comment la masse volumique peut influencer la **texture** ou la sensation d’un produit cosmétique.
 
-- **Densité (rôle)** :  
-<br>
-<br>
+**Mots obligatoires à placer** :  
+**masse – volume – comparer – densité – texture – justifier**
 
-- **Lien entre masse volumique et texture d’un produit cosmétique** :  
-<br>
-<br>
+<br><br><br><br><br>
 
 ---
 
