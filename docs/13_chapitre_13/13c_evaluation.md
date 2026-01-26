@@ -23,13 +23,11 @@ Un laboratoire contrôle la stabilité d’un produit de coiffure (neutralisant 
 
 **A – Eau H₂O**
 
-![H2O](h2o.png)
-
-
+![H2O](h2o.png){ width=40% .center }
 
 **B – Peroxyde d’hydrogène H₂O₂**
 
-![H2O2](h2o2.png)
+![H2O2](h2o2.png){ width=40% .center }
 
 **C – Radical (exemple) : HO•**
 > Le symbole **•** indique un électron célibataire.
@@ -42,9 +40,15 @@ Un laboratoire contrôle la stabilité d’un produit de coiffure (neutralisant 
 - un **doublet liant** : ______________________  
 - un **doublet non liant** : __________________  
 
+🔎 *Compétences évaluées : lire une représentation microscopique – identifier (liaisons/doublets)*
+
 2\. Dans B (H₂O₂), combien y a-t-il de liaisons entre les deux atomes d’oxygène ? ____  
 
+🔎 *Compétences évaluées : lire une représentation microscopique – relever une information*
+
 3\. Dans B, entourer (ou citer) la liaison “fragile” associée à la réactivité : __________
+
+🔎 *Compétences évaluées : analyser un document scientifique – repérer un indice de réactivité*
 
 ---
 
@@ -52,11 +56,17 @@ Un laboratoire contrôle la stabilité d’un produit de coiffure (neutralisant 
 
 4\. Parmi A, B et C, laquelle correspond à une espèce **radicalaire** ? ____  
 
+🔎 *Compétences évaluées : identifier – reconnaître un indice de radicalité*
+
 5\. Quel indice microscopique rend cette espèce très réactive ? (1 phrase)  
-<br><br><br>
+<br><br><br><br>
+
+🔎 *Compétences évaluées : interpréter – justifier brièvement*
 
 6\. Expliquer pourquoi B (H₂O₂) est généralement plus “à risque” qu’A (H₂O) en termes de réactivité (2–3 lignes).  
-<br><br><br><br>
+<br><br><br><br><br>
+
+🔎 *Compétences évaluées : interpréter – relier structure et réactivité*
 
 ---
 
@@ -69,12 +79,16 @@ Un laboratoire contrôle la stabilité d’un produit de coiffure (neutralisant 
 
 7\. Justifier scientifiquement ces consignes (4–6 lignes).  
 📌 Attendu : au moins **2 arguments** (liaison O–O / formation ROS / radical…).  
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+
+🔎 *Compétences évaluées : argumenter – mobiliser des connaissances scientifiques (E2)*
 
 8\. Proposer **2 recommandations professionnelles** (CQ/sécurité) adaptées :  
 - Reco 1 : ____________________________________________  
 - Reco 2 : ____________________________________________  
 <br><br><br><br>
+
+🔎 *Compétences évaluées : proposer une décision professionnelle – recommander (CQ/sécurité)*
 
 ---
 
