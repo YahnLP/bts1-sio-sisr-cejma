@@ -1,4 +1,4 @@
-# 📺 Vidéos recommandées par séance
+# 📺 Vidéos recommandées 
 
 ## Physique-Chimie appliquée – BTS MECP 1re année
 
