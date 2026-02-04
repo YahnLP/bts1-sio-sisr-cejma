@@ -1,80 +1,171 @@
-# 🧪 Physique Chimie – BTS MECP 
-_Lycée Jean Cassaigne_
+# 🧪 Physique-Chimie appliquée – BTS MECP
+
+**Lycée Jean Cassaigne – Mont-de-Marsan**
 
 ---
 
+Bienvenue sur l'espace de ressources en **physique-chimie appliquée** du BTS Métiers de l'Esthétique, de la Cosmétique et de la Parfumerie.
 
-Bienvenue sur l’espace de ressources en **physique-chimie appliquée** du **BTS Métiers de l’Esthétique, de la Cosmétique et de la Parfumerie (MECP)**.
-
-Ce site regroupe l’ensemble des **cours, séances, travaux pratiques et outils méthodologiques** utilisés tout au long de l’année.
-
----
-
-## 🎯 Objectifs de la formation
-
-La physique-chimie appliquée permet de :
-
-- comprendre la **composition** et le **fonctionnement** des produits cosmétiques,
-
-- analyser leurs **propriétés physico-chimiques**,
-
-- développer un **raisonnement scientifique** et une **capacité d’argumentation**,
-
-- préparer efficacement l’**épreuve E2 – Expertise scientifique et technologique**.
+> 💡 *Comprendre la science des cosmétiques pour devenir un(e) professionnel(le) expert(e).*
 
 ---
 
-## 🧪 Organisation des ressources
+## 🎯 Pourquoi la physique-chimie en BTS MECP ?
 
-Les ressources sont organisées par **séances** et par **compétences** :
+La physique-chimie n'est pas qu'une matière scolaire : c'est un **outil professionnel** indispensable pour :
 
-- 📘 **Séances de cours** : notions essentielles, méthodes et activités guidées  
+| Situation professionnelle | Ce que vous saurez faire |
+|---------------------------|--------------------------|
+| Un client vous interroge sur un ingrédient | Lire et expliquer une liste INCI |
+| Un produit présente un dépôt anormal | Comprendre les problèmes de solubilité |
+| Vous devez choisir entre deux actifs | Analyser leurs propriétés moléculaires |
+| Une lampe UV doit être contrôlée | Interpréter un spectre d'irradiance |
+| Vous préparez une dilution en cabine | Calculer et vérifier une concentration |
 
-- 🔬 **Travaux pratiques** : manipulation, exploitation et interprétation des résultats  
-
-- 🧠 **Méthodologie E2** : analyser une situation, rédiger une réponse scientifique, argumenter  
-
-- 📝 **Évaluations** : entraînements progressifs et sujets de type E2  
-
-Chaque séance est conçue à partir de **situations professionnelles issues de la cosmétologie**.
-
----
-
-## 🧭 Fonctionnement en classe
-
-- Chaque étudiant dispose d’un **PC avec accès Internet**.
-
-- Les supports sont accessibles **avant, pendant et après les séances**.
-
-- Les documents sont mis à jour régulièrement afin de suivre la progression du groupe.
-
-👉 L’objectif est de favoriser :
-
-- l’**autonomie**,
-
-- la **compréhension progressive**,
-
-- la **réussite à l’examen final**.
+👉 **L'épreuve E2** (3h, coefficient 4) évalue exactement ces compétences.
 
 ---
 
-## 📂 Accéder aux contenus
+## 📚 Organisation du site
 
-➡️ Commencez par la **Séance 1 – Corps pur et mélanges**, puis suivez la progression indiquée dans le dossier *Progression annuelle*.
+### 📘 Séances de cours
+
+29 séances progressives, de la découverte des mélanges jusqu'à la préparation complète de l'épreuve E2.
+
+Chaque séance comprend :
+- Une **fiche élève** (activités guidées)
+- Une **trace écrite** (cours structuré)
+- Une **évaluation formative** (auto-évaluation)
+
+➡️ [Accéder aux séances](./Seances/)
 
 ---
 
-## ℹ️ Informations importantes
+### 🔬 Travaux pratiques
 
-- Les ressources sont **communes à toute la classe**.
+4 TP sur l'année pour développer vos compétences expérimentales :
 
-- Elles constituent un **support de travail**, mais ne remplacent pas le **travail personnel**.
+| TP | Thème | Séance |
+|----|-------|:------:|
+| TP1 | Dissolution, dilution, échelle de teinte | S05 |
+| TP2 | pH-métrie et conformité | S10 |
+| TP3 | Dossier moléculaire (documentaire) | S21 |
+| TP4 | CMC par conductimétrie | S23 |
 
-- La réussite en BTS repose sur la **régularité**, la **méthode** et la **justification scientifique**.
+➡️ [Accéder aux TP](./TP/)
 
 ---
 
- 
-*Formation professionnalisante orientée expertise scientifique*
+### 🧠 Méthodologie E2
 
-✍️ *Elisabeth Le Prettre*
+6 fiches méthode pour structurer vos réponses et maximiser vos points :
+
+| Fiche | Compétence |
+|-------|------------|
+| 01 | Justifier une réponse scientifique |
+| 02 | Calculer et interpréter une concentration |
+| 03 | Exploiter un TP à l'écrit |
+| 04 | Choisir et justifier une dilution |
+| 05 | Lire une représentation microscopique |
+| 06 | Interpréter une mesure physique |
+
+➡️ [Accéder à la méthodologie](./Methodologie/)
+
+---
+
+### 📺 Vidéos de révision
+
+Une sélection de vidéos courtes (2-6 min) pour réviser chaque notion à votre rythme.
+
+➡️ [Accéder aux vidéos recommandées](./videos_recommandees/)
+
+---
+
+### 📅 Progression annuelle
+
+La progression complète avec les compétences E2 travaillées à chaque séance.
+
+➡️ [Voir la progression](./Progression/)
+
+---
+
+## 🧭 Comment utiliser ce site ?
+
+### En classe
+
+```
+1. Ouvrir la fiche élève de la séance du jour
+2. Suivre les activités guidées
+3. Compléter la trace écrite
+4. Faire l'évaluation formative
+```
+
+### À la maison
+
+```
+1. Relire la trace écrite
+2. Regarder les vidéos recommandées si besoin
+3. Refaire les exercices non compris
+4. Préparer les questions pour le cours suivant
+```
+
+### En cas d'absence
+
+```
+1. Consulter la fiche élève + trace écrite
+2. Regarder les vidéos associées
+3. Faire l'évaluation formative en autonomie
+4. Poser vos questions au cours suivant
+```
+
+---
+
+## 🏆 Les clés de la réussite
+
+| Habitude | Pourquoi c'est important |
+|----------|--------------------------|
+| **Régularité** | 15 min de révision/jour > 3h la veille de l'examen |
+| **Vocabulaire** | Les mots scientifiques précis rapportent des points |
+| **Justification** | Une réponse sans "car" ou "en effet" est incomplète |
+| **Entraînement** | Refaire les évaluations formatives plusieurs fois |
+
+> 📌 **Message clé** : En E2, la méthode compte autant que le résultat. Une erreur de calcul avec une bonne démarche rapporte plus de points qu'un résultat juste sans explication.
+
+---
+
+## 📂 Accès rapide
+
+| Ressource | Lien |
+|-----------|------|
+| 🚀 **Commencer** | [Séance 01 – Diagnostic d'un produit cosmétique](./01_Diagnostic_produit/) |
+| 📅 **Progression** | [Voir toutes les séances](./Progression/) |
+| 🧠 **Méthodologie** | [Fiches méthode E2](./Methodologie/) |
+| 🔬 **TP** | [Travaux pratiques](./TP/) |
+| 📺 **Vidéos** | [Réviser en vidéo](./videos_recommandees/) |
+
+---
+
+## ℹ️ Informations pratiques
+
+- 📧 **Contact** : elisabeth.le-prettre@ac-bordeaux.fr
+- 🏫 **Établissement** : Lycée Jean Cassaigne, Mont-de-Marsan
+- 📚 **Niveau** : BTS MECP 1re année
+- ⏱️ **Horaire** : 2h / semaine
+
+---
+
+## 🔄 Mises à jour
+
+Les documents sont mis à jour régulièrement. Dernière mise à jour : *Février 2025*
+
+En cas de problème d'accès ou de lien cassé, merci de le signaler en classe.
+
+---
+
+<div align="center">
+
+*Formation professionnalisante orientée expertise scientifique et réussite à l'épreuve E2*
+
+**✍️ Elisabeth Le Prettre**
+
+</div>
