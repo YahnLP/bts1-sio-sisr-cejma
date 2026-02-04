@@ -1,4 +1,4 @@
-# 05 – TP1 : Objectifs et ressources
+# 05 – Objectifs et ressources
 
 Ce premier TP de l'année met en pratique les notions de **dissolution** (S02), **concentration** (S03) et **dilution** (S04). C'est une séance fondamentale pour acquérir les gestes de laboratoire.
 

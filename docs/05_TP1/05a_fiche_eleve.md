@@ -260,11 +260,17 @@ Estimer la concentration en colorant de la **lotion inconnue** en la comparant �
 La lotion inconnue a une couleur qui se situe :
 
 ☐ Entre S5 (4 g/L) et S4 (10 g/L)
+
 ☐ Entre S4 (10 g/L) et S3 (20 g/L)
+
 ☐ Entre S3 (20 g/L) et S2 (40 g/L)
+
 ☐ Entre S2 (40 g/L) et S1 (60 g/L)
+
 ☐ Entre S1 (60 g/L) et la solution mère (100 g/L)
+
 ☐ Plus claire que S5 (< 4 g/L)
+
 ☐ Plus foncée que la solution mère (> 100 g/L)
 
 ---
@@ -286,10 +292,13 @@ Le cahier des charges impose une concentration entre **40 et 60 g/L**.
 1\. La concentration estimée (_______ g/L) est-elle dans l'intervalle [40 ; 60] g/L ?
 
 ☐ Oui, la lotion est **conforme**
+
 ☐ Non, la lotion est **non conforme**
 
 2\. Si non conforme, la concentration est :
+
 ☐ Trop faible (< 40 g/L)
+
 ☐ Trop élevée (> 60  g/L)
 
 ---
@@ -333,6 +342,7 @@ En quoi ce TP est-il représentatif du travail en laboratoire de contrôle quali
 > 🎯 **Compétence E2 : Communiquer**
 
 Rédigez un **bilan de TP** en 6-8 lignes qui présente :
+
 - L'objectif du TP
 - La méthode utilisée (dissolution + dilution + comparaison)
 - Le résultat obtenu (concentration de la lotion inconnue)
@@ -374,6 +384,7 @@ Rédigez un **bilan de TP** en 6-8 lignes qui présente :
 ## 🔗 Pour la suite de la progression
 
 Dans les **séances suivantes**, vous découvrirez :
+
 - **S07** : La masse volumique (autre propriété mesurable)
 - **S09** : Le pH (contrôle de l'acidité)
 - **S23 (TP4)** : CMC par conductimétrie (gamme de concentrations de tensioactif)

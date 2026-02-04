@@ -171,6 +171,7 @@ Gamme étalon :
 ### 🔹 Rédaction de la conclusion
 
 > *« La concentration en colorant de la lotion est estimée à 50 g/L. Cette valeur est comprise dans l'intervalle de conformité [40 ; 60] g/L défini par le cahier des charges. Le lot est donc déclaré **conforme** et peut être libéré pour commercialisation. »*
+
 ---
 
 ## 6️⃣ Sources d'erreur en TP
