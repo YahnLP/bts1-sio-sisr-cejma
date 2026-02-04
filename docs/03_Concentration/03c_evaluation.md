@@ -38,7 +38,9 @@ title: 03 🖊️ Évaluation formative
 Une solution a une concentration de 80 g/L. Cela signifie que :
 
 ☐ 80 L de solution contiennent 1 g de soluté
+
 ☐ 1 L de solution contient 80 g de soluté
+
 ☐ 80 g de solution contiennent 1 L de soluté
 
 ---

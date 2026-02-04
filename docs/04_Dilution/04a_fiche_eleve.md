@@ -18,7 +18,7 @@ title: 04 📝 Fiche élève
 
 - **définir** ce qu'est une dilution et son intérêt
 - **calculer** un facteur de dilution
-- **appliquer** la relation de conservation Ci × Vi = Cf × Vf
+- **appliquer** la relation de conservation Cm × Vm = Cf × Vf
 - **rédiger** un protocole de dilution
 - **argumenter** le choix d'une méthode de dilution
 
@@ -71,12 +71,12 @@ Après dilution : masse de soluté = m (identique !)
 
 **Conséquence mathématique :**
 
-$$\boxed{C_i \times V_i = C_f \times V_f}$$
+$$\boxed{C_m \times V_m = C_f \times V_f}$$
 
 | Grandeur | Signification | Unité |
 |----------|---------------|:-----:|
-| Ci | Concentration initiale (solution mère) | g/L |
-| Vi | Volume prélevé de solution mère | L (ou mL) |
+| Cm | Concentration initiale (solution mère) | g/L |
+| Vm | Volume prélevé de solution mère | L (ou mL) |
 | Cf | Concentration finale (solution fille) | g/L |
 | Vf | Volume final de solution fille | L (ou mL) |
 
@@ -86,12 +86,12 @@ $$\boxed{C_i \times V_i = C_f \times V_f}$$
 
 Le **facteur de dilution (F)** indique combien de fois la concentration est divisée :
 
-$$\boxed{F = \frac{C_i}{C_f} = \frac{V_f}{V_i}}$$
+$$\boxed{F = \frac{C_m}{C_f} = \frac{V_f}{V_m}}$$
 
 **Exemples :**
-- Dilution au 1/10 (ou "dilution 10 fois") : F = 10 → Cf = Ci / 10
-- Dilution au 1/2 (ou "dilution 2 fois") : F = 2 → Cf = Ci / 2
-- Dilution au 1/100 : F = 100 → Cf = Ci / 100
+- Dilution au 1/10 (ou "dilution 10 fois") : F = 10 → Cf = Cm / 10
+- Dilution au 1/2 (ou "dilution 2 fois") : F = 2 → Cf = Cm / 2
+- Dilution au 1/100 : F = 100 → Cf = Cm / 100
 
 ---
 
@@ -100,8 +100,8 @@ $$\boxed{F = \frac{C_i}{C_f} = \frac{V_f}{V_i}}$$
 ```
 PROTOCOLE DE DILUTION
 
-1. Calculer le volume Vi à prélever (formule)
-2. Prélever Vi de solution mère avec une pipette jaugée
+1. Calculer le volume Vm à prélever (formule)
+2. Prélever Vm de solution mère avec une pipette jaugée
 3. Verser dans une fiole jaugée de volume Vf
 4. Compléter avec du solvant jusqu'au trait de jauge
 5. Homogénéiser (retourner plusieurs fois)
@@ -112,9 +112,9 @@ PROTOCOLE DE DILUTION
 
 ```
 Solution mère          Fiole jaugée           Solution fille
-    (Ci)                  (Vf)                    (Cf)
+    (Cm)                  (Vf)                    (Cf)
      │                     │                       │
-     │    Prélever Vi      │    Compléter avec     │
+     │    Prélever Vm      │    Compléter avec     │
      │ ──────────────────► │    solvant            │
      │                     │ ─────────────────►    │
                            │                       │
@@ -134,17 +134,17 @@ Indiquez si les affirmations sont vraies ou fausses :
 | Diluer, c'est ajouter du soluté | | |
 | Après dilution, la concentration diminue | | |
 | Après dilution, la quantité de soluté diminue | | |
-| Le facteur de dilution F = 10 signifie que Cf = Ci / 10 | | |
+| Le facteur de dilution F = 10 signifie que Cf = Cm / 10 | | |
 
 ---
 
 ### 1.2 – Sens physique
 
-1\. Une solution mère a une concentration Ci = 100 g/L. On effectue une dilution au 1/5 (F = 5).
+1\. Une solution mère a une concentration Cm = 100 g/L. On effectue une dilution au 1/5 (F = 5).
 
 Quelle sera la concentration finale Cf ?
 
-$$C_f = \frac{C_i}{F} = \frac{.........}{.........} = ......... \text{ g/L}$$
+$$C_f = \frac{C_m}{F} = \frac{.........}{.........} = ......... \text{ g/L}$$
 
 2\. Expliquez avec vos mots pourquoi la quantité de soluté reste constante lors d'une dilution :
 
@@ -154,24 +154,24 @@ $$C_f = \frac{C_i}{F} = \frac{.........}{.........} = ......... \text{ g/L}$$
 
 ## 🧮 Travail 2 – Calculer un volume à prélever
 
-> 🎯 **Compétence E2 : Mobiliser** – Utiliser la relation Ci × Vi = Cf × Vf
+> 🎯 **Compétence E2 : Mobiliser** – Utiliser la relation Cm × Vm = Cf × Vf
 
 ### Situation
 
-On dispose d'une **solution mère** de glycérine à **Ci = 200 g/L**.
+On dispose d'une **solution mère** de glycérine à **Cm = 200 g/L**.
 On veut préparer **Vf = 100 mL** d'une **solution fille** à **Cf = 50 g/L**.
 
-**Quel volume Vi de solution mère faut-il prélever ?**
+**Quel volume Vm de solution mère faut-il prélever ?**
 
 ### Résolution guidée
 
 #### D – Données
 
 Complétez :
-- Ci = _______ g/L (solution mère)
+- Cm = _______ g/L (solution mère)
 - Cf = _______ g/L (solution fille souhaitée)
 - Vf = _______ mL (volume final souhaité)
-- Vi = ? (volume à prélever)
+- Vm = ? (volume à prélever)
 
 #### U – Unités
 
@@ -180,11 +180,11 @@ Les volumes peuvent rester en mL (même unité des deux côtés) ✓
 
 #### C – Calcul
 
-On utilise la relation de conservation : **Ci × Vi = Cf × Vf**
+On utilise la relation de conservation : **Cm × Vm = Cf × Vf**
 
-On isole Vi : 
+On isole Vm : 
 
-$$V_i = \frac{C_f \times V_f}{C_i} = \frac{......... \times .........}{.........} = ......... \text{ mL}$$
+$$V_m = \frac{C_f \times V_f}{C_m} = \frac{......... \times .........}{.........} = ......... \text{ mL}$$
 
 #### I – Interprétation
 
@@ -198,11 +198,11 @@ Complétez la phrase :
 
 1\. Calculez le facteur de dilution :
 
-$$F = \frac{C_i}{C_f} = \frac{.........}{.........} = .........$$
+$$F = \frac{C_m}{C_f} = \frac{.........}{.........} = .........$$
 
 2\. Vérifiez avec l'autre formule :
 
-$$F = \frac{V_f}{V_i} = \frac{.........}{.........} = .........$$
+$$F = \frac{V_f}{V_m} = \frac{.........}{.........} = .........$$
 
 3\. Les deux valeurs de F sont-elles égales ? ☐ Oui ☐ Non
 
@@ -218,9 +218,9 @@ Vous devez préparer **250 mL** d'une solution de niacinamide à **20 g/L** à p
 
 ### Étape 1 : Calcul préliminaire
 
-Calculez le volume Vi à prélever :
+Calculez le volume Vm à prélever :
 
-$$V_i = \frac{C_f \times V_f}{C_i} = \frac{......... \times .........}{.........} = ......... \text{ mL}$$
+$$V_m = \frac{C_f \times V_f}{C_m} = \frac{......... \times .........}{.........} = ......... \text{ mL}$$
 
 ### Étape 2 : Rédaction du protocole
 
@@ -246,9 +246,9 @@ Rédigez le protocole complet en 5-6 étapes :
 
 ### Situation : Préparation d'une gamme étalon
 
-Pour un dosage spectrophotométrique, on prépare une gamme de 5 solutions à partir d'une solution mère à **Ci = 100 g/L**.
+Pour un dosage spectrophotométrique, on prépare une gamme de 5 solutions à partir d'une solution mère à **Cm = 100 g/L**.
 
-| Solution | Concentration souhaitée (Cf) | Volume final (Vf) | Volume à prélever (Vi) |
+| Solution | Concentration souhaitée (Cf) | Volume final (Vf) | Volume à prélever (Vm) |
 |:--------:|:---------------------------:|:-----------------:|:----------------------:|
 | S1 | 50 g/L | 50 mL | |
 | S2 | 20 g/L | 50 mL | |
@@ -258,27 +258,27 @@ Pour un dosage spectrophotométrique, on prépare une gamme de 5 solutions à pa
 
 ### Questions
 
-1\. Complétez la colonne "Volume à prélever (Vi)" pour chaque solution.
+1\. Complétez la colonne "Volume à prélever (Vm)" pour chaque solution.
 
 **Calculs :**
 
-S1 : Vi = 
+S1 : Vm = 
 
 <br>
 
-S2 : Vi = 
+S2 : Vm = 
 
 <br>
 
-S3 : Vi = 
+S3 : Vm = 
 
 <br>
 
-S4 : Vi = 
+S4 : Vm = 
 
 <br>
 
-S5 : Vi = 
+S5 : Vm = 
 
 <br>
 
@@ -310,16 +310,16 @@ Il dispose de deux solutions mères :
 
 **Avec la solution A (50 g/L) :**
 
-$$V_i = \frac{C_f \times V_f}{C_i} = \frac{......... \times .........}{.........} = ......... \text{ mL}$$
+$$V_m = \frac{C_f \times V_f}{C_m} = \frac{......... \times .........}{.........} = ......... \text{ mL}$$
 
 **Avec la solution B (500 g/L) :**
 
-$$V_i = \frac{C_f \times V_f}{C_i} = \frac{......... \times .........}{.........} = ......... \text{ mL}$$
+$$V_m = \frac{C_f \times V_f}{C_m} = \frac{......... \times .........}{.........} = ......... \text{ mL}$$
 
 2\. Calculez le facteur de dilution pour chaque cas :
 
-- FA = Ci / Cf = _______ / _______ = _______
-- FB = Ci / Cf = _______ / _______ = _______
+- FA = Cm / Cf = _______ / _______ = _______
+- FB = Cm / Cf = _______ / _______ = _______
 
 3\. **Argumentez** : Quelle solution mère conseillez-vous d'utiliser ? Justifiez en 3-4 lignes (pensez à la précision de la manipulation).
 
@@ -351,7 +351,7 @@ On veut préparer 100 mL d'une solution à **0,5 g/L** à partir d'une solution 
 
 1\. Calculez le facteur de dilution total :
 
-$$F = \frac{C_i}{C_f} = \frac{.........}{.........} = .........$$
+$$F = \frac{C_m}{C_f} = \frac{.........}{.........} = .........$$
 
 2\. Proposez une méthode en 2 dilutions successives pour atteindre ce facteur :
 
@@ -373,7 +373,7 @@ Rédigez un **court paragraphe** expliquant comment préparer une solution dilu�
 - Les étapes clés du protocole
 
 **Mots obligatoires à placer :**
-*dilution – solution mère – solution fille – facteur de dilution – Ci × Vi = Cf × Vf – prélever – compléter*
+*dilution – solution mère – solution fille – facteur de dilution – Cm × Vm = Cf × Vf – prélever – compléter*
 
 <br><br><br><br><br><br><br>
 
@@ -389,7 +389,7 @@ Avant de passer à l'auto-évaluation, prenez un moment pour reconnaître vos pr
 |----------|---|
 | J'ai compris que diluer = ajouter du solvant (pas du soluté) | ☐ |
 | J'ai compris que la quantité de soluté reste constante | ☐ |
-| J'ai su utiliser la formule Ci × Vi = Cf × Vf | ☐ |
+| J'ai su utiliser la formule Cm × Vm = Cf × Vf | ☐ |
 | J'ai su calculer un facteur de dilution | ☐ |
 | J'ai su rédiger un protocole de dilution | ☐ |
 | J'ai su argumenter le choix d'une méthode | ☐ |
@@ -404,8 +404,8 @@ Avant de rendre votre travail, vérifiez :
 
 | Critère | ✓ |
 |---------|---|
-| J'ai identifié Ci, Cf, Vi, Vf avant de calculer | ☐ |
-| J'ai utilisé la bonne formule (Ci × Vi = Cf × Vf) | ☐ |
+| J'ai identifié Cm, Cf, Vm, Vf avant de calculer | ☐ |
+| J'ai utilisé la bonne formule (Cm × Vm = Cf × Vf) | ☐ |
 | J'ai vérifié mes résultats avec le facteur de dilution | ☐ |
 | Mes protocoles sont rédigés en étapes claires | ☐ |
 | J'ai argumenté mes choix de méthode | ☐ |

@@ -49,6 +49,7 @@ $$\boxed{V = \frac{m}{C_m}} \qquad \text{(volume à préparer)}$$
 ### 🔹 Sens physique
 
 Une concentration de **Cm = 50 g/L** signifie que :
+
 - Chaque **litre** de solution contient **50 grammes** de soluté
 - Ou encore : il y a **50 g d'actif** dissous dans **1 L de produit**
 
@@ -61,6 +62,7 @@ Une concentration de **Cm = 50 g/L** signifie que :
 L'unité officielle est le **gramme par litre** : **g·L⁻¹** (ou g/L)
 
 On peut aussi rencontrer :
+
 - mg/L (milligramme par litre)
 - g/mL (gramme par millilitre)
 - kg/m³ (équivalent à g/L)
@@ -106,6 +108,7 @@ Pour réussir un calcul de concentration à l'examen E2, suivez toujours ces **4
 ### 🔹 D – Données
 
 **Identifier et noter** toutes les données utiles :
+
 - Quel est le soluté ?
 - Quelle est la masse (m) ?
 - Quel est le volume (V) ?
@@ -113,12 +116,14 @@ Pour réussir un calcul de concentration à l'examen E2, suivez toujours ces **4
 ### 🔹 U – Unités
 
 **Convertir** dans les unités correctes :
+
 - Masse en **grammes** (g)
 - Volume en **litres** (L)
 
 ### 🔹 C – Calcul
 
 **Écrire** la formule, **remplacer** par les valeurs, **calculer** :
+
 1. Formule : Cm = m/V
 2. Valeurs : Cm = .../...
 3. Résultat : Cm = ... **g·L⁻¹**
@@ -126,6 +131,7 @@ Pour réussir un calcul de concentration à l'examen E2, suivez toujours ces **4
 ### 🔹 I – Interprétation
 
 **Expliquer** ce que signifie le résultat :
+
 - *"Cela signifie que chaque litre de solution contient ... g de ..."*
 - *"Cette valeur est conforme/non conforme au cahier des charges"*
 
@@ -140,17 +146,21 @@ Un sérum contient 3,0 g de vitamine C dans 25 mL de solution. Calculer la conce
 ### Résolution (méthode D.U.C.I.)
 
 **D – Données :**
+
 - Soluté : vitamine C
 - m = 3,0 g
 - V = 25 mL
 
 **U – Unités :**
+
 - V = 25 mL = 0,025 L ✓
 
 **C – Calcul :**
+
 $$C_m = \frac{m}{V} = \frac{3,0}{0,025} = 120 \ \ g·L^{-1}$$
 
 **I – Interprétation :**
+
 La concentration massique en vitamine C est de 120 g·L⁻¹. Cela signifie que chaque litre de sérum contient 120 g de vitamine C, soit environ 12%.
 
 ---
@@ -218,6 +228,7 @@ $$n = \frac{m}{M} = \frac{5,0}{176} = 0,028 \text{ mol} = 28 \text{ mmol}$$
 ### ✅ Méthode obligatoire
 
 Toujours suivre **D.U.C.I.** :
+
 1. **D**onnées identifiées
 2. **U**nités converties
 3. **C**alcul détaillé avec unité
@@ -236,6 +247,7 @@ Toujours suivre **D.U.C.I.** :
 ## 🔗 Lien avec la suite de la progression
 
 Dans la **séance suivante (S04)**, nous apprendrons à **modifier** une concentration :
+
 - Qu'est-ce qu'une **dilution** ?
 - Quelle est la relation entre concentration initiale et finale ?
 - Comment calculer un **facteur de dilution** ?

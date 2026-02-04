@@ -255,6 +255,7 @@ Pour décrire scientifiquement une solution cosmétique :
 ## 🔗 Lien avec la suite de la progression
 
 Dans la **séance suivante (S03)**, nous apprendrons à **quantifier** une solution :
+
 - **Concentration massique** (Cm en g/L)
 - **Quantité de matière** (n en mol)
 - Interprétation d'une concentration dans un contexte professionnel

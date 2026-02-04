@@ -128,7 +128,9 @@ $$\text{Concentration en g/L} \approx \text{Pourcentage} \times 10$$
 1\. La concentration massique Cm = 20 g/L signifie que :
 
 ☐ 20 g de solution contiennent 1 L de soluté
+
 ☐ 1 L de solution contient 20 g de soluté
+
 ☐ 20 L de solution contiennent 1 g de soluté
 
 2\. Reformulez avec vos mots : *"Un sérum à 50 g/L de vitamine C, cela signifie que..."*
@@ -396,6 +398,7 @@ Avant de rendre votre travail, vérifiez :
 ## 🔗 Pour la suite de la progression
 
 Dans la **séance suivante (S04)**, nous apprendrons à **modifier** une concentration :
+
 - Qu'est-ce qu'une **dilution** ?
 - Comment calculer un **facteur de dilution** ?
 - Comment préparer une solution diluée à partir d'une solution concentrée ?
