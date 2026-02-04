@@ -52,7 +52,7 @@ Chaque séance comprend :
 | TP3 | Dossier moléculaire (documentaire) | S21 |
 | TP4 | CMC par conductimétrie | S23 |
 
-➡️ [Accéder aux TP](./TP/)
+
 
 ---
 
@@ -140,7 +140,6 @@ La progression complète avec les compétences E2 travaillées à chaque séance
 | 🚀 **Commencer** | [Séance 01 – Diagnostic d'un produit cosmétique](./01_Diagnostic_produit/) |
 | 📅 **Progression** | [Voir toutes les séances](./Progression/progression.md) |
 | 🧠 **Méthodologie** | [Fiches méthode E2](./Methodologie/) |
-| 🔬 **TP** | [Travaux pratiques](./TP/) |
 | 📺 **Vidéos** | [Réviser en vidéo](./videos_recommandees/videos_recommandees.md) |
 
 ---
