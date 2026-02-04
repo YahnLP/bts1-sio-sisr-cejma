@@ -3,7 +3,7 @@ author: ELP
 title: Progression
 ---
 
-# 📘 Progression annuelle – Physique-Chimie appliquée (BTS MECP 1re année)
+# 📘 Progression annuelle – Physique-Chimie appliquées (BTS MECP 1re année)
 
 ### 🎯 Objectif
 
