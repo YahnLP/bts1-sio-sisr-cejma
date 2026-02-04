@@ -77,7 +77,7 @@ Chaque séance comprend :
 
 Une sélection de vidéos courtes (2-6 min) pour réviser chaque notion à votre rythme.
 
-➡️ [Accéder aux vidéos recommandées](./videos_recommandees/)
+➡️ [Accéder aux vidéos recommandées](./videos_recommandees/videos_recommandees.md)
 
 ---
 
@@ -85,7 +85,7 @@ Une sélection de vidéos courtes (2-6 min) pour réviser chaque notion à votre
 
 La progression complète avec les compétences E2 travaillées à chaque séance.
 
-➡️ [Voir la progression](./Progression/)
+➡️ [Voir la progression](./Progression/progression.md)
 
 ---
 
