@@ -37,7 +37,7 @@ Chaque séance comprend :
 - Une **trace écrite** (cours structuré)
 - Une **évaluation formative** (auto-évaluation)
 
-➡️ [Accéder aux séances](./Seances/)
+➡️ [Accéder aux séances](./)
 
 ---
 
@@ -145,18 +145,12 @@ La progression complète avec les compétences E2 travaillées à chaque séance
 
 ---
 
-## ℹ️ Informations pratiques
 
-- 📧 **Contact** : elisabeth.le-prettre@ac-bordeaux.fr
-- 🏫 **Établissement** : Lycée Jean Cassaigne, Mont-de-Marsan
-- 📚 **Niveau** : BTS MECP 1re année
-- ⏱️ **Horaire** : 2h / semaine
 
----
+
 
 ## 🔄 Mises à jour
 
-Les documents sont mis à jour régulièrement. Dernière mise à jour : *Février 2025*
 
 En cas de problème d'accès ou de lien cassé, merci de le signaler en classe.
 
