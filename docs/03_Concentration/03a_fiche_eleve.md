@@ -145,9 +145,9 @@ Dans la formule Cm = m/V, reliez chaque grandeur à sa signification :
 
 | Grandeur | | Signification |
 |----------|---|---------------|
-| Cm | | Masse de l'actif dissous |
-| m | | Volume total du produit |
-| V | | Quantité d'actif par litre de produit |
+| Cm | | Quantité (masse) d'actif par litre de produit (concentration massique) |
+| m | | Masse de l'actif dissous |
+| V | | Volume total du produit  |
 
 ---
 
