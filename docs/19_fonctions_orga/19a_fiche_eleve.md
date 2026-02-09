@@ -358,11 +358,11 @@ Pour chaque molécule, **entourez** le groupe fonctionnel et **nommez-le** (alco
 
 | Molécule | Formule topologique | Fonction(s) identifiée(s) |
 |----------|:-------------------:|:-------------------------:|
-| **Glycérol** | ![glycerol](.\images\glycerol.png) | _______ |
-| **Acide salicylique** | ![acide salicylique](.\images\acide_salicylique.png) | _______ |
-| **Tocophérol (vit. E)** | ![tocophérol](.\images\tocopherol.png) | _______ |
-| **Acétate de tocophéryle** | ![acétate de tocophéryle](.\images\acetate_tocopheryle.png) | _______ |
-| **Rétinal** | ![retinal](.\images\retinal.png) | _______ |
+| **Glycérol** | <img src="/19_fonctions_orga/images/glycerol.png" alt="glycerol" style="width:45%;">| _______ |
+| **Acide salicylique** | <img src="/19_fonctions_orga/images/acide_salicylique.png" alt="acide salicylique" style="width:35%;"> | _______ |
+| **Tocophérol (vit. E)** |  <img src="/19_fonctions_orga/images/tocopherol.png" alt="tocophérol" style="width:85%;"> | _______ |
+| **Acétate de tocophéryle** |<img src="/19_fonctions_orga/images/acetate_tocopheryle.png" alt="acétate de tocophéryle" style="width:85%;"> | _______ |
+| **Rétinal** |  <img src="/19_fonctions_orga/images/retinal.png" alt="retinal" style="width:75%;"> | _______ |
 
 
 ### 1.2 – Relier fonction et propriété
@@ -383,10 +383,10 @@ Choisissez une molécule du tableau ci-dessus et expliquez en 2 à 3 lignes comm
 
 | Molécule | Formule topologique | Fonction(s) identifiée(s) |
 |----------|:-------------------:|:-------------------------:|
-| **MEA (monoéthanolamine)** | ![monoéthanolamine](.\images\monoethanolamine.png) | _______ |
-| **Peptide (ex. : dipeptide)** | ![dipeptide](.\images\dipeptide.png) | _______ |
-| **Cystéine** | ![cystéine](.\images\cysteine.png)| _______ |
-| **Benzalkonium chloride** | ![benzalkonium chloride](.\images\benzalkonium.png)  | _______ |
+| **MEA (monoéthanolamine)** |  <img src="/19_fonctions_orga/images/monoethanolamine.png" alt="monoéthanolamine" style="width:55%;"> | _______ |
+| **Peptide (ex. : dipeptide)** |  <img src="/19_fonctions_orga/images/dipeptide.png" alt="dipeptide" style="width:65%;"> | _______ |
+| **Cystéine** | <img src="/19_fonctions_orga/images/cysteine.png" alt="cystéine" style="width:55%;">| _______ |
+| **Benzalkonium chloride** | <img src="/19_fonctions_orga/images/benzalkonium.png" alt="benzalkonium chloride" style="width:75%;">  | _______ |
 
 ### 2.2 – La liaison peptidique
 

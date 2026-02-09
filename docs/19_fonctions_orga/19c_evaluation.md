@@ -110,7 +110,10 @@ Expliquez en 2 à 3 lignes pourquoi le **glycérol** (qui a 3 fonctions alcool �
 
 On vous donne la formule topologique de l'**acide salicylique** :
 
-![acide salicylique](.\images\acide_salicylique.png){width="30%"}
+<p style="text-align:center;">
+  <img src="/19_fonctions_orga/images/acide_salicylique.png" alt="acide salicylique" style="width:30%;">
+</p>
+
 
 ### 4.1 (2 pts)
 
@@ -122,7 +125,7 @@ Nommez-les : _______ et _______
 
 Laquelle de ces deux fonctions explique le caractère **acide** de l'acide salicylique ?
 
-_______
+<br><br>
 
 ---
 
