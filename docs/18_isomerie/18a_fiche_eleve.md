@@ -63,8 +63,8 @@ $$\boxed{\text{Même formule brute} \neq \text{Même structure} \Rightarrow \tex
 
 | Molécule | Formule brute | Formule topologique | Type de chaîne |
 |----------|:-------------:|:-------------------:|:--------------:|
-| **Butane** | C₄H₁₀ | ![butane](.\images\butane.png) | Linéaire |
-| **Isobutane** (ou 2-méthylpropane) | C₄H₁₀ | ![isobutane](.\images\isobutane.png) | Ramifiée |
+| **Butane** | C₄H₁₀ | <img src="/18_isomerie/images/butane.png" alt="butane" style="width:35%;"> | Linéaire |
+| **Isobutane** (ou 2-méthylpropane) | C₄H₁₀ | <img src="/18_isomerie/images/isobutane.png" alt="isobutane" style="width:35%;"> | Ramifiée |
 
 
 
@@ -96,8 +96,8 @@ L'**isomérie de constitution** (ou isomérie de structure) se décline en **tro
 
 | Isomère | Formule topologique | Type de chaîne |
 |---------|:-------------------:|:--------------:|
-| **Pentane** | ![pentane](.\images\pentane.png) | Linéaire |
-| **Isopentane** (ou 2-méthylbutane) | ![isopentane](.\images\isopentane.png) | Ramifiée |
+| **Pentane** | <img src="/18_isomerie/images/pentane.png" alt="pentane" style="width:35%;"> | Linéaire |
+| **Isopentane** (ou 2-méthylbutane) | <img src="/18_isomerie/images/isopentane.png" alt="isopentane" style="width:35%;"> | Ramifiée |
 
 **Conséquence :** Propriétés physiques différentes (température d'ébullition, viscosité, texture).
 
@@ -111,8 +111,8 @@ L'**isomérie de constitution** (ou isomérie de structure) se décline en **tro
 
 | Isomère | Formule topologique | Position du groupe –OH |
 |---------|:-------------------:|:----------------------:|
-| **Propan-1-ol** | ![propan-1-ol](.\images\propan1ol.png)| En bout de chaîne (C1) |
-| **Propan-2-ol** | ![propan-2-ol](.\images\propan2ol.png)| Au milieu de chaîne (C2) |
+| **Propan-1-ol** |  <img src="/18_isomerie/images/propan1ol.png" alt="propan-1-ol" style="width:35%;">| En bout de chaîne (C1) |
+| **Propan-2-ol** | <img src="/18_isomerie/images/propan2ol.png" alt="propan-2-ol" style="width:35%;">| Au milieu de chaîne (C2) |
 
 **Conséquence :** Réactivité différente, solubilité légèrement différente.
 
@@ -126,8 +126,8 @@ L'**isomérie de constitution** (ou isomérie de structure) se décline en **tro
 
 | Isomère | Formule topologique | Fonction |
 |---------|:-------------------:|:--------:|
-| **Éthanol** | ![éthanol](.\images\ethanol.png)| Alcool (–OH) |
-| **Méthoxyméthane** (ou éther diméthylique) | ![méthoxyméthane](.\images\methoxy.png) | Éther (–O–) |
+| **Éthanol** | <img src="/18_isomerie/images/ethanol.png" alt="éthanol" style="width:35%;">| Alcool (–OH) |
+| **Méthoxyméthane** (ou éther diméthylique) | <img src="/18_isomerie/images/methoxy.png" alt="méthoxyméthane" style="width:35%;"> | Éther (–O–) |
 
 **Conséquence :** Propriétés radicalement différentes. L'éthanol est liquide à 20 °C ($T_{ébullition}$ = 78 °C), le méthoxyméthane est gazeux ($T_{ébullition}$ = –24 °C).
 
@@ -187,9 +187,9 @@ Expliquez en 2 à 3 lignes pourquoi le butane (linéaire) a une température d'�
 
 | Paire d'isomères | Formules topologiques | Type d'isomérie | Justification |
 |------------------|:---------------------:|:---------------:|---------------|
-| **Pentane** vs **Isopentane** | ![pentane](.\images\pentane.png) ![isopentane](.\images\isopentane.png)| _______ | _______ |
-| **Propan-1-ol** vs **Propan-2-ol** | ![propan1-ol](.\images\propan1ol.png) ![propan2-ol](.\images\propan2ol.png)| _______ | _______ |
-| **Éthanol** vs **Méthoxyméthane** | ![éthanol](.\images\ethanol.png) ![méthoxyméthane](.\images\methoxy.png) | _______ | _______ |
+| **Pentane** vs **Isopentane** | <img src="/18_isomerie/images/pentane.png" alt="pentane" style="width:45%;"> <img src="/18_isomerie/images/isopentane.png" alt="isopentane" style="width:35%;">| _______ | _______ |
+| **Propan-1-ol** vs **Propan-2-ol** |  <img src="/18_isomerie/images/propan1ol.png" alt="propan1-ol" style="width:55%;"> <img src="/18_isomerie/images/propan2ol.png" alt="propan2-ol" style="width:55%;">| _______ | _______ |
+| **Éthanol** vs **Méthoxyméthane** | <img src="/18_isomerie/images/ethanol.png" alt="éthanol" style="width:55%;"> <img src="/18_isomerie/images/methoxy.png" alt="méthoxyméthane" style="width:55%;"> | _______ | _______ |
 
 
 

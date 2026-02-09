@@ -5,7 +5,7 @@ title: 18 – Objectifs et ressources
 
 # 18 – Objectifs et ressources
 
-Cette séance introduit l'**isomérie de constitution** : le fait que deux molécules peuvent avoir la même formule brute mais des structures différentes. Les élèves apprennent à distinguer les trois types (chaîne, position, fonction) et à relier l'isomérie aux propriétés physico-chimiques.
+Cette séance introduit l'**isomérie de constitution** : le fait que deux molécules peuvent avoir la même formule brute mais des structures différentes. 
 
 ---
 
@@ -61,10 +61,10 @@ Cette séance introduit l'**isomérie de constitution** : le fait que deux molé
         BUTANE                      ISOBUTANE
         (linéaire)                  (ramifié)
         
-        \/\/\/                          /\
-                                       /  \
+           \/\                          |
+                                       / \
         
-        T_ébullition = –0,5 °C      T_ébullition = –11,7 °C
+        Tébullition = –0,5 °C      Tébullition = –11,7 °C
         
         → Propriétés DIFFÉRENTES
 ```
@@ -174,5 +174,5 @@ Cette séance introduit l'**isomérie de constitution** : le fait que deux molé
 | Thème du référentiel | Couverture dans S18 |
 |---------------------|---------------------|
 | Isomérie de constitution | ✅ Chaîne, position, fonction |
-| Lien structure-propriété | ✅ T_ébullition, texture, activité |
+| Lien structure-propriété | ✅ $T_{ébullition}$, texture, activité |
 | Représentations organiques | ✅ Comparaison de formules topologiques |

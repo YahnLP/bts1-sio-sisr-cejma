@@ -78,15 +78,15 @@ Pour chaque paire de molécules, identifiez le type d'isomérie (chaîne, positi
 
 |butane|isobutane|
 |--|--|
-|![butane](.\images\butane.png)|![isobutane](.\images\isobutane.png)|
+|<img src="/18_isomerie/images/butane.png" alt="butane" style="width:35%;">|<img src="/18_isomerie/images/isobutane.png" alt="isobutane" style="width:35%;">|
 
 |butan-1-ol|butan-2-ol|
 |--|--|
-|![butan-1-ol](.\images\butan1ol.png)|![butan-2-ol](.\images\butan2ol.png)|
+|<img src="/18_isomerie/images/butan1ol.png" alt="butan-1-ol" style="width:75%;">|<img src="/18_isomerie/images/butan2ol.png" alt="butan-2-ol" style="width:35%;">|
 
 | Éthanol | Méthoxyméthane |
 |--|--|
-![éthanol](.\images\ethanol.png)  |  ![méthoxyméthane](.\images\methoxy.png)  |
+|<img src="/18_isomerie/images/ethanol.png" alt="éthanol" style="width:35%;"> |  <img src="/18_isomerie/images/methoxy.png" alt="méthoxyméthane" style="width:35%;">  |
 
 **Butane**  vs **Isobutane** 
 

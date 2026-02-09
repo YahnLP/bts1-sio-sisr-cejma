@@ -19,8 +19,8 @@ $$\boxed{\text{Isomères} : \text{Même formule brute} + \text{Structures diffé
 
 | Molécule | Formule brute | Structure | T_ébullition |
 |----------|:-------------:|:---------:|:------------:|
-| **Butane** | C₄H₁₀ | Linéaire ![butane](.\images\butane.png) | Linéaire | –0,5 °C |
-| **Isobutane** | C₄H₁₀ | Ramifiée ![isobutane](.\images\isobutane.png)| –11,7 °C |
+| **Butane** | C₄H₁₀ | Linéaire <img src="/18_isomerie/images/butane.png" alt="butane" style="width:35%;"> | Linéaire | –0,5 °C |
+| **Isobutane** | C₄H₁₀ | Ramifiée <img src="/18_isomerie/images/isobutane.png" alt="isobutane" style="width:35%;">| –11,7 °C |
 
 
 
@@ -55,8 +55,8 @@ Les isomères ont des **chaînes carbonées de formes différentes** : linéaire
 
 | Isomère | Structure | Type de chaîne |
 |---------|:---------:|:--------------:|
-| **Pentane** | ![pentane](.\images\pentane.png) | Linéaire (5 C alignés) |
-| **Isopentane** (2-méthylbutane) | ![isopentane](.\images\isopentane.png) | Ramifiée |
+| **Pentane** | <img src="/18_isomerie/images/pentane.png" alt="pentane" style="width:35%;"> | Linéaire (5 C alignés) |
+| **Isopentane** (2-méthylbutane) | <img src="/18_isomerie/images/isopentane.png" alt="isopentane" style="width:35%;"> | Ramifiée |
 
 #### Conséquence
 
@@ -84,8 +84,8 @@ Les isomères ont le **même groupe fonctionnel**, mais à des **positions diff�
 
 | Isomère | Structure | Position du groupe –OH |
 |---------|:---------:|:----------------------:|
-| **Propan-1-ol** | ![propan-1-ol](.\images\propan1ol.png) | En bout de chaîne (C1) |
-| **Propan-2-ol** | ![propan-2-ol](.\images\propan2ol.png)  | Au milieu de chaîne (C2) |
+| **Propan-1-ol** | <img src="/18_isomerie/images/propan1ol.png" alt="propan-1-ol" style="width:35%;">| En bout de chaîne (C1) |
+| **Propan-2-ol** | <img src="/18_isomerie/images/propan2ol.png" alt="propan-2-ol" style="width:35%;">  | Au milieu de chaîne (C2) |
 
 #### Conséquence
 
@@ -106,8 +106,8 @@ Les isomères ont des **groupes fonctionnels différents**.
 
 | Isomère | Structure | Fonction |
 |---------|:---------:|:--------:|
-| **Éthanol** | ![éthanol](.\images\ethanol.png)  | Alcool (–OH) |
-| **Méthoxyméthane** (éther diméthylique) | ![méthoxyméthane](.\images\methoxy.png)  | Éther (–O–) |
+| **Éthanol** | <img src="/18_isomerie/images/ethanol.png" alt="éthanol" style="width:35%;">  | Alcool (–OH) |
+| **Méthoxyméthane** (éther diméthylique) | <img src="/18_isomerie/images/methoxy.png" alt="méthoxyméthane" style="width:35%;">  | Éther (–O–) |
 
 #### Conséquence
 
