@@ -99,8 +99,8 @@ Le carbone fait **toujours 4 liaisons**. Si on ne voit que 1, 2 ou 3 liaisons (a
 
 #### Exemple : le butane
 
-<p align="center">
-  <img src=".\images\butane.png" alt="Butane" width="15%"><br>
+<p style="text-align:center;">
+  <img src="/17_representation_molecules/images/butane.png" alt="Butane" style="width:15%;">
 </p>
 
 > *4 sommets = 4 carbones. Les hydrogènes ne sont pas écrits mais sont présents : CH₃–CH₂–CH₂–CH₃.*
@@ -160,9 +160,11 @@ Le carbone fait **toujours 4 liaisons**. Si on ne voit que 1, 2 ou 3 liaisons (a
 **Exemple : CH₃–CH₂–CH₃ → ?**
 
 - 3 groupes → 3 sommets
+
 - Relier en zigzag : 
-<p align="center">
-  <img src=".\images\propane.png" alt="Propane" width="15%"><br>
+
+<p style="text-align:center;">
+ <img src="/17_representation_molecules/images/propane.png" alt="Propane" style="width:15%;">
 </p>
 
 ---
@@ -177,8 +179,8 @@ Le carbone fait **toujours 4 liaisons**. Si on ne voit que 1, 2 ou 3 liaisons (a
 4. Écrire CH₃ (1 liaison), CH₂ (2 liaisons), CH (3 liaisons), C (4 liaisons)
 
 **Exemple :**
-<p align="center">
-  <img src=".\images\butane.png" alt="Butane" width="15%"><br>
+<p style="text-align:center;">
+  <img src="/17_representation_molecules/images/butane.png" alt="Butane" style="width:15%;">
 </p>
 
 - 4 sommets → 4 C
@@ -228,8 +230,8 @@ La **chaîne carbonée** est la succession d'atomes de carbone reliés entre eux
 Formule semi-développée : CH₃–CH₂–CH₂–CH₂–CH₃
 ```
 Formule topologique :    
-<p align="center">
-  <img src=".\images\pentane.png" alt="pentane" width="15%"><br>
+<p style="text-align:center;">
+  <img src="/17_representation_molecules/images/pentane.png" alt="Pentane" style="width:25%;">
 </p>
 
 
@@ -249,8 +251,8 @@ Formule semi-développée :    CH₃
                         CH₃–CH–CH₃
 ```
 Formule topologique :        
-<p align="center">
-  <img src=".\images\isobutane.png" alt="Pentane" width="25%"><br>
+<p style="text-align:center;">
+  <img src="/17_representation_molecules/images/isobutane.png" alt="isobutane" style="width:25%;">
 </p>
                             
 

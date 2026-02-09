@@ -137,8 +137,8 @@ Type de chaîne : _______
 
 ### 5.2 (1 pt)
 
-<p align="center">
-  <img src=".\images\img12.gif" alt="molécule" width="25%"><br>
+<p style="text-align:center;">
+  <img src="/17_representation_molecules/images/img12.gif" alt="molécule" style="width:25%;">
 </p>
 
 Type de chaîne : _______

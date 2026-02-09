@@ -40,8 +40,8 @@ En cosmétique, savoir lire les représentations moléculaires est essentiel pou
 
 **Problème :** Sur la fiche technique, vous trouvez cette représentation :
 
-<p align="center">
-  <img src=".\images\topo1.png" alt="Formule topologique" width="50%"><br>
+<p style="text-align:center;">
+<img src="/17_representation_molecules/images/topo1.png" alt="Forme Topologique" style="width:55%;">
 </p>
 
 Vous ne comprenez pas cette écriture. Que signifie ce dessin ? Comment vérifier que c'est bien du squalane ?
@@ -153,7 +153,7 @@ Formule semi-développée :   CH₃
 ```
 Formule topologique :       
 <p style="text-align:center;">
-  <img src="/17_representation_molecules/images/isobutane.png" alt="Pentane" style="width:25%;">
+  <img src="/17_representation_molecules/images/isobutane.png" alt="isobutane" style="width:25%;">
 </p>
 
 
@@ -257,10 +257,15 @@ Pour le **pentane** (formule topologique : \/\/\/ ), comptez :
 1\. Nombre de sommets (= nombre de carbones) : _______
 
 2\. Nombre d'hydrogènes :
+
 - C1 (bout) : _______ liaisons visibles → _______ H
+
 - C2 (milieu) : _______ liaisons visibles → _______ H
+
 - C3 (milieu) : _______ liaisons visibles → _______ H
+
 - C4 (milieu) : _______ liaisons visibles → _______ H
+
 - C5 (bout) : _______ liaisons visibles → _______ H
 
 **Total H** = _______
@@ -287,9 +292,9 @@ On vous donne : **C₆H₁₄** (hexane).
 
 | Molécule cosmétique | Formule topologique | Type de chaîne | Justification |
 |---------------------|:-------------------:|:--------------:|---------------|
-| **Acide laurique** (C₁₂) | ![Acide laurique](.\images\acide_laurique.png) | _______ | _______ |
-| **Squalane** | ![Squalane](.\images\squalane.png) | _______ | _______ |
-| **Menthol** | ![menthol](.\images\menthol_.png) | _______ | _______ |
+| **Acide laurique** (C₁₂) |  <img src="/17_representation_molecules/images/acide_laurique.png" alt="Acide laurique" style="width:90%;"> | _______ | _______ |
+| **Squalane** | <img src="/17_representation_molecules/images/squalane.png"> | _______ | _______ |
+| **Menthol** | <img src="/17_representation_molecules/images/menthol_.png" style="width:60%;"> | _______ | _______ |
 
 
 
