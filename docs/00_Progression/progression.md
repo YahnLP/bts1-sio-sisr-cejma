@@ -94,7 +94,7 @@ Construire progressivement les **compétences attendues à l'épreuve E2** *(3 h
 |    S21 | Interpréter une mesure de conductivité (CQ) | σ ; ions ; lien composition ↔ signal ; conductivité & stabilité d’émulsion |   🧱   | **COSMÉTO S08–S09** (CMC, micelles) + **COSMÉTO S18** (CQ) ; appui à **COSMÉTO S10** (analyse critique formule) | Comparer, interpréter, conclure conformité |
 |    S22 | **Évaluation type E2** (guidée)             | Transversal S01–S21 + données σ/CMC                                        |    ✅   | Se cale sur **COSMÉTO S22** (éval 3 “analyse experte”) : même posture “dossier → décision argumentée”           | Conclusion professionnelle argumentée      |
 
-> **TP mutualisé confirmé** : correspond à **COSMÉTO S09 (TP CMC)** dans ta progression cosméto.
+> **TP mutualisé** : correspond à **COSMÉTO S09 (TP CMC)** dans ta progression cosméto.
 
 ---
 
