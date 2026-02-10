@@ -103,9 +103,9 @@ Cette séance introduit les **états de la matière**, le **diagramme d'état**,
 | σ petit → répétabilité bonne | Valider les mesures |
 | σ grand → répétabilité mauvaise | Revoir le protocole |
 
+
+
 ---
-
-
 
 ## 📺 Pour réviser en vidéo
 
@@ -124,7 +124,7 @@ Cette séance introduit les **états de la matière**, le **diagramme d'état**,
 
 ⬅️ Séance précédente : [S15 – TP2 : Titrage pH-métrique](../15_TP2/)
 
-➡️ Séance suivante : [S17 – Représentations des molécules organiques](../17_representations_organiques/)
+➡️ Séance suivante : [S17 – Représentations des molécules organiques](../17_representation_molecules/)
 
 ---
 
@@ -139,3 +139,4 @@ Cette séance introduit les **états de la matière**, le **diagramme d'état**,
 | **S26** | Transformations chimiques → influence de T sur la cinétique |
 
 ---
+

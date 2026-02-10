@@ -113,4 +113,4 @@ Cette séance introduit la **structure de l'atome** et les **ions**, éléments 
 
 ⬅️ Séance précédente : [S10 – Évaluation type E2](../10_Evaluation2/)
 
-➡️ Séance suivante : [S12 – Stabilité chimique : lecture de Lewis](../12_Lewis/)
+➡️ Séance suivante : [S12 – Stabilité chimique : lecture de Lewis](../12_stabilite_chimique/)

@@ -124,6 +124,6 @@ Cette séance introduit les **interactions intermoléculaires** (liaisons hydrog
 
 ## 🔗 Navigation
 
-⬅️ Séance précédente : [S12 – Stabilité chimique : lecture de Lewis](../12_Lewis/)
+⬅️ Séance précédente : [S12 – Stabilité chimique : lecture de Lewis](../12_stabilite_chimique/)
 
-➡️ Séance suivante : [S14 – pH et cosmétiques](../14_pH/)
+➡️ Séance suivante : [S14 – pH et cosmétiques](../14_acide_base/)

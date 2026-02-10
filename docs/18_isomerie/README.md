@@ -152,9 +152,9 @@ Cette séance introduit l'**isomérie de constitution** : le fait que deux molé
 
 ## 🔗 Navigation
 
-⬅️ Séance précédente : [S17 – Représentations des molécules organiques](../17_representations_organiques/)
+⬅️ Séance précédente : [S17 – Représentations des molécules organiques](../17_representation_molecules/)
 
-➡️ Séance suivante : [S19 – Fonctions organiques](../19_fonctions_organiques/)
+➡️ Séance suivante : [S19 – Fonctions organiques](../19_fonctions_orga/)
 
 ---
 

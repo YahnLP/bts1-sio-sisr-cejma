@@ -139,4 +139,4 @@ Cette deuxième évaluation porte sur l'ensemble des **bases expérimentales et 
 
 ⬅️ Séance précédente : [S09 – Le pH](../09_pH/)
 
-➡️ Séance suivante : [S11 – Acides et bases (Bloc 2)](../11_Acides_bases/)
+➡️ Séance suivante : [S11 – Acides et bases (Bloc 2)](../11_atomes_ions/)

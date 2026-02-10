@@ -69,6 +69,6 @@ Séance hybride : **1h d'installation théorique** (titrage, équivalence, tampo
 
 ## 🔗 Navigation
 
-⬅️ Séance précédente : [S14 – Acido-basicité : couples, pKa et diagramme de prédominance](../14_acido_basicite/)
+⬅️ Séance précédente : [S14 – Acido-basicité : couples, pKa et diagramme de prédominance](../14_acide_base/)
 
-➡️ Séance suivante : [S16 – États de la matière, changements d'état et transferts thermiques](../16_etats_matiere/)
+➡️ Séance suivante : [S16 – États de la matière, changements d'état et transferts thermiques](../16_etat_matiere/)

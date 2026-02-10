@@ -120,7 +120,7 @@ Cette séance introduit les **trois modes de représentation** des molécules or
 
 ## 🔗 Navigation
 
-⬅️ Séance précédente : [S16 – États de la matière, changements d'état et transferts thermiques](../16_etats_matiere/)
+⬅️ Séance précédente : [S16 – États de la matière, changements d'état et transferts thermiques](../16_etat_matiere/)
 
 ➡️ Séance suivante : [S18 – Isomérie de constitution](../18_isomerie/)
 

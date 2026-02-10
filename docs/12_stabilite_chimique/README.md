@@ -126,6 +126,6 @@ Cette séance introduit les **représentations de Lewis** et la notion de **stab
 
 ## 🔗 Navigation
 
-⬅️ Séance précédente : [S11 – Structure de l'atome et ions](../11_Atome_Ions/)
+⬅️ Séance précédente : [S11 – Structure de l'atome et ions](../11_atomes_ions/)
 
 ➡️ Séance suivante : [S13 – Interactions et pénétration cutanée](../13_interaction_moleculaire/)
