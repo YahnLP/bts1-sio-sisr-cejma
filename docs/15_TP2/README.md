@@ -44,11 +44,9 @@ Séance hybride : **1h d'installation théorique** (titrage, équivalence, tampo
 
 ### 📘 Documents élève
 
-➡️ [Fiche élève 15a – Installation titrage et tampons (PDF)](15a_fiche_eleve.pdf)
+➡️ [Trace écrite 15a (PDF)](15a_trace_ecrite.pdf)
 
-➡️ [Trace écrite 15b (PDF)](15b_trace_ecrite.pdf)
-
-➡️ [TP2 – Protocole de manipulation (PDF)](02_TP.pdf)
+➡️ [TP2 – Protocole de manipulation (PDF)](15b_fiche_eleve.pdf)
 
 ### 🔧 Fiches méthode associées
 
