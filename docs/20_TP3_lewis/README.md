@@ -39,11 +39,8 @@ Cette séance est un **TP d'exploitation E2** qui synthétise les notions de S12
 
 ### 📘 Documents élève
 
-➡️ [Télécharger la fiche TP élève (PDF)](20_fiche_tp_eleve.pdf)
+➡️ [Télécharger la fiche TP élève (PDF)](20a_fiche_eleve.pdf)
 
-➡️ [Télécharger le corrigé (PDF)](20_corrige_tp.pdf)
-
-➡️ [Télécharger les instructions enseignant (PDF)](20_instructions_enseignant.pdf)
 
 ### 🔧 Fiches méthode associées
 
