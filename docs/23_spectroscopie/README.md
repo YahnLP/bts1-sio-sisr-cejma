@@ -45,22 +45,10 @@ Cette séance est de type **🧭 Culture appareils** : elle introduit les concep
 ➡️ [Fiche méthode 01 – Justifier une réponse scientifique (O.A.C.J.)](../Methodologie/01_fiche_methode/)
 
 ➡️ [Fiche méthode 02 – Calculer et interpréter (D.U.C.I.)](../Methodologie/02_fiche_methode/)
----
 
 
 
----
 
-## 📊 Structure de la séance
-
-| Phase | Contenu | Durée |
-|:-----:|---------|:-----:|
-| **1** | Accroche professionnelle (question cliente) | 10 min |
-| **2** | Ondes : définition et grandeurs (T, f, λ, c) | 30 min |
-| **3** | Spectre acoustique | 20 min |
-| **4** | Appareils US en esthétique + sécurité | 30 min |
-| **5** | Synthèse et entraînement filé | 20 min |
-| **6** | Auto-évaluation | 10 min |
 
 ---
 
