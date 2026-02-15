@@ -157,7 +157,7 @@ $$\boxed{pH = pK_a \Rightarrow \text{50\% AH et 50\% A⁻}}$$
    0    1    2    3     3,8  ▐  4    5    6    7    pH
                         pKa  ▐
                              ▐
-                        50/50
+                            50/50
 ```
 
 #### Lecture pratique
@@ -200,7 +200,7 @@ Une espèce **amphotère** (ou **ampholyte**) est une espèce qui peut se compor
 
 #### Autres exemples
 
-| Espèce amphotère | Peut être acide de… | Peut être base de… | Intérêt cosmétique |
+| Espèce amphotère | Rôle possible : acide (cède H⁺) | Rôle possible : base (capte H⁺) | Intérêt cosmétique |
 |:-:|:-:|:-:|:-:|
 | Ion hydrogénocarbonate HCO₃⁻ | HCO₃⁻ / CO₃²⁻ | H₂CO₃ / HCO₃⁻ | Tampon physiologique |
 | Acides aminés | –NH₃⁺ → –NH₂ + H⁺ | –COO⁻ + H⁺ → –COOH | Constituants de la kératine |
