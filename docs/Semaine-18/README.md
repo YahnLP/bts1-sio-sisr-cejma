@@ -1,4 +1,4 @@
-# 01 – ## Informations Générales
+# 01 – Informations Générales
 
 | **Champ** | **Détail** |
 |-----------|-----------|
