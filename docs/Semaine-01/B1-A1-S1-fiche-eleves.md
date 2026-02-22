@@ -1,12 +1,9 @@
-# Semaine 1 (S1) - BLOC 1
-## 🎓 Bienvenue en BTS SIO · Présentation · Métiers SISR · Positionnement
-
+---
+author: YLP
+title: 01 📚 Fiche élève
 ---
 
 # 📚 FICHE DE COURS ÉLÈVE
-## "Le BTS SIO · Les Métiers SISR · Le Portfolio"
-
-*Version 1.0 — BTS SIO SISR — Année 1 — Semaine 1*
 
 ---
 
