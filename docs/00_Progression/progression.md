@@ -128,4 +128,3 @@ Construire les compétences fondamentales de **CEJMA** en lien direct avec les r
 | Synthèse annuelle | S20 |
 
 ---
-```
