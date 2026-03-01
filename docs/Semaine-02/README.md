@@ -34,5 +34,6 @@
 | **B3.1** | Accompagner les utilisateurs dans la prise en main de leur équipement | Initiation |
 | **B3.3** | Participer à la gestion et au suivi d'un projet (comprendre son cadre contractuel) | Découverte |
 
-> 📌 **Contexte  :** Cette séance permet aux étudiant de **comprendre leur propre cadre de travail** en tant qu'apprentis ou futurs salariés de l'écosystème IT. Elle aborde les spécificités de la Convention Collective Syntec (majoritaire dans les ESN) et du portage salarial (statut émergent), en lien avec la **relation contractuelle client-prestataire** vue en S1. L'objectif est de leur donner les clés pour **lire et comprendre leur contrat**, identifier leurs droits et obligations, et anticiper les situations professionnelles qu'ils rencontreront.
+> 📌 **Contexte pédagogique :** Cette séance permet aux étudiant de **comprendre leur propre cadre de travail** en tant qu'apprentis ou futurs salariés de l'écosystème IT. Elle aborde les spécificités de la Convention Collective Syntec (majoritaire dans les ESN) et du portage salarial (statut émergent), en lien avec la **relation contractuelle client-prestataire** vue en S1. L'objectif est de leur donner les clés pour **lire et comprendre leur contrat**, identifier leurs droits et obligations, et anticiper les situations professionnelles qu'ils rencontreront.
+
 ---
