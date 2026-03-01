@@ -25,6 +25,8 @@
 
 ---
 
+## 🧠 Compétences travaillées
+
 | **Code** | **Intitulé** | **Niveau visé** |
 |----------|--------------|-----------------|
 | **B1.2** | Exploiter des référentiels, normes et standards adoptés par le prestataire informatique | Initiation |
