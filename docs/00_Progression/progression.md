@@ -1,123 +1,132 @@
+```markdown
 # 🛣️ Progression 
-## BTS SIO SISR – BLOC 3
-### Année 1 – Cybersécurité (20 semaines – 400h)
+## BTS SIO SISR – CEJMA
+### Année 1 – Culture Économique, Juridique et Managériale (20 semaines – 80h)
 
 ---
 
 ## 🎯 Objectif
 
-Construire les compétences fondamentales du **Bloc 3 – Cybersécurité** :
+Construire les compétences fondamentales de **CEJMA** en lien direct avec les réalités du métier SISR :
 
-- Identifier les menaces numériques courantes
-- Appliquer les bonnes pratiques d’hygiène informatique
-- Comprendre et appliquer le RGPD
-- Mettre en œuvre les premiers mécanismes de protection
-- Sécuriser les accès et les données
-- Analyser un incident de sécurité
-- Préparer progressivement l’épreuve E6 (analyse juridique et sécurité)
+- Comprendre l’écosystème numérique (acteurs, marchés, modèles économiques)
+- Identifier le cadre de travail (conventions, statuts, obligations)
+- Maîtriser les bases juridiques du numérique (charte, responsabilités, preuves)
+- Appliquer le RGPD et ses implications opérationnelles pour une organisation
+- Comprendre les enjeux de propriété intellectuelle et de licences logicielles
+- Développer une culture managériale et organisationnelle (support, ITIL, incidents)
+- Mettre en place une veille juridique structurée
+- S’entraîner à argumenter et produire des livrables professionnels (notes, analyses, synthèses)
 
 ---
 
 ## 🧩 Principes structurants
 
 - Logique constante :  
-  **Identifier la menace → Évaluer le risque → Mettre en place une mesure → Tester → Justifier**
-- Approche systématique par étude de cas
-- Lien constant entre technique et cadre légal
-- Documentation obligatoire des mesures de sécurité
-- Entraînement progressif à l’argumentation (E6)
+  **Identifier le besoin → qualifier le risque (juridique/éco/managérial) → proposer une mesure → justifier → formaliser**
+- Approche par situations professionnelles SISR (support, exploitation, conformité, incidents, documentation)
+- Production systématique d’un livrable “entreprise” (note, tableau, procédure, mini-dossier)
+- Réactivation régulière des notions (RGPD, responsabilité, preuve, organisation du support)
 
 ---
 
 ## 🧾 Légende
 
-- 🔎 Sensibilisation / Analyse
-- 🛠️ TP (mise en situation professionnelle)
-- 🧭 Entraînement E6 (formalisation juridique et argumentée)
+- 🔎 Apports / Analyse
+- 🛠️ Mise en situation (livrable pro)
+- 🧭 Entraînement argumenté (étude de cas, justification)
 - ✅ Évaluation
 - ⭐ Projet intégré
 
 ---
 
-# 🔵 PHASE 1 – Hygiène numérique & menaces (S1 à S5)
+# 🔵 PHASE 1 – Écosystème, cadre de travail & droit du numérique (S1 à S5)
 
-| Semaine | Situation professionnelle | Compétences Bloc 3 | Statut | Livrable attendu |
-|----------|--------------------------|--------------------|:------:|------------------|
-| S1 | Une PME subit un ransomware médiatisé | Identifier menaces (phishing, ransomware) | 🔎 | Fiche analyse attaque |
-| S2 | Sécuriser un poste utilisateur | Comprendre malware + importance mises à jour | 🛠️ | Checklist sécurisation poste |
-| S3 | Mettre en place une politique MDP | Mots de passe robustes + MFA | 🛠️ | Politique MDP argumentée |
-| S4 | Mettre en place une stratégie sauvegarde | Sauvegardes + règle 3-2-1 | 🛠️ | Schéma stratégie sauvegarde |
-| S5 | Identifier données personnelles dans l’entreprise | Notion donnée perso + acteurs RGPD | 🔎 | Tableau données personnelles |
-
----
-
-# 🟠 PHASE 2 – RGPD & droits d’accès (S6 à S10)
-
-| Semaine | Situation professionnelle | Compétences Bloc 3 | Statut | Livrable attendu |
-|----------|--------------------------|--------------------|:------:|------------------|
-| S6 | Concevoir un formulaire conforme RGPD | Collecte, consentement, transparence | 🛠️ | Formulaire conforme commenté |
-| S7 | Gérer durées de conservation | Durée, sécurisation, notification CNIL | 🛠️ | Tableau conservation |
-| S8 | Analyse d’un cas vidéosurveillance | RGPD travail + données salariés | 🧭 | Analyse juridique courte |
-| S9 | Étudier une violation de données | Obligation légale de sécurité | 🧭 | Rapport incident structuré |
-| S10 | Définir droits d’accès internes | Principe moindre privilège | ✅ | Matrice de droits validée |
+| Semaine | Situation professionnelle | Compétences CEJMA | Statut | Livrable attendu |
+|----------|--------------------------|------------------|:------:|------------------|
+| S1 | Comprendre “qui fait quoi” dans un projet IT (prestataire, DSI, éditeur) | Écosystème numérique : typologie des acteurs (ESN, DSI, éditeurs) | 🔎 | Carte des acteurs + définitions courtes (1 page) |
+| S2 | Clarifier le cadre contractuel d’un technicien (embauche, mission, portage) | Cadre de travail : Convention Syntec, portage salarial (bases) | 🛠️ | Fiche mémo : statuts + avantages/limites + vocabulaire |
+| S3 | Rédiger/faire respecter une charte informatique interne | Charte informatique : valeur juridique, droits/devoirs (utilisateur/admin) | 🛠️ | Mini-charte (10 règles) + justification de 3 règles |
+| S4 | Acheter du matériel : arbitrer coût, durée de vie, reconditionné | Économie du hardware : marché, obsolescence, reconditionnement pro | 🧭 | Note d’aide à la décision (neuf vs reconditionné) + critères |
+| S5 | Héberger un service : identifier les responsabilités (hébergeur/FAI/éditeur) | Droit des réseaux : neutralité du net ; responsabilité hébergeurs vs fournisseurs | 🔎 | Tableau “qui est responsable de quoi ?” + exemple concret |
 
 ---
 
-# 🟡 PHASE 3 – Cryptographie & sécurisation technique (S11 à S15)
+# 🟠 PHASE 2 – RGPD : conformité et obligations (S6 à S10)
 
-| Semaine | Situation professionnelle | Compétences Bloc 3 | Statut | Livrable attendu |
-|----------|--------------------------|--------------------|:------:|------------------|
-| S11 | Protéger un fichier sensible | Chiffrement symétrique (AES) | 🛠️ | Procédure chiffrement |
-| S12 | Évaluer un traitement de données | Méthode PIA (analyse d’impact) | 🛠️ | Mini-PIA rédigé |
-| S13 | Mettre en place un certificat | PKI, certificat X.509 | 🛠️ | Certificat généré + explication |
-| S14 | Sécuriser un accès distant | VPN concepts + asymétrique | 🔎 | Schéma tunnel sécurisé |
-| S15 | Protéger identité numérique | E-réputation + Secure Boot | 🔎 | Fiche sécurisation poste |
+| Semaine | Situation professionnelle | Compétences CEJMA | Statut | Livrable attendu |
+|----------|--------------------------|------------------|:------:|------------------|
+| S6 | L’entreprise collecte des données clients : “est-ce légal ?” | RGPD (1) : fondamentaux (donnée perso, traitement, consentement) | 🔎 | Glossaire RGPD + 5 exemples “donnée perso / non perso” |
+| S7 | Qui fait quoi dans une conformité RGPD ? | RGPD (2) : acteurs (DPO, responsable de traitement) | 🛠️ | Organigramme des rôles + responsabilités (1 page) |
+| S8 | Un salarié demande l’accès/suppression de ses données | RGPD (3) : droits des personnes (accès, oubli, portabilité) + implications | 🧭 | Procédure interne “répondre à une demande RGPD” (étapes + délais) |
+| S9 | Une faille expose des données : quelles obligations ? | Obligation légale de sécurité (Art. 32 RGPD) | 🧭 | Note “mesures minimales” + exemple de mesures techniques/orga |
+| S10 | Risque CNIL : mesurer l’impact et les sanctions | CNIL : contrôles et sanctions ; risques financiers | ✅ | Évaluation formative : mini-cas RGPD + questions structurées |
 
 ---
 
-# 🟢 PHASE 4 – Analyse, audit & préparation E6 (S16 à S20)
+# 🟡 PHASE 3 – Propriété intellectuelle, licences & preuve numérique (S11 à S15)
 
-| Semaine | Situation professionnelle | Compétences Bloc 3 | Statut | Livrable attendu |
-|----------|--------------------------|--------------------|:------:|------------------|
-| S16 | Analyser un incident via logs | Lecture logs sécurité | 🛠️ | Diagnostic argumenté |
-| S17 | ⭐ PROJET 1 – Sécuriser infra PME | GPO, HTTPS, sauvegardes | ⭐ | Mesures sécurité documentées |
-| S18 | Étude de cas type E6 | Analyse contexte + propositions | 🧭 | Étude de cas 2h |
-| S19 | Réaliser mini audit vulnérabilités | Identifier failles + correctifs | 🛠️ | Rapport audit court |
-| S20 | Examen blanc E6 | Argumentation juridique sécurité | ✅ | Copie évaluée |
+| Semaine | Situation professionnelle | Compétences CEJMA | Statut | Livrable attendu |
+|----------|--------------------------|------------------|:------:|------------------|
+| S11 | Réutiliser du code trouvé en ligne : “ai-je le droit ?” | Propriété intellectuelle : droit d’auteur appliqué au code et au logiciel | 🔎 | Fiche “ce que j’ai le droit de faire / pas faire” + exemples |
+| S12 | Déployer Windows/Office : comprendre le coût et les droits d’usage | Licences logicielles (1) : modèles propriétaires (CAL, OEM, volume) | 🛠️ | Tableau comparatif des modèles + cas “PME de 25 postes” |
+| S13 | Choisir une solution Open Source en entreprise | Licences (2) : Open Source (GPL, MIT, BSD) + Creative Commons | 🧭 | Note argumentée : choix d’une licence pour un projet + risques |
+| S14 | Prouver une action/incident : “un log vaut-il preuve ?” | Droit de la preuve : valeur des logs, signature électronique, horodatage | 🛠️ | Mini-procédure “conserver une preuve numérique” (bonnes pratiques) |
+| S15 | Usurpation d’identité / e-réputation d’un salarié : cadre & prévention | Identité numérique : e-réputation, usurpation, cadre e-IDAS | 🧭 | Étude de cas : risques + mesures de prévention (techniques/orga) |
+
+---
+
+# 🟢 PHASE 4 – Responsabilités, support/ITIL, incidents & veille (S16 à S20)
+
+| Semaine | Situation professionnelle | Compétences CEJMA | Statut | Livrable attendu |
+|----------|--------------------------|------------------|:------:|------------------|
+| S16 | Une négligence admin entraîne une intrusion : qui est responsable ? | Responsabilité de l’admin : responsabilité pénale (négligence/intrusion) | 🧭 | Analyse courte (1 page) : faits → responsabilités → mesures |
+| S17 | ⭐ Structurer un service support : qui traite quoi et comment ? | Management du support : ITIL, niveaux N1/N2/N3 | ⭐ | Dossier “organisation support” : rôles + workflow + indicateurs |
+| S18 | Gérer un incident : ticket, suivi, clôture, amélioration | Gestion d’incidents : formalisation des tickets, processus de résolution | 🛠️ | Modèle de ticket + procédure d’escalade + critères de clôture |
+| S19 | Se tenir à jour : RGPD, CNIL, cybersécurité, jurisprudence | Veille juridique : outils et méthodes de veille (sources, tri, diffusion) | 🛠️ | Plan de veille (sources + fréquence + format de restitution) |
+| S20 | Consolider l’année et relier aux situations vécues en alternance | Bilan A1 : synthèse des enjeux juridiques/éco/managériaux | ✅ | Évaluation de synthèse : mini-dossier (RGPD + licences + incident) |
 
 ---
 
 # 🏆 Attendus opérationnels fin Année 1
 
-## Compétences techniques
+## Compétences juridiques & économiques
 
-- Mettre en œuvre une politique de mots de passe
-- Appliquer une stratégie de sauvegarde
-- Comprendre et expliquer un chiffrement
-- Générer un certificat simple
-- Mettre en place une matrice de droits
-- Lire et interpréter des logs
-- Réaliser un mini audit sécurité
+- Identifier les acteurs du numérique et leurs responsabilités
+- Expliquer le cadre de travail (Syntec, portage) à un niveau opérationnel
+- Comprendre et exploiter une charte informatique (valeur juridique, obligations)
+- Appliquer les fondamentaux RGPD (définitions, rôles, droits, sécurité, CNIL)
+- Distinguer et choisir des licences (propriétaires / open source) en contexte entreprise
+- Comprendre la preuve numérique (logs, signature, horodatage)
 
-## Compétences professionnelles
+## Compétences managériales & professionnelles
 
-- Identifier un risque juridique
-- Argumenter une mesure de sécurité
-- Rédiger un rapport d’incident
-- Justifier une décision technique
-- Structurer une réponse type E6
+- Structurer un support (ITIL, N1/N2/N3) et formaliser un processus d’incident
+- Produire des livrables pro : notes, tableaux comparatifs, procédures, dossiers
+- Argumenter une mesure (conformité, sécurité, coût, responsabilité)
+- Mettre en place une veille juridique et la restituer
 
 ---
 
-# 📋 Correspondance Référentiel Bloc 3 ↔ Progression Année 1
+# 📋 Correspondance CEJMA ↔ Progression Année 1
 
-| Compétence référentiel | Séquences concernées |
-|------------------------|----------------------|
-| Sensibilisation aux menaces | S1 à S4 |
-| Application RGPD | S5 à S9 |
-| Gestion des droits d’accès | S10 |
-| Mise en œuvre protection cryptographique | S11 à S14 |
-| Analyse incident & audit | S16 à S19 |
-| Argumentation juridique (E6) | S8, S9, S18, S20 |
+| Thème CEJMA | Séquences concernées |
+|------------|----------------------|
+| Écosystème numérique / acteurs | S1 |
+| Cadre de travail / statuts | S2 |
+| Charte informatique / obligations | S3 |
+| Économie du hardware | S4 |
+| Droit des réseaux / responsabilités | S5 |
+| RGPD : bases, rôles, droits, sécurité, CNIL | S6 à S10 |
+| Propriété intellectuelle | S11 |
+| Licences logicielles (propriétaire / open source / CC) | S12, S13 |
+| Preuve numérique | S14 |
+| Identité numérique / e-IDAS | S15 |
+| Responsabilité admin | S16 |
+| ITIL / organisation support | S17 |
+| Gestion d’incidents | S18 |
+| Veille juridique | S19 |
+| Synthèse annuelle | S20 |
 
 ---
+```
