@@ -1,4 +1,4 @@
-# BLOC 3 - Cybersécurité - BTS SIO1
+# CEJMA - BTS SIO1
 
 **SUP'ADOUR - MFR de Pontonx**
 
@@ -11,72 +11,79 @@
 Bienvenue sur l'espace de ressources du BTS Services Informatique aux organisations Spécialité SISR.
 
 # 🔐 BTS SIO – Option SISR  
-## Bloc 3 : Cybersécurité — Année 1
+## CEJMA — Année 1
 
-> 🛡️ *Comprendre les menaces, appliquer les bonnes pratiques, sécuriser les données et respecter le cadre légal (RGPD).*
+> ⚖️ *Comprendre l’environnement économique, juridique et managérial des organisations pour agir en professionnel, argumenter ses choix et sécuriser ses pratiques dans un contexte numérique.*
 
 ---
 
-## 🎯 Objectifs de l’année 1 (Bloc 3)
+## 🎯 Objectifs de l’année 1 (CEJMA)
 
-En première année, l’objectif est de construire un **socle cybersécurité solide** :
+En première année, l’objectif est de construire un **socle CEJMA solide**, directement mobilisable dans les situations professionnelles SISR :
 
-- Adopter une **hygiène numérique** et des pratiques sûres (mots de passe, mises à jour, sauvegardes)
-- Comprendre les **menaces courantes** (malwares, phishing, ransomware…)
-- Maîtriser les **bases RGPD** : notions, acteurs, droits, obligations, violations
-- Développer une **culture sécurité** utile pour les projets d’infrastructure (réseau/systèmes) et les épreuves
+- Comprendre l’**écosystème des organisations** (acteurs, secteurs, ressources, décisions)
+- Analyser une situation économique simple : **besoin, coût, choix, contraintes**
+- Maîtriser les bases du **cadre juridique** de l’activité (contrats, responsabilité, preuve)
+- Comprendre les principes essentiels du **droit du numérique** (données, charte, identité, sécurité)
+- Appliquer les fondamentaux **RGPD** (données personnelles, rôles, droits, obligations, violations)
+- Identifier les logiques d’**organisation et de management** (services, processus, indicateurs)
+- Développer la capacité à **argumenter** : risque → règle → mesure → justification
+- Produire des **livrables professionnels** : note, tableau comparatif, procédure, mini-dossier
 
-> Référentiel de progression utilisé : colonne **“BLOC 3 – Cybersécurité (4h)”** du plan Année 1 (S1 → S20). :contentReference[oaicite:0]{index=0}
+> Référentiel de progression utilisé : colonne “CEJMA (A1)” du plan Année 1 (S1 → S20).
 
 ---
 
 ## 🗓️ Déroulé de l’année (Année 1) — Progression par semaines
 
-> Le tableau ci-dessous reprend **toutes les séances S1 à S20** de l’Année 1 pour le Bloc 3 Cybersécurité. :contentReference[oaicite:1]{index=1}
+> Le tableau ci-dessous reprend **toutes les séances S1 à S20** de l’Année 1 pour le module **CEJMA**.
 
-| Phase | Sem. | Thèmes / notions (Bloc 3) | Activités / productions attendues |
-|------:|:----:|----------------------------|-----------------------------------|
-| **Phase 1 – Découverte & fondamentaux** | **S1** | **Hygiène numérique** : 10 règles essentielles (ANSSI grand public). **Exemples d’attaques** : ransomware, phishing (cas médiatisés). | Mini-débat + repérage des risques ; fiche “10 règles” personnalisée. |
-|  | **S2** | **Menaces courantes** : virus, ver, trojan, ransomware, spyware (définitions + exemples). **Mises à jour** : OS/logiciels/antivirus, enjeux. | Carte mentale “menaces” + check-list de mise à jour poste. |
-|  | **S3** | **Mots de passe** : bonnes pratiques, gestionnaires. **Authentification** : ce que je sais / ce que j’ai / ce que je suis, **MFA**. | Atelier : évaluer des mots de passe + scénario MFA (pro/contraintes). |
-|  | **S4** | **Sauvegardes** : complète, différentielle, incrémentielle — **règle 3-2-1**. **Supports amovibles** : risques et bonnes pratiques. | Schéma de stratégie de sauvegarde d’une PME + politique USB. |
-|  | **S5** | **RGPD – Début MOOC CNIL** : donnée personnelle, acteurs, obligations. | Quiz + exemples : données perso dans un SI (classement). |
-| **Phase 2 – Services réseau, administration & RGPD** | **S6** | **RGPD – Module 2** : collecte, consentement, transparence. **Droits** : accès, rectification, opposition, portabilité. | Cas pratique : formulaire de collecte conforme / non conforme. |
-|  | **S7** | **RGPD – Module 3** : durées de conservation, sécurisation des données. **Violations** : notification CNIL, exemples. | Tableau “durées de conservation” + procédure simplifiée de notification. |
-|  | **S8** | **RGPD – Module 4** : travail & données perso, vidéosurveillance. **Cisco Cyber (début)** : Introduction à la cybersécurité (modules + quiz). | Synthèse “travail & RGPD” + lancement parcours Cisco (score quiz). |
-|  | **S9** | **Cisco Cyber (suite)** : modules en ligne + quiz. **RGPD – Étude de cas** : analyser une violation de données (mini-cas). | Compte rendu d’incident : faits / risques / obligations / actions. |
-|  | **S10** | **Cisco Cyber (validation)** : passage certification (ou validation interne). **Droits d’accès** : moindre privilège, matrice de droits. | Matrice de droits (service/ressource) + bilan parcours Cisco. |
-| **Phase 3 – Windows Server, services avancés & scripting** | **S11** | **Cryptographie symétrique** : principe, clé secrète, **AES**. **TP** : chiffrer/déchiffrer un fichier (openssl ou GPG). | Fiche procédure + démonstration (preuve chiffrement/déchiffrement). |
-|  | **S12** | **RGPD – PIA** : méthode d’analyse d’impact. **TP** : mini-PIA sur cas fictif. | Mini-PIA structuré : contexte / risques / mesures. |
-|  | **S13** | **Certificats numériques** : PKI, autorité de certification, **X.509**. **TP** : générer certificat auto-signé (openssl). | Certificat + explication usages/limites (auto-signé vs CA). |
-|  | **S14** | **VPN – concepts** : tunnelisation, types (site-à-site, nomade). **Asymétrique** : clé publique/privée (principes). | Schémas comparatifs VPN + synthèse asymétrique (cas d’usage). |
-|  | **S15** | **Identité numérique** : e-réputation, droit à l’image, pseudonymat. **Sécurité BIOS/UEFI** : Secure Boot, MDP firmware. | Check-list “poste sécurisé” + étude de cas identité numérique. |
-| **Phase 4 – Projet, certification & préparation épreuves** | **S16** | **Logs** : fichiers système/applicatif, Observateur Windows, /var/log. **TP** : lire/interpréter des logs, diagnostiquer. | Fiche méthode d’analyse de logs + mini diagnostic argumenté. |
-|  | **S17** | **Projet 1 (sécuriser l’infra)** : GPO, droits NTFS, sauvegardes, HTTPS. **Zones réseau** : LAN/DMZ/Internet (théorie appliquée). | Dossier “mesures de sécu” du projet : justification + preuves. |
-|  | **S18** | **Étude de cas E6 #1** : analyse contexte + propositions. Correction : méthodologie rédaction E6. | Production type E6 (2h) + grille d’auto-correction. |
-|  | **S19** | **Audit de vulnérabilités (intro)** : scans basiques, interprétation résultats. **Synthèse Bloc 3 A1** : RGPD + sécurité de base. | Rapport court d’audit : constats / risques / correctifs prioritaires. |
-|  | **S20** | (Consolidation globale en examens blancs – articulation avec E4/E5/E6 selon planning) | Bilan compétences Bloc 3 + axes de progrès A2. |
+| Phase | Sem. | Thèmes / notions (CEJMA) | Activités / productions attendues |
+|------:|:----:|---------------------------|-----------------------------------|
+| **Phase 1 – Découverte : organisations & cadre pro** | **S1** | **Organisation & environnement** : finalité, parties prenantes, ressources, décisions. | Étude d’une organisation (PME/collectivité) : carte des parties prenantes + enjeux SI. |
+|  | **S2** | **Économie (1)** : besoin, coût, budget, investissement vs charge, arbitrage. | Mini-cas : achat matériel/logiciel (tableau coûts) + recommandation argumentée. |
+|  | **S3** | **Droit (1)** : contrat, obligations, clauses simples ; confiance et engagements. | Analyse d’un contrat de service (extraits) : repérage des clauses clés + risques. |
+|  | **S4** | **Cadre de travail** : statuts, droits/devoirs, règlement intérieur. | Fiche mémo : droits/devoirs + situations “autorisé/interdit” (argumentation). |
+|  | **S5** | **Charte informatique** : valeur juridique, règles d’usage, sanction, traçabilité. | Rédaction d’une mini-charte (10 règles) + justification de 3 règles “incontournables”. |
+| **Phase 2 – Droit du numérique & RGPD (fondamentaux)** | **S6** | **RGPD (1)** : données personnelles, traitement, principes (finalité, minimisation). | Quiz + tri “donnée perso / non” + mini-cas “collecte conforme/non conforme”. |
+|  | **S7** | **RGPD (2)** : acteurs (responsable, sous-traitant, DPO) ; registre (idée). | Organigramme des rôles + tableau “qui fait quoi ?” (responsabilités). |
+|  | **S8** | **RGPD (3)** : droits des personnes (accès, rectification, opposition, oubli). | Procédure interne : répondre à une demande RGPD (étapes + délais + preuves). |
+|  | **S9** | **Sécurité & obligation** : confidentialité/intégrité/disponibilité ; mesures. | Note “mesures minimales” (techniques + organisationnelles) + priorisation. |
+|  | **S10** | **Violation de données** : notification, communication, risques & sanctions. | Compte rendu d’incident : faits → risques → obligations → actions correctives. |
+| **Phase 3 – Licences, responsabilité & preuve** | **S11** | **Propriété intellectuelle** : droit d’auteur, logiciel, réutilisation de code. | Fiche “je peux / je ne peux pas” + cas pratiques (GitHub, snippets, modèles). |
+|  | **S12** | **Licences (1)** : propriétaire (OEM, volume, CAL, abonnement) ; conformité. | Tableau comparatif + mini-cas : équiper une PME (choix licence + justification). |
+|  | **S13** | **Licences (2)** : Open Source (GPL, MIT, BSD) ; risques et obligations. | Note argumentée : choisir une solution open source + conditions de redistribution. |
+|  | **S14** | **Responsabilité** : civile/pénale ; négligence ; obligations en cas d’incident. | Étude de cas : “incident causé par une négligence” → responsabilités + mesures. |
+|  | **S15** | **Preuve numérique** : logs, traçabilité, conservation, chaîne de preuve (bases). | Procédure “conserver une preuve numérique” + exemple (log horodaté, capture, rapport). |
+| **Phase 4 – Management, organisation du support & synthèse** | **S16** | **Organisation du travail** : processus, rôles, indicateurs, documentation. | Construire un mini-processus (support) : étapes + documents + indicateurs. |
+|  | **S17** | **Management du support** : N1/N2/N3, communication, qualité de service. | Dossier “organisation support” : responsabilités + workflow + règles de communication. |
+|  | **S18** | **Gestion d’incidents** : ticketing, escalade, clôture, amélioration continue. | Modèle de ticket + procédure d’escalade + critères de clôture (SLA simplifié). |
+|  | **S19** | **Veille juridique & numérique** : sources, fiabilité, diffusion, synthèse. | Plan de veille (sources + fréquence + format) + 1 bulletin de veille (1 page). |
+|  | **S20** | **Évaluation de synthèse** : cas complet (éco + droit + managérial + RGPD). | Mini-dossier argumenté : diagnostic → risques → recommandations → justification. |
 
 ---
 
 ## 🧪 Évaluations (Année 1)
 
-- **Formatives** : quiz hygiène numérique, activités RGPD, productions (matrice de droits, mini-PIA, analyse de violation).
-- **Pratiques** : TP chiffrement (openssl/GPG), TP certificats (openssl), TP lecture de logs.
-- **Préparation E6** : **Étude de cas #1** + correction méthodologique (S18).
-- **Synthèse** : mini-audit de vulnérabilités + rapport (S19). :contentReference[oaicite:2]{index=2}
+- **Formatives** : quiz, exercices d’analyse (charte, RGPD, contrats), mini-cas argumentés.
+- **Pratiques** : procédures (demande RGPD, conservation preuve), comptes rendus d’incident, tableaux comparatifs.
+- **Méthodologiques** : argumentation structurée (fait → règle → risque → mesure → justification).
+- **Synthèse** : mini-dossier complet (S20) mobilisant économie + droit + management + numérique.
 
 ---
 
 ## 🧰 Livrables attendus (à conserver pour le portfolio)
 
-- Fiche “Hygiène numérique” + plan d’actions poste
-- Matrice de droits (moindre privilège)
-- Mini-PIA (analyse d’impact)
-- Procédures : chiffrement/déchiffrement, création certificat auto-signé
-- Analyse d’incident RGPD (violation) + actions correctives
-- Méthode d’analyse de logs + mini diagnostic
-- Rapport court d’audit (scan + interprétation + correctifs)
+- Carte des parties prenantes + enjeux SI (organisation étudiée)
+- Tableau coûts / recommandation (achat matériel/logiciel)
+- Analyse de clauses contractuelles (extraits) + risques associés
+- Mini-charte informatique (10 règles) + justifications
+- Procédure “répondre à une demande RGPD” (étapes + délais)
+- Compte rendu de violation de données (faits/risques/obligations/actions)
+- Tableaux comparatifs de licences (propriétaire vs open source)
+- Procédure “conserver une preuve numérique” (logs, traçabilité)
+- Dossier “organisation support” + workflow incident
+- Plan de veille + bulletin de veille (1 page)
 
 ---
 
@@ -84,10 +91,11 @@ En première année, l’objectif est de construire un **socle cybersécurité s
 
 | À faire régulièrement | Pourquoi |
 |---|---|
-| Appliquer hygiène numérique + mises à jour | Réduit fortement la surface d’attaque |
-| Documenter (procédures + preuves) | Indispensable en projet et pour les épreuves |
-| Raisonner “risque → mesure → justification” | Attendu en E6 (argumentation) |
-| Relier RGPD aux situations techniques | La conformité se prouve par des actions concrètes |
+| Raisonner **fait → règle → risque → mesure → justification** | C’est la base de l’argumentation professionnelle |
+| Toujours produire un livrable “entreprise” (clair, court, prouvable) | Valorise la compétence et sert de référence en projet |
+| Relier RGPD aux actions techniques concrètes (droits, sécurité, preuve) | La conformité se démontre, elle ne se déclare pas |
+| Comparer des options (coûts, risques, obligations) | CEJMA sert à décider, pas à réciter |
+| Faire une veille simple mais régulière | Les règles et pratiques évoluent (CNIL, jurisprudence, menaces) |
 
 ---
 
@@ -106,3 +114,4 @@ Formation professionnalisante orientée expertise technique, autonomie et réuss
 ✍️ YAHN LE PRETTRE
 
 </div>
+
