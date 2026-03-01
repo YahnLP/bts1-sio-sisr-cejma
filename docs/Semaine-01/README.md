@@ -2,40 +2,36 @@
 
 | **Champ** | **Détail** |
 |-----------|-----------|
-| **Semaine** | S1 — Année 1 |
-| **Bloc** | Bloc 3 — Cybersécurité des services informatiques |
+| **Semaine** | S1 — Début Année 1 |
+| **Bloc** | Bloc 1 - Support et mise à disposition de services informatiques |
 | **Durée totale** | 4 heures |
-| **Public** | Apprentis BTS SIO SISR — première semaine |
-| **Modalité** | Présentiel — salle de cours |
-| **Prérequis** | Aucun (séance d'introduction au BLOC 3) |
+| **Public** | Apprentis BTS SIO SISR — première semaine thématique |
+| **Modalité** | Présentiel — salle de cours + accès internet |
+| **Prérequis** | Aucun — séance d'introduction au monde professionnel IT |
 ---
 
 ## 🎯 Objectifs
 
-**Hygiène numérique :**
-- ✅ Définir l'**hygiène numérique** et son importance
-- ✅ Connaître et appliquer les **10 règles essentielles** du guide ANSSI
-- ✅ Identifier les **risques** liés aux mauvaises pratiques
+À l'issue de cette séance, l'apprenant sera capable de :
 
-**Menaces et attaques :**
-- ✅ Définir le **ransomware** et comprendre son mode opératoire
-- ✅ Définir le **phishing** (hameçonnage) et ses variantes
-- ✅ Analyser des **cas concrets** d'attaques médiatisées
-- ✅ Identifier les **signaux d'alerte** d'une tentative d'attaque
-
-**Posture sécurité :**
-- ✅ Adopter une **attitude critique** face aux emails et liens suspects
-- ✅ Comprendre le rôle du **facteur humain** dans la sécurité
+- ✅ **Définir** ce qu'est une ESN, une DSI et un éditeur de logiciels
+- ✅ **Identifier** les 3 grandes catégories d'acteurs de l'écosystème numérique
+- ✅ **Distinguer** les rôles, missions et modèles économiques de chaque type d'acteur
+- ✅ **Situer** son entreprise d'alternance dans cet écosystème
+- ✅ **Expliquer** les interactions typiques entre ces acteurs (exemple : DSI qui fait appel à une ESN)
+- ✅ **Comprendre** les enjeux de la relation client-fournisseur dans les services IT
+- ✅ **Produire** une fiche descriptive de son entreprise d'alternance pour son portfolio
 ---
 
 ## 🧠 Compétences travaillées
 
-| **Code** | **Intitulé de la compétence** | **Niveau visé** |
-|----------|-------------------------------|-----------------|
-| **B3.1** | Identifier les principales menaces de sécurité | Sensibilisation |
-| **B3.2** | Mettre en œuvre les mesures de sécurité de base | Sensibilisation |
+| **Code** | **Intitulé** | **Niveau visé** |
+|----------|--------------|-----------------|
+| **B1.1** | Recenser et identifier les ressources numériques | Découverte |
+| **B1.2** | Exploiter des référentiels, normes et standards adoptés par le prestataire informatique | Découverte |
+| **B3.1** | Accompagner les utilisateurs dans la prise en main de leur équipement | Initiation |
 
-> 📌 **S1 BLOC 3 est la séance d'introduction à la cybersécurité.** Elle pose les bases de l'hygiène numérique et sensibilise aux menaces réelles (ransomware, phishing) par des cas concrets médiatisés. Cette première séance doit être **percutante et accessible** pour capter l'attention des apprenants, même ceux sans background sécurité.
+> 📌 **Contexte pédagogique :** Cette séance pose les fondations de la compréhension de l'écosystème professionnel dans lequel évolueront les futurs techniciens SISR. Elle permet aux apprenants de **situer leur entreprise d'alternance** dans le paysage IT, de comprendre les interactions entre acteurs, et d'identifier les enjeux de **la relation client-prestataire** qui structurera leur pratique professionnelle pendant 2 ans.
 
 ---
 

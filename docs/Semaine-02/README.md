@@ -2,40 +2,35 @@
 
 | **Champ** | **Détail** |
 |-----------|-----------|
-| **Semaine** | S3 — Année 1 |
-| **Bloc** | Bloc 3 — Cybersécurité des services informatiques |
+| **Semaine** | S2 — Année 1 |
+| **Bloc** | Bloc 1 - Support et mise à disposition de services informatiques |
 | **Durée totale** | 4 heures |
-| **Public** | Apprentis BTS SIO SISR — troisième semaine |
-| **Modalité** | Présentiel — salle de cours + TP |
-| **Prérequis** | S1 BLOC 3 (règle 1 mots de passe robustes, règle 6 2FA) |
+| **Public** | Apprentis BTS SIO SISR — deuxième semaine thématique |
+| **Modalité** | Présentiel — salle de cours + accès aux contrats d'alternance |
+| **Prérequis** | S1 validée (connaissance de l'écosystème : DSI, ESN, éditeurs) |
 
 ---
 
 ## 🎯 Objectifs
 
-**Mots de passe :**
-- ✅ Comprendre le concept d'**entropie** (force mathématique d'un mot de passe)
-- ✅ Calculer le **temps de craquage** selon la longueur et la complexité
-- ✅ Identifier les **attaques** sur mots de passe (brute force, dictionnaire, rainbow tables)
-- ✅ Appliquer les **bonnes pratiques** (longueur, complexité, unicité)
-- ✅ Utiliser un **gestionnaire de mots de passe** (Bitwarden, KeePass)
+À l'issue de cette séance, l'apprenant sera capable de :
 
-**Authentification multi-facteurs :**
-- ✅ Définir les **3 facteurs d'authentification** (ce que je sais, ce que j'ai, ce que je suis)
-- ✅ Distinguer **2FA** et **MFA**
-- ✅ Comprendre les **types de facteurs** (SMS, app, clé physique, biométrie)
-- ✅ Évaluer la **sécurité** de chaque type
-- ✅ Configurer la **2FA** sur des services réels (Gmail, GitHub, etc.)
+- ✅ **Identifier** sa convention collective applicable (Syntec ou autre)
+- ✅ **Expliquer** les spécificités de la Convention Syntec (classifications, congés, primes, forfait jours)
+- ✅ **Distinguer** les différents statuts de travail dans l'IT (CDI, CDD, intérim, portage salarial, freelance)
+- ✅ **Comprendre** le principe et le fonctionnement du portage salarial
+- ✅ **Lire** son propre contrat d'alternance et identifier les clauses clés
+- ✅ **Calculer** un salaire brut/net simple (avec charges sociales)
+- ✅ **Produire** une fiche d'analyse de son contrat d'alternance pour son portfolio
 
 ---
 
-## 🧠 Compétences travaillées
+| **Code** | **Intitulé** | **Niveau visé** |
+|----------|--------------|-----------------|
+| **B1.2** | Exploiter des référentiels, normes et standards adoptés par le prestataire informatique | Initiation |
+| **B1.4** | Identifier et caractériser les incidents et les problèmes | Découverte |
+| **B3.1** | Accompagner les utilisateurs dans la prise en main de leur équipement | Initiation |
+| **B3.3** | Participer à la gestion et au suivi d'un projet (comprendre son cadre contractuel) | Découverte |
 
-| **Code** | **Intitulé de la compétence** | **Niveau visé** |
-|----------|-------------------------------|-----------------|
-| **B3.2** | Mettre en œuvre les mesures de sécurité de base | Maîtrise |
-| **B3.1** | Identifier les principales menaces de sécurité | Acquisition |
-
-> 📌 **S3 BLOC 3 approfondit la première ligne de défense : l'authentification.** Elle détaille la science des mots de passe robustes (entropie, attaques), présente les gestionnaires comme solution pragmatique, et introduit l'authentification multi-facteurs (MFA) comme couche de sécurité indispensable. C'est une séance **très pratique** avec configuration réelle de 2FA.
-
+> 📌 **Contexte  :** Cette séance permet aux étudiant de **comprendre leur propre cadre de travail** en tant qu'apprentis ou futurs salariés de l'écosystème IT. Elle aborde les spécificités de la Convention Collective Syntec (majoritaire dans les ESN) et du portage salarial (statut émergent), en lien avec la **relation contractuelle client-prestataire** vue en S1. L'objectif est de leur donner les clés pour **lire et comprendre leur contrat**, identifier leurs droits et obligations, et anticiper les situations professionnelles qu'ils rencontreront.
 ---
