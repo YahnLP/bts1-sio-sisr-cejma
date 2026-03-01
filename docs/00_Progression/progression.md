@@ -1,6 +1,6 @@
 # 🛣️ Progression 
 ## BTS SIO SISR – CEJMA
-### Année 1 – Culture Économique, Juridique et Managériale (20 semaines – 80h)
+### Année 1 – Culture Économique, Juridique et Managériale appliquée (20 semaines – 80h)
 
 ---
 
