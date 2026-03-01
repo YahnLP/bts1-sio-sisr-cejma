@@ -8,7 +8,7 @@
 
 Construire les compétences fondamentales de **CEJMA** en lien direct avec les réalités du métier SISR :
 
-- Comprendre l’écosystème numérique (acteurs, marchés, modèles économiques)
+- Comprendre l’écosystème numérique (acteurs, marchés, modèles économiques )
 - Identifier le cadre de travail (conventions, statuts, obligations)
 - Maîtriser les bases juridiques du numérique (charte, responsabilités, preuves)
 - Appliquer le RGPD et ses implications opérationnelles pour une organisation
