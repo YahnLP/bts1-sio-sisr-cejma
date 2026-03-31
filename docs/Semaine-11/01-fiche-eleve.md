@@ -5,506 +5,566 @@ title: 📚 FICHE DE COURS
 
 
 # 📚 FICHE DE COURS ÉLÈVE
-## "Cryptographie Symétrique · Objectifs · Principe · AES"
+## Propriété Intellectuelle : Le Droit d'Auteur Appliqué au Code et au Logiciel
 
 *Version 1.0 — BTS SIO SISR — Année 1 — Semaine 11*
 
 ---
 
-## 🎯 Compétences Travaillées
+## 🎯 Objectifs de Cette Fiche
 
-| **Code** | **Compétence** |
-|----------|---------------|
-| **B3.2** | Mettre en œuvre les mesures de sécurité de base |
-| **B3.5** | Mettre en œuvre des mécanismes de chiffrement |
-
----
-
-## PARTIE I — Cryptographie : Définitions et Objectifs
-
-### I.A. Définitions
-
-```
-   VOCABULAIRE FONDAMENTAL
-   ═══════════════════════════════════════════════════════════════
-
-   CRYPTOGRAPHIE
-   ──────────────────────────────────────────────────────────────
-   Science de la protection de l'information par transformation
-   mathématique.
-
-   Du grec : kruptos (caché) + graphein (écrire)
-   → "L'art d'écrire de manière cachée"
-
-   CHIFFREMENT (Encryption)
-   ──────────────────────────────────────────────────────────────
-   Transformation d'un message lisible (clair) en message illisible
-   (chiffré) à l'aide d'un algorithme et d'une clé.
-
-   Texte clair (plaintext)  + Clé → Texte chiffré (ciphertext)
-
-   DÉCHIFFREMENT (Decryption)
-   ──────────────────────────────────────────────────────────────
-   Opération inverse : Retrouver le texte clair à partir du
-   texte chiffré en utilisant la clé appropriée.
-
-   ⚠️ NE PAS CONFONDRE :
-   ──────────────────────────────────────────────────────────────
-   CHIFFREMENT   : Transformation avec clé (réversible avec clé)
-   HACHAGE       : Empreinte numérique SANS clé (irréversible)
-   ENCODAGE      : Représentation alternative (Base64, UTF-8)
-                   → PAS de sécurité ! (réversible sans clé)
-
-   Exemples :
-   Base64 de "Bonjour" = "Qm9uam91cg==" → Décodable par n'importe qui
-   SHA-256 de "Bonjour" = "58bdf..." → Impossible à inverser
-   AES-256 de "Bonjour" = "x4Kp..." → Réversible avec la bonne clé
-```
+À la fin de ce cours, vous serez capable de :
+- ✅ Définir le droit d'auteur et ses composantes (moral et patrimonial)
+- ✅ Expliquer la protection juridique du code source et des logiciels
+- ✅ Distinguer logiciel propriétaire, libre, open source, freeware
+- ✅ Identifier les principales licences open source et leurs implications
+- ✅ Comprendre vos droits en tant que développeur salarié
+- ✅ Reconnaître et éviter la contrefaçon de code
 
 ---
 
-### I.B. Les 4 Objectifs de la Cryptographie
+## 📖 PARTIE I — Les Fondements du Droit d'Auteur
 
-```
-   LES 4 SERVICES DE SÉCURITÉ CRYPTOGRAPHIQUES
-   ═══════════════════════════════════════════════════════════════
+### I.A. Définition et Principes
 
-   ① CONFIDENTIALITÉ
-   ──────────────────────────────────────────────────────────────
-   Garantir que seules les personnes autorisées peuvent lire
-   les données.
+Le **droit d'auteur** est un droit de **propriété intellectuelle** qui protège les **œuvres de l'esprit**.
 
-   Outil : Chiffrement (AES, RSA...)
-   Exemple : Vos messages WhatsApp sont chiffrés de bout en bout
-             → Meta/Facebook NE PEUT PAS les lire
+**Base légale :** Code de la Propriété Intellectuelle (CPI), articles L111-1 et suivants.
 
-   ② INTÉGRITÉ
-   ──────────────────────────────────────────────────────────────
-   Garantir que les données n'ont pas été modifiées (ni par
-   erreur, ni malicieusement).
+**Principe fondamental (art. L111-1) :**
+> *"L'auteur d'une œuvre de l'esprit jouit sur cette œuvre, du seul fait de sa création, d'un droit de propriété incorporelle exclusif et opposable à tous."*
 
-   Outil : Fonctions de hachage (SHA-256, SHA-3)
-   Exemple : Télécharger Ubuntu et vérifier le hash SHA-256
-             → Si le hash correspond → Fichier non altéré
+**En clair :** Dès que vous créez une œuvre originale (texte, musique, code...), vous en êtes automatiquement propriétaire. **Pas besoin de dépôt, d'enregistrement ou de formalité.**
 
-   ③ AUTHENTICITÉ (Non-répudiation)
-   ──────────────────────────────────────────────────────────────
-   Garantir l'identité de l'émetteur et qu'il ne peut pas
-   nier avoir envoyé le message.
+### I.B. Les Deux Composantes du Droit d'Auteur
 
-   Outil : Signature numérique (RSA + Hash)
-   Exemple : Un email signé numériquement prouve que c'est
-             bien Jean Dupont qui l'a envoyé
+Le droit d'auteur se divise en **2 catégories de droits** :
 
-   ④ DISPONIBILITÉ
-   ──────────────────────────────────────────────────────────────
-   Garantir l'accès aux données quand on en a besoin.
-   → Lié aux clés : Si la clé est perdue → Données inaccessibles
-   → C'est pourquoi la gestion des clés est critique
-```
+#### 1. Le Droit Moral (art. L121-1)
 
----
+**Définition :** Droits **personnels** de l'auteur, liés à sa personne.
 
-## PARTIE II — Le Chiffrement Symétrique
+**Caractéristiques :**
+- ⚠️ **Perpétuel** : ne s'éteint jamais (même après la mort)
+- ⚠️ **Inaliénable** : ne peut pas être vendu ou cédé
+- ⚠️ **Imprescriptible** : ne disparaît jamais par le temps
 
-### II.A. Principe Fondamental
+**Les 4 prérogatives du droit moral :**
 
-```
-   CHIFFREMENT SYMÉTRIQUE
-   ═══════════════════════════════════════════════════════════════
+| **Droit** | **Signification** | **Exemple Code** |
+|---|---|---|
+| **Divulgation** | Décider si et quand publier l'œuvre | Choisir de publier ou non son code sur GitHub |
+| **Paternité** | Être reconnu comme auteur | Exiger que son nom apparaisse dans les crédits |
+| **Respect de l'œuvre** | Interdire les modifications qui dénaturent | Interdire de modifier son code de manière inappropriée |
+| **Retrait** | Retirer l'œuvre (avec indemnisation) | Retirer son code d'un projet (rare, coûteux) |
 
-   DÉFINITION
-   ──────────────────────────────────────────────────────────────
-   La MÊME clé secrète sert à chiffrer ET à déchiffrer.
+#### 2. Les Droits Patrimoniaux (art. L122-1)
 
-   SCHÉMA
-   ──────────────────────────────────────────────────────────────
+**Définition :** Droits **économiques** permettant d'exploiter l'œuvre.
 
-   Alice                               Bob
-     │                                   │
-     │   Texte clair : "Réunion 14h"     │
-     │                                   │
-     │   Clé secrète : "X7k#P2mQ"       │
-     │         ↓                         │
-     │   [AES-256]                       │
-     │         ↓                         │
-     │   Chiffré : "Kx9pL3vR..."        │
-     │                                   │
-     │ ══════ Canal non sécurisé ══════► │
-     │         (Internet, email...)      │
-     │                                   │
-     │                             Clé secrète : "X7k#P2mQ"
-     │                                   │
-     │                             [AES-256 inverse]
-     │                                   │
-     │                             "Réunion 14h" ✅
+**Caractéristiques :**
+- ✅ **Temporaires** : durent 70 ans après la mort de l'auteur
+- ✅ **Cessibles** : peuvent être vendus, cédés, licenciés
+- ✅ **Prescriptibles** : disparaissent après un certain délai
 
-   CONDITION : Alice et Bob DOIVENT avoir la même clé
-   PROBLÈME : Comment se transmettre la clé de façon sécurisée ?
-              → C'est le "problème de l'échange de clé"
-              → Résolu par la cryptographie asymétrique (S12)
-```
+**Les 2 droits patrimoniaux principaux :**
 
----
+| **Droit** | **Signification** | **Exemple Code** |
+|---|---|---|
+| **Reproduction** | Copier, dupliquer l'œuvre | Copier du code, compiler un logiciel |
+| **Représentation** | Communiquer l'œuvre au public | Publier sur GitHub, déployer sur un serveur |
 
-### II.B. Chiffrement par Bloc vs Chiffrement par Flux
+> 💡 **Important pour les développeurs :** Les **droits patrimoniaux** sont souvent **cédés à l'employeur** par le contrat de travail. Mais le **droit moral** reste toujours à l'auteur.
 
-```
-   DEUX FAMILLES DE CHIFFREMENT SYMÉTRIQUE
-   ═══════════════════════════════════════════════════════════════
+### I.C. Durée de Protection
 
-   CHIFFREMENT PAR BLOC (Block Cipher)
-   ──────────────────────────────────────────────────────────────
-   Principe : Les données sont découpées en blocs de taille fixe,
-              chaque bloc est chiffré indépendamment (ou en chaîne).
+**Durée générale :**
+- **70 ans** après la mort de l'auteur (art. L123-1)
+- Ensuite, l'œuvre entre dans le **domaine public** (libre d'utilisation)
 
-   Taille de bloc typique : 128 bits (16 octets)
+**Exemples :**
+- Code écrit par un développeur décédé en 2024 → protégé jusqu'en 2094
+- Shakespeare (mort en 1616) → domaine public depuis 1686
 
-   Exemple : "Bonjour tout le monde !"
-   → Bloc 1 : "Bonjour t"   (16 octets)
-   → Bloc 2 : "out le mon"  (16 octets)
-   → Bloc 3 : "de !"        (4 octets + padding)
+**Exception : œuvres collectives**
+- 70 ans après publication (pour les logiciels développés en équipe par une entreprise)
 
-   Algorithmes : AES, DES, 3DES, Blowfish
-   Usage : Chiffrement fichiers, disques, BDD
+### I.D. Conditions de Protection
 
-   CHIFFREMENT PAR FLUX (Stream Cipher)
-   ──────────────────────────────────────────────────────────────
-   Principe : Génère un flux pseudo-aléatoire de bits (keystream)
-              et les XOR avec les données bit par bit (ou octet par octet).
+Pour être protégée, une œuvre doit être :
 
-   Analogie : Un masque unique de la même longueur que le message.
+1. **Originale** : refléter la personnalité de l'auteur (choix créatifs)
+2. **Mise en forme** : concrétisée, pas juste une idée
 
-   Algorithmes : RC4 (obsolète), ChaCha20, Salsa20
-   Usage : Communications temps réel (TLS, streaming vidéo)
+**Pour le code source :**
+- ✅ **Protégé** : la manière dont le code est écrit (syntaxe, structure, algorithmes originaux)
+- ❌ **Non protégé** : les fonctionnalités (idées), les algorithmes standards, les langages de programmation
 
-   COMPARAISON
-   ──────────────────────────────────────────────────────────────
-                    │ Bloc              │ Flux
-   ─────────────────┼───────────────────┼────────────────────
-   Traitement       │ Par blocs         │ Bit par bit
-   Vitesse          │ Un peu plus lent  │ Très rapide
-   Erreur           │ Contenue au bloc  │ Peut se propager
-   Parallélisable   │ Oui (certains)    │ Non (en général)
-   Usage typique    │ Fichiers, BDD     │ Streaming, VoIP
-```
+**Exemple :**
+- ✅ Protégé : Votre implémentation originale d'un algorithme de tri
+- ❌ Non protégé : L'idée de trier des données, l'algorithme quicksort lui-même (domaine public)
 
 ---
 
-## PARTIE III — AES : Advanced Encryption Standard
+![Schéma du droit d'auteur : au centre "Œuvre originale", à gauche "Droit moral" (perpétuel, inaliénable : paternité, respect, divulgation, retrait), à droite "Droits patrimoniaux" (70 ans, cessibles : reproduction, représentation)]
 
-### III.A. Histoire et Adoption
-
-```
-   GENÈSE DE L'AES
-   ═══════════════════════════════════════════════════════════════
-
-   1977 : DES adopté par le NIST (National Institute of Standards
-          and Technology — USA)
-          Clé : 56 bits
-
-   1999 : DES cassé en 22h par EFF DES Cracker
-          → DES obsolète, 3DES en attendant
-
-   1997 : NIST lance un concours mondial pour DES successor
-          → 15 algorithmes candidats de 12 pays différents
-
-   2001 : AES adopté — Algorithme gagnant : RIJNDAEL
-          Conçu par Joan Daemen et Vincent Rijmen (Belgique)
-
-   Critères de sélection :
-   → Sécurité maximale
-   → Efficacité (matériel et logiciel)
-   → Simplicité d'implémentation
-   → Flexibilité (tailles de clé)
-
-   AUJOURD'HUI (2025)
-   ──────────────────────────────────────────────────────────────
-   AES est l'algorithme de chiffrement symétrique standard mondial.
-   → Milliards d'opérations AES par seconde sur votre smartphone
-   → Instructions matérielles dédiées : AES-NI (Intel/AMD depuis 2010)
-   → Utilisé partout : HTTPS, VPN, WiFi, stockage, messagerie...
-```
+*Légende : Les deux composantes du droit d'auteur*
 
 ---
 
-### III.B. Caractéristiques d'AES
+## 📖 PARTIE II — Le Code Source et les Logiciels
 
-```
-   PARAMÈTRES FONDAMENTAUX D'AES
-   ═══════════════════════════════════════════════════════════════
+### II.A. Protection Juridique du Code Source
 
-   TAILLE DU BLOC : 128 bits (fixe)
-   ──────────────────────────────────────────────────────────────
-   AES traite TOUJOURS des blocs de 128 bits (16 octets)
-   → Quelle que soit la taille de la clé
+**Base légale :** Article L112-2 CPI, alinéa 13 :
+> *"Sont considérés notamment comme œuvres de l'esprit [...] les logiciels, y compris le matériel de conception préparatoire."*
 
-   TAILLES DE CLÉ : 128, 192 ou 256 bits
-   ──────────────────────────────────────────────────────────────
-   AES-128 : Clé de 128 bits → 10 tours de transformation
-   AES-192 : Clé de 192 bits → 12 tours de transformation
-   AES-256 : Clé de 256 bits → 14 tours de transformation
+**Conséquence :** Le code source est protégé **comme une œuvre littéraire** (au même titre qu'un livre ou un poème).
 
-   → Plus la clé est longue, plus il y a de tours → Plus sécurisé
-   → AES-128 est déjà considéré sûr pour 2025
-   → AES-256 est recommandé pour données ultra-sensibles
-     et résistant aux futurs ordinateurs quantiques
+**Ce qui est protégé :**
+- ✅ Le code source (fichiers .py, .js, .java...)
+- ✅ Le code objet (compilé, binaire)
+- ✅ La documentation technique
+- ✅ Les maquettes (wireframes, mockups)
+- ✅ Les bases de données (si structure originale)
 
-   NOMBRE DE COMBINAISONS DE CLÉ
-   ──────────────────────────────────────────────────────────────
-   AES-128 : 2^128  ≈ 340 000 milliards de milliards de milliards de milliards
-   AES-256 : 2^256  ≈ 115 quattuorvigintillions
-             (un 1 suivi de 77 zéros)
+**Ce qui n'est PAS protégé :**
+- ❌ Les fonctionnalités (idées)
+- ❌ Les langages de programmation (Python, Java sont libres)
+- ❌ Les algorithmes standards (tri, recherche...)
+- ❌ Les interfaces (débat : Oracle vs Google sur les API Java)
 
-   Pour casser AES-256 par force brute :
-   → Supposons 1 milliard de milliards de milliards de tentatives/s
-   → Durée : ≈ 10^44 ans
-   → Âge de l'univers : 1,38 × 10^10 ans
-   → AES-256 : 10^34 fois l'âge de l'univers → Inattaquable
-```
+### II.B. Droits du Développeur Salarié (art. L113-9 CPI)
 
----
+**Règle générale :** Les droits patrimoniaux sur le code écrit par un **salarié** dans le cadre de son travail sont **automatiquement cédés à l'employeur**.
 
-### III.C. Fonctionnement d'AES (Conceptuel)
+**Texte de loi (L113-9) :**
+> *"Sauf dispositions statutaires ou stipulations contraires, les droits patrimoniaux sur les logiciels et leur documentation créés par un ou plusieurs employés dans l'exercice de leurs fonctions [...] sont dévolus à l'employeur qui est seul habilité à les exercer."*
 
-```
-   AES — FONCTIONNEMENT CONCEPTUEL
-   ═══════════════════════════════════════════════════════════════
+**En clair :**
 
-   STRUCTURE GÉNÉRALE
-   ──────────────────────────────────────────────────────────────
-   AES traite un bloc de 128 bits (4×4 octets = matrice d'état)
-   et lui applique N tours de 4 transformations successives.
+| **Situation** | **Propriétaire des Droits** |
+|---|---|
+| Code écrit **pendant les heures de travail** | ✅ Employeur |
+| Code écrit **avec les moyens de l'entreprise** (PC pro, outils pro) | ✅ Employeur |
+| Code lié aux **missions professionnelles** | ✅ Employeur |
+| Code écrit **chez soi, le soir, sur projet perso, sans lien avec le travail** | ✅ Vous (sauf clause contraire) |
 
-   LA MATRICE D'ÉTAT (State)
-   ──────────────────────────────────────────────────────────────
-   Le bloc de 128 bits est organisé en matrice 4×4 octets :
+**Attention aux clauses contractuelles :**
+- **Clause de cession étendue** : cède TOUS vos développements, même persos → à négocier !
+- **Clause de non-concurrence** : interdit de travailler pour un concurrent → limite vos projets persos
 
-   ┌────┬────┬────┬────┐
-   │ b0 │ b4 │ b8 │b12 │
-   ├────┼────┼────┼────┤
-   │ b1 │ b5 │ b9 │b13 │
-   ├────┼────┼────┼────┤
-   │ b2 │ b6 │b10 │b14 │
-   ├────┼────┼────┼────┤
-   │ b3 │ b7 │b11 │b15 │
-   └────┴────┴────┴────┘
+**Cas particulier : fonctionnaires**
+- Statut encore plus restrictif : l'État est propriétaire de TOUTES les créations (même hors service)
 
-   Les 4 TRANSFORMATIONS par tour :
-   ──────────────────────────────────────────────────────────────
+### II.C. Le Droit Moral du Développeur Salarié
 
-   ① SubBytes (Substitution)
-   ──────────────────────────────────────────────────────────────
-   Chaque octet est remplacé par un autre selon une table de
-   substitution (S-Box).
+**Particularité du logiciel :** Le droit moral du développeur salarié est **fortement limité** (art. L121-7 CPI).
 
-   Analogie : Comme un code secret où chaque lettre est
-              remplacée par une autre selon un tableau prédéfini.
+**En pratique :**
+- ❌ Pas de droit de retrait (l'employeur garde le code)
+- ⚠️ Droit de paternité limité (l'employeur peut ne pas citer les développeurs)
+- ⚠️ Droit au respect limité (l'employeur peut modifier le code sans demander)
 
-   But : Confusion — Rendre la relation clé↔chiffré non linéaire.
+> 💡 **Pourquoi ?** Pour des raisons économiques : une entreprise doit pouvoir exploiter, modifier, maintenir les logiciels sans demander l'autorisation de chaque développeur qui a contribué.
 
-   ② ShiftRows (Décalage de lignes)
-   ──────────────────────────────────────────────────────────────
-   Chaque ligne de la matrice est décalée circulairement :
-   • Ligne 0 : Pas de décalage
-   • Ligne 1 : Décalage de 1 octet vers la gauche
-   • Ligne 2 : Décalage de 2 octets vers la gauche
-   • Ligne 3 : Décalage de 3 octets vers la gauche
+### II.D. Preuve de l'Antériorité
 
-   But : Diffusion — Mélanger les octets entre les colonnes.
+**Problème :** Comment prouver que vous êtes l'auteur d'un code en cas de litige ?
 
-   ③ MixColumns (Mélange de colonnes)
-   ──────────────────────────────────────────────────────────────
-   Chaque colonne est multipliée par une matrice fixe (algèbre
-   de corps de Galois GF(2^8)).
+**Solutions :**
 
-   Analogie : Mélanger les ingrédients d'une recette —
-              Chaque élément influence tous les autres.
+| **Méthode** | **Coût** | **Valeur Juridique** |
+|---|:---:|:---:|
+| **Enveloppe Soleau** (INPI) | 15 € | ⭐⭐⭐ Forte |
+| **Dépôt chez APP** (Agence Protection Programmes) | 45 €/an | ⭐⭐⭐ Forte |
+| **Commit Git avec horodatage** | Gratuit | ⭐⭐ Moyenne |
+| **Email à soi-même (non ouvert)** | Gratuit | ⭐ Faible |
+| **Huissier de justice** | 200-500 € | ⭐⭐⭐⭐ Très forte |
 
-   But : Diffusion maximale — 1 bit modifié → 128 bits différents.
-
-   ④ AddRoundKey (Ajout de la sous-clé)
-   ──────────────────────────────────────────────────────────────
-   Le résultat est XORé avec une sous-clé dérivée de la clé
-   principale (Key Schedule).
-
-   XOR : 0 XOR 0 = 0 | 0 XOR 1 = 1 | 1 XOR 0 = 1 | 1 XOR 1 = 0
-
-   But : Mélanger les données avec la clé secrète.
-
-   STRUCTURE COMPLÈTE (AES-128 = 10 tours)
-   ──────────────────────────────────────────────────────────────
-
-   Données claires
-       │
-   AddRoundKey (Tour 0)
-       │
-       ▼
-   ┌─────────────────────────────┐  × 9 tours
-   │  SubBytes                   │
-   │  ShiftRows                  │
-   │  MixColumns                 │
-   │  AddRoundKey                │
-   └─────────────────────────────┘
-       │
-   ┌─────────────────────────────┐  Tour final (sans MixColumns)
-   │  SubBytes                   │
-   │  ShiftRows                  │
-   │  AddRoundKey                │
-   └─────────────────────────────┘
-       │
-   Données chiffrées ✅
-```
+**Recommandation pour projets importants :** Enveloppe Soleau ou dépôt APP.
 
 ---
 
-### III.D. Les Modes Opératoires
+## 📖 PARTIE III — Les Licences Logicielles
 
-**Le problème :** AES chiffre 1 bloc de 128 bits. Mais un fichier fait souvent plusieurs mégaoctets → Des milliers de blocs. Comment enchaîner le chiffrement de ces blocs ?
+### III.A. Qu'est-ce qu'une Licence ?
 
-```
-   MODES OPÉRATOIRES D'AES
-   ═══════════════════════════════════════════════════════════════
+**Définition :** Une licence logicielle est un **contrat** par lequel le titulaire des droits d'auteur **autorise** un tiers à utiliser son logiciel sous certaines **conditions**.
 
-   MODE ECB (Electronic Code Book) — ❌ À NE PAS UTILISER
-   ──────────────────────────────────────────────────────────────
-   Principe : Chaque bloc chiffré INDÉPENDAMMENT avec la même clé.
+**Analogie :** 
+- Acheter un logiciel ≠ acheter les droits d'auteur
+- C'est comme louer un appartement : vous pouvez y habiter, mais vous n'êtes pas propriétaire
 
-   Problème :
-   → 2 blocs identiques en clair → 2 blocs IDENTIQUES chiffrés
-   → Un attaquant détecte les patterns même sans la clé
+**Types d'autorisations :**
+- ✅ Utiliser (exécuter le logiciel)
+- ✅ Copier (installer sur plusieurs machines)
+- ✅ Modifier (adapter, corriger)
+- ✅ Redistribuer (donner ou vendre à d'autres)
 
-   Exemple célèbre : Pingouin Linux chiffré en ECB
-   → L'image chiffrée laisse voir la silhouette du pingouin !
+### III.B. Les Grandes Familles de Licences
 
-   Utilisation : JAMAIS en production.
+#### 1. Logiciel Propriétaire (Closed Source)
 
-   MODE CBC (Cipher Block Chaining) — ✅ Standard
-   ──────────────────────────────────────────────────────────────
-   Principe : Chaque bloc est XORé avec le bloc chiffré précédent
-              avant d'être chiffré.
+**Définition :** Le code source est **secret**. L'utilisateur n'a que le droit d'**exécuter** le logiciel.
 
-   Bloc 1 clair ──XOR──► [AES] ──► Bloc 1 chiffré
-                  ↑                        │
-                  IV                       │
-                                           ▼
-   Bloc 2 clair ──XOR──► [AES] ──► Bloc 2 chiffré
-                  ↑
-            Bloc 1 chiffré
+**Caractéristiques :**
+- ❌ Pas d'accès au code source
+- ❌ Interdiction de modifier, copier (sauf exceptions)
+- ⚠️ Souvent payant (licence commerciale)
 
-   IV = Initialization Vector (vecteur d'initialisation, aléatoire)
-   → 2 blocs identiques en clair → 2 blocs DIFFÉRENTS chiffrés ✅
-   → Si un bloc est corrompu → Les 2 blocs suivants affectés
+**Exemples :** Microsoft Windows, Adobe Photoshop, SAP, Oracle Database
 
-   Utilisation : Chiffrement fichiers, disques → OpenSSL par défaut
+**Avantages :**
+- ✅ Support commercial
+- ✅ Garanties
+- ✅ Interface soignée
 
-   MODE CTR (Counter) — ✅ Efficace
-   ──────────────────────────────────────────────────────────────
-   Principe : Chiffre un compteur incrémenté (nonce + counter)
-              et XOR avec les données → Transforme AES en flux.
+**Inconvénients :**
+- ❌ Coût élevé
+- ❌ Dépendance envers l'éditeur
+- ❌ Pas de personnalisation
 
-   Avantages :
-   → Chiffrement parallélisable (rapide sur multi-cœurs)
-   → Erreur contenue (pas de propagation)
-   → Pas de padding nécessaire
+#### 2. Logiciel Libre (Free Software)
 
-   Utilisation : TLS, VPN, communications temps réel
+**Définition :** Logiciel qui respecte les **4 libertés fondamentales** (définies par la Free Software Foundation).
 
-   MODE GCM (Galois/Counter Mode) — ✅✅ Recommandé
-   ──────────────────────────────────────────────────────────────
-   Principe : CTR + Authentification intégrée (MAC)
+**Les 4 libertés :**
+0. **Liberté d'exécuter** le programme comme on le souhaite
+1. **Liberté d'étudier** le fonctionnement du programme (accès au code source)
+2. **Liberté de redistribuer** des copies (gratuitement ou contre paiement)
+3. **Liberté de modifier** et de redistribuer les versions modifiées
 
-   Double avantage :
-   → Chiffrement (confidentialité)
-   → Authentification (intégrité + authenticité)
-   → Si les données sont modifiées → Déchiffrement ÉCHOUE
+**Philosophie :** Le logiciel libre est un mouvement **politique et éthique** (liberté, partage, solidarité).
 
-   Utilisation : HTTPS/TLS 1.3 (obligatoire), SSH moderne
+**Figure emblématique :** Richard Stallman (créateur du projet GNU et de la FSF)
 
-   TABLEAU RÉCAPITULATIF
-   ──────────────────────────────────────────────────────────────
-   Mode │ Sécurité │ Parallèle │ Authenticité │ Usage
-   ─────┼──────────┼───────────┼──────────────┼─────────────────
-   ECB  │ ❌ Nulle │ ✅ Oui    │ ❌ Non       │ JAMAIS
-   CBC  │ ✅ Bonne │ ❌ Non    │ ❌ Non       │ Fichiers (legacy)
-   CTR  │ ✅ Bonne │ ✅ Oui    │ ❌ Non       │ Streaming
-   GCM  │ ✅✅ Top │ ✅ Oui    │ ✅ Oui       │ TLS 1.3, SSH
-```
+#### 3. Open Source
 
----
+**Définition :** Logiciel dont le code source est **ouvert** et respecte les critères de l'Open Source Initiative (OSI).
 
-## PARTIE IV — Le Problème de l'Échange de Clé
+**Différence avec le logiciel libre :**
+- Logiciel libre = **philosophie éthique** (liberté, droits humains)
+- Open source = **approche pragmatique** (qualité, sécurité, collaboration)
 
-### IV.A. La Limite Fondamentale du Symétrique
+> 💡 **En pratique :** Les deux se recoupent largement (90% des licences libres sont aussi open source).
 
-```
-   LE PARADOXE DE L'ÉCHANGE DE CLÉ
-   ═══════════════════════════════════════════════════════════════
+**Avantages de l'open source :**
+- ✅ Transparence (sécurité, pas de backdoors)
+- ✅ Collaboration mondiale
+- ✅ Correction rapide des bugs
+- ✅ Personnalisation
+- ✅ Gratuit (le plus souvent)
 
-   SCÉNARIO : Alice veut envoyer un fichier chiffré à Bob.
-              Ils ne se sont jamais rencontrés.
+**Inconvénients :**
+- ❌ Pas toujours de support officiel
+- ❌ Interface parfois moins soignée
+- ❌ Risque de fragmentation (forks)
 
-   ① Alice chiffre le fichier avec la clé "X7k#P2mQ"
-   ② Alice envoie le fichier chiffré à Bob par email ✅
-      → L'attaquant Eve intercepte → Ne peut pas lire (chiffré ✅)
+#### 4. Autres Catégories
 
-   ③ Alice doit maintenant envoyer la clé "X7k#P2mQ" à Bob
-      → Par email → Eve intercepte la clé ❌
-      → Par téléphone → Eve écoute ❌
-      → Par courrier → Eve intercepte ❌
-
-   PROBLÈME FONDAMENTAL
-   ──────────────────────────────────────────────────────────────
-   "Comment partager la clé secrète de façon sécurisée
-    sur un canal non sécurisé ?"
-
-   → Ce problème a été RÉSOLU en 1976 par Whitfield Diffie et
-     Martin Hellman (échange de clés Diffie-Hellman)
-   → Et par la cryptographie ASYMÉTRIQUE (RSA, 1977)
-   → Ce sera le sujet de S12
-
-   EN PRATIQUE AUJOURD'HUI (TLS/HTTPS)
-   ──────────────────────────────────────────────────────────────
-   TLS résout le problème ainsi :
-   ① Cryptographie ASYMÉTRIQUE (RSA/ECDH) pour échanger
-      une clé de session de façon sécurisée
-   ② Cryptographie SYMÉTRIQUE (AES-GCM) pour chiffrer
-      toutes les données (plus rapide)
-
-   → Asymétrique pour l'échange de clé (lent mais sécurisé)
-   → Symétrique pour les données (rapide)
-   → C'est le meilleur des deux mondes
-
-   POURQUOI SYMÉTRIQUE POUR LES DONNÉES ?
-   ──────────────────────────────────────────────────────────────
-   AES-256 : 10 Gb/s sur matériel moderne (avec AES-NI)
-   RSA-2048 : ~10 Mb/s (100× plus lent)
-   → Pour chiffrer 1 To de données :
-     AES-256 : ~13 minutes
-     RSA :     ~22 heures
-```
+| **Catégorie** | **Définition** | **Exemples** |
+|---|---|---|
+| **Freeware** | Gratuit mais source fermé (propriétaire) | WinRAR (version gratuite), Adobe Reader |
+| **Shareware** | Gratuit temporairement, puis payant | WinRAR (version complète), Sublime Text |
+| **Freemium** | Base gratuite, fonctions avancées payantes | Slack, Trello, GitHub (plans gratuits + pro) |
+| **Abandonware** | Logiciel ancien, éditeur disparu (zone grise juridique) | Jeux DOS, Windows 3.1 |
 
 ---
 
-## PARTIE V — Vocabulaire Clé
+### III.C. Les Licences Open Source — Typologie
 
-| **Terme** | **Définition** |
-|-----------|---------------|
-| **Cryptographie** | Science de la protection de l'information par transformation mathématique |
-| **Chiffrement** | Transformation réversible d'un message avec une clé (≠ hachage irréversible) |
-| **Texte clair** | Données originales lisibles (plaintext) |
-| **Texte chiffré** | Données après chiffrement, illisibles sans la clé (ciphertext) |
-| **Clé symétrique** | Clé unique partagée servant à chiffrer ET déchiffrer |
-| **AES** | Advanced Encryption Standard — algorithme de chiffrement symétrique par bloc standard mondial |
-| **Bloc** | Unité de traitement d'AES = 128 bits (16 octets) |
-| **IV / Nonce** | Valeur aléatoire unique utilisée pour initialiser le chiffrement (Initialization Vector) |
-| **Mode ECB** | Mode dangereux — blocs identiques → chiffrés identiques |
-| **Mode CBC** | Mode standard — chaînage des blocs, IV requis |
-| **Mode GCM** | Mode recommandé — chiffrement + authentification intégrée |
-| **Padding** | Données ajoutées pour compléter le dernier bloc à 128 bits |
-| **AES-NI** | Instructions matérielles Intel/AMD accélérant AES (x10 à x20) |
-| **XOR** | Opération logique bit à bit (0⊕0=0, 0⊕1=1, 1⊕0=1, 1⊕1=0) |
-| **Diffie-Hellman** | Protocole d'échange de clé sécurisé sur canal non sécurisé |
-| **Problème de l'échange de clé** | Comment partager la clé symétrique de façon sécurisée ? (résolu par crypto asymétrique) |
+Il existe **plus de 100 licences** open source. Voici les principales :
+
+#### Licences Permissives (Copyleft Faible ou Nul)
+
+**Principe :** Très peu de contraintes. Vous pouvez presque tout faire (y compris fermer le code).
+
+| **Licence** | **Caractéristiques** | **Obligation** | **Exemples** |
+|---|---|---|---|
+| **MIT** | Ultra-permissive, 1 page | Inclure la licence MIT | Node.js, jQuery, React |
+| **BSD** | Similaire MIT, 3 clauses | Inclure la licence, citer l'auteur | FreeBSD, Nginx |
+| **Apache 2.0** | Permissive + clauses brevets | Inclure licence + NOTICE | Android, Kubernetes, Apache HTTP |
+
+**Avantages :**
+- ✅ Compatibles avec du code propriétaire
+- ✅ Pas de contrainte de redistribution
+- ✅ Favorisées par les entreprises
+
+**Utilisation typique :** Librairies, frameworks, outils
+
+#### Licences Copyleft (Viralité)
+
+**Principe :** Si vous distribuez le code (ou un logiciel qui l'utilise), vous devez redistribuer TOUT sous la même licence (y compris vos modifications).
+
+| **Licence** | **Viralité** | **Obligation** | **Exemples** |
+|---|:---:|---|---|
+| **GPL v2/v3** | ⚠️⚠️⚠️ Forte | Redistribution complète du code source | Linux, GIMP, WordPress |
+| **LGPL** | ⚠️ Modérée | Redistribution seulement de la bibliothèque modifiée | Qt, LibreOffice |
+| **AGPL** | ⚠️⚠️⚠️⚠️ Très forte | Même pour du SaaS (accès distant) | MongoDB (ancien), Nextcloud |
+
+**GPL = "Viral" :** Si vous utilisez du code GPL dans votre projet, TOUT votre projet devient GPL.
+
+**Exemple :**
+```
+Projet propriétaire (commercial)
+  + Librairie GPL
+  ────────────────────────────────
+  = TOUT le projet doit être GPL
+  = Obligation de fournir TOUT le code source
+```
+
+**LGPL = "GPL Light" :**
+- Permet d'utiliser la librairie LGPL dans un logiciel propriétaire
+- Mais si vous modifiez la librairie LGPL, vous devez redistribuer ces modifications
+
+**AGPL = "GPL pour le Cloud" :**
+- Même si vous n'**distribuez** pas le logiciel (juste accès web/API)
+- Vous devez quand même fournir le code source aux utilisateurs
+
+**Utilisation typique :** Systèmes d'exploitation, outils GNU, logiciels idéologiques
+
+#### Tableau Comparatif Rapide
+
+| **Critère** | **MIT / BSD** | **Apache 2.0** | **LGPL** | **GPL** | **AGPL** |
+|---|:---:|:---:|:---:|:---:|:---:|
+| **Utilisation commerciale** | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Modification** | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Redistribution modifs** | ⚠️ Optionnel | ⚠️ Optionnel | 🔴 Obligatoire (librairie) | 🔴 Obligatoire (tout) | 🔴 Obligatoire (tout) |
+| **Compatible propriétaire** | ✅ Oui | ✅ Oui | ✅ Oui | ❌ Non | ❌ Non |
+| **Viralité** | ❌ Aucune | ❌ Aucune | ⚠️ Faible | 🔴 Forte | 🔴 Très forte |
+| **Clause brevets** | ❌ | ✅ | ❌ | ⚠️ (v3) | ✅ |
+
+---
+
+### III.D. Dual Licensing (Double Licence)
+
+**Définition :** Un même logiciel proposé sous **deux licences différentes** :
+- Une licence **open source** (GPL) → gratuite
+- Une licence **commerciale** (propriétaire) → payante
+
+**Avantages :**
+- ✅ Open source pour la communauté (transparence, contributions)
+- ✅ Revenu commercial pour l'éditeur (entreprises qui ne veulent pas GPL)
+
+**Exemples :**
+- **MySQL** : GPL (gratuit) OU Commerciale (payant)
+- **Qt** : LGPL (gratuit) OU Commerciale (payant)
+- **Elasticsearch** (ancien modèle) : Apache OU Commerciale
+
+---
+
+### III.E. Comment Choisir une Licence pour Son Projet ?
+
+**Outil recommandé :** [choosealicense.com](https://choosealicense.com) (par GitHub)
+
+**Arbre de décision simplifié :**
+
+```
+Vous voulez que votre code soit réutilisé librement ?
+│
+├─ OUI → Vous voulez forcer le partage des modifications ?
+│         │
+│         ├─ OUI → GPL v3 (viralité forte, idéologique)
+│         │
+│         └─ NON → MIT ou Apache 2.0 (permissif, pragmatique)
+│
+└─ NON → Pas de licence (tous droits réservés)
+          OU Licence propriétaire
+```
+
+**Recommandations selon le contexte :**
+
+| **Contexte** | **Licence Recommandée** | **Raison** |
+|---|---|---|
+| Librairie / Framework | MIT, Apache | Adoption maximale, compatibilité |
+| Système / OS | GPL | Protéger contre l'appropriation |
+| Projet personnel / Portfolio | MIT | Simple, universel |
+| Startup (avant pivot) | Propriétaire ou MIT | Flexibilité |
+| Logiciel SaaS | AGPL (si idéologique) | Forcer le partage du code serveur |
+
+---
+
+![Schéma des licences : axe horizontal "Permissivité" (MIT/BSD très permissif à gauche, GPL/AGPL restrictif à droite), exemples de projets positionnés sur l'axe]
+
+*Légende : Spectre de permissivité des licences open source*
+
+---
+
+## 📖 PARTIE IV — Contrefaçon et Plagiat de Code
+
+### IV.A. Définition de la Contrefaçon (art. L335-2 CPI)
+
+**Définition :** Toute **reproduction, représentation ou diffusion** d'une œuvre protégée **sans autorisation** de l'auteur.
+
+**Pour le code :** Copier du code sans respecter la licence = contrefaçon.
+
+**Sanctions pénales (art. L335-2) :**
+- **3 ans de prison**
+- **300 000 € d'amende**
+- Possibilité de **saisie** du matériel informatique
+
+**Sanctions civiles :**
+- **Dommages et intérêts** (préjudice subi par l'auteur)
+- **Publication du jugement** (atteinte à la réputation)
+- **Destruction des copies** illicites
+
+### IV.B. Cas de Contrefaçon Fréquents
+
+| **Situation** | **Contrefaçon ?** | **Risque** |
+|---|:---:|---|
+| Copier du code Stack Overflow sans citer | ⚠️ Oui (licence CC BY-SA) | Moyen |
+| Utiliser du code GPL dans un logiciel propriétaire | 🔴 Oui | Élevé |
+| Copier une fonction de 10 lignes d'un projet MIT sans licence | ⚠️ Risqué | Faible (mais inclure MIT) |
+| Reprendre l'intégralité d'un projet sans licence | 🔴 Oui | Très élevé |
+| Reverse engineering d'un logiciel propriétaire | 🔴 Généralement oui (sauf exceptions) | Élevé |
+
+### IV.C. Qu'est-ce que le Plagiat de Code ?
+
+**Différence plagiat vs contrefaçon :**
+- **Contrefaçon** : copie littérale (même code, caractère pour caractère)
+- **Plagiat** : reprise de la structure, de l'algorithme, en **changeant les noms** de variables
+
+**Exemple de plagiat :**
+
+**Code original :**
+```python
+def calculate_factorial(n):
+    if n == 0:
+        return 1
+    return n * calculate_factorial(n - 1)
+```
+
+**Code plagié :**
+```python
+def compute_fact(number):
+    if number == 0:
+        return 1
+    return number * compute_fact(number - 1)
+```
+
+> ⚠️ **Même structure, mêmes choix, juste les noms changés = plagiat**
+
+**Outils de détection :**
+- [MOSS (Measure Of Software Similarity)](https://theory.stanford.edu/~aiken/moss/) — Utilisé dans les universités
+- [JPlag](https://jplag.ipd.kit.edu) — Détection de plagiat académique
+- [SonarQube](https://www.sonarqube.org) — Détection de code dupliqué
+
+### IV.D. Exceptions au Droit d'Auteur
+
+Le code de la propriété intellectuelle prévoit des **exceptions** permettant l'utilisation d'œuvres protégées sans autorisation :
+
+| **Exception** | **Définition** | **Exemple Code** |
+|---|---|---|
+| **Copie privée** | Copie pour usage personnel | Installer un logiciel sur son PC perso |
+| **Citation courte** | Courte citation à but pédagogique | Citer 5 lignes de code dans un tutoriel |
+| **Analyse / étude** | Décompilation pour interopérabilité | Reverse engineering pour compatibilité |
+| **Parodie** | Œuvre humoristique | Rare pour du code |
+
+> ⚠️ **Attention :** Ces exceptions sont **strictement encadrées**. En cas de doute, demander l'autorisation.
+
+### IV.E. Cas Célèbres de Contrefaçon
+
+#### 1. Oracle vs Google (API Java)
+
+**Contexte :** Google a utilisé 11 000 lignes de code des API Java dans Android.
+
+**Débat :** Les API (noms de fonctions, paramètres) sont-elles protégées par le droit d'auteur ?
+
+**Évolution :**
+- 2012 : Tribunal → API non protégées
+- 2014 : Appel → API protégées (contrefaçon de Google)
+- 2016 : Google invoque le "fair use" (usage loyal)
+- 2021 : **Cour Suprême USA** → Fair use accepté, Google gagne
+
+**Montant réclamé par Oracle :** 9 milliards $
+
+**Leçon :** Même les noms de fonctions peuvent être protégés (selon les juridictions).
+
+#### 2. SCO vs IBM/Linux (2003-2010)
+
+**Contexte :** SCO (propriétaire d'UNIX) accuse IBM et la communauté Linux d'avoir copié du code UNIX dans le noyau Linux.
+
+**Résultat :** Après 7 ans de procès, les tribunaux rejettent les demandes de SCO. Linux est déclaré propre.
+
+**Leçon :** La communauté open source a su prouver l'origine indépendante de son code.
+
+### IV.F. Comment Éviter la Contrefaçon ?
+
+**10 Règles d'Or :**
+
+1. ✅ **Toujours vérifier la licence** avant d'utiliser du code tiers
+2. ✅ **Lire les fichiers LICENSE** des projets GitHub
+3. ✅ **Citer les auteurs** (même pour des licences permissives)
+4. ✅ **Respecter les obligations** (redistribution, mention de modifications...)
+5. ✅ **Utiliser des outils** de scan de licences (FOSSA, Black Duck)
+6. ✅ **Former les développeurs** aux bonnes pratiques
+7. ✅ **Documenter l'origine** du code (commentaires : "Source : URL")
+8. ✅ **Éviter Stack Overflow copy-paste** sans comprendre (et vérifier licence CC BY-SA)
+9. ✅ **Consulter le service juridique** en cas de doute (ESN, grandes entreprises)
+10. ✅ **Privilégier les licences permissives** (MIT, Apache) pour minimiser les risques
+
+---
+
+## 🔑 VOCABULAIRE CLÉ À MAÎTRISER (pour l'examen)
+
+| **Terme** | **Définition Simple** |
+|---|---|
+| **Droit d'auteur** | Droit de propriété intellectuelle sur les œuvres de l'esprit |
+| **Droit moral** | Droits personnels de l'auteur (perpétuels, inaliénables) |
+| **Droits patrimoniaux** | Droits économiques (70 ans, cessibles) |
+| **Code source** | Fichiers texte écrits dans un langage de programmation |
+| **Logiciel propriétaire** | Code source fermé, utilisation restreinte |
+| **Logiciel libre** | Respecte les 4 libertés (exécuter, étudier, redistribuer, modifier) |
+| **Open source** | Code source ouvert, approche pragmatique |
+| **Licence** | Contrat autorisant l'utilisation d'un logiciel sous conditions |
+| **GPL** | GNU General Public License (copyleft fort, viral) |
+| **MIT** | Licence très permissive, peu de contraintes |
+| **Copyleft** | Principe de viralité (modifications redistribuées sous même licence) |
+| **Contrefaçon** | Reproduction illicite d'une œuvre protégée |
+| **Plagiat** | Reprise de la structure/idées sans copie littérale |
+
+---
+
+## ✅ Points Clés à Retenir
+
+1. **Le code source est protégé par le droit d'auteur dès sa création** (pas besoin de dépôt).
+
+2. **Le droit d'auteur = droit moral (perpétuel) + droits patrimoniaux (70 ans).**
+
+3. **Le code écrit au travail appartient à l'employeur** (sauf exceptions).
+
+4. **Il existe 3 grandes familles** : propriétaire (fermé), libre (4 libertés), open source (ouvert).
+
+5. **Les licences open source se divisent en 2 catégories** : permissives (MIT, Apache) et copyleft (GPL, AGPL).
+
+6. **GPL = viralité** : si vous utilisez du GPL, tout devient GPL (incompatible avec du propriétaire).
+
+7. **Pas de licence = tous droits réservés** (plus restrictif que GPL).
+
+8. **Contrefaçon de code = risque pénal** (3 ans, 300 000 €) + civil (dommages et intérêts).
+
+9. **Toujours vérifier la licence avant d'utiliser du code** (fichier LICENSE sur GitHub).
+
+10. **En tant que technicien SISR, vous devez respecter les licences** pour éviter des problèmes juridiques à votre entreprise.
+
+---
+
+## 📚 Pour Aller Plus Loin
+
+**Textes de référence :**
+- [Code de la Propriété Intellectuelle](https://www.legifrance.gouv.fr/codes/id/LEGITEXT000006069414/)
+- [Choose a License](https://choosealicense.com) (guide GitHub)
+- [TLDRLegal](https://tldrlegal.com) (licences simplifiées)
+
+**Organisations :**
+- [Free Software Foundation](https://www.fsf.org) (philosophie du libre)
+- [Open Source Initiative](https://opensource.org) (définition open source)
+
+**Questions de réflexion :**
+- Faut-il mettre tout son code en open source pour contribuer à la communauté ?
+- Comment les entreprises peuvent-elles gagner de l'argent avec l'open source ?
+- Les brevets logiciels (interdits en Europe, autorisés aux USA) sont-ils une bonne chose ?
+
 
 ---

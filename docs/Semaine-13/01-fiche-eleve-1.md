@@ -4,548 +4,543 @@ title: 📚 FICHE DE COURS
 ---
 
 # 📚 FICHE DE COURS ÉLÈVE
-## "Cryptographie Asymétrique · Certificats X.509 · PKI"
+## Licences Logicielles (2) : Open Source (GPL, MIT, BSD) et Creative Commons
 
 *Version 1.0 — BTS SIO SISR — Année 1 — Semaine 13*
 
 ---
 
-## 🎯 Compétences Travaillées
+## 🎯 Objectifs de Cette Fiche
 
-| **Code** | **Compétence** |
-|----------|---------------|
-| **B3.5** | Mettre en œuvre des mécanismes de chiffrement |
-| **B3.6** | Administrer une infrastructure à clés publiques |
-
----
-
-## PARTIE I — Cryptographie Asymétrique (rappel et approfondissement)
-
-### I.A. Le Principe Clé Publique / Clé Privée
-
-```
-   CRYPTOGRAPHIE ASYMÉTRIQUE
-   ═══════════════════════════════════════════════════════════════
-
-   DEUX CLÉS MATHÉMATIQUEMENT LIÉES mais fonctionnellement opposées :
-
-   CLÉ PUBLIQUE                     CLÉ PRIVÉE
-   ──────────────────────           ──────────────────────────────
-   Peut être partagée librement     Doit rester ABSOLUMENT secrète
-   Tout le monde peut la voir       Jamais transmise, jamais copiée
-   Utilisée pour CHIFFRER           Utilisée pour DÉCHIFFRER
-   Utilisée pour VÉRIFIER           Utilisée pour SIGNER
-
-   PROPRIÉTÉ FONDAMENTALE
-   ──────────────────────────────────────────────────────────────
-   Ce qui est chiffré avec la clé publique
-   → Ne peut être déchiffré QUE avec la clé privée correspondante
-
-   Ce qui est signé avec la clé privée
-   → Peut être vérifié par n'importe qui avec la clé publique
-
-   ANALOGIE : La boîte aux lettres
-   ──────────────────────────────────────────────────────────────
-   Clé publique = La fente de la boîte aux lettres
-   → Tout le monde peut y déposer un message (chiffrer)
-
-   Clé privée = La clé qui ouvre la boîte
-   → Seul le propriétaire peut lire les messages (déchiffrer)
-```
+À la fin de ce cours, vous serez capable de :
+- ✅ Comparer en détail GPL, MIT, BSD, Apache (variantes, subtilités)
+- ✅ Comprendre et utiliser la matrice de compatibilité des licences
+- ✅ Expliquer les différences GPL v2 vs v3, BSD 2-clause vs 3-clause
+- ✅ Maîtriser les licences Creative Commons (BY, SA, NC, ND)
+- ✅ Choisir la licence appropriée selon le type de contenu et le contexte
 
 ---
 
-### I.B. Algorithmes Asymétriques Courants
+### 📖 PARTIE I — Approfondissement des Licences Open Source
 
-```
-   ALGORITHMES ASYMÉTRIQUES
-   ═══════════════════════════════════════════════════════════════
+### I.A. La Famille MIT / BSD (Licences Permissives)
 
-   RSA (Rivest–Shamir–Adleman) — 1977
-   ──────────────────────────────────────────────────────────────
-   Principe : Difficulté de factoriser de grands nombres
-   Tailles de clé : 2048, 3072, 4096 bits (minimum 2048 en 2025)
-   Usage : TLS/HTTPS, signatures, emails S/MIME
-   Vitesse : Lent (100× plus lent qu'AES)
+#### 1. MIT License
 
-   ECDSA / ECDH (Elliptic Curve) — 1985, généralisé 2010s
-   ──────────────────────────────────────────────────────────────
-   Principe : Difficulté du logarithme discret sur courbes elliptiques
-   Tailles de clé : 256, 384, 521 bits
-   Avantage : Sécurité équivalente à RSA avec clé 10× plus courte
-               ECDSA-256 ≈ RSA-3072 en sécurité
-   Usage : TLS 1.3 (préféré), Bitcoin, Let's Encrypt
-   Vitesse : Beaucoup plus rapide que RSA
+**Texte complet : ~170 mots, 1 page**
 
-   ED25519 (Edwards-curve) — 2011
-   ──────────────────────────────────────────────────────────────
-   Sécurité et vitesse maximales
-   Usage : SSH (clés modernes), GPG, TLS 1.3
-   Clé : 256 bits — Le futur des clés asymétriques
+**Caractéristiques :**
+- ✅ **Ultra-permissive** : tout est autorisé (usage commercial, modification, redistribution)
+- ✅ **Courte et simple** : facile à lire et comprendre
+- ❌ **Pas de clause de brevets** : pas de protection explicite contre les litiges de brevets
 
-   COMPARAISON SÉCURITÉ / TAILLE DE CLÉ
-   ──────────────────────────────────────────────────────────────
-   RSA-3072     ≡    ECDSA-256    ≡    AES-128   (sécurité équivalente)
-   RSA-15360    ≡    ECDSA-521    ≡    AES-256
-```
+**Obligations :**
+- Inclure la licence MIT dans toute distribution
+- Inclure la notice de copyright
+
+**Avantages :**
+- Adoption maximale (entreprises l'acceptent facilement)
+- Compatible avec presque toutes les autres licences
+- Pas de contrainte de redistribution
+
+**Inconvénients :**
+- Pas de protection contre l'appropriation (un concurrent peut fermer le code)
+- Pas de clause de brevets (risque dans certains contextes)
+
+**Projets célèbres :** Node.js, jQuery, React, Angular, .NET Core, Ruby on Rails
 
 ---
 
-### I.C. Signature Numérique
+#### 2. BSD Licenses (Berkeley Software Distribution)
 
-```
-   SIGNATURE NUMÉRIQUE — FONCTIONNEMENT
-   ═══════════════════════════════════════════════════════════════
+**Il existe 3 variantes :**
 
-   OBJECTIFS : Authenticité + Intégrité + Non-répudiation
+| **Variante** | **Clauses** | **Différence avec MIT** |
+|---|:---:|---|
+| **BSD 0-clause** | 0 | = Domaine public (comme CC0) |
+| **BSD 2-clause** | 2 | Quasi-identique à MIT |
+| **BSD 3-clause** | 3 | + Clause de non-endorsement |
 
-   PROCESSUS DE SIGNATURE
-   ──────────────────────────────────────────────────────────────
+**BSD 3-clause — La clause supplémentaire :**
 
-   ÉMETTEUR (Alice — possède la clé privée)
-   ─────────────────────────────────────────
-   Document original
-        │
-        ▼
-   [Hachage SHA-256]    →   Empreinte du document (256 bits)
-        │
-        ▼
-   [Chiffrement avec    →   Signature numérique
-    clé privée Alice]
-        │
-        ▼
-   Document + Signature  ──────────────►  DESTINATAIRE
+> *"Le nom de l'auteur ne peut pas être utilisé pour promouvoir des produits dérivés sans autorisation écrite."*
 
-   VÉRIFICATION (Bob — possède uniquement la clé publique)
-   ─────────────────────────────────────────────────────────
-   Document + Signature reçus
-        │
-        ├──────────────────────────────────────────────────────┐
-        │                                                      │
-   [Hachage SHA-256]                              [Déchiffrement avec
-   du document reçu                                clé publique Alice]
-        │                                                      │
-        ▼                                                      ▼
-   Empreinte calculée                          Empreinte de la signature
-        │                                                      │
-        └─────────────────── COMPARAISON ──────────────────────┘
-                                   │
-                            Identiques ? ✅ → Document authentique, non modifié
-                          Différents ?   ❌ → Document falsifié ou clé incorrecte
-```
+**Exemple pratique :**
+- ❌ Interdit : "Ce logiciel est basé sur la technologie développée par l'Université de Berkeley" (dans une pub)
+- ✅ Autorisé : Citer l'auteur dans les crédits
+
+**Projets célèbres :** FreeBSD, Nginx
+
+**Différence MIT vs BSD 3-clause :**
+- MIT : pas de protection du nom
+- BSD 3-clause : protection du nom (pas d'endorsement)
 
 ---
 
-## PARTIE II — Les Certificats Numériques
+### I.B. Apache License 2.0 (Permissive + Brevets)
 
-### II.A. Pourquoi les Certificats ?
+**Texte complet : ~9 pages (vs 1 page pour MIT)**
 
-```
-   LE PROBLÈME QUE LE CERTIFICAT RÉSOUT
-   ═══════════════════════════════════════════════════════════════
+**Caractéristiques :**
+- ✅ **Permissive** : comme MIT/BSD (usage commercial, modification, redistribution)
+- ✅ **Clause de licence de brevets** : protection explicite contre les litiges de brevets
+- ✅ **Clause NOTICE** : obligation de documenter les modifications
 
-   SANS CERTIFICAT : L'attaque "Man-in-the-Middle"
-   ──────────────────────────────────────────────────────────────
+**Obligations :**
+- Inclure la licence Apache 2.0
+- Inclure le fichier NOTICE s'il existe
+- Documenter les modifications apportées
+- Conserver les notices de copyright et brevets
 
-   Alice veut communiquer avec le serveur de sa banque.
-   Eve (attaquant) s'intercale :
+**Avantages :**
+- **Protection brevets** : si vous utilisez du code Apache, le contributeur ne peut pas vous attaquer pour violation de brevets
+- Compatible GPL v3 (mais PAS GPL v2)
+- Prisée par les entreprises (Google, Apache Foundation)
 
-   Alice ──► "Je veux la clé publique de la banque"
-             │
-             ▼ (Eve intercepte)
-   Eve   ──► Banque : "Donne-moi ta clé publique"
-   Eve reçoit la vraie clé publique de la banque
-   Eve envoie SA propre clé publique à Alice en se faisant passer pour la banque
+**Inconvénients :**
+- Plus longue et complexe que MIT
+- Incompatible GPL v2 (clause brevets)
 
-   Alice croit communiquer avec la banque
-   → Elle chiffre avec la clé d'Eve
-   → Eve déchiffre, lit, rechiffre avec la vraie clé de la banque
-   → La banque répond normalement
-   → Alice ne sait pas qu'Eve a tout vu
-
-   AVEC CERTIFICAT : La solution
-   ──────────────────────────────────────────────────────────────
-
-   La banque ne transmet pas seulement sa clé publique.
-   Elle transmet un CERTIFICAT contenant :
-   → Sa clé publique
-   → Son identité (nom de domaine, organisation)
-   → La SIGNATURE d'une Autorité de Certification
-     qui a vérifié que cette clé appartient bien à cette banque
-
-   Eve ne peut pas falsifier le certificat sans avoir
-   la clé privée de l'AC → Impossible en pratique.
-```
+**Projets célèbres :** Android, Kubernetes, Hadoop, Apache HTTP, TensorFlow
 
 ---
 
-### II.B. Structure d'un Certificat X.509
+**Comparaison MIT vs Apache 2.0 :**
 
-**X.509 est le standard international des certificats numériques** (RFC 5280).
+| **Critère** | **MIT** | **Apache 2.0** |
+|---|:---:|:---:|
+| **Longueur** | 1 page | 9 pages |
+| **Brevets** | ❌ Pas de clause | ✅ Clause explicite |
+| **Compatibilité GPL v2** | ✅ Oui | ❌ Non |
+| **Compatibilité GPL v3** | ✅ Oui | ✅ Oui |
+| **Obligation NOTICE** | ❌ Non | ✅ Oui |
 
+**Quand choisir Apache 2.0 plutôt que MIT ?**
+- Projet avec des **algorithmes potentiellement brevetés**
+- Contribution de **grandes entreprises** (qui veulent protéger leurs brevets)
+- Projet nécessitant une **traçabilité des modifications**
+
+---
+
+### I.C. Les Licences GPL (Copyleft)
+
+#### 1. GPL v2 (1991)
+
+**Texte complet : ~12 pages**
+
+**Principes :**
+- ✅ **Copyleft fort** : toute modification doit être redistribuée sous GPL v2
+- ✅ **Viralité** : tout code combiné devient GPL v2
+- ❌ **Pas de protection brevets explicite**
+
+**"Only" vs "or later" :**
+- **GPL v2 only** : UNIQUEMENT la version 2 (ex : Linux)
+- **GPL v2 or later** : version 2 OU toute version ultérieure (ex : WordPress)
+
+**Projet emblématique :** Linux Kernel (GPL v2 only, par choix de Linus Torvalds)
+
+---
+
+#### 2. GPL v3 (2007)
+
+**Texte complet : ~15 pages**
+
+**Nouveautés par rapport à v2 :**
+
+| **Ajout** | **Explication** |
+|---|---|
+| **Anti-DRM (Tivoization)** | Interdit de verrouiller le matériel pour empêcher l'exécution de versions modifiées |
+| **Compatibilité Apache 2.0** | GPL v3 est compatible avec Apache 2.0 (pas la v2) |
+| **Protection brevets renforcée** | Clause de licence de brevets explicite |
+| **Internationalisation** | Meilleure adaptation aux législations non-US |
+
+**Controverse :** Linus Torvalds a refusé de passer Linux en GPL v3, principalement à cause de la clause anti-DRM.
+
+**Projets GPL v3 :** GCC, Bash, GIMP, WordPress (v2 or later, donc accepte v3)
+
+---
+
+#### 3. LGPL (Lesser GPL)
+
+**Principe :** Copyleft **modéré** — compromis entre GPL et MIT.
+
+**Différence avec GPL :**
+- GPL : Si vous utilisez du code GPL, TOUT devient GPL
+- LGPL : Si vous utilisez une librairie LGPL, SEULE la librairie doit rester LGPL (pas votre code)
+
+**Usage typique :** Librairies que l'on veut voir adoptées, même par du logiciel propriétaire.
+
+**Exemples :** Qt, GTK, GNU C Library (glibc), LibreOffice
+
+**Scénario d'usage :**
 ```
-   STRUCTURE D'UN CERTIFICAT X.509 v3
-   ═══════════════════════════════════════════════════════════════
-
-   ┌─────────────────────────────────────────────────────────┐
-   │               CERTIFICAT X.509 v3                       │
-   ├─────────────────────────────────────────────────────────┤
-   │ Version : 3                                             │
-   │ Numéro de série : 04:7D:E1:A7:... (unique par AC)      │
-   ├─────────────────────────────────────────────────────────┤
-   │ IDENTITÉ DU TITULAIRE (Subject)                         │
-   │   CN (Common Name)    : www.banque.fr                   │
-   │   O  (Organization)   : Banque Nationale SA             │
-   │   OU (Org. Unit)      : DSI                             │
-   │   C  (Country)        : FR                              │
-   │   L  (Locality)       : Paris                           │
-   ├─────────────────────────────────────────────────────────┤
-   │ IDENTITÉ DU SIGNATAIRE (Issuer)                         │
-   │   CN : DigiCert TLS RSA SHA256 2020 CA1                 │
-   │   O  : DigiCert Inc                                     │
-   │   C  : US                                               │
-   ├─────────────────────────────────────────────────────────┤
-   │ VALIDITÉ                                                │
-   │   Not Before : 2024-01-15 00:00:00 UTC                  │
-   │   Not After  : 2025-01-14 23:59:59 UTC                  │
-   ├─────────────────────────────────────────────────────────┤
-   │ CLÉ PUBLIQUE DU TITULAIRE                               │
-   │   Algorithme : RSA                                      │
-   │   Taille     : 2048 bits                                │
-   │   Clé        : 30 82 01 0a 02 82 01 01 00 b3 ... (256o)│
-   ├─────────────────────────────────────────────────────────┤
-   │ EXTENSIONS (X.509 v3)                                   │
-   │   Subject Alternative Names (SAN) :                    │
-   │     DNS:www.banque.fr                                   │
-   │     DNS:banque.fr                                       │
-   │     DNS:m.banque.fr                                     │
-   │   Key Usage : Digital Signature, Key Encipherment       │
-   │   Extended Key Usage : TLS Web Server Authentication    │
-   │   CRL Distribution Points : http://crl.digicert.com/…  │
-   │   OCSP : http://ocsp.digicert.com                       │
-   │   Basic Constraints : CA:FALSE                          │
-   ├─────────────────────────────────────────────────────────┤
-   │ SIGNATURE DE L'AC                                       │
-   │   Algorithme : SHA256withRSA                            │
-   │   Valeur     : 3d a2 f0 8c 4b ... (256 octets)         │
-   │   → L'AC a signé l'empreinte de tout ce qui précède    │
-   └─────────────────────────────────────────────────────────┘
+Application propriétaire
+  ↓ (lien dynamique)
+Librairie LGPL
+  ↓
+Résultat : OK, application reste propriétaire
+          Mais si vous modifiez la librairie LGPL, ces modifs doivent être LGPL
 ```
 
 ---
 
-### II.C. Les Champs Essentiels X.509
+#### 4. AGPL (Affero GPL)
+
+**Principe :** GPL v3 **+ clause SaaS (Software as a Service)**.
+
+**Différence avec GPL :**
+- GPL : Obligation de redistribuer le code si vous **distribuez** le logiciel
+- AGPL : Obligation de redistribuer le code si vous **donnez accès** au logiciel (même par web/API)
+
+**Cas d'usage :**
+- Vous créez un logiciel AGPL et le déployez sur votre serveur web
+- Les utilisateurs y accèdent via navigateur (pas de téléchargement)
+- **Obligation AGPL** : vous devez quand même fournir le code source aux utilisateurs
+
+**Objectif :** Éviter le "ASP loophole" (Application Service Provider) où des entreprises utilisaient du GPL en SaaS sans redistribuer le code.
+
+**Projets AGPL :** Nextcloud, Mastodon, MongoDB (anciennement, maintenant SSPL)
+
+---
+
+![Schéma : Spectre de viralité des licences - MIT/BSD (aucune) ← Apache (aucune) ← LGPL (modérée) ← GPL (forte) ← AGPL (très forte)]
+
+*Légende : Intensité du copyleft selon les licences*
+
+---
+
+## 📖 PARTIE II — Compatibilité des Licences
+
+### II.A. Règles Générales de Compatibilité
+
+#### Règle 1 : Direction du Flux
+
+La compatibilité n'est **PAS symétrique** :
+- **Permissive → Copyleft** = ✅ OK (MIT → GPL = OK)
+- **Copyleft → Permissive** = ❌ NON (GPL → MIT = IMPOSSIBLE)
+
+**Explication :**
+- MIT permet tout (y compris de changer la licence)
+- GPL impose que tout reste GPL (viralité)
+
+**Analogie :** Une rue à sens unique.
 
 ```
-   GUIDE DES CHAMPS X.509
-   ═══════════════════════════════════════════════════════════════
+MIT ────✅───→ GPL
+    ←───❌─── 
+```
 
-   SUBJECT (Titulaire du certificat)
-   ──────────────────────────────────────────────────────────────
-   CN = Common Name
-   → Serveur web : Nom de domaine (www.exemple.fr)
-   → Certificat CA : Nom de l'autorité ("Ma Root CA")
-   → Certificat client : Nom de la personne (Jean Dupont)
+#### Règle 2 : La Licence la Plus Restrictive L'Emporte
 
-   O = Organization → Nom légal de l'organisation
-   OU = Organizational Unit → Département (optionnel)
-   C = Country → Code pays ISO 2 lettres (FR, US, DE...)
-   ST = State/Province → Région
-   L = Locality → Ville
-   E = Email Address → Email (certificats client)
+Si vous combinez plusieurs licences, le résultat final doit respecter la **plus restrictive**.
 
-   ISSUER (Signataire — l'AC)
-   ──────────────────────────────────────────────────────────────
-   Mêmes champs que le Subject
-   Pour un certificat auto-signé : Subject = Issuer
+**Exemple :**
+```
+Projet :
+  - Fichier A (MIT)
+  - Fichier B (Apache 2.0)
+  - Fichier C (GPL v3)
 
-   SERIAL NUMBER
-   ──────────────────────────────────────────────────────────────
-   Numéro unique attribué par l'AC
-   Utilisé pour la révocation (CRL, OCSP)
+Résultat : TOUT le projet devient GPL v3
+```
 
-   VALIDITY PERIOD
-   ──────────────────────────────────────────────────────────────
-   Not Before : Date d'activation
-   Not After  : Date d'expiration
-   → Certificats Let's Encrypt : 90 jours (auto-renouvelés)
-   → Certificats commerciaux : 1 an maximum (depuis 2020)
-   → Certificats internes d'entreprise : Jusqu'à 10 ans possible
+#### Règle 3 : Compatibilité des Versions GPL
 
-   SUBJECT ALTERNATIVE NAMES (SAN) — Extension critique
-   ──────────────────────────────────────────────────────────────
-   Liste EXHAUSTIVE des domaines couverts par le certificat
-   → Obligatoire depuis Chrome 58 (2017) pour la validation
-   → Remplace l'ancien champ CN pour la validation des domaines
+| **Combinaison** | **Compatible ?** | **Explication** |
+|---|:---:|---|
+| **GPL v2 + GPL v2** | ✅ Oui | Même licence |
+| **GPL v2 + GPL v3** | ⚠️ Dépend | Si "or later" = oui, si "only" = non |
+| **GPL v2 + Apache 2.0** | ❌ Non | Clause brevets Apache incompatible v2 |
+| **GPL v3 + Apache 2.0** | ✅ Oui | GPL v3 a été conçue pour ça |
 
-   Exemples :
-   DNS:exemple.fr          → Le domaine principal
-   DNS:www.exemple.fr      → Sous-domaine www
-   DNS:*.exemple.fr        → Wildcard (tous les sous-domaines)
-   IP:192.168.1.1          → Adresse IP (certificats internes)
+---
 
-   BASIC CONSTRAINTS
-   ──────────────────────────────────────────────────────────────
-   CA:TRUE  → Ce certificat est une autorité de certification
-              (peut signer d'autres certificats)
-   CA:FALSE → Ce certificat est un certificat final
-              (ne peut pas signer d'autres certificats)
+### II.B. Matrice de Compatibilité (Simplifiée)
+
+**Légende :** 
+- ✅ = Compatible (peut combiner)
+- ❌ = Incompatible
+- ⚠️ = Dépend (conditions)
+
+| **De ↓ Vers →** | **MIT** | **BSD** | **Apache** | **GPL v2** | **GPL v3** | **Propriétaire** |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| **MIT** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **BSD** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Apache 2.0** | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| **GPL v2 only** | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
+| **GPL v2 or later** | ❌ | ❌ | ⚠️ | ✅ | ✅ | ❌ |
+| **GPL v3** | ❌ | ❌ | ❌ | ⚠️ | ✅ | ❌ |
+| **Propriétaire** | ⚠️ | ⚠️ | ⚠️ | ❌ | ❌ | ✅ |
+
+**Comment lire ce tableau :**
+- Ligne = Licence du code source
+- Colonne = Licence du projet de destination
+- Exemple : Apache vers GPL v2 = ❌ (incompatible)
+
+---
+
+### II.C. Cas Pratiques de Compatibilité
+
+#### Cas 1 : Projet Propriétaire + Librairies Open Source
+
+**Situation :** Vous développez un logiciel propriétaire. Quelles librairies pouvez-vous utiliser ?
+
+| **Licence** | **Utilisable ?** | **Condition** |
+|---|:---:|---|
+| **MIT, BSD, Apache** | ✅ Oui | Inclure les licences |
+| **LGPL** | ✅ Oui | Lien dynamique (ne pas modifier la librairie) |
+| **GPL** | ❌ Non | Tout deviendrait GPL |
+
+---
+
+#### Cas 2 : Projet GPL + Librairies Tierces
+
+**Situation :** Vous développez un logiciel GPL. Quelles librairies pouvez-vous utiliser ?
+
+| **Licence** | **Utilisable ?** | **Condition** |
+|---|:---:|---|
+| **MIT, BSD** | ✅ Oui | Aucune (compatibles) |
+| **Apache 2.0** | ⚠️ GPL v3 oui, GPL v2 non | Passer en GPL v3 |
+| **GPL** | ✅ Oui | Même famille |
+| **Propriétaire** | ❌ Non | Incompatible |
+
+---
+
+#### Cas 3 : Dual Licensing (MySQL, Qt)
+
+**Principe :** Proposer le logiciel sous **deux licences** au choix :
+- **GPL** (gratuite) → pour projets open source
+- **Commerciale** (payante) → pour projets propriétaires
+
+**Exemple MySQL :**
+- Gratuit sous GPL v2
+- Payant sous licence commerciale Oracle
+
+**Avantage :** Permet à l'entreprise de gagner de l'argent tout en restant open source.
+
+---
+
+## 📖 PARTIE III — Creative Commons (CC)
+
+### III.A. Qu'est-ce que Creative Commons ?
+
+**Définition :** Famille de licences pour **contenus non-logiciels** (textes, images, musiques, vidéos, bases de données).
+
+**Créateur :** Lawrence Lessig (2001)
+
+**Objectif :** Faciliter le partage culturel avec un cadre juridique clair.
+
+> ⚠️ **Important :** Creative Commons n'est **PAS conçu** pour du logiciel. Pour du code, utiliser des licences open source (MIT, GPL...).
+
+---
+
+### III.B. Les 4 Conditions Creative Commons
+
+Les licences CC se construisent par **combinaison de 4 conditions** :
+
+| **Condition** | **Symbole** | **Signification** |
+|---|:---:|---|
+| **BY** (Attribution) | ![BY] | Citer l'auteur (obligatoire dans toutes les CC sauf CC0) |
+| **SA** (Share Alike) | ![SA] | Partager à l'identique (même licence pour œuvres dérivées) |
+| **NC** (Non Commercial) | ![NC] | Pas d'usage commercial |
+| **ND** (No Derivatives) | ![ND] | Pas de modification |
+
+---
+
+### III.C. Les 6 Licences Creative Commons
+
+Les 4 conditions se combinent pour former **6 licences principales** + **2 outils** :
+
+#### Licences Standard (du plus permissif au plus restrictif)
+
+| **Licence** | **Conditions** | **Permet** | **Interdit** | **Usage** |
+|---|:---:|---|---|---|
+| **CC BY** | BY | Tout (y compris commercial et modif) | — | Max. permissif |
+| **CC BY-SA** | BY + SA | Tout, mais dérivés sous même licence | — | Wikipédia |
+| **CC BY-ND** | BY + ND | Usage commercial, pas de modif | Modifications | Rare |
+| **CC BY-NC** | BY + NC | Modifs OK, pas commercial | Commercial | Photos, musiques |
+| **CC BY-NC-SA** | BY + NC + SA | Modifs sous même licence, pas commercial | Commercial | Éducation |
+| **CC BY-NC-ND** | BY + NC + ND | Juste partager, rien d'autre | Commercial + Modifs | Très restrictif |
+
+#### Outils Spéciaux
+
+| **Outil** | **Signification** |
+|---|---|
+| **CC0** (Zero) | Domaine public (renonciation à tous les droits) |
+| **Public Domain Mark** | Marque du domaine public (œuvres anciennes) |
+
+---
+
+### III.D. Comparaison CC BY-SA vs GPL
+
+| **Critère** | **CC BY-SA** | **GPL** |
+|---|---|---|
+| **Type de contenu** | Textes, images, vidéos | Code logiciel |
+| **Viralité** | Oui (Share Alike) | Oui (Copyleft) |
+| **Compatible ?** | ⚠️ **NON** (en général) | — |
+| **Exemple** | Wikipédia | Linux |
+
+> ⚠️ **Attention :** CC BY-SA et GPL ne sont **PAS compatibles** ! Ne pas mélanger du code GPL avec de la doc CC BY-SA dans un même projet (sauf cas spécifiques).
+
+---
+
+### III.E. Cas d'Usage Creative Commons
+
+| **Type de Contenu** | **Licence Recommandée** | **Raison** |
+|---|---|---|
+| **Photos perso (portfolio)** | CC BY | Partage maximal + crédit |
+| **Documentation technique** | CC BY-SA | Partage + amélioration communautaire |
+| **Musique (artiste amateur)** | CC BY-NC-SA | Protège contre exploitation commerciale |
+| **Vidéo éducative** | CC BY ou CC BY-SA | Réutilisation en classe |
+| **Base de données scientifiques** | CC0 | Domaine public, science ouverte |
+| **Logo d'entreprise** | ❌ Pas de CC | Utiliser copyright classique |
+
+---
+
+### III.F. Où Trouver des Ressources Creative Commons ?
+
+| **Plateforme** | **Type** | **Licences** |
+|---|---|---|
+| **Wikipédia** | Textes | CC BY-SA |
+| **Wikimedia Commons** | Images, vidéos | Variées (CC BY, CC BY-SA) |
+| **Unsplash** | Photos | Unsplash License (type CC0) |
+| **Flickr** | Photos | Variées (filtrer par licence) |
+| **YouTube** | Vidéos | Certaines sous CC BY |
+| **OpenStreetMap** | Cartes | ODbL (similaire CC BY-SA) |
+
+---
+
+![Schéma : Les 6 licences CC en cercles concentriques - CC BY au centre (plus permissif), CC BY-NC-ND en périphérie (plus restrictif)]
+
+*Légende : Hiérarchie de permissivité des licences Creative Commons*
+
+---
+
+## 📖 PARTIE IV — Choisir une Licence : Arbres de Décision
+
+### IV.A. Arbre de Décision — Licences Logicielles
+
+```
+Quel type de projet ?
+│
+├─ Logiciel PROPRIÉTAIRE (code fermé)
+│   → Licence propriétaire (EULA personnalisée)
+│
+├─ Librairie / Framework (adoption max)
+│   │
+│   ├─ Brevets importants ? OUI → Apache 2.0
+│   └─ Brevets importants ? NON → MIT ou BSD
+│
+├─ Projet idéologique (protéger contre appropriation)
+│   │
+│   ├─ SaaS (accès web) → AGPL v3
+│   ├─ Logiciel classique → GPL v3
+│   └─ Librairie (adoption + protection) → LGPL
+│
+└─ Projet perso (portfolio)
+    → MIT (simple et universel)
 ```
 
 ---
 
-## PARTIE III — La PKI : Infrastructure à Clés Publiques
-
-### III.A. Les Acteurs de la PKI
+### IV.B. Arbre de Décision — Creative Commons
 
 ```
-   ACTEURS DE LA PKI
-   ═══════════════════════════════════════════════════════════════
-
-   AC RACINE (Root Certificate Authority)
-   ──────────────────────────────────────────────────────────────
-   Sommet de la hiérarchie de confiance.
-   Certificat auto-signé (personne d'autre ne peut la certifier).
-   Stockée HORS LIGNE dans un HSM (Hardware Security Module)
-   dans une salle sécurisée (vault).
-
-   → Intégrée directement dans les navigateurs et OS
-     (Firefox contient ~150 AC racines dans son trust store)
-
-   Exemples : DigiCert Root CA, Let's Encrypt ISRG Root X1,
-              Sectigo, GlobalSign, AC gouvernementale française
-
-   AC INTERMÉDIAIRE (Intermediate CA / Subordinate CA)
-   ──────────────────────────────────────────────────────────────
-   Signée par la Root CA.
-   Opérationnelle au quotidien (la Root CA reste hors ligne).
-   Signe les certificats finaux (serveurs, clients).
-
-   Pourquoi ? Si l'AC intermédiaire est compromise :
-   → On la révoque + On émet une nouvelle AC intermédiaire
-   → La Root CA n'est pas compromise
-   → Tous les certificats existants sous les autres
-     AC intermédiaires restent valides
-
-   ENTITÉ FINALE (End Entity / Leaf Certificate)
-   ──────────────────────────────────────────────────────────────
-   Certificat du serveur web, d'un client, d'un équipement.
-   CA:FALSE (ne peut pas signer d'autres certificats).
-   Durée de vie : 90 jours à 1 an.
+Quel type de contenu ?
+│
+├─ CODE LOGICIEL
+│   → ❌ Pas de CC, utiliser MIT/GPL/Apache
+│
+├─ Contenu NON-CODE (image, texte, vidéo, musique)
+│   │
+│   ├─ Accepter usage commercial ?
+│   │   │
+│   │   ├─ OUI → Accepter modifications ?
+│   │   │         │
+│   │   │         ├─ OUI → Imposer même licence ?
+│   │   │         │         │
+│   │   │         │         ├─ OUI → CC BY-SA
+│   │   │         │         └─ NON → CC BY
+│   │   │         │
+│   │   │         └─ NON → CC BY-ND
+│   │   │
+│   │   └─ NON → Accepter modifications ?
+│   │             │
+│   │             ├─ OUI → CC BY-NC-SA (ou CC BY-NC)
+│   │             └─ NON → CC BY-NC-ND
+│   │
+│   └─ Domaine public total → CC0
 ```
 
 ---
 
-### III.B. La Chaîne de Confiance
+### IV.C. Outils de Choix de Licence
 
-```
-   CHAÎNE DE CONFIANCE (Chain of Trust)
-   ═══════════════════════════════════════════════════════════════
-
-   HIÉRARCHIE PKI TYPIQUE
-   ──────────────────────────────────────────────────────────────
-
-   ┌─────────────────────────────────┐
-   │         ROOT CA                 │  ← Auto-signé, dans le trust store
-   │  "DigiCert Global Root CA"      │    du navigateur / OS
-   │  Validité : 25 ans              │    Stockée HORS LIGNE
-   └──────────────┬──────────────────┘
-                  │ Signe
-                  ▼
-   ┌─────────────────────────────────┐
-   │       INTERMEDIATE CA           │  ← Signée par la Root CA
-   │  "DigiCert TLS RSA SHA256 CA"   │    Opérationnelle en ligne
-   │  Validité : 5-10 ans            │    Signe les certificats finaux
-   └──────────────┬──────────────────┘
-                  │ Signe
-                  ▼
-   ┌─────────────────────────────────┐
-   │       CERTIFICAT FINAL          │  ← Signé par l'AC intermédiaire
-   │  "www.banque.fr"                │    Installé sur le serveur web
-   │  Validité : 90 jours à 1 an     │
-   └─────────────────────────────────┘
-
-   VALIDATION PAR LE NAVIGATEUR
-   ──────────────────────────────────────────────────────────────
-   ① Le serveur envoie son certificat FINAL + les INTERMÉDIAIRES
-   ② Le navigateur vérifie la signature du certificat final
-      par l'AC intermédiaire
-   ③ Il vérifie la signature de l'AC intermédiaire par la Root CA
-   ④ Il vérifie que la Root CA est dans son trust store
-   ⑤ Il vérifie la date de validité à chaque étape
-   ⑥ Il vérifie que le CN/SAN correspond au domaine visité
-   ⑦ Il vérifie que le certificat n'est pas révoqué (CRL/OCSP)
-   → Cadenas ✅ si tout est valide, alerte ❌ sinon
-```
+| **Outil** | **URL** | **Usage** |
+|---|---|---|
+| **Choose a License** | [choosealicense.com](https://choosealicense.com) | Licences logicielles (GitHub) |
+| **CC License Chooser** | [creativecommons.org/choose](https://creativecommons.org/choose/) | Licences Creative Commons |
+| **TLDRLegal** | [tldrlegal.com](https://tldrlegal.com) | Résumés de licences |
 
 ---
 
-### III.C. Types de Certificats
+## 🔑 VOCABULAIRE CLÉ À MAÎTRISER (pour l'examen)
 
-```
-   TYPES DE CERTIFICATS TLS/HTTPS
-   ═══════════════════════════════════════════════════════════════
-
-   DV — Domain Validation (Validation de Domaine)
-   ──────────────────────────────────────────────────────────────
-   L'AC vérifie UNIQUEMENT que vous contrôlez le domaine
-   (via fichier sur le serveur ou enregistrement DNS).
-   Délivré en quelques minutes.
-   Prix : Gratuit (Let's Encrypt) à ~50€/an.
-   Affichage : Cadenas simple 🔒
-   Usage : Blog, site perso, API, tout site basique
-
-   OV — Organization Validation (Validation d'Organisation)
-   ──────────────────────────────────────────────────────────────
-   L'AC vérifie domaine + existence légale de l'organisation
-   (extrait Kbis, numéro SIRET, appel téléphonique...).
-   Délivré en 1-5 jours.
-   Prix : ~100-300€/an.
-   Affichage : Cadenas 🔒 (infos org visibles dans le certificat)
-   Usage : Sites d'entreprises, portails B2B
-
-   EV — Extended Validation (Validation Étendue)
-   ──────────────────────────────────────────────────────────────
-   Vérification approfondie (identité légale, localisation, statut).
-   Délivré en 1-2 semaines.
-   Prix : ~300-1000€/an.
-   Affichage : Cadenas 🔒 + Nom de l'organisation visible
-   Usage : Banques, e-commerce, administrations
-
-   WILDCARD (Certificat Joker)
-   ──────────────────────────────────────────────────────────────
-   Couvre un domaine ET tous ses sous-domaines directs.
-   CN : *.exemple.fr
-   → Valide pour : www.exemple.fr, api.exemple.fr, mail.exemple.fr
-   → NON valide pour : sub.api.exemple.fr (sous-domaine de sous-domaine)
-   Usage : Entreprise avec beaucoup de sous-domaines
-
-   CERTIFICAT MULTI-DOMAINES (SAN)
-   ──────────────────────────────────────────────────────────────
-   Un seul certificat pour plusieurs domaines distincts.
-   SAN: DNS:exemple.fr, DNS:exemple.com, DNS:exemple.org
-   Usage : Sites multilingues, groupes d'entreprises
-
-   CERTIFICAT CLIENT
-   ──────────────────────────────────────────────────────────────
-   Identifie une PERSONNE ou un APPAREIL (pas un serveur).
-   Usage : Authentification forte (VPN, portail d'entreprise),
-           signature de documents, messagerie chiffrée (S/MIME)
-```
+| **Terme** | **Définition Simple** |
+|---|---|
+| **Compatibilité de licences** | Possibilité de combiner du code sous différentes licences |
+| **Viralité / Copyleft** | Obligation de redistribuer les modifications sous la même licence |
+| **GPL v2 vs v3** | v3 ajoute anti-DRM, compatibilité Apache, brevets renforcés |
+| **BSD 3-clause** | BSD + clause de non-endorsement (protection du nom) |
+| **Apache 2.0** | Licence permissive + clause de brevets explicite |
+| **LGPL** | GPL "light" pour librairies (copyleft modéré) |
+| **AGPL** | GPL pour SaaS (obligation même sans distribution) |
+| **Dual licensing** | Même logiciel sous 2 licences (GPL + Commercial) |
+| **Creative Commons** | Licences pour contenus non-logiciels |
+| **CC BY-SA** | Attribution + Partage à l'identique (≈ GPL pour contenus) |
+| **CC BY-NC** | Attribution + Pas d'usage commercial |
+| **CC0** | Domaine public (renonciation à tous droits) |
 
 ---
 
-### III.D. Cycle de Vie d'un Certificat
+## ✅ Points Clés à Retenir
 
-```
-   CYCLE DE VIE COMPLET
-   ═══════════════════════════════════════════════════════════════
+1. **MIT, BSD, Apache = permissives** → compatibles avec presque tout (même propriétaire).
 
-   ① GÉNÉRATION DE LA CLÉ PRIVÉE
-   ──────────────────────────────────────────────────────────────
-   Le titulaire génère une paire de clés (privée + publique).
-   La clé PRIVÉE reste chez lui — Ne la transmets jamais !
+2. **Apache 2.0 > MIT** pour projets avec enjeux de brevets (clause explicite).
 
-   ② CRÉATION DE LA CSR (Certificate Signing Request)
-   ──────────────────────────────────────────────────────────────
-   Demande de certificat contenant :
-   → La clé PUBLIQUE
-   → Les informations d'identité (CN, O, C...)
-   → Signée par la clé PRIVÉE (prouve la possession)
+3. **GPL v2 ≠ GPL v3** : v3 compatible Apache, v2 non. Linux = v2 only (choix de Linus).
 
-   ③ SOUMISSION À L'AC
-   ──────────────────────────────────────────────────────────────
-   La CSR est envoyée à l'Autorité de Certification.
-   L'AC vérifie l'identité (DV/OV/EV selon le type).
+4. **Compatibilité = unidirectionnelle** : MIT → GPL OK, GPL → MIT NON.
 
-   ④ SIGNATURE PAR L'AC
-   ──────────────────────────────────────────────────────────────
-   L'AC :
-   → Ajoute les métadonnées (numéro de série, validité, extensions)
-   → Signe le tout avec sa clé privée
-   → Retourne le certificat signé (.crt / .pem)
+5. **Licence la plus restrictive l'emporte** : MIT + Apache + GPL = Tout GPL.
 
-   ⑤ INSTALLATION ET DÉPLOIEMENT
-   ──────────────────────────────────────────────────────────────
-   Le certificat + la chaîne d'AC intermédiaires
-   sont installés sur le serveur web (nginx, Apache, IIS...).
+6. **LGPL = compromis** : permet usage par du propriétaire (librairies).
 
-   ⑥ RENOUVELLEMENT
-   ──────────────────────────────────────────────────────────────
-   Avant expiration : Nouvelle CSR → Nouveau certificat.
-   Let's Encrypt : Renouvellement automatique (Certbot) tous les 90j.
+7. **AGPL = GPL + SaaS** : obligation même si pas de distribution (accès web).
 
-   ⑦ RÉVOCATION (si compromis)
-   ──────────────────────────────────────────────────────────────
-   Si la clé privée est volée → Révoquer immédiatement.
+8. **Creative Commons ≠ Licences logicielles** : CC pour contenus (images, textes), pas pour code.
 
-   CRL (Certificate Revocation List)
-   → L'AC publie une liste des numéros de série révoqués
-   → Le navigateur télécharge périodiquement la CRL
-   → Inconvénient : La liste peut être obsolète
+9. **CC BY-SA ≈ GPL** : partage à l'identique (copyleft pour contenus).
 
-   OCSP (Online Certificate Status Protocol)
-   → Le navigateur interroge le serveur OCSP de l'AC en temps réel
-   → Réponse immédiate : Valide / Révoqué / Inconnu
-   → OCSP Stapling : Le serveur web intègre la réponse OCSP
-     dans le TLS handshake (plus rapide, privé)
-```
+10. **CC0 = domaine public** : renonciation totale aux droits.
 
 ---
 
-### III.E. Le Cadenas et la Chaîne Complète TLS
+## 📚 Pour Aller Plus Loin
 
-```
-   CE QUI SE PASSE QUAND VOUS VISITEZ https://exemple.fr
-   ═══════════════════════════════════════════════════════════════
+**Outils pratiques :**
+- [Choose a License](https://choosealicense.com)
+- [Creative Commons Chooser](https://creativecommons.org/choose/)
+- [GNU License List](https://www.gnu.org/licenses/license-list.html)
 
-   1. DNS : exemple.fr → 203.0.113.42
-   2. TCP : Connexion sur port 443
-   3. TLS HANDSHAKE :
-      → Client Hello : "Je supporte TLS 1.3, voici mes suites crypto"
-      → Server Hello : "On utilise TLS 1.3, AES-256-GCM-SHA384"
-      → Certificate : Le serveur envoie son certificat + intermédiaires
-      → Le CLIENT VÉRIFIE le certificat (chaîne + date + domaine + révoc.)
-      → Key Exchange : Diffie-Hellman éphémère (ECDHE)
-        → Génération d'une clé de session AES partagée (symétrique)
-      → Finished : Canal chiffré AES-256-GCM établi ✅
-   4. HTTP dans le tunnel TLS : GET / HTTP/1.1
-   5. Cadenas vert dans le navigateur
+**Lectures recommandées :**
+- [The Cathedral and the Bazaar](http://www.catb.org/~esr/writings/cathedral-bazaar/) (Eric S. Raymond)
+- [Why GPL v3](https://www.gnu.org/licenses/rms-why-gplv3.html) (Richard Stallman)
 
-   DURÉE DU TLS HANDSHAKE : ~50 ms (TLS 1.3, 1 aller-retour)
-   DURÉE DU CHIFFREMENT AES : Négligeable (10 Gb/s)
-
-   POURQUOI TLS 1.2 EST DÉPRÉCIÉ (et TLS 1.3 obligatoire)
-   ──────────────────────────────────────────────────────────────
-   TLS 1.2 : 2 allers-retours pour le handshake (plus lent)
-             Supporte des suites crypto faibles (RC4, DES...)
-             Vulnérable à des attaques (POODLE, BEAST, DROWN...)
-   TLS 1.3 : 1 aller-retour, suites modernes uniquement,
-             Perfect Forward Secrecy obligatoire
-```
-
----
-
-## V. Vocabulaire Clé
-
-| **Terme** | **Définition** |
-|-----------|---------------|
-| **PKI** | Public Key Infrastructure — Infrastructure gérant les clés publiques et certificats |
-| **Certificat X.509** | Standard de certificat numérique (RFC 5280) contenant identité + clé publique + signature AC |
-| **Root CA** | Autorité de Certification racine — auto-signée, stockée hors ligne, intégrée dans les trust stores |
-| **Intermediate CA** | AC intermédiaire — signée par la Root CA, signe les certificats finaux au quotidien |
-| **CSR** | Certificate Signing Request — Demande de certificat contenant clé publique + identité |
-| **PEM** | Format texte base64 d'un certificat ou clé (-----BEGIN CERTIFICATE-----) |
-| **DER** | Format binaire d'un certificat (équivalent binaire du PEM) |
-| **SAN** | Subject Alternative Names — Extension X.509 listant tous les domaines couverts |
-| **CN** | Common Name — Nom principal dans le Subject (domaine pour serveur, prénom/nom pour client) |
-| **Trust store** | Magasin de certificats des AC racines de confiance du navigateur/OS |
-| **CRL** | Certificate Revocation List — Liste des certificats révoqués publiée par l'AC |
-| **OCSP** | Online Certificate Status Protocol — Vérification en temps réel de la révocation |
-| **TLS Handshake** | Négociation initiale TLS établissant le canal chiffré |
-| **DV / OV / EV** | Niveaux de validation : Domaine / Organisation / Étendue |
-| **Wildcard** | Certificat *.domaine.fr couvrant tous les sous-domaines directs |
-| **Certificat auto-signé** | Certificat signé par sa propre clé privée (pas de tiers de confiance) |
-| **HSM** | Hardware Security Module — Matériel dédié à la protection des clés privées des AC |
+**Questions de réflexion :**
+- Pourquoi Linus Torvalds refuse-t-il de passer Linux en GPL v3 ?
+- Peut-on créer un business model viable avec de l'open source ?
+- Faut-il utiliser CC BY-SA ou CC BY pour de la documentation technique ?
 
 ---

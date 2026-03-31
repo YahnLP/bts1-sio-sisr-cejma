@@ -3,44 +3,37 @@
 | **Champ** | **Détail** |
 |-----------|-----------|
 | **Semaine** | S15 — Année 1 |
-| **Bloc** | Bloc 3 — Cybersécurité des services informatiques |
+| **Bloc** | Bloc 1 - Support et mise à disposition de services informatiques |
 | **Durée totale** | 4 heures |
-| **Public** | Apprentis BTS SIO SISR — quinzième semaine |
-| **Modalité** | Présentiel — salle de cours + TP machines |
-| **Prérequis** | S5-S8 (RGPD complet) · Notions de démarrage système · BIOS/UEFI basiques |
+| **Public** | Apprentis BTS SIO SISR — quinzième semaine thématique |
+| **Modalité** | Présentiel — salle de cours + accès internet |
+| **Prérequis** | RGPD (S6-S10), Propriété intellectuelle (S11), notions de sécurité |
 
 ---
 
 ## 🧠 Compétences travaillées
 
-| **Code** | **Intitulé de la compétence** | **Niveau visé** |
-|----------|-------------------------------|-----------------|
-| **B3.1** | Identifier les principales menaces de sécurité | Maîtrise |
-| **B3.2** | Mettre en œuvre les mesures de sécurité de base | Maîtrise |
-| **B3.8** | Protéger l'intégrité du démarrage système | Acquisition |
-| **B2.1** | Comprendre les obligations légales (vie privée, image) | Maîtrise |
+| **Code** | **Intitulé** | **Niveau visé** |
+|----------|--------------|-----------------|
+| **B1.2** | Exploiter des référentiels, normes et standards adoptés par le prestataire informatique | Initiation |
+| **B1.4** | Identifier et caractériser les incidents et les problèmes | Initiation |
+| **B2.1** | Assurer la sécurité, la disponibilité et l'intégrité des services et des données | Initiation |
+| **B2.3** | Respecter les règles et bonnes pratiques en matière de sécurité | Initiation |
+| **B3.2** | Gérer les incidents et les demandes d'assistance | Découverte |
 
-> 📌 **S15 BLOC 3 couvre deux dimensions complémentaires de la cybersécurité.** L'identité numérique touche à la protection des personnes (RGPD, vie privée, réputation en ligne) — compétence de plus en plus demandée avec les réseaux sociaux et le recrutement digital. La sécurité BIOS/UEFI touche à la base de la chaîne de confiance matérielle — un technicien SISR qui ne comprend pas Secure Boot ne peut pas déployer correctement Windows 11 en entreprise ni sécuriser un parc informatique contre les attaques de bas niveau.
+> 📌 **Contexte pédagogique :** Cette séance aborde un sujet **transversal** entre droit, sécurité et usage du numérique : l'identité numérique. Elle permet aux futurs techniciens SISR de comprendre les **enjeux de l'e-réputation**, les **risques d'usurpation d'identité**, et le **cadre européen e-IDAS** pour la confiance numérique.
 
 ---
-## 🎯 Objectifs
+## Objectifs Pédagogiques
 
-**Identité Numérique & E-réputation :**
-- ✅ Définir l'**identité numérique** et ses composantes (déclarative vs calculée)
-- ✅ Comprendre l'**e-réputation** et son impact professionnel
-- ✅ Maîtriser le **droit à l'image** (cadre légal français Art. 9 Code Civil)
-- ✅ Distinguer **anonymat**, **pseudonymat** et **identité réelle**
-- ✅ Identifier les **traces numériques** laissées en ligne (5 types)
-- ✅ Savoir exercer ses **droits RGPD** sur ses données personnelles (Art. 17 effacement)
-- ✅ Connaître les **outils de gestion** de la réputation (Google Alerts, déréférencement)
+À l'issue de cette séance, l'apprenant sera capable de :
 
-**Sécurité BIOS/UEFI :**
-- ✅ Comprendre la **chaîne de démarrage** sécurisée (boot chain)
-- ✅ Définir **Secure Boot** et son fonctionnement (db/dbx, vérification signature)
-- ✅ Configurer les **mots de passe BIOS/UEFI** (supervisor/user/HDD)
-- ✅ Identifier les **attaques** contre le firmware (Evil Maid, bootkits)
-- ✅ Comprendre **TPM 2.0** (Trusted Platform Module) et Measured Boot
-- ✅ Configurer Secure Boot et TPM pour **Windows 11** (prérequis obligatoires)
+- ✅ **Définir** l'identité numérique et ses composantes (déclarative, agissante, calculée)
+- ✅ **Expliquer** l'e-réputation et ses enjeux professionnels et personnels
+- ✅ **Identifier** les risques d'usurpation d'identité numérique et les sanctions
+- ✅ **Comprendre** le règlement e-IDAS et les signatures électroniques (simple, avancée, qualifiée)
+- ✅ **Appliquer** les bonnes pratiques de protection de l'identité numérique
+- ✅ **Analyser** son empreinte numérique personnelle
+- ✅ **Produire** un audit d'identité numérique pour son portfolio
+
 ---
-
-

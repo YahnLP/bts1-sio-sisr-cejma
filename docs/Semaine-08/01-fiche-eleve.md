@@ -4,357 +4,575 @@ title: 📚 FICHE DE COURS
 ---
 
 # 📚 FICHE DE COURS ÉLÈVE
-## "RGPD Module 4 · Travail et Données Personnelles"
+## RGPD (3) : Droits des Personnes et Mise en Œuvre Technique
 
 *Version 1.0 — BTS SIO SISR — Année 1 — Semaine 8*
 
 ---
 
-## 🎯 Compétences Travaillées
+## 🎯 Objectifs de Cette Fiche
 
-| **Code** | **Compétence** |
-|----------|---------------|
-| **B3.2** | Mettre en œuvre les mesures de sécurité de base |
-| **B3.3** | Gérer les incidents de sécurité |
-
----
-
-## PARTIE I — Données Personnelles dans le Monde du Travail
-
-### I.A. Quelles Données l'Employeur Collecte-t-il ?
-
-```
-   DONNÉES RH — CYCLE DE VIE DU SALARIÉ
-   ═══════════════════════════════════════════════════════════════
-
-   RECRUTEMENT
-   ──────────────────────────────────────────────────────────────
-   Données collectées :
-   • CV : nom, prénom, adresse, email, téléphone, formation, expériences
-   • Photo (facultative, ne peut pas être exigée)
-   • Entretien : notes, appréciations
-   • Tests : résultats, évaluations
-
-   Durée de conservation :
-   • Candidat recruté → Données intégrées au dossier salarié
-   • Candidat non retenu → 2 ans maximum (CNIL)
-   • ⚠️ Conserver un CV 5 ans "au cas où" = violation RGPD
-
-   DONNÉES INTERDITES lors du recrutement :
-   ❌ Origine ethnique ou nationalité (sauf poste l'exigeant)
-   ❌ Situation familiale, grossesse
-   ❌ Opinion politique, conviction religieuse
-   ❌ État de santé (sauf médecine du travail)
-   ❌ Orientation sexuelle
-
-   PENDANT LE CONTRAT
-   ──────────────────────────────────────────────────────────────
-   Données légitimes :
-   • État civil, coordonnées, RIB
-   • Contrat de travail, salaire
-   • Absences, congés, arrêts maladie (médecin du travail uniquement)
-   • Formations suivies, évaluations annuelles
-   • Données de badgeage / pointage
-
-   Données de surveillance (encadrées) :
-   • Logs informatiques (navigation, emails pro)
-   • Géolocalisation (véhicules de service)
-   • Vidéosurveillance (zones autorisées uniquement)
-
-   FIN DU CONTRAT
-   ──────────────────────────────────────────────────────────────
-   Données conservées :
-   • Dossier salarié : 5 ans après fin de contrat (Code du travail)
-   • Fiches de paie : 5 ans
-   • Données comptables (salaires) : 10 ans
-   • Accès informatiques → Désactivation IMMÉDIATE (jour même)
-   • Email pro → Redirection 6 mois maximum
-```
+À la fin de ce cours, vous serez capable de :
+- ✅ Lister les 8 droits des personnes selon le RGPD
+- ✅ Expliquer les droits d'accès, d'effacement et de portabilité
+- ✅ Répondre techniquement à une demande d'exercice de droit (SQL, export, suppression)
+- ✅ Distinguer anonymisation, pseudonymisation, suppression, archivage
+- ✅ Respecter les délais, la gratuité, les exceptions
 
 ---
 
-### I.B. Surveillance des Salariés : Ce qui est Autorisé
+## 📖 PARTIE I — Les 8 Droits des Personnes (Vue d'Ensemble)
 
-**Principe fondamental :** Toute surveillance doit être **proportionnée, légitimement justifiée et transparente**.
+### I.A. Principes Généraux
 
+Le RGPD confère aux **personnes concernées** (les individus dont les données sont traitées) **8 droits fondamentaux** pour **maîtriser leurs données personnelles**.
+
+Ces droits s'exercent **gratuitement** (sauf abus) et le responsable de traitement doit y répondre sous **1 mois** (extensible à 3 mois si complexité).
+
+### I.B. Tableau des 8 Droits
+
+| **Droit** | **Article** | **Description Courte** | **Exemple** |
+|---|:---:|---|---|
+| **1. Droit d'information** | Art. 13-14 | Être informé de la collecte et du traitement | Politique de confidentialité |
+| **2. Droit d'accès** | Art. 15 | Obtenir une copie de ses données | Export de l'historique de commandes |
+| **3. Droit de rectification** | Art. 16 | Corriger des données inexactes | Modifier son adresse postale |
+| **4. Droit à l'effacement** | Art. 17 | Demander la suppression de ses données | Supprimer son compte |
+| **5. Droit à la limitation** | Art. 18 | Geler temporairement le traitement | "Ne plus utiliser mes données le temps de vérifier leur exactitude" |
+| **6. Droit à la portabilité** | Art. 20 | Récupérer ses données dans un format structuré | Télécharger ses données Facebook en JSON |
+| **7. Droit d'opposition** | Art. 21 | S'opposer à un traitement | Se désabonner des newsletters |
+| **8. Décision automatisée** | Art. 22 | Ne pas subir une décision uniquement automatisée | Refus de crédit par algorithme → demande d'examen humain |
+
+> 📌 **Focus de cette séance :** Les droits **2 (accès)**, **4 (effacement)** et **6 (portabilité)** qui nécessitent des **compétences techniques** pour être mis en œuvre.
+
+---
+
+## 📖 PARTIE II — Le Droit d'Accès (Article 15)
+
+### II.A. Définition
+
+Le droit d'accès permet à toute personne de demander au responsable de traitement :
+- ✅ **Si** ses données sont traitées
+- ✅ **Quelles** données sont traitées
+- ✅ **Pourquoi** (finalités du traitement)
+- ✅ **Combien de temps** elles seront conservées
+- ✅ **Qui** y a accès (destinataires)
+- ✅ **D'où** viennent les données (si collecte indirecte)
+
+### II.B. Contenu de la Réponse
+
+Le RT doit fournir **une copie** des données personnelles traitées. Cette copie peut être :
+- Format **PDF** (pour les particuliers, lisible par humain)
+- Format **CSV / JSON / XML** (pour portabilité, si demandé)
+- Format **papier** (si demande par courrier)
+
+**Contenu minimal :**
+- Identité (nom, prénom, email, adresse...)
+- Historique des actions (commandes, connexions, avis...)
+- Données générées (logs, préférences, consentements...)
+
+### II.C. Mise en Œuvre Technique
+
+**Étapes pour répondre à une demande d'accès :**
+
+#### Étape 1 : Vérifier l'Identité
+
+⚠️ **SÉCURITÉ CRITIQUE** : Avant de communiquer des données, vérifier que le demandeur est bien la personne concernée.
+
+**Méthodes de vérification :**
+- Envoi d'un code de confirmation par email (si email vérifié)
+- Demande de copie de pièce d'identité
+- Questions de sécurité (date de naissance, dernière commande...)
+- Double authentification (2FA)
+
+#### Étape 2 : Extraire les Données (SQL)
+
+**Exemple de requête SQL :**
+
+```sql
+-- Extraire les données utilisateur
+SELECT * FROM users WHERE email = 'john.doe@example.com';
+
+-- Extraire l'historique des commandes
+SELECT * FROM orders WHERE user_id = 123;
+
+-- Extraire les avis laissés
+SELECT * FROM reviews WHERE user_id = 123;
+
+-- Extraire les logs de connexion (3 derniers mois)
+SELECT * FROM access_logs 
+WHERE user_id = 123 
+AND timestamp >= DATE_SUB(NOW(), INTERVAL 3 MONTH);
 ```
-   TABLEAU SURVEILLANCE : AUTORISÉ / INTERDIT
-   ═══════════════════════════════════════════════════════════════
 
-   SURVEILLANCE      │ AUTORISÉ SI...              │ INTERDIT
-   ──────────────────┼─────────────────────────────┼─────────────────
-   Logs navigation   │ ✅ Salariés informés         │ ❌ À leur insu
-   web               │ ✅ Charte informatique        │ ❌ Sites perso
-                     │ ✅ Audit ponctuel             │    bloqués sans
-                     │                             │    avertissement
-   ──────────────────┼─────────────────────────────┼─────────────────
-   Emails pro        │ ✅ Salariés informés          │ ❌ Emails marqués
-                     │ ✅ Charte informatique        │    "Personnel"
-                     │ ✅ Si enquête sur incident    │ ❌ Lecture en
-                     │                             │    temps réel
-   ──────────────────┼─────────────────────────────┼─────────────────
-   Keylogger /       │ ❌ JAMAIS autorisé           │ ❌ Toujours
-   enregistrement    │   (surveillance excessive)   │    interdit
-   frappe clavier    │                             │
-   ──────────────────┼─────────────────────────────┼─────────────────
-   Géolocalisation   │ ✅ Véhicule de service        │ ❌ Temps perso
-   véhicule          │ ✅ Sécurité / optimisation   │    (week-end)
-                     │ ✅ Salariés informés          │ ❌ Contrôle des
-                     │                             │    pauses
-   ──────────────────┼─────────────────────────────┼─────────────────
-   Logiciel de       │ ✅ Si proportionné            │ ❌ Surveillance
-   monitoring PC     │ ✅ Salariés informés          │    permanente
-   (temps actif,     │ ✅ Charte informatique        │    de chaque
-   apps utilisées)   │                             │    action
-   ──────────────────┼─────────────────────────────┼─────────────────
-   Écoute appels     │ ✅ Formation / qualité        │ ❌ À l'insu
-   téléphoniques     │ ✅ Salariés informés          │    des salariés
-                     │ ✅ Nombre limité              │
+#### Étape 3 : Anonymiser les Données Tierces
+
+Si les données extraites contiennent des **informations sur d'autres personnes**, il faut les anonymiser.
+
+**Exemple :** Un avis produit mentionne le nom d'un autre utilisateur dans les commentaires → remplacer par "Utilisateur anonymisé".
+
+#### Étape 4 : Exporter dans un Format Structuré
+
+**Export CSV :**
+
+```csv
+id,email,name,phone,address,created_at
+123,john.doe@example.com,John Doe,0612345678,12 rue de Paris,2022-01-15
+```
+
+**Export JSON :**
+
+```json
+{
+  "user": {
+    "id": 123,
+    "email": "john.doe@example.com",
+    "name": "John Doe",
+    "phone": "0612345678",
+    "address": "12 rue de Paris",
+    "created_at": "2022-01-15"
+  },
+  "orders": [
+    {
+      "id": 456,
+      "product": "Laptop HP",
+      "amount": 799.99,
+      "order_date": "2023-05-20"
+    }
+  ],
+  "reviews": [...]
+}
+```
+
+#### Étape 5 : Envoyer la Réponse
+
+- Email avec pièce jointe sécurisée (zip chiffré, mot de passe communiqué séparément)
+- Lien de téléchargement temporaire (24-48h) avec authentification
+- Courrier postal si demande papier
+
+### II.D. Délais et Exceptions
+
+**Délai :** 1 mois à compter de la réception de la demande (art. 12-3)  
+**Extension possible :** +2 mois si complexité (mais informer sous 1 mois)  
+**Gratuité :** 1ère demande gratuite, demandes abusives peuvent être facturées
+
+**Exceptions :** Le droit d'accès peut être **limité** si :
+- Secret des affaires
+- Sécurité publique, défense nationale
+- Procédure judiciaire en cours
+- Atteinte aux droits d'autrui
+
+---
+
+![Schéma du processus droit d'accès : 1. Demande reçue, 2. Vérification identité, 3. Extraction BDD (SQL), 4. Export CSV/JSON, 5. Envoi sécurisé sous 1 mois]
+
+*Légende : Processus de traitement d'une demande de droit d'accès*
+
+---
+
+## 📖 PARTIE III — Le Droit à l'Effacement (Article 17)
+
+### III.A. Définition
+
+Le droit à l'effacement (ou **"droit à l'oubli"**) permet à une personne de demander la **suppression** de ses données personnelles.
+
+> ⚠️ **Attention :** Ce droit n'est **PAS absolu**. Il existe de nombreuses exceptions.
+
+### III.B. Motifs d'Effacement
+
+La personne peut demander l'effacement si :
+- Les données ne sont **plus nécessaires** au regard des finalités initiales
+- Elle **retire son consentement** (et aucune autre base légale)
+- Elle s'**oppose** au traitement (et pas de motif légitime impérieux)
+- Les données ont été traitées **illégalement**
+- Obligation légale de suppression (ex : CNIL ordonne)
+- Données collectées sur un **mineur** dans le cadre de services en ligne
+
+### III.C. Exceptions — Quand le RT Peut Refuser
+
+Le RT peut **refuser** l'effacement si :
+- ✅ **Obligation légale de conservation** (ex : facturation = 10 ans, comptabilité, archives fiscales)
+- ✅ **Intérêt public** (santé publique, archives historiques...)
+- ✅ **Exercice du droit à la liberté d'expression** (journalisme, recherche...)
+- ✅ **Constatation, exercice ou défense de droits en justice** (litige en cours)
+- ✅ **Intérêt public en matière de santé** (épidémiologie, alertes sanitaires...)
+
+### III.D. Mise en Œuvre Technique — Suppression vs Anonymisation
+
+Le RT a **3 options** selon le contexte :
+
+#### Option 1 : Suppression Physique (DELETE)
+
+**Quand ?** Données vraiment inutiles, aucune obligation de conservation.
+
+```sql
+-- Supprimer l'utilisateur et toutes ses données liées (attention aux contraintes)
+DELETE FROM reviews WHERE user_id = 123;
+DELETE FROM orders WHERE user_id = 123;
+DELETE FROM access_logs WHERE user_id = 123;
+DELETE FROM users WHERE id = 123;
+```
+
+⚠️ **Attention :**
+- Vérifier les **contraintes de clés étrangères** (ON DELETE CASCADE ou SET NULL)
+- Penser aux **sauvegardes** (doivent aussi être purgées ou anonymisées)
+- **Tracer l'action** dans un log RGPD (preuve de suppression)
+
+#### Option 2 : Anonymisation (UPDATE)
+
+**Quand ?** Obligation de conserver certaines données (ex : commandes pour comptabilité), mais pas besoin d'identifier la personne.
+
+```sql
+-- Anonymiser l'utilisateur (remplacer données identifiantes par des valeurs génériques)
+UPDATE users 
+SET 
+    name = 'Utilisateur supprimé',
+    email = NULL,
+    phone = NULL,
+    address = NULL,
+    password_hash = NULL,
+    deleted_at = NOW()
+WHERE id = 123;
+```
+
+**Résultat :** Les commandes existent toujours (pour la compta), mais impossible d'identifier la personne.
+
+#### Option 3 : Pseudonymisation (HASH)
+
+**Quand ?** Besoin de conserver des statistiques, mais anonymiser l'identité.
+
+```sql
+-- Remplacer les identifiants par des hash
+UPDATE users 
+SET 
+    email = SHA256(email),
+    name = SHA256(name)
+WHERE id = 123;
+```
+
+### III.E. Cas Particulier : Les Avis et Commentaires Publics
+
+**Problème :** Un utilisateur demande l'effacement, mais il a laissé 50 avis produits sur le site. Faut-il supprimer les avis ?
+
+**Réponse :**
+- Si avis **identifiants** (nom complet, photo) → **anonymiser** ("Utilisateur anonyme")
+- Si avis **anonymes** (pseudo, pas de photo) → **conserver** (liberté d'expression, intérêt public)
+- Si avis **illicites** (diffamation, haine) → **supprimer** (obligation légale)
+
+### III.F. Notification aux Tiers
+
+Si les données ont été **transmises à des tiers** (sous-traitants, partenaires), le RT doit les **informer** de la demande d'effacement (art. 19).
+
+**Exemple :** ShopOnline a transmis les données à Google Analytics → informer Google de supprimer aussi.
+
+---
+
+![Schéma des 3 options d'effacement : Suppression physique (DELETE, données vraiment inutiles), Anonymisation (UPDATE, obligation conservation mais anonymat OK), Pseudonymisation (HASH, stats anonymisées)]
+
+*Légende : Les 3 techniques d'effacement selon le contexte*
+
+---
+
+## 📖 PARTIE IV — Le Droit à la Portabilité (Article 20)
+
+### IV.A. Définition
+
+Le droit à la portabilité permet à une personne de **récupérer ses données** dans un **format structuré, couramment utilisé et lisible par machine** pour :
+- Les conserver
+- Les transférer à un autre RT
+
+> 💡 **Objectif :** Faciliter le changement de fournisseur (interopérabilité).
+
+### IV.B. Conditions d'Application
+
+Le droit à la portabilité s'applique **SEULEMENT** si :
+- ✅ Le traitement est fondé sur le **consentement** ou un **contrat**
+- ✅ Le traitement est **automatisé** (pas de traitement manuel)
+
+**Données concernées :**
+- ✅ Données **fournies par la personne** (nom, email, adresse...)
+- ✅ Données **générées par son activité** (historique de navigation, likes, playlists...)
+- ❌ Données **inférées/dérivées** (score de crédit, profil publicitaire...) → **NON portables**
+
+### IV.C. Formats d'Export
+
+**Formats couramment utilisés :**
+- **CSV** : Simple, universel, lisible par Excel
+- **JSON** : Structuré, utilisé par les API
+- **XML** : Structuré, ancien standard
+- **PDF** : Lisible par humain (mais pas idéal pour portabilité machine)
+
+**Exemple JSON (export Spotify) :**
+
+```json
+{
+  "user": {
+    "username": "john_doe",
+    "email": "john.doe@example.com",
+    "created_at": "2018-05-12"
+  },
+  "playlists": [
+    {
+      "name": "My Favorite Songs",
+      "songs": [
+        {"title": "Song 1", "artist": "Artist A", "duration": 210},
+        {"title": "Song 2", "artist": "Artist B", "duration": 180}
+      ]
+    }
+  ],
+  "listening_history": [...]
+}
+```
+
+### IV.D. Mise en Œuvre Technique
+
+#### Étape 1 : Identifier les Données Portables
+
+**Requête SQL (exemple) :**
+
+```sql
+-- Données fournies par l'utilisateur
+SELECT id, email, name, phone, address, birthdate 
+FROM users 
+WHERE id = 123;
+
+-- Données générées par l'activité
+SELECT product_name, amount, order_date 
+FROM orders 
+WHERE user_id = 123;
+
+SELECT product_id, rating, comment, review_date 
+FROM reviews 
+WHERE user_id = 123;
+```
+
+#### Étape 2 : Exporter en Format Structuré
+
+**Script Python (exemple) :**
+
+```python
+import json
+import mysql.connector
+
+# Connexion BDD
+conn = mysql.connector.connect(host="localhost", user="root", password="", database="shoponline")
+cursor = conn.cursor(dictionary=True)
+
+# Extraction données utilisateur
+cursor.execute("SELECT * FROM users WHERE id = 123")
+user_data = cursor.fetchone()
+
+# Extraction commandes
+cursor.execute("SELECT * FROM orders WHERE user_id = 123")
+orders_data = cursor.fetchall()
+
+# Création du JSON
+export = {
+    "user": user_data,
+    "orders": orders_data
+}
+
+# Export JSON
+with open("user_123_export.json", "w") as f:
+    json.dump(export, f, indent=2, default=str)
+
+print("Export terminé : user_123_export.json")
+```
+
+#### Étape 3 : Envoyer l'Export
+
+- Email avec pièce jointe
+- Lien de téléchargement sécurisé (temporaire, authentifié)
+- API directe (si transmission à un autre RT)
+
+### IV.E. Différence avec le Droit d'Accès
+
+| **Critère** | **Droit d'Accès (Art. 15)** | **Droit à la Portabilité (Art. 20)** |
+|---|---|---|
+| **Objectif** | Consulter, vérifier | Transférer, changer de fournisseur |
+| **Format** | Tout format (PDF OK) | Format structuré, lisible machine (CSV, JSON) |
+| **Données** | **Toutes** les données | **Uniquement** fournies/générées, pas inférées |
+| **Base légale** | Toujours applicable | Seulement si consentement ou contrat |
+
+---
+
+## 📖 PARTIE V — Les Autres Droits (Aperçu)
+
+### V.A. Droit de Rectification (Article 16)
+
+**Définition :** Corriger des données **inexactes** ou **incomplètes**.
+
+**Mise en œuvre :**
+
+```sql
+-- Corriger l'adresse email
+UPDATE users SET email = 'new.email@example.com' WHERE id = 123;
+
+-- Corriger l'adresse postale
+UPDATE users SET address = '24 rue Victor Hugo, Lyon' WHERE id = 123;
+```
+
+**Délai :** 1 mois
+
+---
+
+### V.B. Droit à la Limitation (Article 18)
+
+**Définition :** **Geler** temporairement le traitement (ne plus utiliser les données, mais les conserver).
+
+**Cas d'usage :**
+- Contestation de l'exactitude des données (temps de vérifier)
+- Traitement illicite, mais la personne préfère limiter plutôt qu'effacer
+- Données nécessaires pour défendre des droits en justice
+
+**Mise en œuvre :**
+
+```sql
+-- Marquer le compte comme "gelé"
+UPDATE users SET status = 'frozen', frozen_at = NOW() WHERE id = 123;
+
+-- Interdire l'envoi d'emails, l'analyse des données...
 ```
 
 ---
 
-### I.C. La Charte Informatique
+### V.C. Droit d'Opposition (Article 21)
 
-**Outil clé pour encadrer l'usage du SI et la surveillance :**
+**Définition :** S'opposer à un traitement pour des **raisons tenant à sa situation particulière**.
 
+**Cas d'usage :**
+- Opposition au **marketing direct** (newsletters, pub ciblée)
+- Opposition au **profilage**
+
+**Mise en œuvre :**
+
+```sql
+-- Désabonner des newsletters
+UPDATE users SET marketing_consent = FALSE WHERE id = 123;
+
+-- Supprimer du CRM marketing
+DELETE FROM marketing_list WHERE user_id = 123;
 ```
-   QU'EST-CE QUE LA CHARTE INFORMATIQUE ?
-   ═══════════════════════════════════════════════════════════════
 
-   DÉFINITION
-   ──────────────────────────────────────────────────────────────
-   Document officiel définissant les règles d'usage du système
-   informatique dans l'entreprise.
-
-   CONTENU TYPE
-   ──────────────────────────────────────────────────────────────
-   ① Ressources informatiques autorisées (PC, téléphone, internet)
-   ② Usages personnels tolérés (navigation perso limitée)
-   ③ Données personnelles de l'entreprise (confidentialité)
-   ④ Moyens de surveillance mis en place (TRANSPARENCE RGPD)
-      → "Les logs de navigation sont conservés 1 an"
-      → "Les emails professionnels peuvent être consultés"
-   ⑤ Sanctions en cas de violation
-
-   VALEUR JURIDIQUE
-   ──────────────────────────────────────────────────────────────
-   ✅ Annexée au règlement intérieur → Opposable aux salariés
-   ✅ Signée à l'embauche → Preuve de l'information
-   ✅ Protège l'employeur et le technicien IT
-
-   RÔLE DU TECHNICIEN IT
-   ──────────────────────────────────────────────────────────────
-   • Participer à la rédaction (aspects techniques)
-   • S'assurer que les outils de surveillance décrits sont conformes
-   • Mettre en œuvre uniquement ce qui est prévu dans la charte
-```
+**Différence avec l'effacement :** On ne supprime pas le compte, juste on arrête un traitement spécifique.
 
 ---
 
-### I.D. Messagerie Professionnelle
+### V.D. Droit de Notification (Article 19)
 
-**Jurisprudence clé : L'arrêt Nikon (Cour de cassation, 2 octobre 2001)**
+**Définition :** Lorsque le RT rectifie, efface ou limite des données, il doit **notifier les destinataires** (sous-traitants, partenaires) sauf si impossible ou disproportionné.
 
-```
-   ARRÊT NIKON — PRINCIPE FONDATEUR
-   ═══════════════════════════════════════════════════════════════
-
-   FAITS : Un salarié Nikon avait envoyé des emails personnels
-   depuis son PC professionnel. L'employeur les avait lus.
-
-   DÉCISION : La Cour de cassation a affirmé que :
-
-   "Le salarié a droit, même au temps et au lieu de travail,
-   au respect de l'intimité de sa vie privée."
-
-   → Les emails marqués "Personnel" ou "Privé" ne peuvent
-     PAS être lus par l'employeur, même sur PC professionnel.
-
-   → Les autres emails PRO peuvent être consultés
-     (mais salariés informés via charte).
-
-   RÈGLES PRATIQUES
-   ──────────────────────────────────────────────────────────────
-   ✅ Email marqué "Personnel" → Inviolable
-   ✅ Dossier "Perso" dans la messagerie → Inviolable
-   ✅ Emails pro → Accessibles (employeur informé au préalable)
-   ❌ Lecture systématique en temps réel → Excessive
-   ❌ Interception des mots de passe → Toujours illicite
-```
+**Exemple :** ShopOnline a transmis les données à Google Analytics → informer Google de la rectification/effacement.
 
 ---
 
-## PARTIE II — Vidéosurveillance : Cadre Légal Complet
+### V.E. Droit de Ne Pas Faire l'Objet d'une Décision Automatisée (Article 22)
 
-### II.A. Définitions et Distinctions
+**Définition :** Ne pas subir une décision **uniquement automatisée** (sans intervention humaine) produisant des **effets juridiques** ou **affectant de manière significative**.
 
-```
-   VIDÉOSURVEILLANCE vs VIDÉOPROTECTION
-   ═══════════════════════════════════════════════════════════════
+**Exemples :**
+- Refus de crédit bancaire par algorithme
+- Licenciement décidé par IA
+- Refus d'admission universitaire par algorithme
 
-   VIDÉOSURVEILLANCE (privée — RGPD)
-   ──────────────────────────────────────────────────────────────
-   Caméras installées dans des lieux PRIVÉS ou à USAGE PROFESSIONNEL
-   • Locaux d'entreprise
-   • Commerces, magasins
-   • Parkings privés
-   • Entrepôts, usines
-
-   Réglementation : RGPD + CNIL
-   Autorité : CNIL
-
-   VIDÉOPROTECTION (publique — Code séc. intérieure)
-   ──────────────────────────────────────────────────────────────
-   Caméras installées sur la VOIE PUBLIQUE
-   • Rues, places, transports en commun
-   • Abords d'établissements scolaires
-   • Installations sensibles (aéroports, gares)
-
-   Réglementation : Code de la sécurité intérieure (CSI)
-   Autorisation : Préfet de département
-   Autorité : Commission départementale + CNIL
-```
+**Droit :** Demander un **examen humain** de la décision.
 
 ---
 
-### II.B. Règles Fondamentales de la Vidéosurveillance en Entreprise
+## 📖 PARTIE VI — Procédure Générale de Traitement des Demandes
+
+### VI.A. Étapes Communes à Tous les Droits
 
 ```
-   10 RÈGLES OBLIGATOIRES (RGPD + CNIL)
-   ═══════════════════════════════════════════════════════════════
-
-   ① FINALITÉ LÉGITIME
-   ──────────────────────────────────────────────────────────────
-   Finalités autorisées :
-   ✅ Sécurité des personnes (prévention agressions)
-   ✅ Protection des biens (prévention vols)
-   ✅ Contrôle des accès (entrées/sorties)
-   ✅ Surveillance de zones dangereuses (machinerie lourde)
-
-   Finalités INTERDITES :
-   ❌ Surveiller le travail des salariés en permanence
-   ❌ Contrôler leur productivité à la seconde
-   ❌ Surveiller les représentants du personnel
-
-   ② ZONES AUTORISÉES ET INTERDITES
-   ──────────────────────────────────────────────────────────────
-   AUTORISÉ de filmer :
-   ✅ Entrées et sorties des bâtiments
-   ✅ Zones de caisse (prévention vols)
-   ✅ Zones de stockage de valeurs (coffres, entrepôts)
-   ✅ Parking privé
-   ✅ Couloirs, halls d'accueil
-
-   INTERDIT de filmer :
-   ❌ Toilettes, vestiaires
-   ❌ Locaux syndicaux
-   ❌ Salle de repos / cafétéria
-   ❌ Poste de travail individuel (surveillance permanente)
-   ❌ Bureau d'un salarié (sans justification exceptionnelle)
-
-   ③ DURÉE DE CONSERVATION MAXIMALE : 30 JOURS
-   ──────────────────────────────────────────────────────────────
-   Les enregistrements doivent être supprimés après 30 jours.
-
-   EXCEPTIONS :
-   ✅ Réquisition judiciaire (en cas de plainte) → Conservation prolongée
-   ✅ Incident constaté → Extraire l'enregistrement avant purge
-
-   OBLIGATION TECHNIQUE DU TECHNICIEN IT :
-   → Configurer la purge automatique à 30 jours
-   → Documenter la configuration dans le registre RGPD
-
-   ④ INFORMATION OBLIGATOIRE DES PERSONNES FILMÉES
-   ──────────────────────────────────────────────────────────────
-   AFFICHAGE VISIBLE à chaque entrée de zone filmée :
-   ┌─────────────────────────────────────┐
-   │  📷 Vidéosurveillance               │
-   │  Locaux sous vidéosurveillance      │
-   │  Responsable : [Nom/Entreprise]     │
-   │  Contact : [email/téléphone]        │
-   │  Conservation : 30 jours maximum    │
-   │  Droit d'accès : [contact RGPD]     │
-   └─────────────────────────────────────┘
-
-   SALARIÉS : Information supplémentaire obligatoire
-   → Via charte informatique, règlement intérieur, note de service
-
-   ⑤ ACCÈS AUX ENREGISTREMENTS — PERSONNES HABILITÉES
-   ──────────────────────────────────────────────────────────────
-   ✅ Direction, responsable sécurité
-   ✅ Forces de l'ordre (sur réquisition)
-   ✅ La personne filmée (droit d'accès RGPD)
-   ❌ Tout le monde (accès public interdit)
-   ❌ N'importe quel salarié
-
-   ⑥ ENREGISTREMENT EN TEMPS RÉEL
-   ──────────────────────────────────────────────────────────────
-   ✅ Visualisation en temps réel autorisée (sécurité)
-   ✅ Enregistrement autorisé (dans la limite 30 jours)
-   ❌ Streaming public (diffusion des images sur internet)
-
-   ⑦ INFORMATION DE LA CNIL (si ≥ 50 salariés)
-   ──────────────────────────────────────────────────────────────
-   Les organismes publics et grandes entreprises doivent avoir
-   un DPO désigné (qui gère le registre des traitements incluant
-   la vidéosurveillance).
-
-   ⑧ INFORMATION DES REPRÉSENTANTS DU PERSONNEL
-   ──────────────────────────────────────────────────────────────
-   ✅ CSE (Comité Social et Économique) doit être informé et consulté
-   AVANT l'installation d'un système de vidéosurveillance.
-
-   ⑨ ANALYSE D'IMPACT (AIPD) si surveillance étendue
-   ──────────────────────────────────────────────────────────────
-   Si le système couvre de nombreux espaces ou concerne
-   de nombreuses personnes → AIPD obligatoire avant installation.
-
-   ⑩ PAS DE MICRO
-   ──────────────────────────────────────────────────────────────
-   ❌ Les caméras NE PEUVENT PAS enregistrer le son
-   (violation du secret des conversations)
-   Exception : Urgences graves (sur autorisation)
+1. RÉCEPTION de la demande (email, courrier, formulaire web)
+   ↓
+2. IDENTIFICATION du demandeur (vérifier identité)
+   ↓
+3. VÉRIFICATION de la légitimité (droit applicable ? exceptions ?)
+   ↓
+4. TRAITEMENT technique (extraction, suppression, rectification...)
+   ↓
+5. TRAÇABILITÉ (log de l'action RGPD)
+   ↓
+6. RÉPONSE à la personne (sous 1 mois, avec confirmation)
 ```
+
+### VI.B. Outils de Traçabilité
+
+**Table SQL pour tracer les demandes RGPD :**
+
+```sql
+CREATE TABLE rgpd_requests (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT,
+    request_type ENUM('access', 'rectification', 'erasure', 'portability', 'opposition', 'limitation'),
+    request_date DATETIME,
+    identity_verified BOOLEAN,
+    processed_by VARCHAR(255), -- Nom du technicien
+    processed_date DATETIME,
+    status ENUM('pending', 'completed', 'rejected', 'in_progress'),
+    response_sent_date DATETIME,
+    notes TEXT,
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+```
+
+**Pourquoi tracer ?**
+- Prouver la conformité en cas de contrôle CNIL
+- Suivre les délais de traitement
+- Identifier les demandes répétitives/abusives
 
 ---
 
-### II.C. Rôle Pratique du Technicien IT
+## 🔑 VOCABULAIRE CLÉ À MAÎTRISER (pour l'examen)
 
-```
-   CHECKLIST INSTALLATION VIDÉOSURVEILLANCE CONFORME
-   ═══════════════════════════════════════════════════════════════
+| **Terme** | **Définition Simple** |
+|---|---|
+| **Droit d'accès** | Obtenir une copie de ses données personnelles |
+| **Droit à l'effacement** | Demander la suppression de ses données (droit à l'oubli) |
+| **Droit à la portabilité** | Récupérer ses données dans un format structuré pour les transférer |
+| **Droit de rectification** | Corriger des données inexactes ou incomplètes |
+| **Droit d'opposition** | Refuser un traitement (ex : marketing, profilage) |
+| **Droit à la limitation** | Geler temporairement le traitement (ne plus utiliser, mais conserver) |
+| **Anonymisation** | Rendre impossible l'identification (irréversible) |
+| **Pseudonymisation** | Remplacer les identifiants directs par des pseudos/hash (réversible) |
+| **Suppression physique** | DELETE en BDD (effacement total) |
+| **Format structuré** | CSV, JSON, XML (lisible par machine) |
+| **Délai RGPD** | 1 mois (extensible à 3 mois si complexité) |
 
-   AVANT L'INSTALLATION
-   ──────────────────────────────────────────────────────────────
-   ☐ Vérifier que la finalité est légitime (pas surveiller les salariés)
-   ☐ Cartographier les zones à filmer (éviter zones interdites)
-   ☐ Consulter le CSE (représentants du personnel)
-   ☐ Vérifier si AIPD nécessaire
+---
 
-   LORS DE L'INSTALLATION
-   ──────────────────────────────────────────────────────────────
-   ☐ Orienter les caméras uniquement vers zones autorisées
-   ☐ Vérifier l'absence de micro actif (audio désactivé)
-   ☐ Configurer la conservation : 30 jours maximum
-   ☐ Configurer la purge automatique (task scheduler / cron)
-   ☐ Restreindre les accès (droits limités aux personnes habilitées)
-   ☐ Activer les logs d'accès au système
+## ✅ Points Clés à Retenir
 
-   APRÈS L'INSTALLATION
-   ──────────────────────────────────────────────────────────────
-   ☐ Installer les panneaux d'affichage à chaque entrée de zone
-   ☐ Mettre à jour le registre des traitements RGPD
-   ☐ Informer les salariés (note de service + charte info)
-   ☐ Documenter la configuration (rapport technique)
-   ☐ Planifier un test de la purge automatique
+1. **Le RGPD confère 8 droits fondamentaux** aux personnes : information, accès, rectification, effacement, limitation, portabilité, opposition, décision automatisée.
 
-   MAINTENANCE
-   ──────────────────────────────────────────────────────────────
-   ☐ Vérifier régulièrement la purge automatique
-   ☐ Mettre à jour les firmwares des caméras
-   ☐ Revue annuelle des accès
-   ☐ Vérifier la conformité si nouvelles caméras ajoutées
-```
+2. **Les droits les plus techniques** (nécessitant des compétences SISR) sont : accès, effacement, portabilité.
+
+3. **Droit d'accès** → Extraction SQL + export CSV/JSON/PDF.
+
+4. **Droit à l'effacement** → 3 options selon contexte : suppression physique (DELETE), anonymisation (UPDATE), pseudonymisation (HASH).
+
+5. **Droit à la portabilité** → Export format structuré (CSV, JSON) des données fournies/générées uniquement (pas les données inférées).
+
+6. **Délai de réponse : 1 mois** (extensible à 3 mois). Gratuité (sauf abus). Vérifier l'identité avant de communiquer.
+
+7. **En tant que technicien SISR, vous serez directement impliqué** dans le traitement technique de ces demandes : extraction BDD, scripts, exports, suppressions, traçabilité.
+
+---
+
+## 📚 Pour Aller Plus Loin
+
+**Textes de référence :**
+- [RGPD — Articles 15-22](https://www.cnil.fr/fr/reglement-europeen-protection-donnees) (droits des personnes)
+- [Guide CNIL — Exercer ses droits](https://www.cnil.fr/fr/les-droits-pour-maitriser-vos-donnees-personnelles)
+
+**Outils techniques :**
+- [Mockaroo](https://www.mockaroo.com) — Générateur de données fictives pour tester
+- [jq](https://stedolan.github.io/jq/) — Outil CLI pour manipuler du JSON
+- [csvkit](https://csvkit.readthedocs.io) — Outils CLI pour manipuler du CSV
+
+**Questions de réflexion :**
+- Comment gérer un droit à l'effacement si la personne a des dettes impayées (obligation de conservation comptable) ?
+- Faut-il anonymiser ou supprimer les avis produits quand un utilisateur demande l'effacement ?
+- Comment automatiser le traitement des demandes RGPD dans une entreprise de 100 000 clients ?
 
 ---

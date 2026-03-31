@@ -7,23 +7,24 @@
 | **Champ** | **Détail** |
 |-----------|-----------|
 | **Semaine** | S7 — Année 1 |
-| **Bloc** | Bloc 3 — Cybersécurité des services informatiques |
+| **Bloc** | Bloc 1 - Support et mise à disposition de services informatiques |
 | **Durée totale** | 4 heures |
-| **Public** | Apprentis BTS SIO SISR — septième semaine |
-| **Modalité** | Présentiel — salle de cours avec accès internet |
-| **Prérequis** | S5 BLOC 3 (définitions RGPD, acteurs) · S6 BLOC 3 (bases légales, consentement, droits) |
+| **Public** | Apprentis BTS SIO SISR — septième semaine thématique |
+| **Modalité** | Présentiel — salle de cours + accès internet |
+| **Prérequis** | RGPD (1) validé : principes fondamentaux, droits des personnes, données personnelles |
 
 ---
 
-## Compétences RNCP Visées
+## Compétences Visées
 
-| **Code** | **Intitulé de la compétence** | **Niveau visé** |
-|----------|-------------------------------|-----------------|
-| **B3.1** | Identifier les principales menaces de sécurité | Maîtrise |
-| **B3.2** | Mettre en œuvre les mesures de sécurité de base | Maîtrise |
-| **B3.3** | Gérer les incidents de sécurité et les violations de données | Acquisition |
+| **Code** | **Intitulé** | **Niveau visé** |
+|----------|--------------|-----------------|
+| **B1.2** | Exploiter des référentiels, normes et standards adoptés par le prestataire informatique | Initiation |
+| **B1.4** | Identifier et caractériser les incidents et les problèmes | Initiation |
+| **B2.3** | Respecter les règles et bonnes pratiques en matière de sécurité | Initiation |
+| **B3.2** | Gérer les incidents et les demandes d'assistance | Initiation |
 
-> 📌 **S7 BLOC 3 est la séance la plus "technique" du volet RGPD.** Elle traite des deux obligations qui concernent directement le quotidien du technicien IT : (1) définir des durées de conservation et les appliquer techniquement, (2) sécuriser les données selon le RGPD, et (3) savoir réagir en cas de violation de données. Le technicien IT n'est plus spectateur — il est acteur central de la conformité.
+> 📌 **Contexte pédagogique :** Après avoir vu les **principes du RGPD** (droits des personnes, données personnelles, finalité, minimisation...), cette séance se concentre sur les **acteurs** et leurs **responsabilités**. Elle répond aux questions : Qui est responsable en cas de fuite de données ? Qui doit notifier la CNIL ? Quel est le rôle du DPO ? Comment se répartissent les responsabilités entre une entreprise et son prestataire IT ?
 
 ---
 
@@ -31,21 +32,10 @@
 
 À l'issue de cette séance, l'apprenant sera capable de :
 
-**Durées de conservation :**
-- ✅ Comprendre le principe de **limitation de conservation** (Art. 5.1.e)
-- ✅ Distinguer **durée de conservation active** et **durée d'archivage**
-- ✅ Connaître les **durées légales** par type de données (comptable, RH, client, logs)
-- ✅ Implémenter techniquement une **politique de purge** (scripts, cron jobs)
-
-**Sécurisation des données :**
-- ✅ Appliquer le **principe de sécurité par défaut** (Privacy by Design/Default)
-- ✅ Identifier les **mesures techniques** obligatoires (chiffrement, contrôle d'accès, audit)
-- ✅ Comprendre l'**Analyse d'Impact** (AIPD/PIA) et son déclenchement
-- ✅ Relier les mesures de sécurité RGPD aux **compétences techniques** déjà acquises
-
-**Violations de données :**
-- ✅ Définir une **violation de données** (confidentialité, disponibilité, intégrité)
-- ✅ Connaître la procédure de **notification CNIL sous 72h**
-- ✅ Savoir **quand notifier les personnes concernées**
-- ✅ Analyser des **cas concrets** de violations (Hôpital de Versailles, Free, Pôle Emploi)
-
+- ✅ **Définir** les rôles de responsable de traitement, sous-traitant, et DPO
+- ✅ **Distinguer** les responsabilités de chacun selon le RGPD
+- ✅ **Identifier** qui est responsable dans des cas concrets (fuite de données, non-respect des droits...)
+- ✅ **Expliquer** les missions d'un DPO et son positionnement dans l'organisation
+- ✅ **Comprendre** les obligations contractuelles entre RT et sous-traitant
+- ✅ **Analyser** des situations de coresponsabilité
+- ✅ **Produire** une cartographie des acteurs RGPD de son entreprise d'alternance (portfolio)

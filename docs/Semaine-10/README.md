@@ -5,38 +5,36 @@
 | **Champ** | **Détail** |
 |-----------|-----------|
 | **Semaine** | S10 — Année 1 |
-| **Bloc** | Bloc 3 — Cybersécurité des services informatiques |
+| **Bloc** | Bloc 1 - Support et mise à disposition de services informatiques |
 | **Durée totale** | 4 heures |
-| **Public** | Apprentis BTS SIO SISR — dixième semaine |
-| **Modalité** | Présentiel — salle de cours avec accès internet |
-| **Prérequis** | S8-S9 BLOC 3 (Cisco Cyber Ch.1 à Ch.5 complétés) |
+| **Public** | Apprentis BTS SIO SISR — dixième semaine thématique |
+| **Modalité** | Présentiel — salle de cours + accès internet |
+| **Prérequis** | RGPD (1), (2) et (3) validés : principes, acteurs, droits des personnes |
 
 ---
 
-## Compétences RNCP Visées
+## Compétences Visées
 
-| **Code** | **Intitulé de la compétence** | **Niveau visé** |
-|----------|-------------------------------|-----------------|
-| **B3.1** | Identifier les principales menaces de sécurité | Maîtrise |
-| **B3.2** | Mettre en œuvre les mesures de sécurité de base | Maîtrise |
-| **B3.4** | Gérer les accès et les droits des utilisateurs | Acquisition |
+| **Code** | **Intitulé** | **Niveau visé** |
+|----------|--------------|-----------------|
+| **B1.2** | Exploiter des référentiels, normes et standards adoptés par le prestataire informatique | Initiation |
+| **B1.4** | Identifier et caractériser les incidents et les problèmes | Initiation |
+| **B2.3** | Respecter les règles et bonnes pratiques en matière de sécurité | Initiation |
+| **B3.2** | Gérer les incidents et les demandes d'assistance | Initiation |
 
-> 📌 **S10 BLOC 3 est une séance double accomplissement.** La matinée est dédiée à la **validation officielle de la certification Cisco** — moment fort et motivant. L'après-midi introduit la **gestion des droits d'accès**, compétence technique concrète que les apprenants mettront en œuvre dès leur première alternance : qui a le droit de faire quoi, sur quoi, et pourquoi.
+> 📌 **Contexte pédagogique :** Cette séance **clôt le cycle RGPD** en abordant les **conséquences du non-respect** : contrôles CNIL, procédures de sanction, amendes financières, sanctions pénales. Elle vise à **responsabiliser** les apprenants en leur montrant les **risques réels** encourus par les entreprises et le **rôle préventif** du technicien SISR dans la conformité.
 
 ---
 
 ## Objectifs Pédagogiques
 
-**Cisco Cyber — Examen Final :**
-- ✅ Réviser les **concepts clés** des 5 chapitres
-- ✅ Passer l'**examen final** avec un score ≥ 70%
-- ✅ Obtenir le **badge Credly** officiel Cisco
-- ✅ Publier le badge sur **LinkedIn**
+À l'issue de cette séance, l'apprenant sera capable de :
 
-**Droits d'accès :**
-- ✅ Définir le **principe du moindre privilège** (Least Privilege)
-- ✅ Distinguer **authentification** et **autorisation**
-- ✅ Comprendre les **modèles de contrôle d'accès** (DAC, MAC, RBAC)
-- ✅ Construire et lire une **matrice de droits** (ACL)
-- ✅ Implémenter techniquement les droits sur **Windows AD** et **Linux**
-- ✅ Identifier les **risques** d'une mauvaise gestion des accès
+- ✅ **Lister** les pouvoirs de la CNIL (contrôle, mise en demeure, sanction)
+- ✅ **Expliquer** les types de sanctions RGPD (administratives et pénales)
+- ✅ **Calculer** le montant maximal d'une amende RGPD (20M€ ou 4% CA mondial)
+- ✅ **Analyser** des cas réels de sanctions CNIL (Google, Amazon, Microsoft...)
+- ✅ **Identifier** les violations RGPD les plus fréquentes et coûteuses
+- ✅ **Comprendre** la procédure de contrôle CNIL (déclenchement, déroulement, issue)
+- ✅ **Proposer** un plan d'action de mise en conformité pour son entreprise
+- ✅ **Produire** une analyse de risques RGPD pour son portfolio

@@ -3,262 +3,517 @@ author: YLP
 title: 📚 FICHE DE COURS
 ---
 
-# 📚 FICHE DE COURS ÉLÈVE
-## "Chiffrement Asymétrique · Diffie-Hellman · Chiffrement Hybride"
+# 📖 FICHE DE COURS ÉLÈVE
+## S14 — Droit de la Preuve : Logs, Signature Électronique, Horodatage
 
 *Version 1.0 — BTS SIO SISR — Année 1 — Semaine 14*
 
 ---
 
-## PARTIE I — Chiffrement Asymétrique : Compléments Essentiels
+## 🎯 Objectifs
 
-### I.A. Récapitulatif et Positionnement
+À la fin de cette séance, je serai capable de :
+
+✅ Expliquer la **valeur juridique** d'un écrit électronique (Art. 1366)  
+✅ Identifier les **conditions de recevabilité** des logs  
+✅ Distinguer les **3 niveaux de signature électronique** (eIDAS)  
+✅ Comprendre l'**horodatage qualifié** (RFC 3161)  
+✅ Mettre en œuvre **hash SHA-256** pour garantir intégrité  
+✅ Gérer les logs comme **preuves juridiques**
+
+---
+
+
+## 📚 Vocabulaire Juridique et Technique
+
+| **Terme** | **Définition** |
+|-----------|----------------|
+| **Preuve** | Élément établissant la réalité d'un fait juridique |
+| **Force probante** | Valeur juridique d'une preuve devant un tribunal |
+| **Intégrité** | Garantie qu'un document n'a pas été modifié |
+| **Hash** | Empreinte numérique unique d'un fichier (SHA-256) |
+| **Signature électronique** | Procédé cryptographique d'authentification |
+| **eIDAS** | Règlement UE sur l'identification électronique |
+| **Horodatage** | Preuve de l'existence d'une donnée à un instant T |
+| **TSA** | Time Stamping Authority (autorité d'horodatage) |
+
+---
+
+## 1️⃣ VALEUR JURIDIQUE DE L'ÉCRIT ÉLECTRONIQUE
+
+### Article 1366 du Code Civil
+
+**Texte intégral :**
+
+> *"L'écrit électronique a la même force probante que l'écrit sur support papier, sous réserve que puisse être dûment identifiée la personne dont il émane et qu'il soit établi et conservé dans des conditions de nature à en garantir l'intégrité."*
+
+**Principe fondamental :**
 
 ```
-   RÉCAPITULATIF CRYPTOGRAPHIE (S11 + S13 + S14)
-   ═══════════════════════════════════════════════════════════════
+╔════════════════════════════════════════════════════╗
+║  ÉCRIT ÉLECTRONIQUE = ÉCRIT PAPIER                 ║
+║  (même valeur juridique)                           ║
+╠════════════════════════════════════════════════════╣
+║                                                    ║
+║  MAIS 2 CONDITIONS OBLIGATOIRES :                  ║
+║                                                    ║
+║  1. IDENTIFICATION de la personne                 ║
+║     → Qui a créé le document ?                     ║
+║                                                    ║
+║  2. INTÉGRITÉ du document                         ║
+║     → Document non modifié depuis création ?       ║
+║                                                    ║
+╚════════════════════════════════════════════════════╝
+```
 
-   SYMÉTRIQUE (S11)          ASYMÉTRIQUE (S13 + S14)
-   ──────────────────────    ──────────────────────────────────
-   1 clé secrète partagée    2 clés mathématiquement liées
-   AES-128/192/256           RSA, ECDSA, ECDH, ED25519
-   Très rapide (10 Gb/s)     Lent (100× plus lent)
-   Chiffre les données       Échange de clés + signatures
-   Problème : comment        Solution : pas besoin de canal
-   partager la clé ?         sécurisé préalable
+**[ILLUSTRATION À INSÉRER]**
+**Légende :** Balance équilibrée. Plateau gauche : document papier avec signature manuscrite. Plateau droite : document électronique avec certificat + hash. Annotation "Valeur probante égale SI conditions respectées".
 
-   HYBRIDE (pratique réelle : HTTPS, VPN, SSH, GPG)
-   ──────────────────────────────────────────────────────────────
-   Asymétrique  → Échanger la clé secrète de session (1 fois)
-   Symétrique   → Chiffrer toutes les données (en continu)
-   = Sécurité du asymétrique + Vitesse du symétrique
+---
+
+### Les 2 Conditions Détaillées
+
+**CONDITION 1 : Identification**
+
+Moyens d'identification acceptés :
+- Login + mot de passe (si traçabilité)
+- Certificat électronique
+- Signature électronique (simple, avancée, qualifiée)
+- Adresse email (si authentifiée)
+
+**CONDITION 2 : Intégrité**
+
+Moyens de garantir l'intégrité :
+- Hash cryptographique (SHA-256)
+- Signature numérique
+- Stockage immuable (blockchain, WORM)
+- Horodatage qualifié
+
+---
+
+## 2️⃣ LES LOGS COMME PREUVE JURIDIQUE
+
+### Qu'est-ce qu'un Log ?
+
+**Définition technique :**
+> Enregistrement automatique d'un événement système (connexion, modification, accès fichier, erreur).
+
+**Définition juridique :**
+> Écrit électronique traçant une action, pouvant servir de preuve si conditions Art. 1366 respectées.
+
+---
+
+### Conditions de Recevabilité des Logs
+
+**Pour qu'un log soit recevable comme preuve :**
+
+```
+┌────────────────────────────────────────────────┐
+│ 1. INTÉGRITÉ PROUVÉE                           │
+│    → Hash SHA-256 du fichier log               │
+│    → Stockage immuable (append-only)           │
+│    → Signature numérique                       │
+├────────────────────────────────────────────────┤
+│ 2. HORODATAGE FIABLE                          │
+│    → Timestamp NTP synchronisé                 │
+│    → Horodatage qualifié (TSA) si critique     │
+├────────────────────────────────────────────────┤
+│ 3. IDENTIFICATION AUTEUR                       │
+│    → Quel utilisateur/système a généré ?       │
+│    → Traçabilité (login, IP, certificat)       │
+├────────────────────────────────────────────────┤
+│ 4. CONSERVATION SÉCURISÉE                      │
+│    → Logs non modifiables                      │
+│    → Stockage centralisé (serveur syslog)      │
+│    → Durée légale respectée                    │
+├────────────────────────────────────────────────┤
+│ 5. PROCÉDURE DOCUMENTÉE                        │
+│    → Politique de logs écrite                  │
+│    → Procédure de collecte                     │
+│    → Chaîne de traçabilité                     │
+└────────────────────────────────────────────────┘
 ```
 
 ---
 
-### I.B. RSA : Fonctionnement Conceptuel
+### Jurisprudence sur les Logs
+
+**Cour de cassation, Chambre sociale (2019) :**
+
+**Faits :**
+- Salarié licencié pour usage abusif Internet (sites pornographiques)
+- Employeur présente logs serveur proxy
+
+**Question juridique :**
+Les logs sont-ils recevables comme preuve du comportement fautif ?
+
+**Décision :**
+✅ **Logs RECEVABLES**
+
+**Motifs :**
+- Logs horodatés de manière fiable (serveur NTP)
+- Intégrité garantie (stockage centralisé, pas de modification)
+- Identification claire du salarié (login unique)
+- Conservation sécurisée conforme
+
+→ Licenciement pour faute grave **CONFIRMÉ**
+
+---
+
+**Conseil d'État (2020) - Contre-exemple :**
+
+**Faits :**
+- Administration présente logs pour prouver connexion agent
+
+**Question :**
+Logs recevables ?
+
+**Décision :**
+❌ **Logs REJETÉS**
+
+**Motifs :**
+- Pas de preuve d'intégrité (pas de hash)
+- Logs présentés sous format Excel (modifiable)
+- Horodatage non fiable (timestamp serveur modifiable)
+
+→ Preuve **IRRECEVABLE**
+
+---
+
+## 3️⃣ HASH CRYPTOGRAPHIQUE (SHA-256)
+
+### Principe du Hash
+
+**Définition :**
+> Fonction mathématique qui transforme un fichier en une empreinte numérique unique de longueur fixe.
+
+**Analogie :** Le hash = empreinte digitale du fichier.
+
+**Propriétés :**
+- **Déterministe** : Même fichier = même hash
+- **Unique** : 2 fichiers différents = 2 hash différents (collision quasi impossible)
+- **Irréversible** : Impossible retrouver fichier depuis hash
+- **Sensible** : Modification 1 bit → hash complètement différent
+
+---
+
+### Exemple Pratique
 
 ```
-   RSA (Rivest–Shamir–Adleman, 1977)
-   ═══════════════════════════════════════════════════════════════
+Fichier original : /var/log/auth.log (15 Mo)
+Hash SHA-256 : 8f3a2b1c9d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a
 
-   FONDEMENT MATHÉMATIQUE
-   ──────────────────────────────────────────────────────────────
-   Problème de la factorisation de grands entiers :
+Modification : 1 caractère changé dans le fichier
+Nouveau hash : 2a1b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b
 
-   Facile : 17 × 23 = 391         (quelques nanosecondes)
-   Difficile : 391 = ? × ?        (chercher les facteurs premiers)
+→ Hash complètement différent
+```
 
-   En pratique :
-   p = 7 919 (nombre premier)
-   q = 7 907 (nombre premier)
-   n = p × q = 62 566 733
+**Usage juridique :**
+1. Calculer hash du log au moment de la collecte
+2. Stocker hash séparément (base de données, TSA)
+3. Lors du procès : recalculer hash du log présenté
+4. Comparer : hash identique = fichier non modifié ✅
 
-   Connaître n = 62 566 733 ET retrouver p et q ?
-   → Trivial pour un humain ici, mais avec n de 4096 bits...
-   → n = nombre de 1 233 chiffres décimaux
-   → Factorisation par tous les ordinateurs de la planète :
-     Des milliards d'années.
+---
 
-   GÉNÉRATION DES CLÉS RSA (simplifié)
-   ──────────────────────────────────────────────────────────────
-   ① Choisir 2 grands nombres premiers p et q (secret)
-   ② Calculer n = p × q (partie publique)
-   ③ Calculer φ(n) = (p-1)(q-1) (secret)
-   ④ Choisir e (exposant public, souvent 65537)
-   ⑤ Calculer d tel que e × d ≡ 1 (mod φ(n)) — secret
+### Commandes Pratiques
 
-   → Clé publique  : (n, e)  → Partageable
-   → Clé privée    : (n, d)  → Secrète
+**Linux :**
+```bash
+sha256sum /var/log/auth.log > auth.log.sha256
+# Vérification ultérieure
+sha256sum -c auth.log.sha256
+```
 
-   CHIFFREMENT / DÉCHIFFREMENT RSA
-   ──────────────────────────────────────────────────────────────
-   Chiffrer (avec clé publique) :
-   c = m^e mod n   (m = message, c = chiffré)
-
-   Déchiffrer (avec clé privée) :
-   m = c^d mod n   (retrouve le message original)
-
-   Propriété : Sans connaître d, impossible de retrouver m depuis c.
-   Et retrouver d depuis (n, e) nécessite de factoriser n.
-
-   LIMITES DE RSA
-   ──────────────────────────────────────────────────────────────
-   → Lent (opérations modulaires sur grands entiers)
-   → Ne chiffre pas de messages longs directement
-      (taille max ≈ taille de la clé - 11 octets)
-   → En pratique : RSA chiffre uniquement la CLÉ DE SESSION AES
-     puis AES chiffre les données
-   → Vulnérable aux ordinateurs quantiques (Shor 1994)
-     → Migration vers algorithmes post-quantiques (CRYSTALS-Kyber)
+**Windows (PowerShell) :**
+```powershell
+Get-FileHash C:\Logs\security.log -Algorithm SHA256
 ```
 
 ---
 
-### I.C. L'Échange de Clé Diffie-Hellman
+## 4️⃣ SIGNATURE ÉLECTRONIQUE (RÈGLEMENT eIDAS)
 
-> **L'invention cryptographique la plus importante du XXe siècle** (Whitfield Diffie et Martin Hellman, 1976).
+### Règlement eIDAS (UE 910/2014)
+
+**Définition officielle (Art. 3) :**
+> *"Signature électronique : données sous forme électronique, jointes ou associées à d'autres données électroniques et utilisées par le signataire pour signer."*
+
+---
+
+### Les 3 Niveaux de Signature
 
 ```
-   DIFFIE-HELLMAN : PARTAGER UN SECRET SANS SE RENCONTRER
-   ═══════════════════════════════════════════════════════════════
+┌────────────────────────────────────────────────┐
+│ SIGNATURE SIMPLE (Art. 25)                     │
+├────────────────────────────────────────────────┤
+│ Exemples :                                     │
+│ • Scan de signature manuscrite                 │
+│ • Email (champ "From:")                        │
+│ • Case "J'accepte" cochée                     │
+│ • SMS de confirmation                          │
+│                                                │
+│ Valeur juridique :                             │
+│ • Faible force probante                       │
+│ • Facilement contestable                       │
+│ • OK pour actes de faible valeur (< 1 500€)   │
+└────────────────────────────────────────────────┘
 
-   PROBLÈME : Alice et Bob veulent établir un secret commun
-              sur un canal public (Internet) sans se rencontrer
-              et sans qu'un observateur (Eve) puisse le trouver.
+┌────────────────────────────────────────────────┐
+│ SIGNATURE AVANCÉE (Art. 26)                    │
+├────────────────────────────────────────────────┤
+│ Caractéristiques obligatoires :                │
+│ • Liée UNIQUEMENT au signataire               │
+│ • Permet IDENTIFICATION du signataire          │
+│ • Créée par moyens sous contrôle signataire    │
+│ • Permet DÉTECTION de toute modification       │
+│                                                │
+│ Moyens techniques :                            │
+│ • Certificat électronique (non qualifié)       │
+│ • Clé privée sur ordinateur                    │
+│ • DocuSign, Adobe Sign (mode avancé)           │
+│                                                │
+│ Valeur juridique :                             │
+│ • Bonne force probante                         │
+│ • Acceptable pour actes moyens (< 50 000€)     │
+└────────────────────────────────────────────────┘
 
-   ANALOGIE DES COULEURS (conceptuelle)
-   ──────────────────────────────────────────────────────────────
-
-   ① Alice et Bob conviennent publiquement d'une couleur de BASE
-     (tout le monde peut voir : JAUNE)
-
-   ② Alice choisit secrètement sa couleur : ROUGE
-      Elle mélange : JAUNE + ROUGE = ORANGE
-      Elle envoie ORANGE à Bob (Eve voit ORANGE)
-
-   ③ Bob choisit secrètement sa couleur : BLEU
-      Il mélange : JAUNE + BLEU = VERT
-      Il envoie VERT à Alice (Eve voit VERT)
-
-   ④ Alice mélange VERT + son secret ROUGE = MARRON
-      Bob mélange ORANGE + son secret BLEU = MARRON (identique !)
-
-      → Alice et Bob ont le même secret : MARRON
-      → Eve n'a vu que JAUNE, ORANGE, VERT
-      → Eve ne peut pas trouver MARRON sans savoir ROUGE ou BLEU
-
-   EN MATHÉMATIQUES (logarithme discret)
-   ──────────────────────────────────────────────────────────────
-   Paramètres publics : g = 2, p = 23 (petit pour l'exemple)
-
-   Alice choisit a = 6 (secret)
-   Alice calcule : A = g^a mod p = 2^6 mod 23 = 64 mod 23 = 18
-   Alice envoie A = 18 à Bob (public)
-
-   Bob choisit b = 15 (secret)
-   Bob calcule : B = g^b mod p = 2^15 mod 23 = 32768 mod 23 = 2
-   Bob envoie B = 2 à Alice (public)
-
-   Alice calcule : s = B^a mod p = 2^6 mod 23 = 64 mod 23 = 18
-                                                     → s = 18
-
-   Bob calcule   : s = A^b mod p = 18^15 mod 23
-                                                     → s = 18 ✅
-
-   → Alice et Bob ont obtenu le même secret s = 18 !
-   → Eve a vu g=2, p=23, A=18, B=2 mais ne peut pas trouver s=18
-     sans résoudre le problème du logarithme discret (facile ici
-     car p=23 petit, impossible avec p de 2048 ou 4096 bits)
-
-   ECDH — VERSION SUR COURBES ELLIPTIQUES
-   ──────────────────────────────────────────────────────────────
-   Même principe, même sécurité, clés 10× plus courtes.
-   ECDH-256 ≈ DH-3072 en sécurité.
-   → C'est ce qu'utilise TLS 1.3 (ECDHE avec courbe X25519)
-
-   EPHEMERAL (le E dans ECDHE)
-   ──────────────────────────────────────────────────────────────
-   Chaque connexion TLS génère une NOUVELLE paire de clés DH.
-   → Perfect Forward Secrecy (PFS) :
-     Si la clé privée du serveur est compromise AUJOURD'HUI,
-     les conversations PASSÉES restent protégées.
-     (Les clés éphémères sont détruites après chaque session)
-   → Obligatoire dans TLS 1.3
+┌────────────────────────────────────────────────┐
+│ SIGNATURE QUALIFIÉE (Art. 28)                  │
+├────────────────────────────────────────────────┤
+│ Exigences supplémentaires :                    │
+│ • Certificat délivré par Autorité de confiance │
+│   (PSCo = Prestataire Services Confiance)      │
+│ • Dispositif sécurisé (carte à puce, clé USB)  │
+│ • Vérification identité physique signataire    │
+│                                                │
+│ Autorités françaises :                         │
+│ • ChamberSign (Chambres de Commerce)           │
+│ • Certigna (Dhimyotis)                         │
+│ • DocuSign (mode qualifié)                     │
+│                                                │
+│ Valeur juridique :                             │
+│ • ÉQUIVALENT signature manuscrite (Art. 27)    │
+│ • Force probante MAXIMALE                      │
+│ • Obligatoire pour actes > 1 500€ notariés     │
+│ • Recommandé pour actes > 50 000€              │
+└────────────────────────────────────────────────┘
 ```
 
 ---
 
-### I.D. Le Chiffrement Hybride en Pratique
+### Tableau Comparatif
+
+| Critère | Simple | Avancée | Qualifiée |
+|---------|--------|---------|-----------|
+| **Exemple** | Email, checkbox | Certificat non qualifié | Certificat PSCo |
+| **Valeur juridique** | Faible | Moyenne | Maximale |
+| **Équivalence manuscrite** | ❌ Non | ❌ Non | ✅ Oui (Art. 27) |
+| **Coût** | Gratuit | 0-50€ | 50-200€/an |
+| **Usage recommandé** | < 1 500€ | 1 500-50 000€ | > 50 000€ |
+
+---
+
+## 5️⃣ HORODATAGE QUALIFIÉ (RFC 3161)
+
+### Définition
+
+**Horodatage électronique qualifié (Art. 41 eIDAS) :**
+> Preuve qu'une donnée existait à un instant précis, délivrée par une autorité de confiance (TSA).
+
+**Analogie :** Horodatage = huissier numérique qui certifie la date.
+
+---
+
+### RFC 3161 (Internet Timestamp Protocol)
+
+**Standard technique :**
+- **TSA** (Time Stamping Authority) = Autorité d'horodatage
+- Processus :
+  1. Client calcule hash du document
+  2. Client envoie hash à la TSA
+  3. TSA appose timestamp + signe avec son certificat
+  4. TSA retourne jeton d'horodatage (.tsr)
+
+**Garanties :**
+- Date/heure certifiées par TSA (source temps fiable)
+- Hash du document inclus (intégrité)
+- Signature TSA (authenticité)
+
+---
+
+### Horodatage Simple vs Qualifié
 
 ```
-   CHIFFREMENT HYBRIDE : COMMENT TLS LE FAIT
-   ═══════════════════════════════════════════════════════════════
+┌────────────────────────────────────────────────┐
+│ HORODATAGE SIMPLE (timestamp serveur)          │
+├────────────────────────────────────────────────┤
+│ • Horloge locale serveur                       │
+│ • Modifiable (admin peut changer date)         │
+│ • Pas de tiers de confiance                    │
+│                                                │
+│ Valeur juridique : FAIBLE                      │
+│ → Facilement contestable                       │
+└────────────────────────────────────────────────┘
 
-   CONNEXION https://monsite.fr — Détail du TLS 1.3 Handshake
-   ──────────────────────────────────────────────────────────────
-
-   CLIENT                                         SERVEUR
-   ──────                                         ───────
-   1. ClientHello
-      → Versions TLS supportées
-      → Suites crypto supportées (AES-256-GCM, ChaCha20...)
-      → Clé publique ECDHE du client (X25519)
-      ─────────────────────────────────────────────────────►
-
-   2.                                         ServerHello
-      ◄──────────────────────────────────────────────────────
-      ← Suite choisie : TLS_AES_256_GCM_SHA384
-      ← Clé publique ECDHE du serveur (X25519)
-      ← Certificat du serveur (X.509 — vu S13)
-      ← Finished (signé avec la clé privée serveur)
-
-   3. Le client vérifie le certificat (chaîne PKI — S13)
-
-   4. Les deux calculent la même clé de session :
-      ECDHE : client_priv × server_pub = secret partagé
-      → HKDF (Key Derivation Function) → AES-256-GCM key ✅
-
-   5. Données chiffrées avec AES-256-GCM (symétrique)
-      ◄────────────────── Canal AES chiffré ──────────────────►
-
-   ═══════════════════════════════════════════════════════════
-   RÉCAPITULATIF DES RÔLES
-   ──────────────────────────────────────────────────────────────
-   Certificat X.509 (S13) → AUTHENTIFICATION (qui est le serveur ?)
-   ECDHE (Diffie-Hellman)  → ÉCHANGE DE CLÉ (secret partagé)
-   AES-256-GCM (S11)       → CHIFFREMENT DES DONNÉES (vitesse)
-   SHA-384 (HMAC)          → INTÉGRITÉ (données non modifiées)
-   ═══════════════════════════════════════════════════════════
+┌────────────────────────────────────────────────┐
+│ HORODATAGE QUALIFIÉ (RFC 3161 + eIDAS)        │
+├────────────────────────────────────────────────┤
+│ • TSA certifiée (ChamberSign, Universign)      │
+│ • Source temps légale (observatoire)           │
+│ • Signature numérique TSA                      │
+│ • Non modifiable                               │
+│                                                │
+│ Valeur juridique : MAXIMALE (Art. 41 eIDAS)    │
+│ → Présomption légale de date                   │
+└────────────────────────────────────────────────┘
 ```
 
 ---
 
-### I.E. Usages Concrets du Chiffrement Asymétrique
+### TSA Françaises Qualifiées
+
+| TSA | Éditeur | Usage |
+|-----|---------|-------|
+| **ChamberSign** | Chambres de Commerce | Entreprises, PME |
+| **Universign** | Cryptolog | Banques, assurances |
+| **DocuSign** | DocuSign Inc. | International |
+| **Certinomis** | La Poste | Collectivités, administrations |
+
+---
+
+## 6️⃣ MISE EN ŒUVRE TECHNIQUE
+
+### Sécuriser les Logs (Checklist)
 
 ```
-   OÙ TROUVE-T-ON DE LA CRYPTOGRAPHIE ASYMÉTRIQUE ?
-   ═══════════════════════════════════════════════════════════════
+☐ 1. JOURNALISATION CENTRALISÉE
+   → Serveur syslog distant (rsyslog, Graylog)
+   → Logs inaccessibles localement
 
-   HTTPS / TLS
-   ──────────────────────────────────────────────────────────────
-   Certificat (RSA/ECDSA) → Authentification serveur
-   ECDHE → Échange de clé de session
-   AES-GCM → Chiffrement des données HTTP
-   Utilisation : Tout site web sécurisé
+☐ 2. HASH AUTOMATIQUE
+   → Calcul SHA-256 à la rotation logs
+   → Stockage hash en base sécurisée
 
-   SSH (Secure Shell)
-   ──────────────────────────────────────────────────────────────
-   Clés SSH (RSA-4096 ou ED25519) → Authentification sans MDP
-   ECDH → Échange de clé de session
-   AES-ChaCha20 → Chiffrement du terminal
-   Utilisation : Administration de serveurs à distance
+☐ 3. HORODATAGE FIABLE
+   → Synchronisation NTP (pool.ntp.org)
+   → Horodatage qualifié si critique (TSA)
 
-   GPG / PGP
-   ──────────────────────────────────────────────────────────────
-   Clé publique destinataire → Chiffrement
-   Clé privée destinataire → Déchiffrement
-   Clé privée émetteur → Signature
-   Utilisation : Emails chiffrés, signature de code
+☐ 4. STOCKAGE IMMUABLE
+   → Append-only (pas de modification)
+   → WORM (Write Once Read Many)
+   → OU Blockchain (si besoin extrême)
 
-   Emails S/MIME
-   ──────────────────────────────────────────────────────────────
-   Certificat email (client cert) → Signature + chiffrement
-   Standard corporatif (Outlook, Thunderbird)
+☐ 5. CONSERVATION LÉGALE
+   → Durée légale respectée (6 mois à 10 ans)
+   → Accès restreint (chiffrement)
+   → Procédure export pour justice
 
-   VPN
-   ──────────────────────────────────────────────────────────────
-   Certificats (IKEv2/IPsec, OpenVPN) → Authentification tunnel
-   DH/ECDH → Échange de clé de session
-   AES → Chiffrement du tunnel
-   ← C'est la partie VPN que nous allons voir maintenant
-
-   Bitcoin / Crypto-monnaies
-   ──────────────────────────────────────────────────────────────
-   ECDSA secp256k1 → Signature des transactions
-   Clé privée = "accès au portefeuille"
-   Adresse Bitcoin = Hash de la clé publique
+☐ 6. DOCUMENTATION
+   → Politique de logs écrite
+   → Procédure de collecte
+   → Chaîne de traçabilité
 ```
 
 ---
 
+### Exemple Procédure Signature Électronique
+
+**Workflow signature qualifiée d'un contrat :**
+
+```
+1. PRÉPARATION
+   ├─ Rédaction contrat (PDF)
+   ├─ Upload sur plateforme PSCo (DocuSign, ChamberSign)
+   └─ Identification signataires
+
+2. ENVOI
+   ├─ Notification signataires (email)
+   ├─ Accès sécurisé (lien unique + OTP)
+   └─ Lecture contrat
+
+3. SIGNATURE
+   ├─ Authentification forte (SMS, carte)
+   ├─ Validation signature
+   └─ Certificat qualifié appliqué
+
+4. ARCHIVAGE
+   ├─ Document signé + certificats
+   ├─ Horodatage qualifié (TSA)
+   ├─ Hash SHA-256
+   └─ Archivage électronique (10 ans)
+```
+
+---
+
+## 📝 Points Clés à Retenir
+
+### Pour l'Examen
+
+**À connaître PAR CŒUR :**
+
+```
+┌────────────────────────────────────────────────┐
+│ • Article 1366 : 2 conditions                  │
+│   1. Identification                            │
+│   2. Intégrité                                 │
+│                                                │
+│ • 3 niveaux signature (eIDAS) :                │
+│   Simple < Avancée < Qualifiée                │
+│                                                │
+│ • Signature qualifiée = Manuscrite            │
+│   (Art. 27 eIDAS)                              │
+│                                                │
+│ • Hash SHA-256 = Preuve intégrité             │
+│                                                │
+│ • Horodatage qualifié = RFC 3161 + TSA        │
+│   → Présomption légale de date                │
+│                                                │
+│ • Logs recevables SI :                         │
+│   Intégrité + Horodatage + Conservation        │
+└────────────────────────────────────────────────┘
+```
+
+---
+
+### Pour la Vie Professionnelle
+
+**Réflexe du technicien SISR :**
+
+✅ **Logs = Preuves juridiques potentielles**
+- Centraliser (serveur syslog)
+- Hash automatique (SHA-256)
+- Horodatage fiable (NTP minimum)
+- Conservation sécurisée (durée légale)
+
+✅ **Signature électronique = Selon enjeux**
+- < 1 500€ : Simple (email) acceptable
+- 1 500-50 000€ : Avancée recommandée
+- > 50 000€ : Qualifiée obligatoire
+
+✅ **Horodatage qualifié = Si critique**
+- Contentieux prévisible
+- Montants élevés
+- Propriété intellectuelle (dépôt, antériorité)
+
+---
+
+## 🎯 Auto-Évaluation
+
+### Je sais...
+
+- ☐ Expliquer Article 1366 (2 conditions)
+- ☐ Lister conditions recevabilité logs
+- ☐ Distinguer 3 niveaux signature électronique
+- ☐ Expliquer équivalence qualifiée = manuscrite
+- ☐ Calculer hash SHA-256 d'un fichier
+- ☐ Expliquer RFC 3161 et rôle TSA
+- ☐ Configurer logs sécurisés (append-only)
+- ☐ Citer 2 TSA françaises qualifiées
+- ☐ Conseiller niveau signature selon montant
+
+**Si < 7 cases cochées, revoir la fiche cours.**
+
+
+---

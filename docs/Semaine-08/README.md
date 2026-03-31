@@ -8,40 +8,35 @@
 | **Champ** | **Détail** |
 |-----------|-----------|
 | **Semaine** | S8 — Année 1 |
-| **Bloc** | Bloc 3 — Cybersécurité des services informatiques |
+| **Bloc** | Bloc 1 - Support et mise à disposition de services informatiques |
 | **Durée totale** | 4 heures |
-| **Public** | Apprentis BTS SIO SISR — huitième semaine |
-| **Modalité** | Présentiel — salle de cours avec accès internet |
-| **Prérequis** | S5-S7 BLOC 3 (RGPD fondamentaux, acteurs, droits, violations) |
+| **Public** | Apprentis BTS SIO SISR — huitième semaine thématique |
+| **Modalité** | Présentiel — salle de cours + laboratoire informatique |
+| **Prérequis** | RGPD (1) et (2) validés : principes, acteurs (RT, ST, DPO) |
 
 ---
 
-## Compétences RNCP Visées
+## Compétences Visées
 
-| **Code** | **Intitulé de la compétence** | **Niveau visé** |
-|----------|-------------------------------|-----------------|
-| **B3.1** | Identifier les principales menaces de sécurité | Maîtrise |
-| **B3.2** | Mettre en œuvre les mesures de sécurité de base | Maîtrise |
-| **B3.3** | Gérer les incidents de sécurité | Acquisition |
+| **Code** | **Intitulé** | **Niveau visé** |
+|----------|--------------|-----------------|
+| **B1.2** | Exploiter des référentiels, normes et standards adoptés par le prestataire informatique | Initiation |
+| **B1.4** | Identifier et caractériser les incidents et les problèmes | Initiation |
+| **B2.3** | Respecter les règles et bonnes pratiques en matière de sécurité | Initiation |
+| **B3.2** | Gérer les incidents et les demandes d'assistance | Initiation |
 
-> 📌 **S8 BLOC 3 est une séance double pivôt.** Elle clôture le volet RGPD (Module 4 — le plus "terrain" avec le monde du travail et la vidéosurveillance) et amorce le parcours **Cisco Networking Academy** avec la certification *Introduction to Cybersecurity* — certification officielle valorisable sur le CV des apprenants.
+> 📌 **Contexte pédagogique :** Après avoir vu les principes du RGPD (S6 implicite) et les acteurs (S7), cette séance se concentre sur les **droits fondamentaux des personnes** et surtout leur **mise en œuvre technique**. Elle répond à la question centrale pour un technicien SISR : "Comment répondre concrètement à une demande d'accès, d'effacement ou de portabilité des données ?"
 
 ---
 
 ## Objectifs Pédagogiques
 
-à la fin du cours, les étudiants seront capables de :
+À l'issue de cette séance, l'apprenant sera capable de :
 
-**RGPD Module 4 — Travail et données personnelles :**
-- ✅ Identifier les données personnelles collectées dans un contexte **RH**
-- ✅ Comprendre les limites légales de la **surveillance des salariés**
-- ✅ Appliquer les règles RGPD à la **messagerie professionnelle**
-- ✅ Connaître le cadre légal de la **vidéosurveillance** (30 jours, affichage obligatoire, zones interdites)
-- ✅ Distinguer **vidéosurveillance** et **vidéoprotection**
-
-**Cisco Cyber — Introduction à la cybersécurité :**
-- ✅ Présenter la certification **Cisco Introduction to Cybersecurity** et ses débouchés
-- ✅ Comprendre les **enjeux mondiaux** de la cybersécurité (statistiques, tendances)
-- ✅ Identifier les **types de données** (données personnelles, organisationnelles, confidentielles)
-- ✅ Comprendre la notion de **guerre cybernétique** (cyberwar, espionnage, sabotage)
-- ✅ Démarrer le **Module 1** du cours Cisco Networking Academy
+- ✅ **Lister** les 8 droits des personnes selon le RGPD
+- ✅ **Expliquer** les 3 droits principaux (accès, effacement, portabilité) avec exemples
+- ✅ **Identifier** les obligations techniques pour répondre à ces droits
+- ✅ **Distinguer** anonymisation, pseudonymisation, suppression, archivage
+- ✅ **Créer** une procédure technique pour répondre à un droit (extraction BDD, export CSV, suppression)
+- ✅ **Comprendre** les délais, la gratuité, les exceptions aux droits
+- ✅ **Produire** un script ou procédure technique pour son portfolio

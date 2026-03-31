@@ -4,575 +4,542 @@ title: 📚 FICHE DE COURS
 ---
 
 # 📚 FICHE DE COURS ÉLÈVE
-## "Identité Numérique · E-réputation · Droit à l'Image · Pseudonymat"
+## Identité Numérique : E-réputation, Usurpation d'Identité et Cadre e-IDAS
 
-*BTS SIO SISR — Année 1 — Semaine 15 — Partie 1/2*
-
----
-
-## 🎯 Compétences Travaillées
-
-| **Code** | **Compétence RNCP** |
-|----------|---------------------|
-| **B3.1** | Identifier les principales menaces de sécurité |
-| **B2.1** | Comprendre les obligations légales (vie privée, image) |
+*Version 1.0 — BTS SIO SISR — Année 1 — Semaine 15 — CEJMA*
 
 ---
 
-## I. L'Identité Numérique
+## 🎯 Objectifs de Cette Fiche
+
+À la fin de ce cours, vous serez capable de :
+- ✅ Définir l'identité numérique et ses trois composantes
+- ✅ Expliquer l'e-réputation et ses enjeux professionnels
+- ✅ Identifier les risques d'usurpation d'identité et les protections
+- ✅ Comprendre le règlement e-IDAS et les signatures électroniques
+- ✅ Appliquer les bonnes pratiques de protection de votre identité numérique
+
+---
+
+## 📖 PARTIE I — L'Identité Numérique
 
 ### I.A. Définition
 
-**Identité numérique** = Ensemble des informations et des traces qu'une personne laisse sur Internet, volontairement ou involontairement, qui permettent de l'identifier.
+**Identité numérique :** Ensemble des traces et données qu'une personne laisse sur Internet, volontairement ou involontairement, et qui forment sa représentation en ligne.
 
-#### Les Deux Composantes
-
-**① IDENTITÉ DÉCLARATIVE** (ce que **vous** dites de vous)
-
-Informations que vous publiez volontairement :
-- Profils sur les réseaux sociaux (LinkedIn, Facebook, Instagram, X...)
-- CV en ligne, portfolios professionnels
-- Articles de blog, commentaires sur des forums
-- Photos et vidéos que vous postez
-- Biographie, centres d'intérêt affichés
-- Contributions techniques (GitHub, Stack Overflow, Wikipedia...)
-
-**② IDENTITÉ CALCULÉE** (ce que **les autres** disent de vous)
-
-Informations publiées par des tiers vous concernant :
-- Photos où vous êtes taggé par d'autres personnes
-- Mentions dans des articles, publications, sites web
-- Avis et commentaires sur vous (Google, réseaux sociaux)
-- Données collectées automatiquement par les sites (cookies, tracking)
-- Résultats de moteurs de recherche à votre sujet
-- Bases de données publiques (annuaires, registres d'entreprises...)
-
-![Schéma identité numérique déclarative vs calculée]
-*Légende illustration : Schéma en deux colonnes montrant à gauche "Identité déclarative" (icônes : profil LinkedIn, post blog, photo uploadée) avec flèche "Je contrôle" et à droite "Identité calculée" (icônes : photo taggée par ami, avis Google, article mentionnant mon nom) avec flèche "Je ne contrôle pas". Au centre, un personnage entouré de ces deux flux d'informations formant son identité numérique globale.*
-
----
-
-### I.B. Les 5 Types de Traces Numériques
-
+**Formule :**
 ```
-TYPOLOGIE DES TRACES LAISSÉES EN LIGNE
-═══════════════════════════════════════════════════════════════
-
-① TRACES PROFILAIRES (profils et comptes)
-──────────────────────────────────────────────────────────────
-→ Comptes sur réseaux sociaux (Facebook, Instagram, X, TikTok...)
-→ Profils professionnels (LinkedIn, Viadeo)
-→ Comptes e-commerce (Amazon avec historique d'achats visible)
-→ Inscriptions à des newsletters, forums techniques
-→ Profils de jeux en ligne, communautés Discord/Reddit
-
-② TRACES NAVIGATIONNELLES (comportement de navigation)
-──────────────────────────────────────────────────────────────
-→ Cookies tiers (tracking publicitaire entre sites)
-→ Historique de recherche Google (conservé si connecté)
-→ Pages visitées (logs serveurs conservés 1 an minimum)
-→ Temps passé sur chaque page (analytics)
-→ Parcours de navigation (d'où vous venez, où vous allez)
-
-③ TRACES INSCRIPTIBLES (contenus créés)
-──────────────────────────────────────────────────────────────
-→ Publications (posts, tweets, stories, réels)
-→ Commentaires sur des articles, vidéos YouTube, forums
-→ Avis et notes (Google Maps, TripAdvisor, Amazon)
-→ Code source publié (GitHub, GitLab, Stack Overflow)
-→ Photos et vidéos uploadées
-→ Documents partagés publiquement (SlideShare, Scribd)
-
-④ TRACES RELATIONNELLES (interactions sociales)
-──────────────────────────────────────────────────────────────
-→ Liste d'amis / abonnés / abonnements (réseau social visible)
-→ Likes, réactions, cœurs sur des contenus
-→ Partages et retweets (amplifient la visibilité)
-→ Messages (souvent privés mais pas toujours chiffrés !)
-→ Groupes et communautés rejoints (publics ou privés)
-
-⑤ MÉTADONNÉES (données sur les données)
-──────────────────────────────────────────────────────────────
-→ Données EXIF des photos (GPS de la prise de vue, date/heure,
-  modèle d'appareil photo, parfois nom du photographe)
-→ Adresse IP lors des publications (géolocalisation approximative)
-→ Empreinte digitale du navigateur (browser fingerprinting)
-→ Langue, fuseau horaire, résolution d'écran
-→ Système d'exploitation, version du navigateur, plugins installés
+Identité Numérique = Identité Civile + Traces Numériques + Données Calculées
 ```
 
-**Exemple concret — Photo Instagram :**
-
-Vous postez une photo de vacances sur Instagram. Ce qui est enregistré :
-- **Trace inscriptible** : La photo elle-même + légende
-- **Trace relationnelle** : Qui like, commente, partage
-- **Métadonnées EXIF** : Où et quand la photo a été prise (GPS)
-- **Métadonnées plateforme** : Depuis quel appareil, quelle IP, quelle heure
+**Différence avec identité civile :**
+- **Identité civile** : nom, prénom, date de naissance, nationalité (état civil)
+- **Identité numérique** : représentation en ligne (profils, posts, commentaires, likes, historique...)
 
 ---
 
-### I.C. La Permanence : "Internet N'oublie Jamais"
+### I.B. Les 3 Composantes de l'Identité Numérique
 
-**Trois mécanismes de permanence :**
+#### 1. Identité Déclarative (Ce que JE dis de moi)
 
-**① Indexation par les moteurs de recherche**
+**Définition :** Informations que vous fournissez **volontairement** lors de la création de comptes ou de publications.
 
-Google indexe des milliards de pages web et les conserve dans ses serveurs.
-- Une publication de 2015 peut ressurgir en 2025 dans les résultats
-- Même si vous supprimez le contenu, le cache Google peut le conserver temporairement
+**Exemples :**
+- Profil Facebook : nom, photo, ville, école, entreprise
+- CV sur LinkedIn : expériences, formations, compétences
+- Bio Instagram : description personnelle
+- Formulaires d'inscription : email, téléphone, adresse
 
-**② Archive Internet (Internet Archive / Wayback Machine)**
-
-Site : https://archive.org/web/
-- Archive automatique des pages web depuis 1996
-- **735 milliards de pages** sauvegardées à ce jour
-- Même si vous supprimez une page de votre site, elle peut rester archivée
-- Utilisable pour retrouver d'anciennes versions de sites
-
-**③ Copies et partages incontrôlables**
-
-- Les contenus sont copiés, téléchargés, screenshot, partagés
-- Les autres utilisateurs sauvegardent vos photos/vidéos
-- Les sites miroirs ou agrégateurs dupliquent les contenus
-
-**L'effet Streisand :**
-
-Tenter activement de supprimer ou censurer une information en ligne → Attire l'attention → L'information devient encore plus visible et partagée.
-
-Origine : En 2003, la chanteuse Barbra Streisand tente de faire retirer une photo aérienne de sa maison (protection vie privée). Résultat : la photo devient virale, vue par des millions de personnes.
-
-**⚠️ RÈGLE D'OR**
-
-> *Avant de publier QUOI QUE CE SOIT en ligne, posez-vous :*
-> 
-> *"Serais-je à l'aise si mon futur employeur, mes parents, ou mes enfants voient ceci dans 10 ans ?"*
-> 
-> **Si la réponse est NON → Ne publiez pas.**
+**Caractéristiques :**
+- ✅ **Contrôlable** : vous choisissez ce que vous partagez
+- ⚠️ **Permanente** : difficile à effacer une fois publiée
+- 🔓 **Souvent publique** : visible par défaut sur réseaux sociaux
 
 ---
 
-## II. L'E-réputation
+#### 2. Identité Agissante (Ce que JE fais en ligne)
 
-### II.A. Définition et Enjeux
+**Définition :** Traces laissées par vos **actions** sur Internet.
 
-**E-réputation** (ou réputation numérique) = Image véhiculée par une personne sur Internet, résultant de l'ensemble des informations disponibles en ligne à son sujet.
+**Exemples :**
+- Posts, commentaires, likes sur réseaux sociaux
+- Avis sur TripAdvisor, Google Maps, Amazon
+- Historique de navigation (cookies, logs)
+- Téléchargements, achats en ligne
+- Géolocalisation (photos, check-ins)
 
-**Différence avec l'identité numérique :**
-- **Identité numérique** = Les données brutes (ce qui existe sur vous en ligne)
-- **E-réputation** = L'image, la perception qui se dégage de ces données
-
-#### Enjeux Personnels
-
-| **Domaine** | **Impact de l'e-réputation** |
-|-------------|------------------------------|
-| **Recherche d'emploi** | 70% des recruteurs googlient les candidats **avant** l'entretien |
-| **Carrière professionnelle** | Influence les promotions, la crédibilité professionnelle |
-| **Relations personnelles** | Rencontres amoureuses, amicales (les gens vous recherchent) |
-| **Sécurité** | Vol d'identité, harcèlement, usurpation facilitée par infos publiques |
-
-**Statistique clé (CareerBuilder 2018) :**
-- **54%** des recruteurs ont écarté un candidat à cause de son profil sur les réseaux sociaux
-- **57%** sont moins enclins à interviewer quelqu'un **sans** présence en ligne
+**Caractéristiques :**
+- ⚠️ **Partiellement contrôlable** : vous choisissez d'agir, mais les traces persistent
+- 🕵️ **Traçable** : historique conservé par les plateformes
+- 📊 **Analysable** : peut être agrégée pour créer un profil
 
 ---
 
-### II.B. Ce Qui Impacte Votre E-réputation
+#### 3. Identité Calculée (Ce que les ALGORITHMES disent de moi)
 
-**✅ ÉLÉMENTS POSITIFS** (à cultiver)
+**Définition :** Données **inférées** ou **calculées** par des algorithmes à partir de votre comportement.
 
-- **Profil LinkedIn** complet et professionnel (photo, expériences, recommandations)
-- **Contributions techniques** visibles (GitHub avec projets soignés, Stack Overflow)
-- **Articles de blog** techniques sur vos apprentissages (Medium, Dev.to)
-- **Certifications** affichées (Cisco CCNA, CNIL MOOC, AWS, Microsoft...)
-- **Recommandations** de collègues, professeurs, managers
-- **Participation** à des événements professionnels, conférences
+**Exemples :**
+- Score de crédit (Crédit Agricole, BNP...)
+- Profil publicitaire (Google Ads, Facebook Ads)
+- Recommandations Netflix, Spotify (basées sur historique)
+- Score de fiabilité (Uber, Airbnb)
+- Catégorisation (Amazon : "client premium", "client à risque")
 
-**❌ ÉLÉMENTS NÉGATIFS** (à éviter ou nettoyer)
-
-- Photos de soirées, fêtes, comportements inappropriés
-- Commentaires agressifs, injurieux, trolling
-- Fake news ou contenus conspirationnistes partagés
-- Fautes d'orthographe répétées (manque de professionnalisme)
-- Prises de position extrêmes (politique, religion) sans nuance
-- Pseudonymes douteux ou puérils (xX_DarkSlayer666_Xx)
-- **Absence totale** de présence en ligne (suspect pour un profil tech)
+**Caractéristiques :**
+- ❌ **NON contrôlable** : vous ne choisissez pas ce que les algorithmes calculent
+- 🔒 **Opaque** : vous ne savez souvent pas comment vous êtes catégorisé
+- 📊 **Discriminante** : peut mener à des discriminations (refus de crédit, prix différenciés...)
 
 ---
 
-### II.C. Maîtriser son E-réputation : 5 Bonnes Pratiques
+![Schéma : Identité numérique = 3 cercles concentriques - au centre "Identité déclarative" (ce que je dis), couche intermédiaire "Identité agissante" (ce que je fais), couche externe "Identité calculée" (ce que les algorithmes déduisent)]
 
-**① Créer du contenu de qualité**
-
-- LinkedIn à jour avec expériences, compétences, projets
-- GitHub avec projets soignés (README.md complet, code commenté, licence)
-- Blog technique partageant vos apprentissages
-- Contributions à des projets open source (même petites)
-
-**② Paramétrer la confidentialité**
-
-| **Plateforme** | **Paramétrage recommandé** |
-|----------------|----------------------------|
-| Facebook / Instagram | **Privé** (amis uniquement) |
-| LinkedIn | **Public** (c'est fait pour être vu professionnellement) |
-| Twitter / X | Selon usage : Pro = Public / Perso = Privé |
-| TikTok | **Privé** si contenu personnel/loisirs |
-| GitHub | Public pour projets professionnels, privé pour brouillons |
-
-**Principe de séparation** : Avoir 2 comptes si nécessaire (un pro, un perso)
-
-**③ Surveiller son nom (veille active)**
-
-- **Google Alerts** : Créer une alerte sur "Prénom Nom" → Email automatique dès qu'une nouvelle page vous mentionne
-- **Recherche mensuelle** : "Prénom Nom" + "Prénom Nom" + ville
-- **Vérifier les images** : Google Images, recherche inversée d'image
-- **Vérifier les réseaux sociaux** : Qui parle de vous, vous mentionne ?
-
-**④ Nettoyer les contenus négatifs**
-
-- Supprimer vos anciennes publications embarrassantes (scroll back sur vos profils)
-- Demander à vos amis de retirer des photos de vous (droit à l'image)
-- Exercer vos **droits RGPD** (droit à l'effacement — Art. 17) auprès des sites
-- Si refus : **Droit au déréférencement Google** (formulaire CNIL)
-
-**⑤ Utiliser des pseudonymes cohérents**
-
-- Éviter les pseudos enfantins ou embarrassants
-- Préférer **Prénom.Nom** ou **PrénomN** (professionnel, facile à retenir)
-- Rester cohérent entre plateformes (facilite le personal branding)
-- Utiliser des pseudos **différents** pour vie pro (identité réelle) et vie perso (pseudo)
+*Légende : Les trois composantes de l'identité numérique*
 
 ---
 
-## III. Le Droit à l'Image
+### I.C. Les Données Personnelles (RGPD)
 
-### III.A. Cadre Légal Français
+**Rappel RGPD :** Toute information se rapportant à une personne physique **identifiée ou identifiable**.
 
-**Fondement juridique** : **Article 9 du Code Civil**
+**Données d'identité numérique :**
+- **Directement identifiantes** : nom, prénom, email, téléphone, photo
+- **Indirectement identifiantes** : adresse IP, cookies, identifiants de session
+- **Données sensibles** : religion, santé, orientation sexuelle (protection renforcée)
 
-> *"Chacun a droit au respect de sa vie privée."*
+**Principe de minimisation (RGPD art. 5) :**
+> *"Les données à caractère personnel doivent être adéquates, pertinentes et limitées à ce qui est nécessaire."*
 
-**Principe :** L'image d'une personne est un **attribut de sa personnalité**. Toute diffusion de l'image d'une personne nécessite son **consentement**.
-
-#### Quand le consentement est-il requis ?
-
-**✅ Consentement OBLIGATOIRE dans ces cas :**
-
-- Photo ou vidéo où vous êtes **identifiable** (visage visible, tatouage distinctif...)
-- Diffusion sur Internet (Facebook, Instagram, site web, blog...)
-- Utilisation à des **fins commerciales** (publicité, marketing)
-- Si vous êtes le **sujet principal** de la photo (même en groupe)
-
-#### Caractéristiques du consentement valide
-
-Le consentement doit être :
-- **EXPLICITE** : Oral ou écrit (écrit fortement recommandé pour preuve)
-- **INFORMÉ** : La personne sait où et comment la photo sera diffusée
-- **SPÉCIFIQUE** : Pour une utilisation précise (pas un blanc-seing général)
-- **RÉVOCABLE** : On peut retirer son consentement à tout moment
-
-**⚠️ Attention** : Être dans un lieu public ≠ Consentement automatique à être photographié et diffusé.
+**Application pratique :**
+- ❌ Ne PAS publier : adresse postale, numéro de sécurité sociale, copie carte identité
+- ⚠️ Limiter : téléphone, email, date de naissance complète
+- ✅ OK : nom, prénom, ville, entreprise (si profil professionnel)
 
 ---
 
-### III.B. Exceptions au Droit à l'Image
+## 📖 PARTIE II — L'E-réputation
 
-**Dans ces cas, le consentement n'est PAS requis :**
+### II.A. Définition
 
-| **Exception** | **Conditions** |
-|---------------|----------------|
-| **Foule anonyme** | Vous n'êtes pas le sujet principal (manifestation, concert, match de foot dans les tribunes) |
-| **Personnalité publique** | Dans l'exercice de sa fonction publique (homme politique en meeting, artiste sur scène) |
-| **Œuvre d'art** | Sous conditions strictes (pas d'atteinte à la dignité) |
-| **Actualité / Information** | Droit légitime du public à l'information (cadre journalistique) |
+**E-réputation (ou réputation numérique) :** Image qu'une personne ou une organisation projette sur Internet, résultant de ce qu'elle dit d'elle-même ET de ce que les autres disent d'elle.
 
-**Mais attention** : Même une personnalité publique a droit au respect de sa vie privée en dehors de sa fonction.
-
----
-
-### III.C. Sanctions en Cas de Violation
-
-**Plan civil** :
-- Dommages et intérêts pour préjudice moral
-- Obligation de retrait de la photo sous astreinte
-
-**Plan pénal** :
-- **Article 226-1 du Code Pénal** (atteinte à la vie privée)
-- **1 an d'emprisonnement** + **45 000 € d'amende**
-
----
-
-### III.D. Cas Pratiques
-
-**CAS 1 : Photo de groupe lors d'une soirée**
-
-Votre ami poste sur Instagram une photo de groupe où vous êtes clairement identifiable. Vous n'avez pas donné votre accord.
-
-→ **Votre droit** : Demander le retrait (message privé amical d'abord, puis formel si refus)
-→ **Si refus persistant** : Signaler à Instagram (violation vie privée) + Mise en demeure écrite
-→ **Si préjudice** : Action en justice possible (tribunal judiciaire)
-
----
-
-**CAS 2 : Photo professionnelle sur le site de l'entreprise**
-
-Votre entreprise publie votre photo sur son site web "Rencontrez notre équipe".
-
-→ **Consentement requis** : OUI (doit être demandé à l'embauche ou spécifiquement)
-→ **Durée** : Pendant la durée du contrat de travail
-→ **À votre départ** : L'entreprise **doit** retirer votre photo (délai raisonnable : 1 mois)
-→ **Si refus** : Mise en demeure puis saisine des prud'hommes ou tribunal
-
----
-
-**CAS 3 : Événement public filmé (conférence technique)**
-
-Vous participez à une conférence. L'organisateur filme et publie sur YouTube.
-
-→ **Si vous n'êtes PAS le sujet principal** (plan large de la salle) : Pas de consentement requis
-→ **Si vous êtes interviewé face caméra** : Consentement explicite requis
-→ **Bonne pratique organisateur** : Afficher "Événement filmé" à l'entrée + Opt-out possible
-
----
-
-## IV. Anonymat et Pseudonymat
-
-### IV.A. Définitions
-
-**ANONYMAT COMPLET** (théorique)
-
-Aucune donnée technique ou comportementale ne permet de remonter à votre identité réelle.
-
-Exemples de tentatives d'anonymat :
-- Naviguer avec **Tor** (réseau anonyme) + VPN + carte SIM prépayée anonyme
-- Utiliser une adresse email jetable sans nom ni numéro de téléphone
-- Poster sur un forum sans création de compte, via VPN
-
-**⚠️ Difficulté** : Presque **impossible** en pratique sans précautions extrêmes, et même ainsi, pas de garantie absolue (métadonnées, erreurs humaines, recoupements)
-
----
-
-**PSEUDONYMAT** (courant)
-
-Vous utilisez un **pseudonyme** à la place de votre vrai nom, MAIS des métadonnées permettent potentiellement de vous identifier.
-
-Exemples :
-- Compte Twitter avec pseudo + email Gmail à votre nom → **Lien possible**
-- Forum avec pseudo mais IP non masquée → **Géolocalisation + logs**
-- Même pseudo sur plusieurs sites → **Recoupement facile**
-
-**Risques du pseudonymat :**
-- **Recoupement d'informations** : Vous parlez de votre ville + votre métier + votre école → Identification
-- **Adresse IP** : Les serveurs conservent les logs IP (1 an minimum en France)
-- **Métadonnées** : Fuseau horaire, langue, résolution d'écran → Empreinte unique
-- **Style d'écriture** : Analyse linguistique peut identifier un auteur
-- **Réutilisation du pseudo** : Même pseudo sur 5 sites → On retrouve vos autres profils
-
----
-
-**IDENTITÉ RÉELLE** (assumée)
-
-Vous utilisez votre vrai nom et prénom.
-
-Exemples : LinkedIn, CV publié en ligne, profils professionnels, interventions publiques
-
-→ Assume pleinement votre identité et votre e-réputation
-→ Nécessaire pour la vie professionnelle
-
----
-
-### IV.B. Le Mythe de l'Anonymat sur Internet
-
-**Pourquoi l'anonymat complet est illusoire**
-
-**① Les métadonnées sont omniprésentes**
-
-Même sans donner votre nom, vous laissez une **empreinte numérique unique** :
-
-| **Métadonnée** | **Information révélée** |
-|----------------|-------------------------|
-| Adresse IP | Géolocalisation approximative (ville, FAI) |
-| User-Agent | Système d'exploitation, navigateur, version |
-| Résolution d'écran | Taille de votre écran (combinaison souvent unique) |
-| Fuseau horaire | Région du monde où vous êtes |
-| Langue navigateur | Langue système, préférences linguistiques |
-| Plugins installés | Liste des extensions (AdBlock, VPN...) |
-| Fonts installées | Polices de caractères sur votre système |
-| Canvas fingerprinting | Technique créant une empreinte quasi-unique de votre navigateur |
-
-**Testez votre navigateur** : https://panopticlick.eff.org
-→ Résultat habituel : "Votre navigateur a une empreinte unique parmi des millions"
-
-**② Recoupements d'informations**
-
-**Exemple concret :**
-
-Vous postez sous le pseudo "TechGuru2024" sur un forum :
-- "Je travaille dans une PME de 50 personnes à Lyon"
-- "Je suis développeur Python spécialisé en IA"
-- "Mon entreprise fait du conseil bancaire"
-
-→ Recherche LinkedIn : *"Développeur Python Lyon banque"*
-→ Résultat : **3 profils seulement** → Vous êtes identifié
-
-**③ Obligations légales des plateformes**
-
-En France (Loi pour la Confiance dans l'Économie Numérique — LCEN) :
-
-Les hébergeurs et fournisseurs de services en ligne **doivent conserver** pendant **1 an** :
-- Identifiant de connexion de l'utilisateur
-- Adresses IP utilisées
-- Dates et heures de connexion
-
-→ Sur **réquisition judiciaire** : Communication obligatoire aux autorités (police, justice)
-
-**Conclusion :**
-- Vous êtes **anonyme pour les autres utilisateurs**
-- Vous n'êtes **PAS anonyme pour la plateforme**
-- Vous n'êtes **PAS anonyme pour la justice**
-
----
-
-### IV.C. Protection Raisonnable de la Vie Privée
-
-**Pour la vie personnelle (pseudonymat maîtrisé) :**
-
-✅ Pseudonymes **différents** sur chaque plateforme sensible
-✅ Email dédié pour les inscriptions (pas votre email professionnel)
-✅ Ne jamais donner votre **ville exacte** (seulement le département ou la région)
-✅ Ne jamais mélanger vie pro (identité réelle) et pseudonymes perso
-✅ VPN pour masquer l'IP (NordVPN, ProtonVPN...) si besoin de confidentialité
-✅ Bloquer les cookies tiers (extensions : uBlock Origin, Privacy Badger)
-
-**Pour la vie professionnelle (identité réelle assumée) :**
-
-✅ Profil **LinkedIn** complet, photo professionnelle, CV à jour
-✅ **GitHub** avec projets publics de qualité (bon pour la carrière)
-✅ Contributions techniques visibles et valorisantes
-✅ Email professionnel : **prenom.nom@domaine.fr**
-✅ Séparer **clairement** vie pro (publique) et vie perso (privée)
-
-**RÈGLE D'OR DE SÉPARATION**
-
+**Formule :**
 ```
-VIE PROFESSIONNELLE = Identité réelle
-→ LinkedIn, CV, GitHub, conférences, articles techniques
-→ Visibilité assumée et valorisée
-
-VIE PERSONNELLE = Pseudonymat
-→ Gaming, forums non-pro, loisirs, réseaux sociaux perso
-→ Jamais de lien entre les deux identités
+E-réputation = Mon identité déclarative + Avis des autres + Algorithmes de recherche
 ```
 
----
-
-## V. Exercer ses Droits RGPD sur son Identité Numérique
-
-### V.A. Les Droits Applicables
-
-**① Droit d'accès (Article 15 RGPD)**
-
-Demander à une plateforme : *"Quelles données avez-vous sur moi ?"*
-
-Outils pratiques :
-- **Google Takeout** : https://takeout.google.com → Exporter TOUTES vos données Google
-- **Facebook** : Paramètres → Vos informations → Télécharger vos informations
-- **X (Twitter)** : Paramètres → Votre compte → Télécharger une archive de vos données
+**Différence avec réputation classique :**
+- **Réputation classique** : bouche-à-oreille, local, éphémère
+- **E-réputation** : mondiale, permanente (archives, caches), indexée (Google)
 
 ---
 
-**② Droit de rectification (Article 16)**
+### II.B. Enjeux de l'E-réputation
 
-Corriger des informations **erronées** ou **obsolètes** vous concernant.
+#### 1. Enjeux Personnels
 
-Exemple : Votre ancien employeur affiche encore votre poste actuel sur son site alors que vous êtes parti → Demande de rectification
+| **Domaine** | **Impact** | **Exemple** |
+|---|---|---|
+| **Recrutement** | 70% des recruteurs googlent les candidats | Refus après découverte de photos de soirée |
+| **Rencontres** | Vérification des profils avant rendez-vous | Date annulé après Google |
+| **Relations** | Découverte d'informations embarrassantes | Conflit familial suite à post Facebook |
 
----
-
-**③ Droit à l'effacement / "Droit à l'oubli" (Article 17)**
-
-Demander la **suppression définitive** de vos données personnelles.
-
-**Conditions d'application** :
-- Les données ne sont plus nécessaires au regard des finalités
-- Vous retirez votre consentement (si c'était la base légale)
-- Vous vous opposez au traitement (si base légale = intérêt légitime)
-- Les données ont été collectées illicitement
-
-**Limites** (le droit à l'effacement ne s'applique PAS si) :
-- Liberté d'expression et d'information (articles de presse)
-- Obligation légale de conservation (factures, données comptables)
-- Constatation, exercice ou défense de droits en justice
+**Statistiques :**
+- **93% des recruteurs** regardent les profils sociaux des candidats (CareerBuilder, 2022)
+- **55% des recruteurs** ont rejeté un candidat à cause de son profil social
 
 ---
 
-**Modèle de demande d'effacement** :
+#### 2. Enjeux Professionnels
 
+| **Domaine** | **Impact** | **Exemple** |
+|---|---|---|
+| **Carrière** | Promotion refusée | Post politique controversé |
+| **Relations professionnelles** | Perte de confiance | Commentaire négatif sur ancien employeur |
+| **Business** | Perte de clients | Avis négatifs sur Google Maps |
+
+**Cas réel :**
+> En 2013, Justine Sacco, directrice communication, poste un tweet raciste avant un vol long-courrier. À son atterrissage, elle est virée et son nom est devenu synonyme de "bad buzz".
+
+---
+
+### II.C. Droit à l'Oubli (RGPD Art. 17)
+
+**Définition :** Droit de demander l'effacement de données personnelles dans certains cas (voir S8 RGPD).
+
+**Application à l'e-réputation :**
+- ✅ **Possible** : demander à un site de supprimer un article vous concernant (si conditions réunies)
+- ⚠️ **Limité** : Google peut déréférencer (retirer des résultats de recherche), mais l'article reste en ligne
+- ❌ **Impossible** : effacer TOUTES les traces (caches, archives, captures d'écran)
+
+**Jurisprudence clé : Google Spain vs AEPD (2014)**
+
+**Faits :**
+- Mario Costeja González (Espagnol) avait des dettes dans les années 90
+- Un article de journal parlait de la vente de sa maison aux enchères
+- 15 ans plus tard, cet article apparaissait toujours en 1er résultat Google
+- Il demande le déréférencement
+
+**Décision CJUE (Cour de Justice de l'UE) :**
+- ✅ Google doit déréférencer l'article (ne plus l'afficher dans les résultats)
+- ⚠️ MAIS l'article reste en ligne (pas supprimé du site du journal)
+- 🌍 Déréférencement limité à l'UE (toujours visible depuis les USA)
+
+**Depuis 2014 :** Google a reçu +1 million de demandes de déréférencement en Europe, accepté ~50%.
+
+---
+
+### II.D. Gestion de l'E-réputation
+
+#### 1. Surveiller son E-réputation
+
+**Outils :**
+- **Google Alerts** : alerte email quand votre nom apparaît
+- **Google Search Console** : voir quelles pages vous mentionnent
+- **Mention, Brandwatch** : outils pros de veille (payants)
+
+**Fréquence :** Recherche Google sur son nom **1 fois par mois** minimum.
+
+---
+
+#### 2. Nettoyer son E-réputation
+
+**Actions possibles :**
+
+| **Action** | **Difficulté** | **Efficacité** |
+|---|:---:|:---:|
+| **Supprimer ses propres posts** | Facile | Élevée (si fait rapidement) |
+| **Paramétrer profils en privé** | Facile | Élevée |
+| **Demander suppression à un site** | Moyenne | Moyenne (dépend du site) |
+| **Demander déréférencement Google** | Difficile | Moyenne (50% accepté) |
+| **Noyer les résultats négatifs** | Difficile | Élevée (créer contenu positif) |
+
+**Technique du "Name Flooding" :**
+- Créer du contenu positif (LinkedIn, blog, GitHub) pour noyer les résultats négatifs dans Google
+- Exemple : si "Pierre Dupont problème" apparaît page 1, créer "Pierre Dupont professionnel" pour passer page 2
+
+---
+
+## 📖 PARTIE III — Usurpation d'Identité Numérique
+
+### III.A. Définition Juridique
+
+**Code pénal — Article 226-4-1 :**
+> *"Le fait d'usurper l'identité d'un tiers ou de faire usage d'une ou plusieurs données de toute nature permettant de l'identifier en vue de troubler sa tranquillité ou celle d'autrui, ou de porter atteinte à son honneur ou à sa considération, est puni d'un an d'emprisonnement et de 15 000 euros d'amende."*
+
+**En clair :**
+- Utiliser le nom, la photo, l'email, ou toute donnée d'une autre personne
+- Dans le but de lui nuire ou de tromper
+- = **1 an de prison + 15 000 € d'amende**
+
+---
+
+### III.B. Formes d'Usurpation d'Identité
+
+#### 1. Phishing (Hameçonnage)
+
+**Définition :** Email frauduleux se faisant passer pour un organisme officiel (banque, impôts, Sécurité sociale) pour voler des identifiants.
+
+**Exemple typique :**
 ```
-Objet : Demande d'effacement de mes données personnelles (Art. 17 RGPD)
+De : "Crédit Agricole" <support@credait-agricole.fr>  [Notez la faute]
+Objet : Votre compte a été bloqué pour activité suspecte
 
-Madame, Monsieur,
+Cher client,
 
-Conformément à l'article 17 du Règlement Général sur la Protection
-des Données (RGPD), je vous demande de procéder à la suppression
-de l'intégralité de mes données personnelles associées au compte
-suivant : [indiquer email ou identifiant].
-
-Je retire mon consentement au traitement de mes données et vous
-demande leur suppression définitive dans un délai d'un mois à
-compter de la réception de cette demande.
-
-Je vous prie de me confirmer par écrit la suppression effective
-de mes données.
+Nous avons détecté une activité suspecte sur votre compte.
+Veuillez confirmer votre identité en cliquant ici :
+https://credit-agricole-verification.xyz  [Faux site]
 
 Cordialement,
-[Votre nom]
-[Date]
+Le service sécurité
 ```
 
----
-
-**④ Droit au déréférencement (Google)**
-
-Demander à **Google** de retirer des **résultats de recherche** des liens vers des pages vous concernant.
-
-**⚠️ Important** :
-- Le déréférencement retire le lien des résultats Google
-- Mais la page existe toujours sur le site d'origine
-- Ce n'est PAS une suppression du contenu
-
-**Procédure** :
-
-1. Formulaire Google : https://www.google.com/webmasters/tools/legal-removal-request
-2. Google examine la demande (balance **vie privée** vs **intérêt public**)
-3. **Si accepté** : Le lien n'apparaît plus dans Google.fr (mais peut rester sur Google.com)
-4. **Si refusé** : Recours possible auprès de la CNIL
-
-**Conditions d'acceptation** :
-- Informations obsolètes, non pertinentes, excessives
-- Atteinte disproportionnée à la vie privée
-- Pas d'intérêt public prépondérant
+**Signaux d'alerte :**
+- ❌ Fautes d'orthographe
+- ❌ Expéditeur suspect (domaine différent)
+- ❌ Urgence, menace ("compte bloqué !")
+- ❌ Lien vers site externe (pas le vrai site banque)
+- ❌ Demande de mot de passe (JAMAIS par email)
 
 ---
 
-## VI. Vocabulaire Clé à Maîtriser
+#### 2. Faux Profils sur Réseaux Sociaux
 
-| **Terme** | **Définition** |
-|-----------|----------------|
-| **Identité numérique** | Ensemble des informations et traces laissées en ligne permettant d'identifier une personne |
-| **Identité déclarative** | Informations que vous publiez volontairement vous concernant |
-| **Identité calculée** | Informations publiées par des tiers vous concernant (que vous ne contrôlez pas) |
-| **E-réputation** | Image véhiculée par une personne sur Internet (perception globale) |
-| **Droit à l'image** | Droit de toute personne de s'opposer à la diffusion de son image sans consentement (Art. 9 Code Civil) |
-| **Consentement explicite** | Accord clair et non ambigu pour l'utilisation de son image ou de ses données |
-| **Pseudonymat** | Usage d'un pseudonyme masquant le nom réel (mais traçable via métadonnées) |
-| **Anonymat** | Absence totale de données permettant l'identification (quasi impossible en pratique) |
-| **Traces numériques** | Données laissées lors de la navigation ou de l'utilisation d'Internet (5 types) |
-| **Métadonnées** | Données sur les données (EXIF photo, IP, User-Agent, fingerprint navigateur) |
-| **Permanence** | Caractère durable et difficile à effacer des contenus publiés en ligne |
-| **Effet Streisand** | Tenter de censurer une info → Attire l'attention → Info devient virale |
-| **RGPD Art. 17** | Droit à l'effacement ("droit à l'oubli") — demande de suppression de ses données |
-| **Déréférencement** | Retrait d'un lien des résultats de recherche Google (page reste en ligne) |
-| **Google Alerts** | Service gratuit envoyant un email dès qu'une nouvelle page mentionne un mot-clé |
-| **Canvas fingerprinting** | Technique créant une empreinte quasi-unique d'un navigateur via métadonnées |
+**Technique :**
+- Vol de photo de profil + nom
+- Création d'un faux compte
+- Ajout d'amis/contacts de la victime
+- Escroquerie (demander argent, obtenir infos)
+
+**Exemple réel :**
+> Faux profil LinkedIn d'un DRH pour piéger des candidats et voler leurs données personnelles (CV, copie pièce identité).
+
+---
+
+#### 3. SIM Swapping
+
+**Technique :**
+- Pirate obtient infos personnelles (date naissance, adresse...)
+- Appelle opérateur télécom (Orange, SFR...) en se faisant passer pour la victime
+- Demande transfert du numéro vers une nouvelle SIM
+- Reçoit SMS de validation 2FA → accès aux comptes bancaires, emails
+
+**Victime célèbre :** Jack Dorsey (fondateur Twitter) victime en 2019.
+
+---
+
+#### 4. Deepfakes
+
+**Définition :** Vidéos ou audios **générés par IA** imitant une personne réelle.
+
+**Usages malveillants :**
+- Fausse vidéo compromettante d'une personnalité
+- Faux appel vocal d'un CEO pour ordonner un virement (fraude au président)
+- Pornographie non consentie (visage de la victime sur corps d'acteur/actrice)
+
+**Exemple réel :**
+> 2020 : Deepfake audio du CEO d'une entreprise britannique → employé vire 243 000$ aux pirates.
+
+---
+
+### III.C. Sanctions et Recours
+
+**Sanctions pénales :**
+- **Usurpation d'identité** (art. 226-4-1) : 1 an + 15 000 €
+- **Escroquerie** (art. 313-1) : 5 ans + 375 000 €
+- **Atteinte système informatique** (art. 323-1) : 2 ans + 60 000 €
+
+**Recours possibles :**
+1. **Plainte au commissariat** (ou gendarmerie)
+2. **Signalement sur la plateforme** (Facebook, Twitter, LinkedIn → bouton "signaler")
+3. **Plateforme officielle** : [internet-signalement.gouv.fr](https://www.internet-signalement.gouv.fr)
+4. **Avocat** : pour action civile (dommages et intérêts)
+
+---
+
+### III.D. Prévention de l'Usurpation
+
+| **Bonne Pratique** | **Efficacité** | **Difficulté** |
+|---|:---:|:---:|
+| **Mots de passe forts + uniques** | ⭐⭐⭐⭐⭐ | Moyenne |
+| **2FA (double authentification)** | ⭐⭐⭐⭐⭐ | Facile |
+| **Gestionnaire de mots de passe** | ⭐⭐⭐⭐ | Moyenne |
+| **Ne PAS cliquer liens suspects** | ⭐⭐⭐⭐⭐ | Facile |
+| **Vérifier expéditeur emails** | ⭐⭐⭐⭐ | Facile |
+| **Limiter infos publiques** | ⭐⭐⭐ | Facile |
+| **Surveiller comptes (HaveIBeenPwned)** | ⭐⭐⭐⭐ | Facile |
+
+---
+
+## 📖 PARTIE IV — Le Cadre e-IDAS
+
+### IV.A. Qu'est-ce que e-IDAS ?
+
+**e-IDAS :** Règlement européen (UE n°910/2014) sur l'**identification électronique et les services de confiance** pour les transactions électroniques dans le marché intérieur (electronic IDentification, Authentication and trust Services).
+
+**Objectif :** Créer un **cadre de confiance numérique** harmonisé dans toute l'UE pour :
+- ✅ Sécuriser les transactions en ligne
+- ✅ Faciliter les échanges transfrontaliers
+- ✅ Reconnaître les signatures électroniques entre pays UE
+
+**Date d'application :** 1er juillet 2016
+
+---
+
+### IV.B. Les 3 Niveaux d'Identification Électronique
+
+| **Niveau** | **Exigences** | **Exemples** |
+|---|---|---|
+| **Faible** | Simple identifiant + mot de passe | Compte Gmail, Facebook |
+| **Substantiel** | 2FA (2 facteurs) | SMS + mot de passe, App authentificatrice |
+| **Élevé** | Certificat qualifié + dispositif sécurisé | Carte d'identité électronique, FranceConnect |
+
+**Application :** Les services publics européens doivent accepter les identités électroniques de niveau substantiel ou élevé des autres pays UE.
+
+**Exemple :** Un Français peut utiliser FranceConnect pour accéder à un service public allemand.
+
+---
+
+### IV.C. Les 3 Niveaux de Signature Électronique
+
+#### 1. Signature Électronique Simple
+
+**Définition :** Données sous forme électronique jointes à d'autres données et servant de méthode d'authentification.
+
+**Exemples :**
+- Scan d'une signature papier (⚠️ faible sécurité)
+- Case à cocher "J'accepte les CGU"
+- Signature tactile sur tablette (Chronopost, banque)
+
+**Valeur juridique :**
+- ✅ Valide juridiquement (Code civil art. 1367)
+- ⚠️ MAIS facilement contestable (pas de preuve d'identité)
+
+---
+
+#### 2. Signature Électronique Avancée
+
+**Définition :** Signature qui répond aux exigences suivantes :
+- ✅ **Liée uniquement** au signataire
+- ✅ **Permet d'identifier** le signataire
+- ✅ **Créée avec des moyens** que le signataire contrôle exclusivement
+- ✅ **Liée aux données signées** (si modification, signature invalide)
+
+**Moyens techniques :** Certificat numérique + clés cryptographiques (RSA, ECDSA)
+
+**Exemples :**
+- DocuSign (niveau avancé)
+- Adobe Sign (niveau avancé)
+- Universign
+
+**Valeur juridique :**
+- ✅ Valide et difficilement contestable
+- ✅ Preuve d'identité (certificat)
+- ⚠️ Pas de présomption de fiabilité absolue
+
+---
+
+#### 3. Signature Électronique Qualifiée
+
+**Définition :** Signature électronique avancée + **certificat qualifié** délivré par un **PSCE (Prestataire de Services de Confiance Électronique) qualifié**.
+
+**Exigences supplémentaires :**
+- ✅ Certificat délivré par organisme **agréé par l'ANSSI** (France) ou équivalent UE
+- ✅ Création par **dispositif sécurisé** (carte à puce, token USB)
+- ✅ Respect normes techniques (ETSI, ISO)
+
+**Exemples :**
+- Carte Vitale (signature actes médicaux)
+- CPS (Carte de Professionnel de Santé)
+- Certificats Certigna, IDsign
+
+**Valeur juridique :**
+- ✅ **Équivalence avec signature manuscrite** (Règlement e-IDAS art. 25)
+- ✅ **Présomption de fiabilité** (opposable juridiquement)
+- ✅ **Reconnue dans toute l'UE**
+
+---
+
+**Tableau Comparatif :**
+
+| **Critère** | **Simple** | **Avancée** | **Qualifiée** |
+|---|:---:|:---:|:---:|
+| **Identification signataire** | ⚠️ Faible | ✅ Forte | ✅ Très forte |
+| **Lien avec données signées** | ❌ Faible | ✅ Oui | ✅ Oui |
+| **Certificat qualifié** | ❌ Non | ❌ Non | ✅ Oui |
+| **Dispositif sécurisé** | ❌ Non | ⚠️ Optionnel | ✅ Obligatoire |
+| **Valeur juridique** | ⚠️ Contestable | ✅ Solide | ✅ Équivalence manuscrite |
+| **Reconnaissance UE** | ❌ Non | ⚠️ Partielle | ✅ Totale |
+| **Coût** | Gratuit | 5-20€/doc | 50-200€/an |
+
+---
+
+### IV.D. Les Prestataires de Services de Confiance (PSCO)
+
+**Définition :** Organismes qui fournissent des services de confiance numérique (signatures, certificats, horodatages, archivage).
+
+**Services fournis :**
+- Délivrance de certificats qualifiés
+- Signature électronique (simple, avancée, qualifiée)
+- Cachet électronique (pour entreprises)
+- Horodatage électronique (preuve de date)
+- Recommandé électronique (équivalent lettre recommandée)
+
+**Exemples de PSCO qualifiés (France) :**
+- **Certigna** (Docaposte, La Poste)
+- **IDsign** (Atos)
+- **Universign**
+- **ChamberSign** (Chambres de Commerce)
+
+**Liste officielle :** [esignature.ec.europa.eu/efda/tl-browser](https://esignature.ec.europa.eu/efda/tl-browser)
+
+---
+
+### IV.E. FranceConnect et Identité Numérique
+
+**FranceConnect :** Système d'identification français permettant d'accéder à +1000 services publics avec un seul compte (impots.gouv.fr, ameli.fr, pole-emploi.fr...).
+
+**Fonctionnement :**
+1. Vous avez un compte sur un **fournisseur d'identité** (Impôts, La Poste, Ameli...)
+2. Vous cliquez "Se connecter avec FranceConnect" sur un service public
+3. Vous choisissez votre fournisseur d'identité
+4. Vous vous authentifiez (identifiant + mot de passe + éventuellement 2FA)
+5. FranceConnect transmet vos données d'identité au service
+
+**Avantages :**
+- ✅ Un seul compte pour tous les services publics
+- ✅ Pas besoin de créer 50 comptes différents
+- ✅ Sécurisé (niveau substantiel e-IDAS)
+
+**Projet France Identité Numérique (2024) :**
+- Application mobile officielle
+- Identité numérique de **niveau élevé** (e-IDAS)
+- Basée sur pièce d'identité biométrique
+- Permet signature électronique qualifiée
+
+---
+
+## 🔑 VOCABULAIRE CLÉ À MAÎTRISER
+
+| **Terme** | **Définition Simple** |
+|---|---|
+| **Identité numérique** | Ensemble des traces qu'une personne laisse sur Internet |
+| **Identité déclarative** | Ce que je dis de moi (profils, bio...) |
+| **Identité agissante** | Ce que je fais en ligne (posts, likes, achats...) |
+| **Identité calculée** | Ce que les algorithmes déduisent de moi |
+| **E-réputation** | Image qu'une personne projette sur Internet |
+| **Droit à l'oubli** | Droit de demander effacement de données (RGPD art. 17) |
+| **Usurpation d'identité** | Utiliser l'identité d'un tiers pour lui nuire (1 an + 15k€) |
+| **Phishing** | Email frauduleux pour voler identifiants |
+| **Deepfake** | Vidéo/audio faux générée par IA |
+| **2FA** | Double authentification (mot de passe + code SMS/app) |
+| **e-IDAS** | Règlement UE sur confiance numérique (signatures, certificats) |
+| **Signature électronique** | Données électroniques pour authentifier un document |
+| **Signature qualifiée** | Signature avec certificat qualifié = équivalence manuscrite |
+| **FranceConnect** | Système d'identification unique pour services publics français |
+
+---
+
+## ✅ Points Clés à Retenir
+
+1. **Identité numérique = 3 composantes** : déclarative (je dis), agissante (je fais), calculée (algorithmes déduisent).
+
+2. **E-réputation = crucial pour carrière** : 70% recruteurs googlent candidats, 55% rejettent à cause profil social.
+
+3. **Droit à l'oubli ≠ effacement total** : Google peut déréférencer, mais contenu reste en ligne.
+
+4. **Usurpation = 1 an + 15 000€** : phishing, faux profils, SIM swapping, deepfakes.
+
+5. **2FA = protection essentielle** : réduit 90% des risques de piratage.
+
+6. **e-IDAS = confiance numérique UE** : signatures électroniques (simple, avancée, qualifiée).
+
+7. **Signature qualifiée = équivalence manuscrite** : certificat qualifié + dispositif sécurisé.
+
+8. **FranceConnect = 1 compte, 1000 services** : identification unique services publics français.
+
+9. **Surveiller e-réputation** : Google Alerts sur son nom 1×/mois minimum.
+
+10. **Protéger identité** : mots de passe forts + uniques, 2FA, limiter infos publiques, vérifier emails.
+
+---
+
+## 📚 Pour Aller Plus Loin
+
+**Outils pratiques :**
+- [HaveIBeenPwned](https://haveibeenpwned.com) — Vérifier fuites de données
+- [Google Alerts](https://www.google.com/alerts) — Surveiller son nom
+- [FranceConnect](https://franceconnect.gouv.fr) — Identité numérique publique
+
+**Textes de référence :**
+- [Règlement e-IDAS](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32014R0910)
+- [Code pénal art. 226-4-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042193593)
+
+**Questions de réflexion :**
+- Faut-il créer des profils séparés (perso vs pro) sur réseaux sociaux ?
+- Le droit à l'oubli est-il vraiment efficace ?
+- Les deepfakes représentent-ils une menace majeure pour la démocratie ?
 
 ---

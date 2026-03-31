@@ -8,41 +8,44 @@
 | **Champ** | **Détail** |
 |-----------|-----------|
 | **Semaine** | S14 — Année 1 |
-| **Bloc** | Bloc 3 — Cybersécurité des services informatiques |
+| **Module** | CEJM-A (Culture Économique, Juridique et Managériale - volet A) |
 | **Durée totale** | 4 heures |
-| **Public** | Apprentis BTS SIO SISR — quatorzième semaine |
-| **Modalité** | Présentiel — salle de cours + TP |
-| **Prérequis** | S11 (cryptographie symétrique AES) · S13 (PKI, certificats X.509) · Notions réseau IP/routage |
+| **Public** | Apprentis BTS SIO SISR — profils hétérogènes |
+| **Modalité** | Présentiel — salle de cours |
+| **Prérequis** | S6 (RGPD), S9 (Article 32 - Logs) |
 
 ---
 
-## Compétences RNCP Visées
+## Compétences Visées
 
 | **Code** | **Intitulé de la compétence** | **Niveau visé** |
 |----------|-------------------------------|-----------------|
-| **B3.2** | Mettre en œuvre les mesures de sécurité de base | Maîtrise |
-| **B3.5** | Mettre en œuvre des mécanismes de chiffrement | Maîtrise |
-| **B3.7** | Configurer et administrer un VPN | Acquisition |
+| **B1.4** | Respecter les règles juridiques et déontologiques | Application |
+| **B2.2** | Assurer la sécurité d'un système informatique | Application |
+| **B3.1** | Accompagner les utilisateurs | Connaissance |
 
-> 📌 **S14 BLOC 3 réunit deux sujets profondément liés.** Un VPN sans cryptographie asymétrique n'existe pas — les certificats X.509 (S13) et la cryptographie asymétrique sont le fondement de l'authentification VPN. La séance articule d'abord la théorie complète de la cryptographie asymétrique (complément de S11 et S13), puis montre concrètement comment elle s'applique dans l'architecture VPN.
+> 📌 **S14 est LE lien entre technique et juridique** : les logs que vous générez quotidiennement ont une VALEUR JURIDIQUE. Ils peuvent servir de preuve en justice. Mal gérés = preuve irrecevable. Bien gérés = preuve décisive. Enjeu : licenciements, contentieux, cybercriminalité.
 
 ---
 
 ## Objectifs Pédagogiques
 
-**Chiffrement Asymétrique :**
-- ✅ Maîtriser le principe **clé publique / clé privée** (usages distincts)
-- ✅ Comprendre l'**échange de clé Diffie-Hellman** (et sa version ECDH)
-- ✅ Comprendre le **chiffrement hybride** (asymétrique + symétrique)
-- ✅ Relier les certificats X.509 (S13) au chiffrement asymétrique
-- ✅ Identifier les usages concrets (TLS, SSH, GPG, email S/MIME)
+**Connaissances juridiques :**
+- ✅ Comprendre la **valeur probante** d'un écrit électronique
+- ✅ Maîtriser les **conditions de recevabilité** des logs
+- ✅ Connaître les **3 niveaux de signature électronique** (eIDAS)
+- ✅ Comprendre l'**horodatage qualifié** (RFC 3161)
 
-**VPN :**
-- ✅ Définir un **VPN** et expliquer le concept de **tunnelisation**
-- ✅ Distinguer les **2 grands types** : Site-à-Site et Nomade (Remote Access)
-- ✅ Comprendre les **protocoles VPN** (IPsec, OpenVPN, WireGuard, SSL/TLS)
-- ✅ Identifier les **composants** d'une infrastructure VPN
-- ✅ Comparer les **cas d'usage** et choisir le bon type de VPN
-- ✅ Comprendre le rôle du **chiffrement** dans le VPN
+**Compétences techniques :**
+- ✅ Configurer la **journalisation** sécurisée
+- ✅ Garantir l'**intégrité** des logs (hash SHA-256)
+- ✅ Mettre en œuvre la **signature électronique**
+- ✅ Implémenter l'**horodatage** (TSA)
+
+**Posture ITIL :**
+- ✅ Logs = **Event Management** (gestion des événements)
+- ✅ Conservation logs = **Knowledge Management**
+- ✅ Signature électronique = **Change Management** (traçabilité)
+- ✅ Horodatage = **Service Level Management** (SLA)
 
 ---

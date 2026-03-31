@@ -6,23 +6,24 @@
 | **Champ** | **Détail** |
 |-----------|-----------|
 | **Semaine** | S6 — Année 1 |
-| **Bloc** | Bloc 2 — Volet juridique RGPD |
+| **Module** | CEJM-A (Culture Économique, Juridique et Managériale - volet A) |
 | **Durée totale** | 4 heures |
-| **Public** | Apprentis BTS SIO SISR — sixième semaine |
-| **Modalité** | Présentiel — salle de cours avec accès internet |
-| **Prérequis** | S5 BLOC 2 (définitions RGPD, acteurs, 6 principes) |
+| **Public** | Apprentis BTS SIO SISR — profils hétérogènes |
+| **Modalité** | Présentiel — salle de cours |
+| **Prérequis** | S3 (Charte informatique), S4 (Économie hardware) |
 
 ---
 
-## Compétences RNCP Visées
+## Compétences Visées
 
 | **Code** | **Intitulé de la compétence** | **Niveau visé** |
 |----------|-------------------------------|-----------------|
-| **B2.1** | Comprendre les obligations légales liées au traitement de données personnelles | Maîtrise |
-| **B2.2** | Identifier les acteurs de la protection des données | Maîtrise |
-| **B2.3** | Appliquer les principes du RGPD dans un contexte professionnel | Acquisition |
+| **B1.4** | Respecter les règles juridiques et déontologiques | Application |
+| **B2.2** | Assurer la sécurité d'un système informatique | Connaissance |
+| **B3.1** | Accompagner les utilisateurs | Application |
+| **B3.4** | Respecter les règles en vigueur pour l'accessibilité et les ressources | Application |
 
-> 📌 **S6 BLOC 2 approfondit les mécanismes opérationnels du RGPD.** Après les fondamentaux de S5 (définitions, acteurs), on passe à la **pratique** : comment collecter des données légalement ? Qu'est-ce qu'un consentement valide ? Comment un technicien IT implémente-t-il la transparence ? Et comment traiter les demandes de droits des personnes ?
+> 📌 **S6 est LA séance fondamentale sur le RGPD**. Tout technicien SISR manipule des données personnelles quotidiennement (comptes utilisateurs, logs, emails). Le RGPD n'est pas qu'une contrainte juridique : c'est un **cadre de gestion de service** qui protège les utilisateurs ET l'entreprise. Sanctions jusqu'à 20 M€ ou 4% CA mondial.
 
 ---
 
@@ -30,14 +31,20 @@
 
 À l'issue de cette séance, l'apprenant sera capable de :
 
-**Collecte et bases légales :**
-- ✅ Détailler les **6 bases légales** du traitement (focus consentement et intérêt légitime)
-- ✅ Définir un **consentement valide** (libre, spécifique, éclairé, univoque)
-- ✅ Identifier les **formes de consentement** valides et invalides
-- ✅ Comprendre l'obligation de **transparence** (mentions d'information)
+**Connaissances juridiques :**
+- ✅ Définir **donnée personnelle**, **traitement**, **consentement**
+- ✅ Connaître les **6 principes fondamentaux** du RGPD (Art. 5)
+- ✅ Identifier les **bases légales** de traitement (Art. 6)
+- ✅ Maîtriser les **8 droits des personnes** (Art. 15-22)
 
-**Droits des personnes :**
-- ✅ Maîtriser les **4 droits principaux** : accès, rectification, opposition, portabilité
-- ✅ Connaître les **délais** de réponse et les procédures
-- ✅ Savoir **traiter techniquement** une demande de droit (export, suppression, correction)
-- ✅ Identifier les **exceptions** légales aux droits
+**Compétences techniques :**
+- ✅ Identifier une donnée personnelle dans un système
+- ✅ Reconnaître un traitement de données
+- ✅ Évaluer la licéité d'un traitement
+- ✅ Gérer une demande d'exercice de droits (accès, rectification)
+
+**Posture ITIL :**
+- ✅ RGPD = **mesure organisationnelle** de sécurité (ISO 27001)
+- ✅ Protection données = **niveau de service** attendu
+- ✅ DPO (Délégué Protection Données) = fonction de **gestion des services**
+- ✅ Registre des traitements = **CMDB des données personnelles**

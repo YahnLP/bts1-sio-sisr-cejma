@@ -3,21 +3,22 @@
 | **Champ** | **Détail** |
 |-----------|-----------|
 | **Semaine** | S5 — Année 1 |
-| **Bloc** | Bloc 2 — Cybersécurité des services informatiques (volet juridique) |
+| **Bloc** | Bloc 1 - Support et mise à disposition de services informatiques |
 | **Durée totale** | 4 heures |
-| **Public** | Apprentis BTS SIO SISR — cinquième semaine |
-| **Modalité** | Présentiel — salle de cours avec accès internet |
-| **Prérequis** | Aucun (séance d'introduction RGPD) |
+| **Public** | Apprentis BTS SIO SISR — cinquième semaine thématique |
+| **Modalité** | Présentiel — salle de cours + accès internet |
+| **Prérequis** | S1 validée (écosystème IT), notions de base sur internet et les réseaux |
 
-## Compétences RNCP Visées
+## Compétences Visées
 
-| **Code** | **Intitulé de la compétence** | **Niveau visé** |
-|----------|-------------------------------|-----------------|
-| **B2.1** | Comprendre les obligations légales liées au traitement de données personnelles | Acquisition |
-| **B2.2** | Identifier les acteurs de la protection des données | Acquisition |
-| **B2.3** | Appliquer les principes du RGPD dans un contexte professionnel | Sensibilisation |
+| **Code** | **Intitulé** | **Niveau visé** |
+|----------|--------------|-----------------|
+| **B1.2** | Exploiter des référentiels, normes et standards adoptés par le prestataire informatique | Initiation |
+| **B1.4** | Identifier et caractériser les incidents et les problèmes | Initiation |
+| **B2.3** | Respecter les règles et bonnes pratiques en matière de sécurité | Initiation |
+| **B3.2** | Gérer les incidents et les demandes d'assistance | Découverte |
 
-> 📌 **S5 BLOC 2 inaugure le volet juridique du BTS SIO.** Le RGPD est une réglementation **incontournable** pour tout professionnel IT. Les futurs techniciens SISR seront régulièrement confrontés à des enjeux de protection des données dans leurs missions quotidiennes (serveurs, bases de données, logs, sauvegardes). Cette séance s'appuie sur le **MOOC CNIL** comme ressource officielle.
+> 📌 **Contexte pédagogique :** Cette séance aborde le **cadre juridique** qui régit Internet et les services numériques. Elle permet aux futurs techniciens SISR de comprendre les **obligations légales** qui s'imposent aux acteurs du numérique (FAI, hébergeurs, plateformes) et les **enjeux de responsabilité** en cas de contenus illicites. L'approche "Gestion de Services" est centrale : tout service numérique s'inscrit dans un cadre légal qu'il faut respecter.
 
 ---
 
@@ -25,16 +26,10 @@
 
 À l'issue de cette séance, l'apprenant sera capable de :
 
-**RGPD — Fondamentaux :**
-- ✅ Définir le **RGPD** (règlement, contexte, entrée en vigueur)
-- ✅ Expliquer **pourquoi** le RGPD a été créé (contexte historique, scandales)
-- ✅ Distinguer **donnée personnelle** et donnée non personnelle
-- ✅ Identifier les **données sensibles** (catégorie spéciale)
-- ✅ Comprendre les **6 principes fondamentaux** du RGPD
-
-**Acteurs de la protection des données :**
-- ✅ Définir le **responsable de traitement** (RT) et ses obligations
-- ✅ Définir le **sous-traitant** et ses responsabilités
-- ✅ Définir le **DPO** (Data Protection Officer) et sa mission
-- ✅ Comprendre le rôle de la **CNIL** (autorité de contrôle)
-- ✅ Identifier les **droits des personnes** concernées
+- ✅ **Définir** la neutralité du net et expliquer ses enjeux
+- ✅ **Distinguer** les différents acteurs techniques (FAI, hébergeur, éditeur, plateforme)
+- ✅ **Expliquer** les régimes de responsabilité selon la loi LCEN
+- ✅ **Identifier** les obligations légales d'un hébergeur (notification, retrait, conservation de données)
+- ✅ **Comprendre** les tensions entre liberté d'expression et modération de contenus
+- ✅ **Analyser** des cas concrets (blocage de site, retrait de contenu, filtrage FAI)
+- ✅ **Produire** une fiche de veille juridique pour son portfolio

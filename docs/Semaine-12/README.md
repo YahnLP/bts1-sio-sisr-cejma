@@ -5,25 +5,45 @@
 
 ## Informations Générales
 
-| Champ | Détail |
-|-------|--------|
-| Semaine | S12 — Année 1 |
-| Bloc | Bloc 3 — Cybersécurité des services informatiques |
-| Durée totale | 4 heures |
-| Public | Apprentis BTS SIO SISR — douzième semaine |
-| Prérequis | S5 à S8 BLOC 3 (RGPD complet) · S7 (violations, sécurité) |
+| **Champ** | **Détail** |
+|-----------|-----------|
+| **Semaine** | S12 — Année 1 |
+| **Module** | CEJM-A (Culture Économique, Juridique et Managériale - volet A) |
+| **Durée totale** | 4 heures |
+| **Public** | Apprentis BTS SIO SISR — profils hétérogènes |
+| **Modalité** | Présentiel — salle de cours |
+| **Prérequis** | Notions de droit des contrats, gestion de parc informatique |
 
 ---
 
 ## Compétences Visées
 
 
-| Code | Intitulé | Niveau |
-|------|----------|--------|
-| B3.2 | Mettre en oeuvre les mesures de sécurité | Maîtrise |
-| B3.3 | Gérer les incidents de sécurité | Maîtrise |
-| B2.1 | Comprendre les obligations légales RGPD | Maîtrise |
+| **Code** | **Intitulé de la compétence** | **Niveau visé** |
+|----------|-------------------------------|-----------------|
+| **B1.1** | Gérer le patrimoine informatique | Application |
+| **B1.4** | Respecter les règles juridiques et déontologiques | Application |
+| **B3.4** | Respecter les règles en vigueur pour l'accessibilité et les ressources | Application |
 
-> S12 traite de LAIPD / PIA — loutil RGPD le plus exigeant et valorisant pour un technicien IT. Croiser compétences juridiques, techniques et organisationnelles. Le TP mini-PIA simule exactement ce qu'un DPO et son équipe IT feraient face à un nouveau projet.
+> 📌 **S12 traite d'un enjeu économique et juridique majeur** : les licences logicielles représentent 20-30% du budget IT d'une entreprise. Mal gérer ses licences = surcoûts, audits Microsoft, amendes. Tout technicien SISR doit maîtriser les modèles de licences pour conseiller et optimiser.
 
+
+## Objectifs Pédagogiques
+
+**Connaissances juridiques :**
+- ✅ Comprendre la **nature juridique** d'une licence logicielle
+- ✅ Distinguer **propriété** vs **droit d'usage**
+- ✅ Maîtriser les **modèles Microsoft** (OEM, Retail, Volume)
+- ✅ Connaître les **CAL Windows Server** (User vs Device)
+
+**Connaissances économiques :**
+- ✅ Calculer le **coût total** d'un parc de licences
+- ✅ Comparer **TCO** des différents modèles
+- ✅ Optimiser les achats selon le contexte
+
+**Compétences managériales :**
+- ✅ Gérer un **inventaire de licences** (CMDB ITIL)
+- ✅ Préparer un **audit de conformité**
+- ✅ Conseiller sur les **choix de licences**
+- ✅ Négocier avec les **éditeurs/revendeurs**
 ---

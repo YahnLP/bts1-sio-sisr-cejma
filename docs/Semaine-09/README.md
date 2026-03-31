@@ -5,39 +5,44 @@
 | **Champ** | **Détail** |
 |-----------|-----------|
 | **Semaine** | S9 — Année 1 |
-| **Bloc** | Bloc 3 — Cybersécurité des services informatiques |
+| **Module** | CEJM-A (Culture Économique, Juridique et Managériale - volet A) |
 | **Durée totale** | 4 heures |
-| **Public** | Apprentis BTS SIO SISR — neuvième semaine |
-| **Modalité** | Présentiel — salle de cours avec accès internet |
-| **Prérequis** | S8 BLOC 3 (Cisco Cyber Ch.1-2 · RGPD travail/vidéosurveillance) |
+| **Public** | Apprentis BTS SIO SISR — profils hétérogènes |
+| **Modalité** | Présentiel — salle de cours + salle informatique |
+| **Prérequis** | S6 (RGPD Fondamentaux), Notions de cybersécurité |
 
 ---
 
-## Compétences RNCP Visées
+## Compétences Visées
 
 | **Code** | **Intitulé de la compétence** | **Niveau visé** |
 |----------|-------------------------------|-----------------|
-| **B3.1** | Identifier les principales menaces de sécurité | Maîtrise |
-| **B3.2** | Mettre en œuvre les mesures de sécurité de base | Maîtrise |
-| **B3.3** | Gérer les incidents de sécurité et les violations de données | Maîtrise |
+| **B1.4** | Respecter les règles juridiques et déontologiques | Application |
+| **B2.2** | Assurer la sécurité d'un système informatique | Application |
+| **B3.4** | Respecter les règles en vigueur pour l'accessibilité et les ressources | Application |
 
-> 📌 **S9 BLOC 3 est une séance à dominante autonome et applicative.** Les apprenants progressent dans la certification Cisco Cyber (chapitres 3-4-5) en autonomie guidée, tandis que la partie RGPD les plonge dans une **étude de cas réaliste et complète** — analyser une violation de données comme le ferait un DPO ou un technicien IT senior en situation réelle.
+> 📌 **S9 est LE lien entre RGPD et cybersécurité**. L'Article 32 RGPD impose une **obligation de sécurité** avec responsabilité pénale. Tout technicien SISR doit comprendre que sécurité informatique = obligation juridique, pas juste bonne pratique. Sanctions jusqu'à 10 M€ ou 2% CA + responsabilité pénale personnelle.
 
 ---
 
 ## Objectifs Pédagogiques
 
-**Cisco Cyber — Modules 3-4-5 :**
-- ✅ Comprendre la **protection des données et de la vie privée** (Ch.3)
-- ✅ Identifier les **mécanismes de protection organisationnelle** (Ch.4)
-- ✅ Explorer les **métiers de la cybersécurité** (Ch.5)
-- ✅ Réussir les **quiz de chapitres** avec un score ≥ 70%
-- ✅ Se préparer à l'**examen final Cisco** (S10)
+A la fin de la séance, l'étudiant sera capable de :
 
-**RGPD — Étude de Cas Violation :**
-- ✅ Mobiliser **tous les savoirs RGPD** (S5 à S8) dans un cas intégré
-- ✅ **Qualifier** une violation (type, gravité, données concernées)
-- ✅ **Décider** si la notification CNIL et/ou personnes est requise
-- ✅ **Rédiger** une notification CNIL complète
-- ✅ **Proposer** des mesures correctives techniques et organisationnelles
-- ✅ Simuler le **travail d'un DPO** face à une crise réelle
+**Connaissances juridiques :**
+- ✅ Maîtriser l'**Article 32 RGPD** (sécurité du traitement)
+- ✅ Identifier les **4 mesures de sécurité obligatoires**
+- ✅ Comprendre la **responsabilité du responsable de traitement**
+- ✅ Connaître les **sanctions** en cas de manquement à la sécurité
+
+**Compétences techniques :**
+- ✅ Mettre en œuvre le **chiffrement** des données
+- ✅ Implémenter la **pseudonymisation**
+- ✅ Configurer les **contrôles d'accès** (RBAC)
+- ✅ Réaliser des **tests de sécurité** réguliers
+
+**Posture ITIL :**
+- ✅ Sécurité = **Service Level Agreement** (SLA)
+- ✅ Mesures organisationnelles = **Processus ITIL**
+- ✅ Tests réguliers = **Amélioration continue** (CSI)
+- ✅ Documentation = **Knowledge Management**

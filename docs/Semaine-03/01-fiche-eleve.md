@@ -10,450 +10,423 @@ title: 📚 FICHE DE COURS
 
 ---
 
-## 🎯 Compétences Travaillées
+## 🎯 Objectifs de la Séance
 
-| **Code** | **Compétence** |
-|----------|---------------|
-| **B3.2** | Mettre en œuvre les mesures de sécurité de base |
-| **B3.1** | Identifier les principales menaces de sécurité (attaques) |
+À la fin de cette séance, je serai capable de :
+
+✅ Définir la charte informatique et sa valeur juridique  
+✅ Citer les textes de loi applicables  
+✅ Expliquer les droits et devoirs de l'utilisateur  
+✅ Expliquer les droits et devoirs de l'administrateur  
+✅ Analyser une clause de charte pour en vérifier la conformité  
+✅ Rédiger des clauses simples conformes au droit
+
+## 📚 Vocabulaire Juridique Clé
+
+| **Terme** | **Définition** |
+|-----------|----------------|
+| **Charte informatique** | Document qui fixe les règles d'utilisation du système d'information |
+| **Règlement intérieur** | Document obligatoire (>20 salariés) fixant les règles de vie en entreprise |
+| **Vie privée** | Droit fondamental au respect de l'intimité, même au travail |
+| **Proportionnalité** | Principe : toute restriction doit être justifiée et adaptée |
+| **Licéité** | Caractère de ce qui est conforme à la loi |
+| **Jurisprudence** | Ensemble des décisions de justice faisant référence |
+| **RGPD** | Règlement Général sur la Protection des Données (2018) |
+| **CNIL** | Commission Nationale de l'Informatique et des Libertés |
+---
 
 ---
 
-## PARTIE I — L'Entropie (Force Mathématique)
+## 1️⃣ QU'EST-CE QU'UNE CHARTE INFORMATIQUE ?
 
-### I.A. Définition
+### Définition
 
-L'**entropie** d'un mot de passe mesure le nombre de **combinaisons possibles** qu'un attaquant doit tester pour le deviner.
+La **charte informatique** est un document qui :
+- Fixe les **règles d'utilisation** du système d'information (SI)
+- Définit les **droits et devoirs** de chaque partie
+- Prévoit les **sanctions** en cas de non-respect
+- Encadre les **contrôles** effectués par l'employeur
 
-```
-   FORMULE DE L'ENTROPIE
-   ═══════════════════════════════════════════════════════════════
-   
-   Nombre de combinaisons = Taille de l'alphabet ^ Longueur
-   
-   Exemples :
-   
-   ① PIN de 4 chiffres (0-9)
-   ──────────────────────────────────────────────────────────────
-   Alphabet : 10 chiffres (0, 1, 2... 9)
-   Longueur : 4 caractères
-   Combinaisons : 10^4 = 10 000 possibilités
-   
-   ② Mot de passe de 8 minuscules (a-z)
-   ──────────────────────────────────────────────────────────────
-   Alphabet : 26 lettres
-   Longueur : 8 caractères
-   Combinaisons : 26^8 = 208 milliards
-   
-   ③ Mot de passe de 12 caractères (a-Z, 0-9, symboles)
-   ──────────────────────────────────────────────────────────────
-   Alphabet : 26 + 26 + 10 + 33 = 95 caractères
-   Longueur : 12 caractères
-   Combinaisons : 95^12 = 5,4 × 10^23 (540 000 Md de Md)
-```
+**Synonymes :** Charte d'utilisation du SI, Politique d'usage acceptable (PUA)
 
 ---
 
-### I.B. Temps de Craquage
+### Forme Juridique
 
-Le temps nécessaire pour craquer un mot de passe dépend de :
-1. **Nombre de combinaisons** (entropie)
-2. **Vitesse de l'attaquant** (essais par seconde)
+**La charte peut prendre 3 formes :**
 
-```
-   PUISSANCE DE CALCUL MODERNE
-   ═══════════════════════════════════════════════════════════════
-   
-   ① PC GRAND PUBLIC (carte graphique RTX 4090)
-   ──────────────────────────────────────────────────────────────
-   100 milliards de hash MD5 par seconde
-   (utilisé pour craquer des mots de passe stockés)
-   
-   ② SUPERORDINATEUR / BOTNET
-   ──────────────────────────────────────────────────────────────
-   1 000 milliards d'essais par seconde
-   
-   ③ SERVICE EN LIGNE (Gmail, Facebook...)
-   ──────────────────────────────────────────────────────────────
-   10-100 essais par seconde (limitation intentionnelle)
-   → Impossible de craquer par brute force directement
-```
+1. **Annexe au règlement intérieur**
+   - Entreprise > 20 salariés
+   - Procédure : Consultation CE + Dépôt inspection du travail
+   - Valeur : Opposable aux salariés
 
-**Calcul du temps :**
+2. **Avenant au contrat de travail**
+   - Toute taille d'entreprise
+   - Nécessite signature du salarié
+   - Valeur : Contractuelle
 
-```
-Temps = Nombre de combinaisons ÷ Vitesse d'essais
-
-Exemple : Mot de passe "password" (8 minuscules)
-─────────────────────────────────────────────────────────────
-Combinaisons : 26^8 = 208 milliards
-Vitesse : 100 milliards/seconde
-Temps : 208 Md ÷ 100 Md/s = 2 secondes
-
-Exemple : Mot de passe "P@ssW0rd!" (9 caractères complexes)
-─────────────────────────────────────────────────────────────
-Combinaisons : 95^9 = 6,3 × 10^17
-Vitesse : 100 milliards/seconde
-Temps : 6,3 × 10^17 ÷ 10^11/s = 6,3 millions de secondes
-                                = 73 jours
-```
+3. **Note de service**
+   - Entreprise < 20 salariés
+   - Information des salariés
+   - Valeur : Directive interne
 
 ---
 
-## PARTIE II — Les Attaques sur Mots de Passe
+## 2️⃣ VALEUR JURIDIQUE DE LA CHARTE
 
-### II.A. Brute Force (Force Brute)
+### La Charte est-elle Obligatoire ?
 
-**Principe :** Tester **toutes les combinaisons possibles** jusqu'à trouver le bon mot de passe.
+**Réponse : Ça dépend.**
 
-```
-   ATTAQUE BRUTE FORCE
-   ═══════════════════════════════════════════════════════════════
-   
-   ÉTAPE 1 : Essayer "aaaaaaa"
-   ÉTAPE 2 : Essayer "aaaaaab"
-   ÉTAPE 3 : Essayer "aaaaaac"
-   ...
-   ÉTAPE N : Essayer "zzzzzzz"
-   
-   Si le mot de passe est "marmotte" :
-   → L'attaquant le trouvera après des milliards d'essais
-   
-   TEMPS :
-   Dépend uniquement de la longueur et de la complexité
-   (voir tableau temps de craquage)
-```
-
-**Protection :**
-- Utiliser des mots de passe longs (16+ caractères)
-- Les services en ligne limitent le nombre de tentatives (10 essais → compte bloqué temporairement)
+| **Situation** | **Obligation ?** |
+|---------------|------------------|
+| TPE < 20 salariés | ❌ Facultative (mais recommandée) |
+| PME/GE > 20 salariés | ⚠️ Quasi-obligatoire (pour licencier) |
+| Traitement données sensibles | ✅ OBLIGATOIRE (RGPD Art. 30) |
+| Surveillance des salariés | ✅ OBLIGATOIRE (Code travail Art. L1222-4) |
 
 ---
 
-### II.B. Attaque par Dictionnaire
+### Pourquoi Est-Elle Indispensable ?
 
-**Principe :** Tester des **mots courants** et des **combinaisons prévisibles** au lieu de toutes les combinaisons.
+**Sans charte :**
+- ❌ Difficulté à licencier pour usage abusif
+- ❌ Contrôles limités (jurisprudence Nikon)
+- ❌ Pas de cadre pour l'administrateur
+- ❌ Risque de contestation devant les prud'hommes
 
-```
-   DICTIONNAIRE D'ATTAQUE
-   ═══════════════════════════════════════════════════════════════
-   
-   ① MOTS DU DICTIONNAIRE (français, anglais, espagnol...)
-   ──────────────────────────────────────────────────────────────
-   password, motdepasse, 123456, admin, root, soleil, dragon...
-   
-   ② VARIANTES PRÉVISIBLES
-   ──────────────────────────────────────────────────────────────
-   Password1, P@ssword, p@ssw0rd, Password123!, Motdepasse2024
-   
-   ③ INFORMATIONS PERSONNELLES
-   ──────────────────────────────────────────────────────────────
-   prenom+datedenaissance : Sophie1990, Marc2005
-   prenom+ville : ParisPierre, ToulouseJulie
-   
-   ④ MOTS DE PASSE LEAKÉS (bases de données volées)
-   ──────────────────────────────────────────────────────────────
-   Fichiers de millions de mots de passe réels récupérés
-   lors de fuites (LinkedIn, Adobe, Yahoo...)
-```
-
-**Liste rockyou.txt :**
-- Base de données de **14 millions** de mots de passe réels
-- Provient d'une fuite de la société RockYou en 2009
-- Utilisée par tous les hackers pour des attaques par dictionnaire
-
-**Top 10 des mots de passe les plus utilisés (2023) :**
-```
-1. 123456           6. password
-2. password         7. 12345678
-3. 123456789        8. qwerty
-4. 12345            9. 123123
-5. qwerty123       10. 1q2w3e4r
-```
-
-> ⚠️ **Ces mots de passe sont craqués en < 1 seconde.**
-
-**Protection :**
-- Ne JAMAIS utiliser de mots du dictionnaire
-- Ne PAS utiliser d'informations personnelles
-- Utiliser des phrases de passe aléatoires
+**Avec charte bien rédigée :**
+- ✅ Cadre juridique clair pour tous
+- ✅ Protection de l'entreprise
+- ✅ Protection du salarié
+- ✅ Sécurisation des contrôles
 
 ---
 
-### II.C. Rainbow Tables (Tables Arc-en-ciel)
+## 3️⃣ TEXTES DE LOI APPLICABLES
 
-**Contexte :** Quand les mots de passe sont **stockés**, ils sont **hachés** (transformés en empreinte).
+### Code du Travail
 
-```
-   HASH (Fonction de Hachage)
-   ═══════════════════════════════════════════════════════════════
-   
-   Mot de passe : "password"
-   │
-   ↓ Fonction de hachage (MD5, SHA-256, bcrypt...)
-   │
-   Hash : "5f4dcc3b5aa765d61d8327deb882cf99"
-   
-   Propriétés :
-   • Impossible de retrouver "password" à partir du hash
-     (fonction à sens unique)
-   • Le même mot de passe donne toujours le même hash
-   • Un changement minime change complètement le hash
-```
+**Article L1121-1 : Limite aux libertés**
+> *"Nul ne peut apporter aux droits des personnes et aux libertés individuelles et collectives de restrictions qui ne seraient pas justifiées par la nature de la tâche à accomplir ni proportionnées au but recherché."*
 
-**Attaque par Rainbow Table :**
-
-Au lieu de hacher chaque tentative (lent), l'attaquant utilise des **tables pré-calculées** :
-
-```
-   RAINBOW TABLE
-   ═══════════════════════════════════════════════════════════════
-   
-   Mot de passe   │ Hash MD5
-   ───────────────┼─────────────────────────────────────────────
-   password       │ 5f4dcc3b5aa765d61d8327deb882cf99
-   123456         │ e10adc3949ba59abbe56e057f20f883e
-   qwerty         │ d8578edf8458ce06fbc5bb76a58c5ca4
-   admin          │ 21232f297a57a5a743894a0e4a801fc3
-   ...            │ ...
-   (Millions)     │ (Millions)
-```
-
-**Fonctionnement :**
-1. L'attaquant récupère un fichier de hash (base de données volée)
-2. Il compare chaque hash à sa rainbow table
-3. Si match → mot de passe trouvé instantanément
-
-**Protection :**
-- **Salting** : Ajouter une chaîne aléatoire unique à chaque mot de passe avant hachage
-  ```
-  Mot de passe : "password"
-  Salt : "x8K$mP2@"
-  Hash : SHA-256("passwordx8K$mP2@") = ...différent pour chaque utilisateur
-  → Les rainbow tables ne fonctionnent plus
-  ```
+**Conséquence :** Toute restriction (interdiction Facebook, surveillance emails) doit être :
+- **Justifiée** : Pourquoi c'est nécessaire ?
+- **Proportionnée** : C'est pas trop restrictif ?
 
 ---
 
-## PARTIE III — Bonnes Pratiques
+**Article L1222-4 : Contrôle de l'activité**
+> *"Aucune information concernant personnellement un salarié ne peut être collectée par un dispositif qui n'a pas été porté préalablement à sa connaissance."*
 
-### III.A. Longueur AVANT Complexité
-
-**Principe démontré :**
-
-```
-   COMPARAISON
-   ═══════════════════════════════════════════════════════════════
-   
-   Mot de passe A : "Tr0ubl€@" (8 caractères, très complexe)
-   ──────────────────────────────────────────────────────────────
-   Temps de craquage : 8 mois
-   Facilité à retenir : ★☆☆☆☆ (difficile)
-   
-   Mot de passe B : "jadore-les-croissants-au-chocolat"
-                    (37 caractères, minuscules + tirets uniquement)
-   ──────────────────────────────────────────────────────────────
-   Temps de craquage : Plusieurs milliards d'années
-   Facilité à retenir : ★★★★★ (très facile)
-   
-   → Mot de passe B est INFINIMENT plus sûr ET plus facile
-```
-
-**Recommandations :**
-- **Minimum absolu :** 12 caractères
-- **Recommandé :** 16+ caractères
-- **Idéal :** 20+ caractères (phrase de passe)
+**Conséquence :** Avant de surveiller/contrôler → **Informer** les salariés (dans la charte).
 
 ---
 
-### III.B. Méthodes de Création
+### RGPD (Règlement Européen 2016/679)
 
-**① PHRASE DE PASSE (Passphrase)**
+**Article 5 : Principes**
+- **Licéité** : Traitement des données légal
+- **Transparence** : Informer les personnes
+- **Minimisation** : Collecter le strict nécessaire
+- **Conservation limitée** : Durée définie
 
-Utiliser une phrase complète, facile à retenir.
-
-```
-✅ BONS EXEMPLES
-─────────────────────────────────────────────────────────────
-"J'aime manger 3 croissants au chocolat le matin !"
-→ 53 caractères, facile à retenir, impossible à craquer
-
-"Mon chat s'appelle Moustache et il a 7 ans"
-→ 44 caractères
-
-"Le ciel est bleu, l'herbe est verte, je suis heureux"
-→ 53 caractères
-```
-
-**② MÉTHODE DICEWARE**
-
-Tirer des mots aléatoires avec des dés (ou générateur).
-
-```
-DICEWARE
-─────────────────────────────────────────────────────────────
-Liste de 7 776 mots (1 à 6 sur 5 dés)
-
-Exemple : Lancer 5 dés = 4-3-6-2-1 → Mot "plage"
-          Lancer 5 dés = 2-5-1-4-3 → Mot "orange"
-          ...
-
-Résultat : "plage-orange-nuage-piano-soleil-tigre"
-→ 6 mots aléatoires, 42 caractères
-→ Facile à retenir (visualiser une histoire)
-→ Impossible à deviner (aléatoire)
-```
-
-**③ GÉNÉRATEUR ALÉATOIRE (Gestionnaire de Mots de Passe)**
-
-Laisser le gestionnaire générer un mot de passe complètement aléatoire.
-
-```
-✅ EXEMPLE GÉNÉRÉ PAR BITWARDEN
-─────────────────────────────────────────────────────────────
-9Xk$mP2@vL4#Qw7!pN3Tz&5uI0
-
-→ 26 caractères aléatoires
-→ Impossible à retenir (mais stocké dans le gestionnaire)
-→ Impossible à craquer
-```
+**Article 13 : Information des personnes**
+→ La charte doit expliquer quelles données sont collectées et pourquoi.
 
 ---
 
-### III.C. Unicité ABSOLUE
+### Jurisprudence Clé
 
-**Règle d'or :** **1 site = 1 mot de passe unique**
-
-```
-   POURQUOI L'UNICITÉ EST CRITIQUE
-   ═══════════════════════════════════════════════════════════════
-   
-   SCÉNARIO : Vous utilisez le même mot de passe partout
-   ──────────────────────────────────────────────────────────────
-   Email : jean.dupont@gmail.com
-   Mot de passe : "MonSuperMDP123!"
-   
-   Comptes avec ce MDP :
-   • Gmail
-   • Facebook
-   • LinkedIn
-   • Site e-commerce XYZ
-   • Forum ABC
-   
-   JANVIER 2024 : Le site e-commerce XYZ est piraté
-   ──────────────────────────────────────────────────────────────
-   → Base de données volée : 2 millions d'emails + mots de passe
-   → Votre email + MDP publié sur le dark web
-   
-   FÉVRIER 2024 : Des hackers testent les identifiants volés
-   ──────────────────────────────────────────────────────────────
-   → Ils essaient jean.dupont@gmail.com + MonSuperMDP123!
-     sur Gmail → ✅ Succès ! Accès à votre boîte email
-   → Ils essaient sur Facebook → ✅ Succès !
-   → Ils essaient sur LinkedIn → ✅ Succès !
-   → Ils essaient sur PayPal → ✅ Succès !
-   
-   RÉSULTAT : TOUS VOS COMPTES SONT COMPROMIS
-   ──────────────────────────────────────────────────────────────
-   À cause d'UNE SEULE fuite sur UN SEUL site
-```
-
-**Vérifier si vos comptes ont été compromis :**
-- Site : https://haveibeenpwned.com
-- Saisir votre email → Voir les fuites connues
-
-**Solution :** Utiliser un gestionnaire de mots de passe qui génère des mots de passe **uniques** pour chaque site.
+| **Arrêt** | **Date** | **Principe** |
+|-----------|----------|--------------|
+| **Nikon** | 2001 | Fichiers "personnels" protégés même sur PC pro |
+| **CPAM Alpes-Maritimes** | 2011 | Dossier "MES DOCUMENTS" = personnel |
+| **Libert** | 2017 | Messagerie consultable si charte claire + information |
 
 ---
 
-## PARTIE IV — Gestionnaires de Mots de Passe
+## 4️⃣ DROITS ET DEVOIRS DE L'UTILISATEUR
 
-### IV.A. Pourquoi Utiliser un Gestionnaire ?
+### ✅ Droits du Salarié
 
-**Le problème humain :**
-- Impossible de retenir 50+ mots de passe complexes et uniques
-- Les utilisateurs réutilisent les mêmes mots de passe (dangereux)
-- Ou utilisent des variations prévisibles (Gmail123!, Facebook123!)
+**1. Droit à la vie privée (même au travail)**
+- Article 9 Code civil
+- Article 8 CEDH (Convention Européenne Droits de l'Homme)
+- Jurisprudence Nikon
 
-**La solution : Gestionnaire de mots de passe**
+**En pratique :**
+- Créer des dossiers "PERSO" protégés
+- Envoyer des emails personnels (usage raisonnable)
+- Confidentialité des correspondances
+
+---
+
+**2. Droit d'être informé des traitements de données**
+- RGPD Article 13
+- La charte doit préciser :
+  - Quelles données sont collectées (logs, historique web, emails)
+  - Pourquoi (sécurité, performance)
+  - Durée de conservation
+  - Droits (accès, rectification, opposition)
+
+---
+
+**3. Droit à un usage personnel raisonnable**
+- Jurisprudence : Interdiction totale = disproportionnée
+- Usage personnel toléré si :
+  - Limité dans le temps (ex: 30 min/jour)
+  - Hors heures de travail (pause)
+  - Sans impact sur productivité
+
+---
+
+### ❌ Devoirs du Salarié
+
+**1. Devoir de loyauté**
+- Ne pas nuire à l'entreprise
+- Ne pas divulguer d'informations confidentielles
+- Ne pas dénigrer l'employeur sur les réseaux sociaux
+
+---
+
+**2. Devoir de confidentialité**
+- Protéger les mots de passe
+- Ne pas diffuser des documents internes
+- Signaler les incidents de sécurité
+
+---
+
+**3. Interdictions courantes dans les chartes**
+
+| **Interdit** | **Sanction possible** |
+|--------------|-----------------------|
+| Téléchargement illégal (films, musique) | Licenciement |
+| Consultation sites pornographiques | Avertissement → Licenciement |
+| Diffusion de virus/malware | Licenciement faute grave |
+| Usurpation d'identité (utiliser compte d'autrui) | Licenciement + pénal |
+| Cyberharcèlement | Licenciement + pénal |
+
+---
+
+## 5️⃣ DROITS ET DEVOIRS DE L'ADMINISTRATEUR
+
+### ✅ Droits de l'Admin Système
+
+**1. Accès technique aux systèmes**
+- Serveurs, postes, logs, sauvegardes
+- Nécessaire pour la maintenance et la sécurité
+
+**⚠️ MAIS : Accès technique ≠ Droit de consultation**
+
+---
+
+**2. Surveillance limitée (si prévue par charte)**
+- Logs de connexion
+- Historique web (non nominatif)
+- Taille des boîtes mail
+- Bande passante utilisée
+
+**Conditions :**
+- ✅ Prévu dans la charte
+- ✅ Proportionné à l'objectif (sécurité, performance)
+- ✅ Information préalable des salariés
+
+---
+
+**3. Contrôle en cas d'incident de sécurité**
+- Détection malware/virus
+- Tentative d'intrusion
+- Fuite de données
+
+**Procédure à respecter :**
+1. Documenter l'incident
+2. Informer le supérieur hiérarchique
+3. Consulter uniquement ce qui est nécessaire
+4. Rédiger un rapport
+
+---
+
+### ❌ Interdictions pour l'Admin
+
+**1. Consultation de fichiers/emails "personnels"**
+- Dossiers nommés "PERSO", "MES DOCUMENTS"
+- Emails avec objet "Personnel"
+
+**Exception :** Urgence absolue + présence témoin + autorisation hiérarchie
+
+---
+
+**2. Surveillance nominative excessive**
+- Keylogger (enregistrement frappes clavier) : ❌ INTERDIT
+- Capture d'écran en temps réel : ❌ INTERDIT (sauf exceptions)
+- Géolocalisation permanente : ❌ INTERDIT (sauf véhicules)
+
+---
+
+**3. Divulgation d'informations**
+- Secret professionnel
+- Confidentialité des correspondances
+
+**Risque pénal :**
+- Violation secret correspondances : **1 an + 45 000€**
+- Atteinte à la vie privée : **1 an + 45 000€**
+
+---
+
+### ⚖️ Responsabilités de l'Admin
+
+**Responsabilité pénale personnelle**
+
+| **Délit** | **Peine** |
+|-----------|-----------|
+| Violation du secret des correspondances | 1 an + 45 000€ |
+| Atteinte à la vie privée | 1 an + 45 000€ |
+| Non-respect RGPD (données sensibles) | Jusqu'à 20 M€ |
+
+**Message clé :** "J'obéissais aux ordres" N'EST PAS une défense valable.
+
+---
+
+## 6️⃣ CONTENU TYPE D'UNE CHARTE
+
+### Structure Recommandée
 
 ```
-   FONCTIONNEMENT
-   ═══════════════════════════════════════════════════════════════
-   
-   ① VOUS RETENEZ : 1 seul mot de passe maître (très robuste)
-   
-   ② LE GESTIONNAIRE RETIENT : Tous vos autres mots de passe
-   
-   ③ AVANTAGES
-   ──────────────────────────────────────────────────────────────
-   • Génère des mots de passe aléatoires uniques
-   • Les stocke de manière chiffrée
-   • Auto-remplissage sur les sites web
-   • Synchronisation multi-appareils
-   • Alerte si un site a été piraté
+┌──────────────────────────────────────────────────┐
+│ 1. PRÉAMBULE                                     │
+│    - Objet de la charte                          │
+│    - Champ d'application (qui, quoi)             │
+│    - Définitions                                 │
+├──────────────────────────────────────────────────┤
+│ 2. RÈGLES D'UTILISATION                          │
+│    - Usage professionnel                         │
+│    - Usage personnel (limites)                   │
+│    - Interdictions                               │
+├──────────────────────────────────────────────────┤
+│ 3. DROITS DES UTILISATEURS                       │
+│    - Vie privée                                  │
+│    - Confidentialité                             │
+│    - Information (RGPD)                          │
+├──────────────────────────────────────────────────┤
+│ 4. SÉCURITÉ                                      │
+│    - Mots de passe                               │
+│    - Antivirus                                   │
+│    - Signalement incidents                       │
+├──────────────────────────────────────────────────┤
+│ 5. CONTRÔLES ET SURVEILLANCE                     │
+│    - Types de contrôles                          │
+│    - Fréquence                                   │
+│    - Modalités (présence salarié)                │
+├──────────────────────────────────────────────────┤
+│ 6. SANCTIONS                                     │
+│    - Échelle des sanctions                       │
+│    - Procédure disciplinaire                     │
+├──────────────────────────────────────────────────┤
+│ 7. MISE EN APPLICATION                           │
+│    - Date d'entrée en vigueur                    │
+│    - Signature du salarié                        │
+└──────────────────────────────────────────────────┘
 ```
 
 ---
 
-### IV.B. Comparatif des Gestionnaires
+### Exemples de Clauses Conformes
 
-| **Gestionnaire** | **Type** | **Prix** | **Points forts** | **Inconvénients** |
-|---|---|---|---|---|
-| **Bitwarden** | Cloud + Auto-hébergeable | Gratuit / 10 $/an | Open source, audité, gratuit complet | Interface moins moderne |
-| **1Password** | Cloud | 36 $/an | Interface excellente, support pro | Payant, pas open source |
-| **KeePass** | Local (fichier) | Gratuit | 100% local, open source | Pas de synchro cloud native |
-| **Dashlane** | Cloud | 60 $/an | Interface moderne, VPN inclus | Cher |
-| **LastPass** | Cloud | Gratuit / 36 $/an | Populaire | Failles sécurité passées, gratuit limité |
+**✅ Clause conforme (proportionnée) :**
 
-**Recommandation pour débutants :** **Bitwarden**
-- Gratuit et complet
-- Open source (code auditable)
-- Extension navigateur + app mobile
-- Synchronisation automatique
-- Générateur de mots de passe intégré
+> *"L'usage personnel d'Internet est autorisé pendant les pauses, dans la limite de 30 minutes par jour, à condition que cet usage ne perturbe pas l'activité professionnelle et ne consomme pas une bande passante excessive."*
+
+**Pourquoi conforme :**
+- Usage personnel autorisé (pas d'interdiction totale)
+- Limité dans le temps (proportionné)
+- Conditions claires
 
 ---
 
-### IV.C. Sécurité d'un Gestionnaire
+**❌ Clause non conforme (disproportionnée) :**
 
-**Question fréquente :** *"Si mon gestionnaire est piraté, tous mes mots de passe sont volés ?"*
+> *"Tout usage personnel d'Internet est strictement interdit, sous peine de licenciement immédiat."*
 
-**Réponse :** Non, grâce au **chiffrement zero-knowledge**.
+**Pourquoi non conforme :**
+- Interdiction totale = disproportionnée
+- Sanction immédiate excessive
+- Jurisprudence : Usage personnel raisonnable doit être toléré
 
-```
-   CHIFFREMENT ZERO-KNOWLEDGE
-   ═══════════════════════════════════════════════════════════════
-   
-   ① SUR VOTRE APPAREIL
-   ──────────────────────────────────────────────────────────────
-   Mot de passe maître : "MonPhraseDePasse!"
-   │
-   ↓ Dérivation de clé (PBKDF2, 100 000 itérations)
-   │
-   Clé de chiffrement : [256 bits aléatoires]
-   │
-   ↓ Chiffrement AES-256
-   │
-   Base de données chiffrée → Envoi au cloud
-   
-   ② SUR LES SERVEURS BITWARDEN
-   ──────────────────────────────────────────────────────────────
-   Stockage : Base de données CHIFFRÉE uniquement
-   
-   ⚠️ Bitwarden NE CONNAÎT PAS votre mot de passe maître
-   ⚠️ Bitwarden NE PEUT PAS déchiffrer vos données
-   
-   ③ SI BITWARDEN EST PIRATÉ
-   ──────────────────────────────────────────────────────────────
-   Les attaquants récupèrent : Bases de données chiffrées
-   Ils NE PEUVENT PAS les déchiffrer (sans votre mot de passe maître)
-   
-   → Vos mots de passe restent en sécurité
-```
+---
 
-**Risque réel :** Si vous **oubliez** votre mot de passe maître → Perte totale (irréversible)
+## 7️⃣ PROCÉDURE DE MISE EN PLACE
 
-**Solution :** Utiliser une **phrase de passe longue et mémorable**, écrite sur papier et stockée dans un lieu sûr (coffre-fort physique).
+### Étapes Obligatoires
+
+**1. Rédaction de la charte**
+- Par DRH + DSI + Juriste
+- Respect Code du travail + RGPD
+
+**2. Consultation des représentants du personnel**
+- CSE (Comité Social et Économique)
+- Avis consultatif (pas décisionnel)
+
+**3. Dépôt à l'inspection du travail**
+- Si annexe au règlement intérieur
+- Délai : 15 jours avant application
+
+**4. Information des salariés**
+- Remise en main propre ou email
+- Signature d'un accusé de réception
+- Affichage dans l'entreprise
+
+**5. Formation**
+- Sensibilisation aux règles
+- Explication des sanctions
+
+---
+
+## 📝 Points Clés à Retenir
+
+### Pour l'Examen
+
+**À connaître absolument :**
+- Définition de la charte informatique
+- Arrêt Nikon (2001) : fichiers personnels protégés
+- Code du travail Art. L1121-1 (proportionnalité)
+- RGPD Art. 5 (principes de traitement)
+- Distinction accès technique vs droit de consultation
+
+---
+
+### Pour la Vie Professionnelle
+
+**En tant qu'administrateur système :**
+
+✅ **FAIRE :**
+- Respecter la charte à la lettre
+- Documenter toute intervention
+- Informer hiérarchie si découverte suspecte
+- Protéger la vie privée des utilisateurs
+
+❌ **NE JAMAIS FAIRE :**
+- Consulter emails/fichiers personnels par curiosité
+- Divulguer des informations privées
+- Installer surveillance non prévue par charte
+- Obéir à un ordre illégal (responsabilité pénale personnelle)
+
+---
+
+## 🎯 Auto-Évaluation
+
+### Je sais...
+
+- ☐ Définir une charte informatique
+- ☐ Citer 2 textes de loi applicables
+- ☐ Expliquer l'arrêt Nikon
+- ☐ Lister 3 droits de l'utilisateur
+- ☐ Lister 3 devoirs de l'utilisateur
+- ☐ Expliquer les limites de surveillance de l'admin
+- ☐ Identifier une clause conforme vs non conforme
+- ☐ Expliquer les risques pénaux de l'admin
+
+**Si < 6 cases cochées, revoir la fiche cours.**
+
 
 ---

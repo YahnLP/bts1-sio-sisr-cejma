@@ -3,11 +3,11 @@
 | **Champ** | **Détail** |
 |-----------|-----------|
 | **Semaine** | S4 — Année 1 |
-| **Bloc** | Bloc 3 — Cybersécurité des services informatiques |
+| **Module** | CEJM-A (Culture Économique, Juridique et Managériale - volet A) |
 | **Durée totale** | 4 heures |
-| **Public** | Apprentis BTS SIO SISR — quatrième semaine |
-| **Modalité** | Présentiel — salle de cours + TP |
-| **Prérequis** | S1 BLOC 3 (règle 3 sauvegardes introduite) |
+| **Public** | Apprentis BTS SIO SISR — profils hétérogènes |
+| **Modalité** | Présentiel — salle de cours |
+| **Prérequis** | S1-S3 CEJM : Notions d'économie de marché, droit de la consommation |
 
 ---
 
@@ -15,18 +15,22 @@
 
 À l'issue de cette séance, l'apprenant sera capable de :
 
-**Sauvegardes :**
-- ✅ Comprendre les **3 types** de sauvegardes (complète, différentielle, incrémentielle)
-- ✅ Comparer leurs **avantages/inconvénients** (espace, temps, restauration)
-- ✅ Appliquer la **règle 3-2-1** (3 copies, 2 supports, 1 hors site)
-- ✅ Définir une **politique de sauvegarde** adaptée (fréquence, rétention, tests)
-- ✅ Identifier les **erreurs courantes** (sauvegarde unique, jamais testée, accessible au ransomware)
+**Connaissances économiques :**
+- ✅ Analyser le **marché mondial du hardware** (acteurs, chiffres clés)
+- ✅ Comprendre les **cycles de vie** d'un produit informatique
+- ✅ Calculer le **TCO** (Total Cost of Ownership)
+- ✅ Identifier les **stratégies des fabricants** (lock-in, obsolescence)
 
-**Supports amovibles :**
-- ✅ Distinguer les **types** (clé USB, disque externe HDD/SSD, NAS)
-- ✅ Identifier les **risques** (perte, vol, malware, corruption)
-- ✅ Appliquer les **bonnes pratiques** (chiffrement, déconnexion, scan antivirus)
-- ✅ Gérer la **politique d'usage** en entreprise
+**Connaissances juridiques :**
+- ✅ Connaître la **loi anti-obsolescence programmée** (2015, 2020)
+- ✅ Maîtriser les **garanties légales** (conformité, vices cachés)
+- ✅ Comprendre l'**indice de réparabilité** obligatoire (2021)
+- ✅ Connaître les obligations **DEEE** (Déchets Électroniques)
+
+**Compétences managériales :**
+- ✅ Conseiller sur les **choix d'achat** (neuf vs reconditionné)
+- ✅ Élaborer une **politique d'approvisionnement** durable
+- ✅ Intégrer la **RSE** (Responsabilité Sociétale Entreprise)
 
 ---
 
@@ -34,9 +38,10 @@
 
 | **Code** | **Intitulé de la compétence** | **Niveau visé** |
 |----------|-------------------------------|-----------------|
-| **B3.2** | Mettre en œuvre les mesures de sécurité de base | Maîtrise |
-| **B1.7** | Assurer la disponibilité, l'intégrité et la confidentialité des services informatiques | Acquisition |
+| **B1.1** | Gérer le patrimoine informatique | Application |
+| **B1.4** | Respecter les règles juridiques et déontologiques | Connaissance |
+| **B3.4** | Respecter les règles en vigueur pour l'accessibilité et les ressources | Application |
 
-> 📌 **S4 BLOC 3 traite de la disponibilité des données**, pilier fondamental de la sécurité (triade CIA : Confidentialité, Intégrité, **Disponibilité**). Les sauvegardes sont la dernière ligne de défense contre les ransomwares, pannes matérielles, erreurs humaines et catastrophes. Cette séance est **critique et très pratique**.
+> 📌 **S4 traite d'un enjeu économique et écologique majeur** : le marché du hardware pèse 1 000 Mds$ mondiaux, génère 50 millions de tonnes de déchets/an, et pose des questions juridiques (obsolescence programmée) et managériales (TCO, reconditionnement). Tout technicien SISR doit comprendre ces enjeux pour conseiller ses clients
 
 ---
