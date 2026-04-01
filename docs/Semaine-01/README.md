@@ -12,7 +12,7 @@
 
 ## 🎯 Objectifs
 
-À l'issue de cette séance, l'apprenant sera capable de :
+À l'issue de cette séance, l'étudiant sera capable de :
 
 - ✅ **Définir** ce qu'est une ESN, une DSI et un éditeur de logiciels
 - ✅ **Identifier** les 3 grandes catégories d'acteurs de l'écosystème numérique
