@@ -3,28 +3,43 @@
 | **Champ** | **Détail** |
 |-----------|-----------|
 | **Semaine** | S18 — Année 1 |
-| **Bloc** | Bloc 3 — Cybersécurité (mais préparation épreuve transversale) |
-| **Format** | **ÉVALUATION CERTIFICATIVE** (simulation E6) |
+| **Module** | CEJM-A (Culture Économique, Juridique et Managériale - volet A) |
 | **Durée totale** | 4 heures |
-| **Composition** | 2h étude de cas + 2h correction méthodologique |
-| **Public** | Apprentis BTS SIO SISR — dix-huitième semaine |
-| **Modalité** | Présentiel — Conditions examen (individuel, sans documents) |
-| **Prérequis** | S1-S17 complet (toutes compétences BLOC 3) |
+| **Public** | Apprentis BTS SIO SISR — profils hétérogènes |
+| **Modalité** | Présentiel — salle de cours |
+| **Prérequis** | S17 (Support ITIL - SLA) |
+
+---
+## Compétences Visées
+
+| **Code** | **Intitulé de la compétence** | **Niveau visé** |
+|----------|-------------------------------|-----------------|
+| **B3.1** | Accompagner les utilisateurs dans la prise en main | Application |
+| **B3.2** | Gérer les incidents et les demandes d'assistance | Application |
+| **B1.4** | Respecter les règles juridiques (engagement contractuel) | Connaissance |
+
+> 📌 **S18 complète S17 avec la dimension CLIENT**. Un technicien SISR n'est pas qu'un expert technique : il est au SERVICE du client (interne ou externe). Gérer attentes, respecter engagements, mesurer satisfaction = compétences soft essentielles employabilité.
 
 ---
 
 ## Objectifs Pédagogiques S18
 
-**Pour l'apprenant :**
-- ✅ Découvrir le format réel de l'E6
-- ✅ Évaluer son niveau actuel (diagnostic)
-- ✅ Comprendre les attentes du jury (correction)
-- ✅ Identifier ses points faibles (à travailler)
-- ✅ Apprendre la méthodologie rédaction E6
+**Connaissances managériales :**
+- ✅ Comprendre la **relation client** en IT
+- ✅ Maîtriser les **SLA** (structure, négociation, suivi)
+- ✅ Connaître les **engagements de service**
+- ✅ Mesurer la **satisfaction client** (CSAT, NPS)
 
-**Pour l'enseignant :**
-- ✅ Identifier les difficultés collectives (concepts mal compris)
-- ✅ Adapter les séances futures selon résultats
-- ✅ Rassurer les apprenants (première fois, note formative)
+**Compétences relationnelles :**
+- ✅ Gérer les **attentes clients**
+- ✅ Communiquer de manière **proactive**
+- ✅ Gérer les **situations difficiles**
+- ✅ Transformer **insatisfaction** en opportunité
+
+**Posture professionnelle :**
+- ✅ Développer une **culture service**
+- ✅ Appliquer le **principe d'accountability**
+- ✅ Pratiquer l'**amélioration continue**
+- ✅ Valoriser le **feedback client**
 
 ---

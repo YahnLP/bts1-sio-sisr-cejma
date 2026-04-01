@@ -2,46 +2,53 @@
 
 | **Champ** | **Détail** |
 |-----------|-----------|
-| **Semaine** | S19 — Année 1 |
-| **Bloc** | Bloc 3 — Cybersécurité des services informatiques |
+| **Semaine** | S19 — Année 2 |
+| **Bloc** | CEJMA — Culture Économique, Juridique, Managériale et Appliquée |
 | **Durée totale** | 4 heures |
-| **Public** | Apprentis BTS SIO SISR — fin d'année 1 |
-| **Modalité** | Présentiel — salle de TP avec machines virtuelles |
-| **Prérequis** | S1 à S18 Bloc 3 (hygiène numérique, RGPD, pare-feu, VPN, chiffrement, sauvegardes) |
+| **Public** | Apprentis BTS SIO SISR — dix-neuvième semaine Année 2 |
+| **Modalité** | Présentiel — salle informatique avec accès Internet |
+| **Prérequis** | RGPD (S1-S10 A1, S11-S18 A2), Droit d'auteur (S11), Propriété intellectuelle, Contexte juridique numérique |
 
 ---
 
 ## 🧠 Compétences travaillées
 
-## Compétences RNCP Visées
-
 | **Code** | **Intitulé de la compétence** | **Niveau visé** |
 |----------|-------------------------------|-----------------|
-| **B3.1** | Identifier les principales menaces de sécurité | Consolidation |
-| **B3.2** | Mettre en œuvre les mesures de sécurité de base | Consolidation |
-| **B3.3** | Participer à la protection des données personnelles | Consolidation |
-| **B3.4** | Réaliser un audit de sécurité de base | Découverte / Application |
+| **B1.6** | Organiser son développement professionnel | Maîtrise |
+| **Transversal** | Mettre en place une veille technologique et réglementaire | Maîtrise |
+| **Transversal** | S'adapter aux évolutions législatives et réglementaires | Acquisition |
+| **B1.1** | Gérer le patrimoine informatique (conformité légale) | Maîtrise |
 
-> 📌 **S19 BLOC 3 est la séance de clôture de l'année 1.** Elle cumule deux objectifs distincts mais complémentaires : **découvrir les outils d'audit de vulnérabilités** (Nmap, analyse CVSS) et **synthétiser l'ensemble du Bloc 3 A1** (RGPD, hygiène numérique, sécurité de base). Cette séance prépare directement aux épreuves E4, E5 et E6.
+> 📌 Les apprentis doivent maîtriser la veille juridique car : 
+(1) le droit du numérique évolue très rapidement, 
+(2) le RGPD impose une obligation de mise à jour continue des connaissances, 
+(3) l'admin système est responsable pénalement de la conformité des systèmes qu'il gère. 
+Cette compétence sera évaluée indirectement à l'épreuve E6 (cas pratique) et doit être mobilisable en entreprise immédiatement.
 
 ---
 
 ## 🎯 Objectifs
 
-**Audit de vulnérabilités — Découverte :**
-- ✅ Définir ce qu'est un **audit de vulnérabilités** et son rôle dans la gestion des services (ITIL)
-- ✅ Distinguer **scan de ports**, **scan de services** et **scan de vulnérabilités**
-- ✅ Utiliser les commandes **Nmap** de base pour identifier les hôtes et services exposés
-- ✅ Lire et interpréter un résultat de scan (ports ouverts, services détectés, versions)
-- ✅ Comprendre la **notation CVSS** (score de criticité 0 à 10)
-- ✅ Prioriser les actions correctives en fonction des résultats
+À l'issue de cette séance, l'apprenant sera capable de :
 
-**Synthèse Bloc 3 A1 :**
-- ✅ Restituer les **principes fondamentaux du RGPD** (bases légales, droits, sanctions)
-- ✅ Récapituler les **mesures de sécurité de base** vues depuis S1 (mots de passe, MFA, mises à jour, sauvegardes, chiffrement, pare-feu, VPN)
-- ✅ Mettre en relation **menaces, mesures de protection et réglementation**
-- ✅ Identifier les points de faiblesse restants dans ses propres connaissances
+**Compréhension de la veille juridique :**
+- ✅ Définir la **veille juridique** et expliquer son importance pour un professionnel du numérique
+- ✅ Identifier les **obligations légales** de mise à jour des connaissances (RGPD, sécurité informatique)
+- ✅ Distinguer les **sources primaires** (JO, EUR-Lex) des **sources secondaires** (blogs, newsletters)
+- ✅ Citer au minimum **5 sources officielles** incontournables du droit du numérique français
 
+**Mise en place d'outils de veille :**
+- ✅ Configurer un **agrégateur de flux RSS** (Feedly ou équivalent) avec 10 sources pertinentes
+- ✅ Paramétrer des **alertes automatiques** sur des mots-clés juridiques (Google Alerts, Newsletter CNIL)
+- ✅ Organiser sa veille en **catégories thématiques** (RGPD, cybersécurité, propriété intellectuelle, etc.)
+- ✅ Exploiter un **tableau de bord de veille** pour suivre l'actualité juridique
+
+**Exploitation et diffusion :**
+- ✅ Synthétiser une information juridique en **fiche de veille** exploitable
+- ✅ Évaluer la **fiabilité d'une source** juridique (autorité, date, neutralité)
+- ✅ Partager l'information juridique en **contexte professionnel** (équipe, direction)
+- ✅ Relier une évolution législative à **une action concrète** en entreprise
 ---
 
 

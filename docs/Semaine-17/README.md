@@ -2,45 +2,47 @@
 
 | **Champ** | **Détail** |
 |-----------|-----------|
-| **Semaines** | S17 + S18 — Année 1 |
-| **Bloc** | Bloc 3 — Cybersécurité |
-| **Durée totale** | 8 heures (2 séances de 4h) |
-| **Type** | PROJET en groupe (2-3 apprenants) |
-| **Modalité** | Présentiel — Travail autonome + Soutenance |
-| **Prérequis** | S1-S16 Bloc 3 complet |
+| **Semaine** | S17 — Année 2 |
+| **Bloc** | CEJMA — Culture Économique, Juridique, Managériale et Appliquée |
+| **Durée totale** | 4 heures |
+| **Public** | Apprentis BTS SIO SISR — dix-septième semaine Année 2 |
+| **Modalité** | Présentiel — salle de cours (pas de TP informatique) |
+| **Prérequis** | S1 A1 (Écosystème numérique : ESN, DSI, éditeurs) + expérience alternance (18 mois minimum) |
 
 ---
 
 ## 🎯 Objectifs
 
-**Connaissances** :
-- ✅ Comprendre l'architecture réseau en zones (LAN/DMZ/Internet)
-- ✅ Maîtriser les GPO Windows (stratégies de groupe)
-- ✅ Comprendre les droits NTFS et la matrice d'accès
-- ✅ Connaître la règle 3-2-1 des sauvegardes
-- ✅ Comprendre HTTPS et les certificats SSL/TLS
+À l'issue de cette séance, l'apprenant sera capable de :
 
-**Savoir-faire** :
-- ✅ Concevoir un schéma réseau sécurisé (LAN/DMZ séparées)
-- ✅ Configurer des GPO de sécurité (mots de passe, verrouillage, pare-feu)
-- ✅ Définir une matrice de droits NTFS par service
-- ✅ Élaborer un plan de sauvegarde professionnel
-- ✅ Mettre en place HTTPS sur un serveur web
-- ✅ Documenter une infrastructure de manière professionnelle
-- ✅ Présenter oralement un projet technique
+**Structures organisationnelles :**
+- ✅ Distinguer les **4 grandes structures IT** : ESN, DSI internalisée, DSI externalisée, Startup tech
+- ✅ Identifier les **modes de coordination** propres à chaque structure (hiérarchique, matricielle, agile, autonome)
+- ✅ Reconnaître les **avantages et inconvénients** de chaque modèle organisationnel
+- ✅ Positionner son entreprise d'alternance dans cette typologie
+
+**Culture d'entreprise :**
+- ✅ Définir ce qu'est une **culture d'entreprise** et ses composantes (valeurs, rituels, communication)
+- ✅ Identifier les **différences culturelles** entre ESN, DSI, PME et Startup
+- ✅ Analyser l'impact de la culture sur le **quotidien professionnel** (autonomie, process, communication)
+- ✅ S'adapter aux codes culturels de son organisation
+
+**Mobilisation professionnelle :**
+- ✅ Analyser sa propre **expérience d'alternance** à travers le prisme organisationnel
+- ✅ Identifier les **compétences transversales** développées (adaptation, communication, autonomie)
+- ✅ Valoriser son expérience organisationnelle à l'**oral E4**
+- ✅ Contextualiser ses réalisations techniques dans leur **cadre managérial**
 
 ---
 
 ## 🧠 Compétences travaillées
 
 
-| **Code** | **Compétence** | **Niveau** |
-|----------|----------------|------------|
-| **B3.2** | Mettre en œuvre mesures sécurité de base | **Maîtrise** |
-| **B3.4** | Sécuriser les accès et les données | **Maîtrise** |
-| **B1.3** | Mettre en place infrastructure réseau | Acquisition |
-| **B2.3** | Appliquer politiques de sécurité | Maîtrise |
-
-> 📌 **S17-S18 = PROJET INTÉGRATEUR du BLOC 3**. Ce projet synthétise TOUTES les compétences vues depuis S1 : gestion incidents ITIL (S1-S2), pare-feu (S3), mots de passe (S4), RGPD (S5-S8), malwares (S9), droits d'accès (S10), cryptographie (S11-S14), identité numérique (S15), logs (S16). Les apprenants appliquent ces connaissances à un cas réel de sécurisation d'infrastructure.
+| **Code** | **Intitulé de la compétence** | **Niveau visé** |
+|----------|-------------------------------|-----------------|
+| **B1.6** | Organiser son développement professionnel | Maîtrise |
+| **Transversal** | Comprendre les structures organisationnelles IT | Acquisition |
+| **Transversal** | S'adapter aux différentes cultures d'entreprise | Acquisition |
+| **E4/E6** | Contextualiser ses réalisations professionnelles | Maîtrise |
 
 ---
