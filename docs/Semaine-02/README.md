@@ -15,13 +15,13 @@
 
 À l'issue de cette séance, l'apprenant sera capable de :
 
-- ✅ **Identifier** sa convention collective applicable (Syntec ou autre)
-- ✅ **Expliquer** les spécificités de la Convention Syntec (classifications, congés, primes, forfait jours)
-- ✅ **Distinguer** les différents statuts de travail dans l'IT (CDI, CDD, intérim, portage salarial, freelance)
-- ✅ **Comprendre** le principe et le fonctionnement du portage salarial
-- ✅ **Lire** son propre contrat d'alternance et identifier les clauses clés
-- ✅ **Calculer** un salaire brut/net simple (avec charges sociales)
-- ✅ **Produire** une fiche d'analyse de son contrat d'alternance pour son portfolio
+✅ **Identifier** sa convention collective applicable (Syntec ou autre)
+✅ **Expliquer** les spécificités de la Convention Syntec (classifications, congés, primes, forfait jours)
+✅ **Distinguer** les différents statuts de travail dans l'IT (CDI, CDD, intérim, portage salarial, freelance)
+✅ **Comprendre** le principe et le fonctionnement du portage salarial
+✅ **Lire** son propre contrat d'alternance et identifier les clauses clés
+✅ **Calculer** un salaire brut/net simple (avec charges sociales)
+✅ **Produire** une fiche d'analyse de son contrat d'alternance pour son portfolio
 
 ---
 

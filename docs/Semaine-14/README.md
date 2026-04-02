@@ -31,21 +31,21 @@
 ## Objectifs Pédagogiques
 
 **Connaissances juridiques :**
-- ✅ Comprendre la **valeur probante** d'un écrit électronique
-- ✅ Maîtriser les **conditions de recevabilité** des logs
-- ✅ Connaître les **3 niveaux de signature électronique** (eIDAS)
-- ✅ Comprendre l'**horodatage qualifié** (RFC 3161)
+✅ Comprendre la **valeur probante** d'un écrit électronique
+✅ Maîtriser les **conditions de recevabilité** des logs
+✅ Connaître les **3 niveaux de signature électronique** (eIDAS)
+✅ Comprendre l'**horodatage qualifié** (RFC 3161)
 
 **Compétences techniques :**
-- ✅ Configurer la **journalisation** sécurisée
-- ✅ Garantir l'**intégrité** des logs (hash SHA-256)
-- ✅ Mettre en œuvre la **signature électronique**
-- ✅ Implémenter l'**horodatage** (TSA)
+✅ Configurer la **journalisation** sécurisée
+✅ Garantir l'**intégrité** des logs (hash SHA-256)
+✅ Mettre en œuvre la **signature électronique**
+✅ Implémenter l'**horodatage** (TSA)
 
 **Posture ITIL :**
-- ✅ Logs = **Event Management** (gestion des événements)
-- ✅ Conservation logs = **Knowledge Management**
-- ✅ Signature électronique = **Change Management** (traçabilité)
-- ✅ Horodatage = **Service Level Management** (SLA)
+✅ Logs = **Event Management** (gestion des événements)
+✅ Conservation logs = **Knowledge Management**
+✅ Signature électronique = **Change Management** (traçabilité)
+✅ Horodatage = **Service Level Management** (SLA)
 
 ---

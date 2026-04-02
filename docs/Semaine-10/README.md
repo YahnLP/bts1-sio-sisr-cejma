@@ -30,11 +30,11 @@
 
 À l'issue de cette séance, l'apprenant sera capable de :
 
-- ✅ **Lister** les pouvoirs de la CNIL (contrôle, mise en demeure, sanction)
-- ✅ **Expliquer** les types de sanctions RGPD (administratives et pénales)
-- ✅ **Calculer** le montant maximal d'une amende RGPD (20M€ ou 4% CA mondial)
-- ✅ **Analyser** des cas réels de sanctions CNIL (Google, Amazon, Microsoft...)
-- ✅ **Identifier** les violations RGPD les plus fréquentes et coûteuses
-- ✅ **Comprendre** la procédure de contrôle CNIL (déclenchement, déroulement, issue)
-- ✅ **Proposer** un plan d'action de mise en conformité pour son entreprise
-- ✅ **Produire** une analyse de risques RGPD pour son portfolio
+✅ **Lister** les pouvoirs de la CNIL (contrôle, mise en demeure, sanction)
+✅ **Expliquer** les types de sanctions RGPD (administratives et pénales)
+✅ **Calculer** le montant maximal d'une amende RGPD (20M€ ou 4% CA mondial)
+✅ **Analyser** des cas réels de sanctions CNIL (Google, Amazon, Microsoft...)
+✅ **Identifier** les violations RGPD les plus fréquentes et coûteuses
+✅ **Comprendre** la procédure de contrôle CNIL (déclenchement, déroulement, issue)
+✅ **Proposer** un plan d'action de mise en conformité pour son entreprise
+✅ **Produire** une analyse de risques RGPD pour son portfolio

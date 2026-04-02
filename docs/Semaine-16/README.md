@@ -25,19 +25,20 @@
 ## 🎯 Objectifs
 
 **Connaissances juridiques :**
-- ✅ Distinguer **3 types de responsabilité** (pénale, civile, disciplinaire)
-- ✅ Connaître **Article 323-1** Code pénal (STAD - intrusion)
-- ✅ Comprendre la **mise en danger d'autrui** (Art. 223-1)
-- ✅ Maîtriser l'**obligation de moyens** vs résultat
+✅ Distinguer **3 types de responsabilité** (pénale, civile, disciplinaire)
+✅ Connaître **Article 323-1** Code pénal (STAD - intrusion)
+✅ Comprendre la **mise en danger d'autrui** (Art. 223-1)
+✅ Maîtriser l'**obligation de moyens** vs résultat
 
 **Compétences d'analyse :**
-- ✅ Identifier les **situations à risque** (négligence)
-- ✅ Évaluer la **responsabilité** dans un cas concret
-- ✅ Mesurer les **conséquences** (peines, dommages)
+✅ Identifier les **situations à risque** (négligence)
+✅ Évaluer la **responsabilité** dans un cas concret
+✅ Mesurer les **conséquences** (peines, dommages)
 
 **Posture professionnelle :**
-- ✅ Développer une **culture de la responsabilité**
-- ✅ Documenter ses **actions** (traçabilité)
-- ✅ Appliquer le **principe de précaution**
-- ✅ Savoir **alerter** sa hiérarchie
+✅ Développer une **culture de la responsabilité**
+✅ Documenter ses **actions** (traçabilité)
+✅ Appliquer le **principe de précaution**
+✅ Savoir **alerter** sa hiérarchie
+
 ---

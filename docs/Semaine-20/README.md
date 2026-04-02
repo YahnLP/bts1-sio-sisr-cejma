@@ -31,21 +31,21 @@
 À l'issue de cette séance, l'apprenant sera capable de :
 
 **Cartographie des enjeux juridiques :**
-- ✅ Identifier **5 situations professionnelles vécues** en alternance ayant une dimension juridique
-- ✅ Relier chaque situation à un ou plusieurs **thèmes juridiques** étudiés en cours
-- ✅ Distinguer les enjeux de **conformité** (obligation légale) des enjeux de **responsabilité** (risque pénal/civil)
-- ✅ Produire une **cartographie visuelle** des enjeux juridiques de son entreprise d'accueil
+✅ Identifier **5 situations professionnelles vécues** en alternance ayant une dimension juridique
+✅ Relier chaque situation à un ou plusieurs **thèmes juridiques** étudiés en cours
+✅ Distinguer les enjeux de **conformité** (obligation légale) des enjeux de **responsabilité** (risque pénal/civil)
+✅ Produire une **cartographie visuelle** des enjeux juridiques de son entreprise d'accueil
 
 **Analyse juridique appliquée :**
-- ✅ Analyser une situation professionnelle selon la **méthode QQOQCP juridique**
-- ✅ Identifier les **textes de loi applicables** à une situation donnée (RGPD, Loi Godfrain, Code du Travail...)
-- ✅ Évaluer le **niveau de conformité** de son entreprise sur un enjeu donné
-- ✅ Proposer des **actions correctives** argumentées juridiquement
+✅ Analyser une situation professionnelle selon la **méthode QQOQCP juridique**
+✅ Identifier les **textes de loi applicables** à une situation donnée (RGPD, Loi Godfrain, Code du Travail...)
+✅ Évaluer le **niveau de conformité** de son entreprise sur un enjeu donné
+✅ Proposer des **actions correctives** argumentées juridiquement
 
 **Capitalisation pour les épreuves :**
-- ✅ Constituer une **"bibliothèque de cas"** réutilisable pour E6
-- ✅ Rédiger une **fiche de synthèse juridique** exploitable en révision
-- ✅ Identifier ses **points forts** et **lacunes** en droit du numérique
-- ✅ Élaborer un **plan de révision personnalisé** pour l'année 2
+✅ Constituer une **"bibliothèque de cas"** réutilisable pour E6
+✅ Rédiger une **fiche de synthèse juridique** exploitable en révision
+✅ Identifier ses **points forts** et **lacunes** en droit du numérique
+✅ Élaborer un **plan de révision personnalisé** pour l'année 2
 
 ---

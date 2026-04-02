@@ -33,22 +33,23 @@ Cette compétence sera évaluée indirectement à l'épreuve E6 (cas pratique) e
 À l'issue de cette séance, l'apprenant sera capable de :
 
 **Compréhension de la veille juridique :**
-- ✅ Définir la **veille juridique** et expliquer son importance pour un professionnel du numérique
-- ✅ Identifier les **obligations légales** de mise à jour des connaissances (RGPD, sécurité informatique)
-- ✅ Distinguer les **sources primaires** (JO, EUR-Lex) des **sources secondaires** (blogs, newsletters)
-- ✅ Citer au minimum **5 sources officielles** incontournables du droit du numérique français
+✅ Définir la **veille juridique** et expliquer son importance pour un professionnel du numérique
+✅ Identifier les **obligations légales** de mise à jour des connaissances (RGPD, sécurité informatique)
+✅ Distinguer les **sources primaires** (JO, EUR-Lex) des **sources secondaires** (blogs, newsletters)
+✅ Citer au minimum **5 sources officielles** incontournables du droit du numérique français
 
 **Mise en place d'outils de veille :**
-- ✅ Configurer un **agrégateur de flux RSS** (Feedly ou équivalent) avec 10 sources pertinentes
-- ✅ Paramétrer des **alertes automatiques** sur des mots-clés juridiques (Google Alerts, Newsletter CNIL)
-- ✅ Organiser sa veille en **catégories thématiques** (RGPD, cybersécurité, propriété intellectuelle, etc.)
-- ✅ Exploiter un **tableau de bord de veille** pour suivre l'actualité juridique
+✅ Configurer un **agrégateur de flux RSS** (Feedly ou équivalent) avec 10 sources pertinentes
+✅ Paramétrer des **alertes automatiques** sur des mots-clés juridiques (Google Alerts, Newsletter CNIL)
+✅ Organiser sa veille en **catégories thématiques** (RGPD, cybersécurité, propriété intellectuelle, etc.)
+✅ Exploiter un **tableau de bord de veille** pour suivre l'actualité juridique
 
 **Exploitation et diffusion :**
-- ✅ Synthétiser une information juridique en **fiche de veille** exploitable
-- ✅ Évaluer la **fiabilité d'une source** juridique (autorité, date, neutralité)
-- ✅ Partager l'information juridique en **contexte professionnel** (équipe, direction)
-- ✅ Relier une évolution législative à **une action concrète** en entreprise
+✅ Synthétiser une information juridique en **fiche de veille** exploitable
+✅ Évaluer la **fiabilité d'une source** juridique (autorité, date, neutralité)
+✅ Partager l'information juridique en **contexte professionnel** (équipe, direction)
+✅ Relier une évolution législative à **une action concrète** en entreprise
+
 ---
 
 

@@ -30,19 +30,19 @@
 A la fin de la séance, l'étudiant sera capable de :
 
 **Connaissances juridiques :**
-- ✅ Maîtriser l'**Article 32 RGPD** (sécurité du traitement)
-- ✅ Identifier les **4 mesures de sécurité obligatoires**
-- ✅ Comprendre la **responsabilité du responsable de traitement**
-- ✅ Connaître les **sanctions** en cas de manquement à la sécurité
+✅ Maîtriser l'**Article 32 RGPD** (sécurité du traitement)
+✅ Identifier les **4 mesures de sécurité obligatoires**
+✅ Comprendre la **responsabilité du responsable de traitement**
+✅ Connaître les **sanctions** en cas de manquement à la sécurité
 
 **Compétences techniques :**
-- ✅ Mettre en œuvre le **chiffrement** des données
-- ✅ Implémenter la **pseudonymisation**
-- ✅ Configurer les **contrôles d'accès** (RBAC)
-- ✅ Réaliser des **tests de sécurité** réguliers
+✅ Mettre en œuvre le **chiffrement** des données
+✅ Implémenter la **pseudonymisation**
+✅ Configurer les **contrôles d'accès** (RBAC)
+✅ Réaliser des **tests de sécurité** réguliers
 
 **Posture ITIL :**
-- ✅ Sécurité = **Service Level Agreement** (SLA)
-- ✅ Mesures organisationnelles = **Processus ITIL**
-- ✅ Tests réguliers = **Amélioration continue** (CSI)
-- ✅ Documentation = **Knowledge Management**
+✅ Sécurité = **Service Level Agreement** (SLA)
+✅ Mesures organisationnelles = **Processus ITIL**
+✅ Tests réguliers = **Amélioration continue** (CSI)
+✅ Documentation = **Knowledge Management**

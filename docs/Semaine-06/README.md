@@ -32,19 +32,19 @@
 À l'issue de cette séance, l'apprenant sera capable de :
 
 **Connaissances juridiques :**
-- ✅ Définir **donnée personnelle**, **traitement**, **consentement**
-- ✅ Connaître les **6 principes fondamentaux** du RGPD (Art. 5)
-- ✅ Identifier les **bases légales** de traitement (Art. 6)
-- ✅ Maîtriser les **8 droits des personnes** (Art. 15-22)
+✅ Définir **donnée personnelle**, **traitement**, **consentement**
+✅ Connaître les **6 principes fondamentaux** du RGPD (Art. 5)
+✅ Identifier les **bases légales** de traitement (Art. 6)
+✅ Maîtriser les **8 droits des personnes** (Art. 15-22)
 
 **Compétences techniques :**
-- ✅ Identifier une donnée personnelle dans un système
-- ✅ Reconnaître un traitement de données
-- ✅ Évaluer la licéité d'un traitement
-- ✅ Gérer une demande d'exercice de droits (accès, rectification)
+✅ Identifier une donnée personnelle dans un système
+✅ Reconnaître un traitement de données
+✅ Évaluer la licéité d'un traitement
+✅ Gérer une demande d'exercice de droits (accès, rectification)
 
 **Posture ITIL :**
-- ✅ RGPD = **mesure organisationnelle** de sécurité (ISO 27001)
-- ✅ Protection données = **niveau de service** attendu
-- ✅ DPO (Délégué Protection Données) = fonction de **gestion des services**
-- ✅ Registre des traitements = **CMDB des données personnelles**
+✅ RGPD = **mesure organisationnelle** de sécurité (ISO 27001)
+✅ Protection données = **niveau de service** attendu
+✅ DPO (Délégué Protection Données) = fonction de **gestion des services**
+✅ Registre des traitements = **CMDB des données personnelles**

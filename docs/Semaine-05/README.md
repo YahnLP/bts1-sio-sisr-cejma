@@ -26,10 +26,10 @@
 
 À l'issue de cette séance, l'apprenant sera capable de :
 
-- ✅ **Définir** la neutralité du net et expliquer ses enjeux
-- ✅ **Distinguer** les différents acteurs techniques (FAI, hébergeur, éditeur, plateforme)
-- ✅ **Expliquer** les régimes de responsabilité selon la loi LCEN
-- ✅ **Identifier** les obligations légales d'un hébergeur (notification, retrait, conservation de données)
-- ✅ **Comprendre** les tensions entre liberté d'expression et modération de contenus
-- ✅ **Analyser** des cas concrets (blocage de site, retrait de contenu, filtrage FAI)
-- ✅ **Produire** une fiche de veille juridique pour son portfolio
+✅ **Définir** la neutralité du net et expliquer ses enjeux
+✅ **Distinguer** les différents acteurs techniques (FAI, hébergeur, éditeur, plateforme)
+✅ **Expliquer** les régimes de responsabilité selon la loi LCEN
+✅ **Identifier** les obligations légales d'un hébergeur (notification, retrait, conservation de données)
+✅ **Comprendre** les tensions entre liberté d'expression et modération de contenus
+✅ **Analyser** des cas concrets (blocage de site, retrait de contenu, filtrage FAI)
+✅ **Produire** une fiche de veille juridique pour son portfolio

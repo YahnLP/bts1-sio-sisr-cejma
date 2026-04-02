@@ -33,10 +33,12 @@
 
 À l'issue de cette séance, l'apprenant sera capable de :
 
-- ✅ **Comparer** en détail GPL, MIT, BSD, Apache (avantages, inconvénients, cas d'usage)
-- ✅ **Expliquer** la compatibilité entre licences (GPL + MIT = OK ? GPL + Apache = ?)
-- ✅ **Identifier** les variantes de licences (GPL v2 vs v3, BSD 2-clause vs 3-clause)
-- ✅ **Comprendre** les licences Creative Commons et leurs combinaisons (BY, SA, NC, ND)
-- ✅ **Choisir** la licence appropriée selon le type de contenu (code, documentation, images, vidéos)
-- ✅ **Analyser** des projets multi-licences (ex : WordPress = GPL + thèmes sous diverses licences)
-- ✅ **Produire** un guide de choix de licence pour son portfolio
+✅ **Comparer** en détail GPL, MIT, BSD, Apache (avantages, inconvénients, cas d'usage)
+✅ **Expliquer** la compatibilité entre licences (GPL + MIT = OK ? GPL + Apache = ?)
+✅ **Identifier** les variantes de licences (GPL v2 vs v3, BSD 2-clause vs 3-clause)
+✅ **Comprendre** les licences Creative Commons et leurs combinaisons (BY, SA, NC, ND)
+✅ **Choisir** la licence appropriée selon le type de contenu (code, documentation, images, vidéos)
+✅ **Analyser** des projets multi-licences (ex : WordPress = GPL + thèmes sous diverses licences)
+✅ **Produire** un guide de choix de licence pour son portfolio
+
+---

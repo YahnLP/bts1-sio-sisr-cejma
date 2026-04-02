@@ -33,10 +33,10 @@
 
 À l'issue de cette séance, l'apprenant sera capable de :
 
-- ✅ **Lister** les 8 droits des personnes selon le RGPD
-- ✅ **Expliquer** les 3 droits principaux (accès, effacement, portabilité) avec exemples
-- ✅ **Identifier** les obligations techniques pour répondre à ces droits
-- ✅ **Distinguer** anonymisation, pseudonymisation, suppression, archivage
-- ✅ **Créer** une procédure technique pour répondre à un droit (extraction BDD, export CSV, suppression)
-- ✅ **Comprendre** les délais, la gratuité, les exceptions aux droits
-- ✅ **Produire** un script ou procédure technique pour son portfolio
+✅ **Lister** les 8 droits des personnes selon le RGPD
+✅ **Expliquer** les 3 droits principaux (accès, effacement, portabilité) avec exemples
+✅ **Identifier** les obligations techniques pour répondre à ces droits
+✅ **Distinguer** anonymisation, pseudonymisation, suppression, archivage
+✅ **Créer** une procédure technique pour répondre à un droit (extraction BDD, export CSV, suppression)
+✅ **Comprendre** les délais, la gratuité, les exceptions aux droits
+✅ **Produire** un script ou procédure technique pour son portfolio

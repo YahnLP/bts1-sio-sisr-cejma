@@ -15,27 +15,27 @@
 ## 🎯 Objectifs
 
 **Connaissances juridiques :**
-- ✅ Définir la **charte informatique** et sa valeur juridique
-- ✅ Identifier les **textes de loi** applicables (RGPD, Code du travail, CNIL)
-- ✅ Distinguer charte **obligatoire** vs **facultative**
-- ✅ Comprendre la **jurisprudence** en matière de surveillance
+✅ Définir la **charte informatique** et sa valeur juridique
+✅ Identifier les **textes de loi** applicables (RGPD, Code du travail, CNIL)
+✅ Distinguer charte **obligatoire** vs **facultative**
+✅ Comprendre la **jurisprudence** en matière de surveillance
 
 **Droits et devoirs de l'utilisateur :**
-- ✅ Droit à la **vie privée** au travail
-- ✅ Droit au **respect de la correspondance**
-- ✅ Devoir de **confidentialité** et **loyauté**
-- ✅ Interdiction d'**usage abusif** des ressources
+✅ Droit à la **vie privée** au travail
+✅ Droit au **respect de la correspondance**
+✅ Devoir de **confidentialité** et **loyauté**
+✅ Interdiction d'**usage abusif** des ressources
 
 **Droits et devoirs de l'administrateur :**
-- ✅ Pouvoir de **surveillance** et ses limites
-- ✅ Obligation de **sécurité** des données
-- ✅ Respect de la **proportionnalité** des contrôles
-- ✅ Responsabilité **pénale** en cas de manquement
+✅ Pouvoir de **surveillance** et ses limites
+✅ Obligation de **sécurité** des données
+✅ Respect de la **proportionnalité** des contrôles
+✅ Responsabilité **pénale** en cas de manquement
 
 **Compétences pratiques :**
-- ✅ Analyser une charte informatique existante
-- ✅ Rédiger des clauses conformes au droit
-- ✅ Gérer un cas de conflit utilisateur/employeur
+✅ Analyser une charte informatique existante
+✅ Rédiger des clauses conformes au droit
+✅ Gérer un cas de conflit utilisateur/employeur
 
 ---
 

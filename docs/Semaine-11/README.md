@@ -33,11 +33,11 @@
 
 À l'issue de cette séance, l'apprenant sera capable de :
 
-- ✅ **Définir** le droit d'auteur et ses deux composantes (moral et patrimonial)
-- ✅ **Expliquer** la protection juridique du code source et des logiciels
-- ✅ **Distinguer** logiciel propriétaire, libre, open source, freeware, shareware
-- ✅ **Identifier** les principales licences open source (GPL, MIT, Apache, BSD...)
-- ✅ **Comprendre** les droits de l'employeur sur les créations du salarié développeur
-- ✅ **Reconnaître** les situations de contrefaçon et de plagiat de code
-- ✅ **Choisir** une licence appropriée pour un projet logiciel
-- ✅ **Produire** une analyse de licence pour son portfolio
+✅ **Définir** le droit d'auteur et ses deux composantes (moral et patrimonial)
+✅ **Expliquer** la protection juridique du code source et des logiciels
+✅ **Distinguer** logiciel propriétaire, libre, open source, freeware, shareware
+✅ **Identifier** les principales licences open source (GPL, MIT, Apache, BSD...)
+✅ **Comprendre** les droits de l'employeur sur les créations du salarié développeur
+✅ **Reconnaître** les situations de contrefaçon et de plagiat de code
+✅ **Choisir** une licence appropriée pour un projet logiciel
+✅ **Produire** une analyse de licence pour son portfolio

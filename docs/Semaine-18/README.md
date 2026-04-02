@@ -25,21 +25,21 @@
 ## Objectifs Pédagogiques S18
 
 **Connaissances managériales :**
-- ✅ Comprendre la **relation client** en IT
-- ✅ Maîtriser les **SLA** (structure, négociation, suivi)
-- ✅ Connaître les **engagements de service**
-- ✅ Mesurer la **satisfaction client** (CSAT, NPS)
+✅ Comprendre la **relation client** en IT
+✅ Maîtriser les **SLA** (structure, négociation, suivi)
+✅ Connaître les **engagements de service**
+✅ Mesurer la **satisfaction client** (CSAT, NPS)
 
 **Compétences relationnelles :**
-- ✅ Gérer les **attentes clients**
-- ✅ Communiquer de manière **proactive**
-- ✅ Gérer les **situations difficiles**
-- ✅ Transformer **insatisfaction** en opportunité
+✅ Gérer les **attentes clients**
+✅ Communiquer de manière **proactive**
+✅ Gérer les **situations difficiles**
+✅ Transformer **insatisfaction** en opportunité
 
 **Posture professionnelle :**
-- ✅ Développer une **culture service**
-- ✅ Appliquer le **principe d'accountability**
-- ✅ Pratiquer l'**amélioration continue**
-- ✅ Valoriser le **feedback client**
+✅ Développer une **culture service**
+✅ Appliquer le **principe d'accountability**
+✅ Pratiquer l'**amélioration continue**
+✅ Valoriser le **feedback client**
 
 ---

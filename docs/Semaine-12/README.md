@@ -31,19 +31,20 @@
 ## Objectifs Pédagogiques
 
 **Connaissances juridiques :**
-- ✅ Comprendre la **nature juridique** d'une licence logicielle
-- ✅ Distinguer **propriété** vs **droit d'usage**
-- ✅ Maîtriser les **modèles Microsoft** (OEM, Retail, Volume)
-- ✅ Connaître les **CAL Windows Server** (User vs Device)
+✅ Comprendre la **nature juridique** d'une licence logicielle
+✅ Distinguer **propriété** vs **droit d'usage**
+✅ Maîtriser les **modèles Microsoft** (OEM, Retail, Volume)
+✅ Connaître les **CAL Windows Server** (User vs Device)
 
 **Connaissances économiques :**
-- ✅ Calculer le **coût total** d'un parc de licences
-- ✅ Comparer **TCO** des différents modèles
-- ✅ Optimiser les achats selon le contexte
+✅ Calculer le **coût total** d'un parc de licences
+✅ Comparer **TCO** des différents modèles
+✅ Optimiser les achats selon le contexte
 
 **Compétences managériales :**
-- ✅ Gérer un **inventaire de licences** (CMDB ITIL)
-- ✅ Préparer un **audit de conformité**
-- ✅ Conseiller sur les **choix de licences**
-- ✅ Négocier avec les **éditeurs/revendeurs**
+✅ Gérer un **inventaire de licences** (CMDB ITIL)
+✅ Préparer un **audit de conformité**
+✅ Conseiller sur les **choix de licences**
+✅ Négocier avec les **éditeurs/revendeurs**
+
 ---

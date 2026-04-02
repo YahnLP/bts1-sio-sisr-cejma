@@ -28,12 +28,12 @@
 
 À l'issue de cette séance, l'apprenant sera capable de :
 
-- ✅ **Définir** l'identité numérique et ses composantes (déclarative, agissante, calculée)
-- ✅ **Expliquer** l'e-réputation et ses enjeux professionnels et personnels
-- ✅ **Identifier** les risques d'usurpation d'identité numérique et les sanctions
-- ✅ **Comprendre** le règlement e-IDAS et les signatures électroniques (simple, avancée, qualifiée)
-- ✅ **Appliquer** les bonnes pratiques de protection de l'identité numérique
-- ✅ **Analyser** son empreinte numérique personnelle
-- ✅ **Produire** un audit d'identité numérique pour son portfolio
+✅ **Définir** l'identité numérique et ses composantes (déclarative, agissante, calculée)
+✅ **Expliquer** l'e-réputation et ses enjeux professionnels et personnels
+✅ **Identifier** les risques d'usurpation d'identité numérique et les sanctions
+✅ **Comprendre** le règlement e-IDAS et les signatures électroniques (simple, avancée, qualifiée)
+✅ **Appliquer** les bonnes pratiques de protection de l'identité numérique
+✅ **Analyser** son empreinte numérique personnelle
+✅ **Produire** un audit d'identité numérique pour son portfolio
 
 ---

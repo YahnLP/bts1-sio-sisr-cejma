@@ -16,22 +16,22 @@
 À l'issue de cette séance, l'apprenant sera capable de :
 
 **Structures organisationnelles :**
-- ✅ Distinguer les **4 grandes structures IT** : ESN, DSI internalisée, DSI externalisée, Startup tech
-- ✅ Identifier les **modes de coordination** propres à chaque structure (hiérarchique, matricielle, agile, autonome)
-- ✅ Reconnaître les **avantages et inconvénients** de chaque modèle organisationnel
-- ✅ Positionner son entreprise d'alternance dans cette typologie
+✅ Distinguer les **4 grandes structures IT** : ESN, DSI internalisée, DSI externalisée, Startup tech
+✅ Identifier les **modes de coordination** propres à chaque structure (hiérarchique, matricielle, agile, autonome)
+✅ Reconnaître les **avantages et inconvénients** de chaque modèle organisationnel
+✅ Positionner son entreprise d'alternance dans cette typologie
 
 **Culture d'entreprise :**
-- ✅ Définir ce qu'est une **culture d'entreprise** et ses composantes (valeurs, rituels, communication)
-- ✅ Identifier les **différences culturelles** entre ESN, DSI, PME et Startup
-- ✅ Analyser l'impact de la culture sur le **quotidien professionnel** (autonomie, process, communication)
-- ✅ S'adapter aux codes culturels de son organisation
+✅ Définir ce qu'est une **culture d'entreprise** et ses composantes (valeurs, rituels, communication)
+✅ Identifier les **différences culturelles** entre ESN, DSI, PME et Startup
+✅ Analyser l'impact de la culture sur le **quotidien professionnel** (autonomie, process, communication)
+✅ S'adapter aux codes culturels de son organisation
 
 **Mobilisation professionnelle :**
-- ✅ Analyser sa propre **expérience d'alternance** à travers le prisme organisationnel
-- ✅ Identifier les **compétences transversales** développées (adaptation, communication, autonomie)
-- ✅ Valoriser son expérience organisationnelle à l'**oral E4**
-- ✅ Contextualiser ses réalisations techniques dans leur **cadre managérial**
+✅ Analyser sa propre **expérience d'alternance** à travers le prisme organisationnel
+✅ Identifier les **compétences transversales** développées (adaptation, communication, autonomie)
+✅ Valoriser son expérience organisationnelle à l'**oral E4**
+✅ Contextualiser ses réalisations techniques dans leur **cadre managérial**
 
 ---
 

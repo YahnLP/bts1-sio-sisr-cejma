@@ -32,10 +32,10 @@
 
 À l'issue de cette séance, l'apprenant sera capable de :
 
-- ✅ **Définir** les rôles de responsable de traitement, sous-traitant, et DPO
-- ✅ **Distinguer** les responsabilités de chacun selon le RGPD
-- ✅ **Identifier** qui est responsable dans des cas concrets (fuite de données, non-respect des droits...)
-- ✅ **Expliquer** les missions d'un DPO et son positionnement dans l'organisation
-- ✅ **Comprendre** les obligations contractuelles entre RT et sous-traitant
-- ✅ **Analyser** des situations de coresponsabilité
-- ✅ **Produire** une cartographie des acteurs RGPD de son entreprise d'alternance (portfolio)
+✅ **Définir** les rôles de responsable de traitement, sous-traitant, et DPO
+✅ **Distinguer** les responsabilités de chacun selon le RGPD
+✅ **Identifier** qui est responsable dans des cas concrets (fuite de données, non-respect des droits...)
+✅ **Expliquer** les missions d'un DPO et son positionnement dans l'organisation
+✅ **Comprendre** les obligations contractuelles entre RT et sous-traitant
+✅ **Analyser** des situations de coresponsabilité
+✅ **Produire** une cartographie des acteurs RGPD de son entreprise d'alternance (portfolio)

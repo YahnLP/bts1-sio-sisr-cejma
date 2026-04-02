@@ -16,21 +16,21 @@
 À l'issue de cette séance, l'apprenant sera capable de :
 
 **Connaissances économiques :**
-- ✅ Analyser le **marché mondial du hardware** (acteurs, chiffres clés)
-- ✅ Comprendre les **cycles de vie** d'un produit informatique
-- ✅ Calculer le **TCO** (Total Cost of Ownership)
-- ✅ Identifier les **stratégies des fabricants** (lock-in, obsolescence)
+✅ Analyser le **marché mondial du hardware** (acteurs, chiffres clés)
+✅ Comprendre les **cycles de vie** d'un produit informatique
+✅ Calculer le **TCO** (Total Cost of Ownership)
+✅ Identifier les **stratégies des fabricants** (lock-in, obsolescence)
 
 **Connaissances juridiques :**
-- ✅ Connaître la **loi anti-obsolescence programmée** (2015, 2020)
-- ✅ Maîtriser les **garanties légales** (conformité, vices cachés)
-- ✅ Comprendre l'**indice de réparabilité** obligatoire (2021)
-- ✅ Connaître les obligations **DEEE** (Déchets Électroniques)
+✅ Connaître la **loi anti-obsolescence programmée** (2015, 2020)
+✅ Maîtriser les **garanties légales** (conformité, vices cachés)
+✅ Comprendre l'**indice de réparabilité** obligatoire (2021)
+✅ Connaître les obligations **DEEE** (Déchets Électroniques)
 
 **Compétences managériales :**
-- ✅ Conseiller sur les **choix d'achat** (neuf vs reconditionné)
-- ✅ Élaborer une **politique d'approvisionnement** durable
-- ✅ Intégrer la **RSE** (Responsabilité Sociétale Entreprise)
+✅ Conseiller sur les **choix d'achat** (neuf vs reconditionné)
+✅ Élaborer une **politique d'approvisionnement** durable
+✅ Intégrer la **RSE** (Responsabilité Sociétale Entreprise)
 
 ---
 
