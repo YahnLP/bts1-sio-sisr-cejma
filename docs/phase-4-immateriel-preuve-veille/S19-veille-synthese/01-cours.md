@@ -130,6 +130,31 @@ L'épreuve **E4 – Culture économique, juridique et managériale appliquée à
 | **6. Calculer proprement** | Formule, calcul, **résultat avec unité**, commentaire |
 | **7. Relire** | Orthographe, chiffres, réponses complètes |
 
+## Comprendre pas à pas
+
+### Évaluer une information avant de la retenir
+
+| Question | Exemple | Pourquoi c'est important |
+|---|---|---|
+| **Qui parle ?** | Un éditeur, une autorité, un particulier | Une source **primaire** (éditeur, texte officiel) pèse plus qu'un commentaire |
+| **Quand ?** | Date de publication, date de mise à jour | Une information **périmée** peut être fausse aujourd'hui |
+| **Est-ce recoupé ?** | Une deuxième source indépendante | Une seule source ne suffit pas pour une information importante |
+| **Quel intérêt a la source ?** | Un vendeur d'outil parle de son outil | Une source commerciale oriente sa présentation |
+
+### Exemple guidé : de la veille à la décision
+
+1. **Collecter** : un flux d'alertes signale une faille sur un logiciel.
+2. **Qualifier** : *suis-je concerné ?* On consulte l'**inventaire**.
+3. **Évaluer** : gravité, exploitation en cours ou non, correctif disponible.
+4. **Décider** : corriger tout de suite, contourner, ou surveiller.
+5. **Diffuser** : informer les personnes concernées par un message **court et actionnable**.
+6. **Archiver** : garder la fiche, la date et la décision (preuve de la veille).
+
+> [!TIP]
+> Une veille se juge à sa **décision**, pas à la quantité d'articles lus : une fiche sans **impact** ni **action** est un simple article copié.
+
+Le cas de **Log4Shell** (décembre 2021) montre ce parcours en action : voir [Cas réel](04-cas-reels.md).
+
 ## À retenir
 
 - La veille est un **processus** : besoins, sources, collecte, tri, synthèse, action.

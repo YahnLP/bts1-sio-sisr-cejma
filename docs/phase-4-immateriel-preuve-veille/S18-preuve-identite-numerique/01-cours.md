@@ -129,6 +129,41 @@ L'**identité numérique** est l'ensemble des **traces** et des **données** ass
 
 Politique d'**identités et d'accès** (un compte par personne, gestion des départs), **communication** maîtrisée, **veille** sur sa réputation, **réponse** aux avis.
 
+## Comprendre pas à pas
+
+### Identifier ou authentifier : un exemple du quotidien
+
+| Situation | Identifier | Authentifier |
+|---|---|---|
+| Tu te connectes à l'ENT | Tu tapes ton **identifiant** : tu dis **qui tu prétends être** | Tu tapes ton **mot de passe** (ou un code reçu) : tu **prouves** que c'est toi |
+| Tu entres dans les locaux | Tu présentes ton **badge** | Le **code** ou l'empreinte confirme que le badge est bien le tien |
+
+Un identifiant seul ne prouve rien : n'importe qui peut le connaître. D'où l'authentification **forte** (deux éléments de natures différentes : ce que je **sais**, ce que je **possède**, ce que je **suis**).
+
+### De quoi est faite l'e-réputation d'une entreprise ?
+
+| Source | Exemples | Qui la contrôle ? |
+|---|---|---|
+| **Ce que l'entreprise publie** | Site, réseaux sociaux, communiqués | L'entreprise |
+| **Ce que les autres disent** | Avis clients, commentaires, articles | Les tiers |
+| **Ce que les moteurs montrent** | Résultats pour le nom de l'entreprise ou d'une personne | Les moteurs de recherche |
+
+L'entreprise ne contrôle **qu'une partie** de son e-réputation : le reste se **surveille** et se **traite**.
+
+### Exemple guidé : répondre à un avis négatif
+
+Un client écrit : « Panne de trois jours, personne ne répond. » Quatre étapes :
+
+1. **Vérifier** : le client existe-t-il ? la panne a-t-elle eu lieu ? (consulter le journal d'incidents)
+2. **Répondre en public**, brièvement et poliment, en reconnaissant le problème et en proposant un contact : *« Nous sommes désolés de cette gêne. Le service a été rétabli le […]. Nous vous contactons directement. »*
+3. **Traiter en privé** : contacter le client, corriger la cause.
+4. **Capitaliser** : noter l'incident et ajouter une action au plan de prévention.
+
+> [!WARNING]
+> Un avis négatif **n'est pas illégal** par lui-même : la liberté d'expression le permet. Il devient problématique s'il est **faux**, **injurieux** ou **diffamatoire**. On ne supprime pas un avis parce qu'il déplaît.
+
+Deux cas réels documentés sont à lire dans [Cas réels](04-cas-reels.md) : un faux restaurant classé numéro 1 sur TripAdvisor, et le droit au déréférencement (Google Spain).
+
 ## À retenir
 
 - **Liberté de la preuve** en matière commerciale et pénale, mais **loyauté** exigée.

@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Veille et méthode face à un dossier |
 | [Étude de cas de synthèse](02-etude-de-cas.md) | Cobalt Services et la Maison Verdier |
 | [Aide-mémoire](03-aide-memoire.md) | Veille et méthode |
+| [Cas réel](04-cas-reels.md) | Log4Shell : de l'alerte à la décision |
 
 ## Déroulé conseillé (4 h)
 

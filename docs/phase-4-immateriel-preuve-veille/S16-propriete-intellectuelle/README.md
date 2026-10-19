@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Droit d'auteur, brevet, marque, domaine, contrefaçon |
 | [Étude de cas](02-etude-de-cas.md) | Le logiciel de Cadence Bois |
 | [Aide-mémoire](03-aide-memoire.md) | Protéger ses créations |
+| [Cas réel](04-cas-reels.md) | Oracle contre Google : copier des interfaces de programmation |
 
 ## Déroulé conseillé (4 h)
 

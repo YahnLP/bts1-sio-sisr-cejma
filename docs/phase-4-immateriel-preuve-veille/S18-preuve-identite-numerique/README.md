@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Preuve, signature, chaîne de conservation, identité numérique |
 | [Étude de cas](02-etude-de-cas.md) | L'incident de Domus Habitat |
 | [Aide-mémoire](03-aide-memoire.md) | Preuve et identité |
+| [Cas réels](04-cas-reels.md) | Faux avis (The Shed at Dulwich) et déréférencement (Google Spain) |
 
 ## Déroulé conseillé (4 h)
 

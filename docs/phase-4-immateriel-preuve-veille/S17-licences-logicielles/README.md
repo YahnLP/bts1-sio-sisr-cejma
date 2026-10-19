@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Familles de licences, libre, Creative Commons, gestion |
 | [Étude de cas](02-etude-de-cas.md) | L'audit de licences de Studio Mosaïque |
 | [Aide-mémoire](03-aide-memoire.md) | Licences en bref |
+| [Cas réel](04-cas-reels.md) | Entr'ouvert contre Orange : le non-respect d'une licence libre |
 
 ## Déroulé conseillé (4 h)
 
