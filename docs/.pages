@@ -1,1 +1,7 @@
-arrange:
+nav:
+  - Accueil: index.md
+  - phase-1-entreprise-environnement
+  - phase-2-organisation-risques-financement
+  - phase-3-numerique-et-droit
+  - phase-4-immateriel-preuve-veille
+  - ressources
