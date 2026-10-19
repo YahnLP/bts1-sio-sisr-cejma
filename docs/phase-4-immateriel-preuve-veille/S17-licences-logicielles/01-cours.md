@@ -73,6 +73,30 @@ Exemple : **CC BY-SA** autorise l'usage, même commercial, avec citation de l'au
 > [!WARNING]
 > Utiliser un logiciel **au-delà** de la licence (plus de postes, usage non permis) est une **contrefaçon** et peut mener à une demande de régularisation, voire des poursuites.
 
+## Comprendre pas à pas
+
+### Les trois idées reçues à corriger
+
+| Idée reçue | Réalité |
+|---|---|
+| « Libre = gratuit. » | **Faux.** Un logiciel libre peut être vendu ; **gratuit ≠ libre** (voir la partie III). |
+| « Libre = sans conditions. » | **Faux.** Toute licence libre a des conditions : la **MIT** demande de conserver la mention de licence ; la **GPL** impose de **fournir le code source** à qui reçoit le logiciel. |
+| « Je ne distribue pas, donc la GPL ne me concerne jamais. » | **À nuancer.** Utiliser ou modifier un logiciel GPL **en interne** n'impose pas de publier le code ; les obligations naissent quand on **distribue** le logiciel (livraison à un client, mise en ligne). |
+
+### Exemple guidé : quelle licence choisir pour mon développement ?
+
+Une entreprise veut intégrer une bibliothèque dans un produit livré à ses clients.
+
+1. **Quelle est la licence de la bibliothèque ?** (GPL, MIT, propriétaire…)
+2. **Vais-je distribuer le produit ?** (oui, aux clients)
+3. **Que m'impose la licence ?** MIT : garder la mention. GPL : le produit livré doit pouvoir être redistribué avec son code source sous GPL.
+4. **Est-ce compatible avec mon modèle ?** Si l'entreprise veut garder son code fermé, **la GPL est incompatible** : il faut un autre composant ou une licence commerciale.
+
+> [!TIP]
+> Le réflexe à l'E4 : **nom de la licence → ce qu'elle autorise → ce qu'elle impose → conséquence pour l'entreprise**.
+
+Pour une décision de justice, voir [Entr'ouvert contre Orange](04-cas-reels.md).
+
 ## À retenir
 
 - Une licence = **droit d'usage** défini par contrat.

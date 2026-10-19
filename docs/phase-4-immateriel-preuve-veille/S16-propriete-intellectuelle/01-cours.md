@@ -90,6 +90,26 @@ La **contrefaçon** est l'atteinte à un droit de propriété intellectuelle (co
 > [!WARNING]
 > « Je l'ai trouvé sur Internet » n'est pas une autorisation. Une image, un texte, une police de caractères ou un extrait de code peuvent être protégés ; **vérifier la licence** (séance 17) avant de réutiliser.
 
+## Comprendre pas à pas
+
+### Qu'est-ce qui est protégé, et comment ?
+
+| Idée reçue | Réalité | Pourquoi |
+|---|---|---|
+| « Pour être protégé par le droit d'auteur, il faut déposer son œuvre. » | **Faux.** La protection naît de la **création originale**, sans formalité. | Le dépôt ou l'horodatage ne sert qu'à **prouver** la date et l'auteur. |
+| « Ce qui est sur Internet est libre de droits. » | **Faux.** Publier n'est pas renoncer à ses droits. | Seule la licence ou l'accord de l'auteur autorise la réutilisation. |
+| « Je cite la source, donc j'ai le droit de tout reprendre. » | **Faux.** Citer l'auteur ne remplace pas son autorisation. | Seules des **exceptions précises** (par exemple la courte citation) permettent de reprendre sans accord. |
+| « La marque et le nom de domaine, c'est la même chose. » | **Faux.** | La **marque** protège un signe pour des produits et services (dépôt) ; le **nom de domaine** est une adresse, obtenue par enregistrement. |
+
+### Exemple guidé : le code écrit par un salarié
+
+Sophie, salariée d'une PME, écrit un script d'inventaire pendant son temps de travail et avec le matériel de l'entreprise. **Qui a les droits ?** Pour un logiciel créé par un salarié **dans l'exercice de ses fonctions**, les droits patrimoniaux reviennent à l'**employeur** (voir la partie II). Sophie reste l'**auteur**, mais ne peut pas empêcher l'entreprise de l'utiliser. Si Sophie avait écrit le même script **chez elle, sans lien avec ses missions**, la réponse serait à examiner autrement : c'est pourquoi on **vérifie son contrat** avant de publier du code.
+
+> [!TIP]
+> Dans une réponse à l'épreuve E4, applique toujours la même suite : **1. quelle œuvre ?** → **2. qui est l'auteur ?** → **3. qui détient les droits ?** → **4. quelle utilisation est faite ?** → **5. y a-t-il autorisation ou exception ?**
+
+Pour un cas réel documenté, voir [Oracle contre Google](04-cas-reels.md).
+
 ## À retenir
 
 - Droit d'auteur : **automatique**, protège la **forme**, pas l'idée ; logiciel protégé ; droits patrimoniaux du logiciel de salarié à l'**employeur**.
