@@ -34,17 +34,90 @@ Une **violation de données personnelles** est une atteinte à la **confidential
 
 ### Que faire ?
 
-```mermaid
-flowchart TD
-    A["Violation détectée"] --> B["Contenir et corriger<br/>isoler, changer les accès"]
-    B --> C["Documenter dans le registre<br/>des violations"]
-    C --> D{"Risque pour<br/>les personnes ?"}
-    D -->|"Aucun risque"| E["Pas de notification<br/>mais inscription au registre"]
-    D -->|"Risque"| F["Notifier la CNIL<br/>sous 72 h"]
-    F --> G{"Risque élevé ?"}
-    G -->|"Oui"| H["Informer aussi<br/>les personnes concernées"]
-    G -->|"Non"| I["Suivi et mesures correctives"]
-```
+<figure class="graphe diagramme">
+<svg viewBox="0.00 0.00 646.10 836.60" style="max-width:861px" role="img" aria-label="Schéma" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" transform="scale(1 1) rotate(0) translate(10.8 825.8)">
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M263,-815C263,-815 112,-815 112,-815 106,-815 100,-809 100,-803 100,-803 100,-790 100,-790 100,-784 106,-778 112,-778 112,-778 263,-778 263,-778 269,-778 275,-784 275,-790 275,-790 275,-803 275,-803 275,-809 269,-815 263,-815"/>
+<text text-anchor="start" x="119" y="-793" font-family="Helvetica,sans-Serif" font-size="15.00">Violation détectée</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M286.5,-719C286.5,-719 88.5,-719 88.5,-719 82.5,-719 76.5,-713 76.5,-707 76.5,-707 76.5,-677 76.5,-677 76.5,-671 82.5,-665 88.5,-665 88.5,-665 286.5,-665 286.5,-665 292.5,-665 298.5,-671 298.5,-677 298.5,-677 298.5,-707 298.5,-707 298.5,-713 292.5,-719 286.5,-719"/>
+<text text-anchor="start" x="113.5" y="-697" font-family="Helvetica,sans-Serif" font-size="15.00">Contenir et corriger</text>
+<text text-anchor="start" x="95.5" y="-680" font-family="Helvetica,sans-Serif" font-size="15.00">isoler, changer les accès</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M187.5,-777.65C187.5,-764.12 187.5,-745.11 187.5,-728.53"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="190.65,-728.11 187.5,-719.11 184.35,-728.11 190.65,-728.11"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M301.5,-606C301.5,-606 73.5,-606 73.5,-606 67.5,-606 61.5,-600 61.5,-594 61.5,-594 61.5,-564 61.5,-564 61.5,-558 67.5,-552 73.5,-552 73.5,-552 301.5,-552 301.5,-552 307.5,-552 313.5,-558 313.5,-564 313.5,-564 313.5,-594 313.5,-594 313.5,-600 307.5,-606 301.5,-606"/>
+<text text-anchor="start" x="80.5" y="-584" font-family="Helvetica,sans-Serif" font-size="15.00">Documenter dans le registre</text>
+<text text-anchor="start" x="135.5" y="-567" font-family="Helvetica,sans-Serif" font-size="15.00">des violations</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M187.5,-664.98C187.5,-650.19 187.5,-631.48 187.5,-615.37"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="190.65,-615.25 187.5,-606.25 184.35,-615.25 190.65,-615.25"/>
+</g>
+<g class="node n&#45;diamond">
+<polygon fill="none" stroke="black" stroke-width="1.8" points="187.5,-493 33.5,-439 187.5,-385 341.5,-439 187.5,-493"/>
+<text text-anchor="start" x="142" y="-444" font-family="Helvetica,sans-Serif" font-size="15.00">Risque pour</text>
+<text text-anchor="start" x="129.5" y="-427" font-family="Helvetica,sans-Serif" font-size="15.00">les personnes ?</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M187.5,-551.72C187.5,-537.6 187.5,-519.55 187.5,-502.09"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="190.65,-502.04 187.5,-493.04 184.35,-502.04 190.65,-502.04"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M231,-313C231,-313 12,-313 12,-313 6,-313 0,-307 0,-301 0,-301 0,-271 0,-271 0,-265 6,-259 12,-259 12,-259 231,-259 231,-259 237,-259 243,-265 243,-271 243,-271 243,-301 243,-301 243,-307 237,-313 231,-313"/>
+<text text-anchor="start" x="52" y="-291" font-family="Helvetica,sans-Serif" font-size="15.00">Pas de notification</text>
+<text text-anchor="start" x="19" y="-274" font-family="Helvetica,sans-Serif" font-size="15.00">mais inscription au registre</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M167.34,-391.87C157.41,-369.16 145.64,-342.24 136.52,-321.36"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="139.4,-320.09 132.91,-313.1 133.63,-322.61 139.4,-320.09"/>
+<text text-anchor="start" x="151.5" y="-345.6" font-family="Helvetica,sans-Serif" font-size="13.00">Aucun risque</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M422,-313C422,-313 295,-313 295,-313 289,-313 283,-307 283,-301 283,-301 283,-271 283,-271 283,-265 289,-259 295,-259 295,-259 422,-259 422,-259 428,-259 434,-265 434,-271 434,-271 434,-301 434,-301 434,-307 428,-313 422,-313"/>
+<text text-anchor="start" x="302" y="-291" font-family="Helvetica,sans-Serif" font-size="15.00">Notifier la CNIL</text>
+<text text-anchor="start" x="322" y="-274" font-family="Helvetica,sans-Serif" font-size="15.00">sous 72 h</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M230.65,-399.9C258.81,-375.03 295.16,-342.93 321.9,-319.32"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="324.16,-321.52 328.82,-313.21 319.99,-316.8 324.16,-321.52"/>
+<text text-anchor="start" x="293.5" y="-345.6" font-family="Helvetica,sans-Serif" font-size="13.00">Risque</text>
+</g>
+<g class="node n&#45;diamond">
+<polygon fill="none" stroke="black" stroke-width="1.8" points="358.5,-200 211.5,-163 358.5,-126 505.5,-163 358.5,-200"/>
+<text text-anchor="start" x="304" y="-159.5" font-family="Helvetica,sans-Serif" font-size="15.00">Risque élevé ?</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M358.5,-258.74C358.5,-244.32 358.5,-226.02 358.5,-209.35"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="361.65,-209.3 358.5,-200.3 355.35,-209.3 361.65,-209.3"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M322,-54C322,-54 115,-54 115,-54 109,-54 103,-48 103,-42 103,-42 103,-12 103,-12 103,-6 109,0 115,0 115,0 322,0 322,0 328,0 334,-6 334,-12 334,-12 334,-42 334,-42 334,-48 328,-54 322,-54"/>
+<text text-anchor="start" x="165" y="-32" font-family="Helvetica,sans-Serif" font-size="15.00">Informer aussi</text>
+<text text-anchor="start" x="122" y="-15" font-family="Helvetica,sans-Serif" font-size="15.00">les personnes concernées</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M328.47,-133.25C306.24,-111.98 275.92,-82.96 252.75,-60.78"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="254.79,-58.37 246.11,-54.42 250.43,-62.92 254.79,-58.37"/>
+<text text-anchor="start" x="288.5" y="-86.6" font-family="Helvetica,sans-Serif" font-size="13.00">Oui</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M612.5,-45.5C612.5,-45.5 386.5,-45.5 386.5,-45.5 380.5,-45.5 374.5,-39.5 374.5,-33.5 374.5,-33.5 374.5,-20.5 374.5,-20.5 374.5,-14.5 380.5,-8.5 386.5,-8.5 386.5,-8.5 612.5,-8.5 612.5,-8.5 618.5,-8.5 624.5,-14.5 624.5,-20.5 624.5,-20.5 624.5,-33.5 624.5,-33.5 624.5,-39.5 618.5,-45.5 612.5,-45.5"/>
+<text text-anchor="start" x="393.5" y="-23.5" font-family="Helvetica,sans-Serif" font-size="15.00">Suivi et mesures correctives</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M388.75,-133.25C414.23,-109.04 450.26,-74.79 474.23,-52.02"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="476.6,-54.11 480.95,-45.63 472.26,-49.54 476.6,-54.11"/>
+<text text-anchor="start" x="436.5" y="-86.6" font-family="Helvetica,sans-Serif" font-size="13.00">Non</text>
+</g>
+</g>
+</svg>
+</figure>
 
 | Étape | Règle |
 |---|---|

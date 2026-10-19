@@ -19,15 +19,66 @@ Les règles et les menaces **évoluent** : nouveaux textes, décisions, vulnéra
 
 ## II. La démarche de veille
 
-```mermaid
-flowchart LR
-    A["1. Définir<br/>les besoins"] --> B["2. Choisir<br/>les sources"]
-    B --> C["3. Collecter<br/>(alertes, flux)"]
-    C --> D["4. Trier<br/>et vérifier"]
-    D --> E["5. Synthétiser<br/>et diffuser"]
-    E --> F["6. Agir<br/>et évaluer"]
-    F --> A
-```
+<figure class="graphe diagramme">
+<svg viewBox="0.00 0.00 226.60 635.60" style="max-width:303px" role="img" aria-label="Schéma" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" transform="scale(1 1) rotate(0) translate(10.8 624.8)">
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M188.5,-614C188.5,-614 91.5,-614 91.5,-614 85.5,-614 79.5,-608 79.5,-602 79.5,-602 79.5,-572 79.5,-572 79.5,-566 85.5,-560 91.5,-560 91.5,-560 188.5,-560 188.5,-560 194.5,-560 200.5,-566 200.5,-572 200.5,-572 200.5,-602 200.5,-602 200.5,-608 194.5,-614 188.5,-614"/>
+<text text-anchor="start" x="105" y="-592" font-family="Helvetica,sans-Serif" font-size="15.00">1. Définir</text>
+<text text-anchor="start" x="98.5" y="-575" font-family="Helvetica,sans-Serif" font-size="15.00">les besoins</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M127.5,-502C127.5,-502 30.5,-502 30.5,-502 24.5,-502 18.5,-496 18.5,-490 18.5,-490 18.5,-460 18.5,-460 18.5,-454 24.5,-448 30.5,-448 30.5,-448 127.5,-448 127.5,-448 133.5,-448 139.5,-454 139.5,-460 139.5,-460 139.5,-490 139.5,-490 139.5,-496 133.5,-502 127.5,-502"/>
+<text text-anchor="start" x="43.5" y="-480" font-family="Helvetica,sans-Serif" font-size="15.00">2. Choisir</text>
+<text text-anchor="start" x="37.5" y="-463" font-family="Helvetica,sans-Serif" font-size="15.00">les sources</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M125.54,-559.93C117.32,-545.11 106.93,-526.36 98.05,-510.35"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="100.68,-508.61 93.56,-502.26 95.17,-511.66 100.68,-508.61"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M131.5,-390C131.5,-390 16.5,-390 16.5,-390 10.5,-390 4.5,-384 4.5,-378 4.5,-378 4.5,-348 4.5,-348 4.5,-342 10.5,-336 16.5,-336 16.5,-336 131.5,-336 131.5,-336 137.5,-336 143.5,-342 143.5,-348 143.5,-348 143.5,-378 143.5,-378 143.5,-384 137.5,-390 131.5,-390"/>
+<text text-anchor="start" x="31" y="-368" font-family="Helvetica,sans-Serif" font-size="15.00">3. Collecter</text>
+<text text-anchor="start" x="23.5" y="-351" font-family="Helvetica,sans-Serif" font-size="15.00">(alertes, flux)</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M77.82,-447.93C77.16,-433.52 76.34,-415.39 75.62,-399.68"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="78.75,-399.11 75.19,-390.26 72.46,-399.4 78.75,-399.11"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M116.5,-278C116.5,-278 29.5,-278 29.5,-278 23.5,-278 17.5,-272 17.5,-266 17.5,-266 17.5,-236 17.5,-236 17.5,-230 23.5,-224 29.5,-224 29.5,-224 116.5,-224 116.5,-224 122.5,-224 128.5,-230 128.5,-236 128.5,-236 128.5,-266 128.5,-266 128.5,-272 122.5,-278 116.5,-278"/>
+<text text-anchor="start" x="47" y="-256" font-family="Helvetica,sans-Serif" font-size="15.00">4. Trier</text>
+<text text-anchor="start" x="36.5" y="-239" font-family="Helvetica,sans-Serif" font-size="15.00">et vérifier</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M73.76,-335.93C73.63,-321.52 73.47,-303.39 73.32,-287.68"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="76.47,-287.23 73.24,-278.26 70.17,-287.29 76.47,-287.23"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M132,-166C132,-166 12,-166 12,-166 6,-166 0,-160 0,-154 0,-154 0,-124 0,-124 0,-118 6,-112 12,-112 12,-112 132,-112 132,-112 138,-112 144,-118 144,-124 144,-124 144,-154 144,-154 144,-160 138,-166 132,-166"/>
+<text text-anchor="start" x="19" y="-144" font-family="Helvetica,sans-Serif" font-size="15.00">5. Synthétiser</text>
+<text text-anchor="start" x="33.5" y="-127" font-family="Helvetica,sans-Serif" font-size="15.00">et diffuser</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M72.76,-223.93C72.63,-209.52 72.47,-191.39 72.32,-175.68"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="75.47,-175.23 72.24,-166.26 69.17,-175.29 75.47,-175.23"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M183,-54C183,-54 93,-54 93,-54 87,-54 81,-48 81,-42 81,-42 81,-12 81,-12 81,-6 87,0 93,0 93,0 183,0 183,0 189,0 195,-6 195,-12 195,-12 195,-42 195,-42 195,-48 189,-54 183,-54"/>
+<text text-anchor="start" x="113" y="-32" font-family="Helvetica,sans-Serif" font-size="15.00">6. Agir</text>
+<text text-anchor="start" x="100" y="-15" font-family="Helvetica,sans-Serif" font-size="15.00">et évaluer</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M87.64,-111.93C96.54,-97.11 107.78,-78.36 117.39,-62.35"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="120.31,-63.6 122.24,-54.26 114.91,-60.36 120.31,-63.6"/>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M151.4,-54.22C170.95,-94.99 205,-176.53 205,-250 205,-364 205,-364 205,-364 205,-432.57 176.09,-508.42 156.83,-551.34"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="153.87,-550.24 153,-559.73 159.6,-552.85 153.87,-550.24"/>
+</g>
+</g>
+</svg>
+</figure>
 
 | Étape | Questions à se poser |
 |---|---|
