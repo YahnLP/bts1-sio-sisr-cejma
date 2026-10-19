@@ -57,13 +57,52 @@ Pour qu'une preuve soit **recevable et crédible** :
 4. **Conserver** dans un lieu sûr, accès limité ;
 5. **Présenter** avec les explications nécessaires.
 
-```mermaid
-flowchart LR
-    A["Constat<br/>de l'incident"] --> B["Copie<br/>+ empreinte"]
-    B --> C["Original scellé<br/>et conservé"]
-    B --> D["Analyse sur la copie"]
-    D --> E["Rapport<br/>+ chaîne de conservation"]
-```
+<figure class="graphe diagramme">
+<svg viewBox="0.00 0.00 418.10 411.60" style="max-width:557px" role="img" aria-label="Schéma" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" transform="scale(1 1) rotate(0) translate(10.8 400.8)">
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M231,-390C231,-390 123,-390 123,-390 117,-390 111,-384 111,-378 111,-378 111,-348 111,-348 111,-342 117,-336 123,-336 123,-336 231,-336 231,-336 237,-336 243,-342 243,-348 243,-348 243,-378 243,-378 243,-384 237,-390 231,-390"/>
+<text text-anchor="start" x="148" y="-368" font-family="Helvetica,sans-Serif" font-size="15.00">Constat</text>
+<text text-anchor="start" x="130" y="-351" font-family="Helvetica,sans-Serif" font-size="15.00">de l&#39;incident</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M231.5,-278C231.5,-278 122.5,-278 122.5,-278 116.5,-278 110.5,-272 110.5,-266 110.5,-266 110.5,-236 110.5,-236 110.5,-230 116.5,-224 122.5,-224 122.5,-224 231.5,-224 231.5,-224 237.5,-224 243.5,-230 243.5,-236 243.5,-236 243.5,-266 243.5,-266 243.5,-272 237.5,-278 231.5,-278"/>
+<text text-anchor="start" x="155.5" y="-256" font-family="Helvetica,sans-Serif" font-size="15.00">Copie</text>
+<text text-anchor="start" x="129.5" y="-239" font-family="Helvetica,sans-Serif" font-size="15.00">+ empreinte</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M177,-335.93C177,-321.52 177,-303.39 177,-287.68"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="180.15,-287.26 177,-278.26 173.85,-287.26 180.15,-287.26"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M134,-166C134,-166 12,-166 12,-166 6,-166 0,-160 0,-154 0,-154 0,-124 0,-124 0,-118 6,-112 12,-112 12,-112 134,-112 134,-112 140,-112 146,-118 146,-124 146,-124 146,-154 146,-154 146,-160 140,-166 134,-166"/>
+<text text-anchor="start" x="19" y="-144" font-family="Helvetica,sans-Serif" font-size="15.00">Original scellé</text>
+<text text-anchor="start" x="29" y="-127" font-family="Helvetica,sans-Serif" font-size="15.00">et conservé</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M152.35,-223.93C137.95,-208.7 119.64,-189.33 104.23,-173.04"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="106.3,-170.64 97.83,-166.26 101.72,-174.97 106.3,-170.64"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M363.5,-157.5C363.5,-157.5 198.5,-157.5 198.5,-157.5 192.5,-157.5 186.5,-151.5 186.5,-145.5 186.5,-145.5 186.5,-132.5 186.5,-132.5 186.5,-126.5 192.5,-120.5 198.5,-120.5 198.5,-120.5 363.5,-120.5 363.5,-120.5 369.5,-120.5 375.5,-126.5 375.5,-132.5 375.5,-132.5 375.5,-145.5 375.5,-145.5 375.5,-151.5 369.5,-157.5 363.5,-157.5"/>
+<text text-anchor="start" x="205.5" y="-135.5" font-family="Helvetica,sans-Serif" font-size="15.00">Analyse sur la copie</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M201.65,-223.93C218.72,-205.87 241.3,-181.99 258,-164.32"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="260.42,-166.35 264.32,-157.64 255.85,-162.02 260.42,-166.35"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M384.5,-54C384.5,-54 177.5,-54 177.5,-54 171.5,-54 165.5,-48 165.5,-42 165.5,-42 165.5,-12 165.5,-12 165.5,-6 171.5,0 177.5,0 177.5,0 384.5,0 384.5,0 390.5,0 396.5,-6 396.5,-12 396.5,-12 396.5,-42 396.5,-42 396.5,-48 390.5,-54 384.5,-54"/>
+<text text-anchor="start" x="251" y="-32" font-family="Helvetica,sans-Serif" font-size="15.00">Rapport</text>
+<text text-anchor="start" x="184.5" y="-15" font-family="Helvetica,sans-Serif" font-size="15.00">+ chaîne de conservation</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M281,-120.33C281,-104.98 281,-82.3 281,-63.26"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="284.15,-63.25 281,-54.25 277.85,-63.25 284.15,-63.25"/>
+</g>
+</g>
+</svg>
+</figure>
 
 > [!WARNING]
 > **Ne jamais travailler sur l'original.** Une preuve modifiée, sans traçabilité, peut être écartée, et le technicien est accusé d'avoir altéré des éléments.
