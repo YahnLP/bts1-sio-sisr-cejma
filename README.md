@@ -1,6 +1,6 @@
 # CEJMA – BTS SIO 1re année
 
-Cours, études de cas et aide-mémoire de **culture économique, juridique et managériale appliquée (CEJMA)** du BTS SIO option SISR, 1re année : **19 séances de 4 h** pour 19 semaines d'alternance réparties sur l'année, préparant l'épreuve **E4**. Auteur : Yahn LE PRETTRE - Formateur – licence CC BY-NC-SA 4.0.
+Cours, études de cas et aide-mémoire de **culture économique, juridique et managériale appliquée (CEJMA)** du BTS SIO option SISR, 1re année : **19 séances de 4 h** pour 19 semaines d'alternance réparties sur l'année, préparant l'épreuve **E4**. Auteur : Yahn LE PRETTRE - Formateur – licence CC BY-NC-SA 4.0. Utilisation dans une formation payante ou financée (CFA, OPCO) : accord préalable de l'auteur, voir `docs/ressources/licences.md`.
 
 **Site (GitHub Pages) :** <https://yahnlp.github.io/bts1-sio-sisr-cejma/>
 
