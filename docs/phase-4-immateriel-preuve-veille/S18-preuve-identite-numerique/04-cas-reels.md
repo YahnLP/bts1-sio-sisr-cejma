@@ -24,7 +24,7 @@
 <details markdown="1">
 <summary>Voir la réponse attendue</summary>
 
-Par exemple : une **adresse** qui ne mène pas à un établissement visible, l'**absence de réservation possible par les moyens habituels** ou la **ancienneté très récente** des avis, des **photos** peu crédibles, des avis **trop uniformes**. On **recoupe** toujours avec une autre source (site de l'établissement, carte, presse).
+Par exemple : une **adresse** qui ne mène pas à un établissement visible, l'**absence de réservation possible par les moyens habituels** ou des avis **très récents** pour un établissement censé être ancien, des **photos** peu crédibles, des avis **trop uniformes**. On **recoupe** toujours avec une autre source (site de l'établissement, carte, presse).
 </details>
 
 **2.** Ton entreprise découvre une série de **faux avis négatifs** sur sa fiche en ligne. Décris **quatre actions**, dans l'ordre.
