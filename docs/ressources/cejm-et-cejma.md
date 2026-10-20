@@ -16,6 +16,8 @@ Source : annexes II.C, II.D et III.A du référentiel du BTS SIO (arrêté du 8 
 
 Dans cette formation, les deux sont assurés par **le même enseignant** et se font dans **les mêmes séances de 4 h** (19 séances par année).
 
+**Volume au CFA :** CEJM et CEJMA **ensemble** occupent 19 semaines de 4 h par année, soit 76 h par année et 152 h sur les deux années. Les 19 séances ne sont donc pas doublées : chaque séance porte à la fois la notion du programme et, quand la ligne « Part CEJMA » existe, son application professionnelle.
+
 ## Lire les fiches
 
 Chaque fiche de séance porte une ligne **Enseignement** :
