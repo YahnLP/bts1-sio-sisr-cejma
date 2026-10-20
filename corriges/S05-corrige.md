@@ -2,7 +2,7 @@
 
 ## Barème (20 points)
 
-| Question | Points | Attendu |
+| Question | Points | ​Attendu |
 |---|---|---|
 | 1 | 4 | 1 160 € ; 232 € ; 4 640 € ; 838 € ; 209,50 € ; 4 190 € |
 | 2 | 3 | 450 € ; 9,7 % ; deux raisons de prudence |
@@ -15,7 +15,7 @@
 
 ## Grille de capacités
 
-| Capacité | Questions |
+| Capacité | ​Questions |
 |---|---|
 | **A** Analyser | 4, 5, 6, 7 |
 | **B** Exploiter la base documentaire | 1, 3 |
@@ -28,8 +28,8 @@
 - Comparer 1 160 € et 838 € **sans diviser** par la durée.
 - Oublier la **batterie** ou la **valeur de reprise**.
 - Appliquer au cabinet la garantie de conformité **des consommateurs**.
-- Conclure à une obsolescence programmée à partir d'un simple **article de presse**.
+- ​Conclure à une obsolescence programmée à partir d'un simple **article de presse**.
 
 ## Vérification
 
-900 + 40 + 5×40 + 80 − 60 = 1 160 ; 540 + 40 + 4×52 + 70 − 20 = 838 ; 1 160/5 = 232 ; 838/4 = 209,5 ; ×20 = 4 640 et 4 190 ; écart 450 (9,7 %) ; 46 000 + 2 000 = 48 000 ; 60×45×12 = 32 400, +6 000 = 38 400 ; écart 9 600 (20 %). Indices de réparabilité et de durabilité : dates relues sur une fiche du ministère de l'Économie.
+900 + 40 + 5×40 + 80 − 60 = 1 160 ; 540 + 40 + 4×52 + 70 − 20 = 838 ; 1 160/5 = 232 ; 838/4 = 209,5 ; ×20 = 4 640 et 4 190 ; écart 450 (9,7 %) ; 46 000 + 2 000 = 48 000 ; 60×45×12 = 32 400, +6 000 = 38 400 ; écart 9 600 (20 %). Indices de réparabilité et de durabilité : dates relues sur une ​fiche du ministère de l'Économie.

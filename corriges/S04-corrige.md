@@ -5,7 +5,7 @@
 | Question | Points | Attendu |
 |---|---|---|
 | 1 | 3 | Adhésion ; art. 1171 (et 1170) |
-| 2 | 3 | 128 € ; 640 € avec le plafond |
+| 2 | 3 | 128 € ; 640 € avec le ​plafond |
 | 3 | 3 | 38 400 € ; reste 51 600 € |
 | 4 | 3 | Dol, informations manquantes, preuve |
 | 5 | 2 | Sanctions ; mise en demeure |
@@ -18,7 +18,7 @@
 | Capacité | Questions |
 |---|---|
 | **A** Analyser | 1, 4 |
-| **B** Exploiter la base documentaire | 2, 3 |
+| **B** ​Exploiter la base documentaire | 2, 3 |
 | **C** Proposer | 5, 6 |
 | **D** Diagnostiquer | 4, 6 |
 | **E** Exposer | 6, 8 |
@@ -32,4 +32,4 @@
 
 ## Vérification
 
-10 ÷ 4 = 2 tranches entières → 4 % × 3 200 = 128 ; 60 ÷ 4 = 15 tranches → 30 %, plafonné à 20 % = 640 ; 12 × 3 200 = 38 400 ; 90 000 − 38 400 = 51 600. Les articles 1101, 1103, 1104, 1112-1, 1128, 1170, 1171, 1217, 1231-5 sont ceux du Code civil issu de la réforme du droit des contrats de 2016.
+10 ÷ 4 = 2 tranches entières → 4 % × 3 200 = 128 ; 60 ÷ 4 = 15 tranches → 30 %, plafonné à 20 % = 640 ; 12 × 3 200 = 38 400 ; 90 000 − 38 400 = 51 600. Les ​articles 1101, 1103, 1104, 1112-1, 1128, 1170, 1171, 1217, 1231-5 sont ceux du Code civil issu de la réforme du droit des contrats de 2016.

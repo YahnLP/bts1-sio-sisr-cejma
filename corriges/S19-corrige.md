@@ -2,7 +2,7 @@
 
 ## Barème (20 points)
 
-| Question | Points | Attendu |
+| Question | Points | ​Attendu |
 |---|---|---|
 | 1 | 4 | 65 000 € ; 43 200 € ; 21 800 € ; ≈ 33,5 % ; commentaire |
 | 2 | 2 | Deux avantages, deux risques |
@@ -25,7 +25,7 @@
 
 ## Erreurs fréquentes
 
-- Oublier les coûts cachés dans le comparatif.
+- Oublier les coûts ​cachés dans le comparatif.
 - Calculer la disponibilité sur 24 h au lieu du mois.
 - Répondre sans distinguer responsable et sous-traitant.
 

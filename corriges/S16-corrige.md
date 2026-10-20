@@ -5,7 +5,7 @@
 | Question | Points | Attendu |
 |---|---|---|
 | 1 | 3 | Employeur / salarié, L113-9 |
-| 2 | 3 | Contrefaçon, loyauté, confidentialité |
+| 2 | 3 | Contrefaçon, ​loyauté, confidentialité |
 | 3 | 3 | Antériorité, risques, solutions |
 | 4 | 2 | Domaine ≠ marque |
 | 5 | 3 | Logiciel exclu, droit d'auteur |
@@ -24,10 +24,10 @@
 
 ## Erreurs fréquentes
 
-- Penser que le salarié est propriétaire de ce qu'il crée pour l'entreprise.
+- Penser que le salarié est ​propriétaire de ce qu'il crée pour l'entreprise.
 - Confondre protection du logiciel (droit d'auteur) et brevet.
 - Oublier la recherche d'antériorités.
 
 ## Vérification
 
-Articles L113-9, L122-6-1, L611-10 du Code de la propriété intellectuelle, durées (70 ans, 20 ans, 10 ans, 15 ans) et peines de contrefaçon : à relire sur Légifrance et l'INPI, non consultables depuis l'environnement de rédaction.
+Articles L113-9, L122-6-1, L611-10 du Code de la propriété intellectuelle, durées (70 ans, 20 ans, 10 ans, 15 ans) et peines de contrefaçon : à ​relire sur Légifrance et l'INPI, non consultables depuis l'environnement de rédaction.

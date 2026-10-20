@@ -4,7 +4,7 @@
 
 | Question | Points | Attendu |
 |---|---|---|
-| 1 | 3 | Responsable, sous-traitant, sous-traitant ultérieur, contrat article 28 |
+| 1 | 3 | Responsable, sous-traitant, sous-traitant ultérieur, ​contrat article 28 |
 | 2 | 2 | Données personnelles et sensibles |
 | 3 | 4 | Quatre principes violés |
 | 4 | 3 | Trois bases légales |
@@ -18,7 +18,7 @@
 |---|---|
 | **A** Analyser | 1, 2, 3 |
 | **B** Exploiter la base documentaire | 1, 2, 3 |
-| **C** Proposer | 5, 6, 7 |
+| **C** ​Proposer | 5, 6, 7 |
 | **D** Diagnostiquer | 3, 4 |
 | **E** Exposer | 6, 7 |
 

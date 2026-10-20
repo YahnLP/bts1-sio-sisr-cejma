@@ -5,7 +5,7 @@
 | Question | Points | Attendu |
 |---|---|---|
 | 1 | 3 | p = 200 € ; Q = 600 ; méthode |
-| 2 | 3 | p = 250 € ; Q = 700 ; pénurie de 200 si le prix reste à 200 € |
+| 2 | 3 | p = 250 € ; Q = 700 ; ​pénurie de 200 si le prix reste à 200 € |
 | 3 | 2 | Oligopole + deux éléments |
 | 4 | 4 | 12 500 ; 9,50 € ; 50 € ; barrière : économies d'échelle |
 | 5 | 3 | Asymétrie d'information ; deux solutions du dossier ; une de plus |
@@ -17,7 +17,7 @@
 | Capacité | Questions |
 |---|---|
 | **A** Analyser | 3, 5, 6 |
-| **B** Exploiter la base documentaire | 1, 2, 4 |
+| **B** ​Exploiter la base documentaire | 1, 2, 4 |
 | **C** Proposer | 7 |
 | **D** Diagnostiquer | 4, 5 |
 | **E** Exposer | 7 |
@@ -27,7 +27,7 @@
 - Oublier de **remplacer p** pour trouver Q.
 - Confondre **pénurie** (demande > offre) et **surplus**.
 - Ne pas relier la **barrière** aux chiffres du dossier.
-- Parler d'« oligopole » sans justifier par le **nombre** d'acteurs et la **concentration**.
+- Parler d'« oligopole » sans ​justifier par le **nombre** d'acteurs et la **concentration**.
 
 ## Vérification
 

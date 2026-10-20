@@ -4,7 +4,7 @@
 
 | Question | Points | Attendu |
 |---|---|---|
-| 1 | 3 | Classement correct ; ressource fragile |
+| 1 | 3 | Classement correct ; ressource ​fragile |
 | 2 | 2 | Ajustement mutuel ; standardisation proposée |
 | 3 | 3 | Autoritaire ; participatif ; adaptation |
 | 4 | 1 | Trois niveaux |
@@ -21,7 +21,7 @@
 | **B** Exploiter la base documentaire | 5 |
 | **C** Proposer | 8 |
 | **D** Diagnostiquer | 2, 6 |
-| **E** Exposer | 8 |
+| **E** ​Exposer | 8 |
 
 ## Erreurs fréquentes
 

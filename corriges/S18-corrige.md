@@ -4,7 +4,7 @@
 
 | Question | Points | Attendu |
 |---|---|---|
-| 1 | 3 | Mot de passe accessible ; horloges non synchronisées |
+| 1 | 3 | Mot de passe accessible ; ​horloges non synchronisées |
 | 2 | 3 | Altération de la preuve ; bonne méthode |
 | 3 | 4 | Cinq étapes de préservation |
 | 4 | 2 | Original, en-têtes, constat |
@@ -18,7 +18,7 @@
 |---|---|
 | **A** Analyser | 1, 2, 4 |
 | **B** Exploiter la base documentaire | 1, 2, 4 |
-| **C** Proposer | 3, 6, 7 |
+| **C** ​Proposer | 3, 6, 7 |
 | **D** Diagnostiquer | 1, 2, 5 |
 | **E** Exposer | 3, 7 |
 

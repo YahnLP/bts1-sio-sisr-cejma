@@ -6,7 +6,7 @@
 |---|---|---|
 | 1 | 2 | T6 = demande ; traitement |
 | 2 | 3 | P1, P3, P3, P2, P3 |
-| 3 | 3 | 60 % ; T2 et T4 dépassent |
+| 3 | 3 | 60 % ; T2 et T4 ​dépassent |
 | 4 | 3 | 9,9 h ; 98,41 % |
 | 5 | 3 | T2 domine ; 4,875 h sans T2 ; actions |
 | 6 | 3 | Informations demandées ; reformulation |
@@ -21,7 +21,7 @@
 | **B** Exploiter la base documentaire | 2, 3, 4 |
 | **C** Proposer | 6, 8 |
 | **D** Diagnostiquer | 3, 5 |
-| **E** Exposer | 6, 8 |
+| **E** ​Exposer | 6, 8 |
 
 ## Erreurs fréquentes
 
