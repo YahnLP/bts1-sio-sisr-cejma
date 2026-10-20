@@ -94,6 +94,37 @@ L'économiste George Akerlof l'a illustrée en 1970 avec le marché des voitures
 
 La séance 10 revient en détail sur le **financement** d'une entreprise.
 
+## Comprendre pas à pas
+
+### Identifier une forme de marché en trois questions
+
+1. **Combien de vendeurs ?** Un seul (monopole), quelques-uns (oligopole), beaucoup (concurrence).
+2. **Combien d'acheteurs ?** Un seul acheteur (monopsone), quelques-uns, beaucoup.
+3. **Peut-on entrer facilement ?** Les **barrières à l'entrée** (coûts fixes, réglementation, réseau d'utilisateurs) protègent ceux qui sont déjà là.
+
+### Économies d'échelle : un exemple chiffré
+
+Une société d'hébergement paie **100 000 €** de coûts fixes (salle, outils) et **5 € de coût variable** par client.
+
+| Nombre de clients | Coût total | Coût moyen par client |
+|---:|---:|---:|
+| 10 000 | \(100\,000 + 5 \times 10\,000 = 150\,000\) € | **15 €** |
+| 100 000 | \(100\,000 + 5 \times 100\,000 = 600\,000\) € | **6 €** |
+
+Plus l'entreprise est **grande**, plus son coût par client **baisse** : un nouveau concurrent **petit** ne peut pas proposer les mêmes prix. C'est une **barrière à l'entrée**.
+
+### Position dominante : ce qui est permis, ce qui ne l'est pas
+
+| Situation | Légal ? |
+|---|---|
+| Être **leader** grâce à un meilleur produit | **Oui** |
+| Utiliser sa position pour **fermer** l'accès aux concurrents (liaisons forcées, traitement préférentiel de ses propres services) | **Non** (abus de position dominante) |
+
+> [!NOTE]
+> La **taille** n'est pas une faute ; l'**abus** l'est.
+
+Un cas réel est détaillé dans [Google et l'Autorité de la concurrence](04-cas-reels.md).
+
 ## À retenir
 
 - Le **prix d'équilibre** égalise offre et demande ; si la demande augmente, le prix et les quantités augmentent.

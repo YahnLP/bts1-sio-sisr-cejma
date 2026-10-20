@@ -241,6 +241,35 @@ Une ESN fictive facture un client pour migrer des postes. Données :
 
 **Lecture.** En régie, la dérive est payée par le **client** et l'ESN garde sa marge. En forfait, la dérive est supportée par l'**ESN**, dont la marge s'effondre. Le forfait est plus cher au départ (21 500 € contre 19 200 €) mais protège le client **si le projet dérape** ; la régie est moins chère si tout va bien.
 
+## Comprendre pas à pas
+
+### Reconnaître un modèle économique : une grille
+
+| Modèle | Qui paie ? | Pour quoi ? | Exemple |
+|---|---|---|---|
+| **Vente de produit** | Le client | Un matériel ou un logiciel, une fois | Achat d'un poste |
+| **Abonnement** | Le client | L'accès et le service dans la durée | Messagerie, antivirus |
+| **Freemium** | Une minorité de clients | Des fonctions avancées | Stockage gratuit limité, version payante |
+| **Publicité** | Les annonceurs | L'attention des utilisateurs | Moteur de recherche |
+| **Plateforme / commission** | Une des faces du marché | La mise en relation | Place de marché |
+| **Services autour du libre** | Le client | Support, installation, formation | Red Hat |
+
+> [!TIP]
+> Pour un modèle donné, pose toujours **deux questions** : **qui paie ?** et **pour quoi ?** Le service peut être gratuit pour l'utilisateur **parce qu'un tiers paie** (publicité).
+
+### Régie ou forfait : un calcul
+
+Un projet est estimé à **18 jours** de travail. Le prestataire facture **600 € par jour** en régie, ou **11 000 €** au forfait.
+
+| Scénario | Régie | Forfait |
+|---|---:|---:|
+| Le projet dure **18 jours** | \(18 \times 600 = 10\,800\) € | 11 000 € |
+| Le projet dure **24 jours** (dérive) | \(24 \times 600 = 14\,400\) € | 11 000 € |
+
+**Lecture :** en **régie**, le **client** porte le risque de dérive (il paie les jours réels) ; au **forfait**, c'est le **prestataire** (il perd la différence). Le forfait exige un **besoin précisément défini** : voir le cas du projet de Lidl en séance 4.
+
+Un cas réel sur un modèle de services est détaillé dans [IBM et Red Hat](04-cas-reels.md).
+
 ## À retenir
 
 - Cinq agents économiques : **ménages, entreprises, administrations, institutions financières, reste du monde** ; ils échangent des flux réels et financiers.

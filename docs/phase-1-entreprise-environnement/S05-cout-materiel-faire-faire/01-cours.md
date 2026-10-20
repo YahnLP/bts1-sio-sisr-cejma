@@ -109,6 +109,42 @@ Pour 20 appareils : **4 640 €** par an pour le neuf, **4 190 €** pour le rec
 > [!NOTE]
 > Un **ordinateur reconditionné** est un appareil d'occasion **testé, remis en état** et revendu avec une garantie. L'asymétrie d'information (séance 2) est réduite par la **garantie** et le **rapport de test**.
 
+## Comprendre pas à pas
+
+### Coûts fixes, coûts variables : un tableau pour s'y retrouver
+
+| Type | Définition | Exemple dans un service informatique |
+|---|---|---|
+| **Coût fixe** | Ne dépend pas de l'activité | Loyer de la salle serveurs, licences annuelles |
+| **Coût variable** | Évolue avec l'activité | Consommation cloud, appels au support |
+| **Coût direct** | Rattaché à un produit ou service | Matériel d'un projet client |
+| **Coût indirect** | Partagé entre plusieurs | Administration, direction |
+
+### Comparer « acheter » et « louer » : un exemple
+
+Un serveur coûte **12 000 €**, utilisé **4 ans**. Maintenance : **1 000 € par an** ; électricité : **500 € par an**. En cloud : **400 € par mois**.
+
+| Poste | Acheter | Louer (cloud) |
+|---|---:|---:|
+| Amortissement | \(12\,000 / 4 = 3\,000\) € | 0 € |
+| Maintenance | 1 000 € | inclus |
+| Électricité | 500 € | inclus |
+| Abonnement | 0 € | \(400 \times 12 = 4\,800\) € |
+| **Coût par an** | **4 500 €** | **4 800 €** |
+
+**Écart :** \(4\,800 - 4\,500 = 300\) € par an en faveur de l'achat. **Mais** le tableau **ignore** le temps de l'administrateur, la sauvegarde, la sécurité et le remplacement en cas de panne : **un écart faible ne suffit pas à décider**.
+
+> [!TIP]
+> Pour décider, compare **le coût total** et les **risques** (compétences, disponibilité, dépendance), pas seulement le prix affiché.
+
+### Faire ou faire-faire : trois questions
+
+1. **Est-ce stratégique ?** Si oui, on garde la maîtrise.
+2. **A-t-on la compétence ?** Sinon, on prévoit formation ou prestataire.
+3. **Le volume justifie-t-il l'investissement ?** Un besoin occasionnel se confie à un tiers.
+
+Un cas réel de choix « louer ou posséder » est détaillé dans [37signals](04-cas-reels.md).
+
 ## À retenir
 
 - Facteurs de production : **travail**, **capital**, **consommations intermédiaires** ; coûts **fixes**, **variables**, **complet**.

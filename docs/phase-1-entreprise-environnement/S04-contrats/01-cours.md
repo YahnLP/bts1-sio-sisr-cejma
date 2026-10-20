@@ -123,6 +123,38 @@ Le **portage salarial** est une relation à **trois** : un **professionnel** aut
 | Liberté | Moindre | Forte | Très forte |
 | Risque | Faible | Modéré | Élevé |
 
+## Comprendre pas à pas
+
+### La formation d'un contrat : une liste de contrôle
+
+| Condition | Question à se poser | Exemple de problème |
+|---|---|---|
+| **Consentement** | Les parties ont-elles vraiment voulu et compris ? | Erreur sur l'objet, manœuvres pour tromper |
+| **Capacité** | Les signataires pouvaient-ils s'engager ? | Mineur, personne sans pouvoir |
+| **Contenu licite et certain** | Que doit chaque partie, et est-ce permis ? | Objet vague, illicite |
+
+> [!NOTE]
+> Une **information** insuffisante avant la signature peut vicier le consentement : voir le **devoir d'information** (partie II).
+
+### Lire une clause : trois exemples chiffrés
+
+Un contrat de maintenance coûte **12 000 € par an**.
+
+| Clause | Effet | Calcul |
+|---|---|---|
+| **Clause limitative de responsabilité** : « la responsabilité du prestataire est limitée à 12 000 € » | Plafonne la **réparation** | Pour un dommage de 80 000 €, le client obtient en principe **12 000 €** (limite, voir partie III) |
+| **Clause pénale** : « 50 € par jour de retard » | Fixe **à l'avance** l'indemnité | 12 jours de retard : \(12 \times 50 = 600\) € |
+| **Clause de réversibilité** | Prévoit la **restitution** des données et la transition | Évite d'être bloqué si on change de prestataire |
+
+> [!WARNING]
+> Une clause limitative ne s'applique pas dans tous les cas (par exemple en cas de faute grave ou de dol) ; ne conclus jamais qu'un plafond est **toujours** opposable.
+
+### Exemple guidé : bien rédiger sa demande de devis
+
+Avant de signer, écris : **le périmètre** (ce qui est inclus, ce qui ne l'est pas), **les livrables**, **les délais**, **les critères de recette**, **le prix** et ses conditions, et la **procédure de modification**. Ces cinq éléments évitent la plupart des litiges.
+
+Un cas réel d'échec de projet est détaillé dans [Lidl et SAP](04-cas-reels.md).
+
 ## À retenir
 
 - Le contrat est un **accord de volontés** qui **s'impose** aux parties ; on l'exécute de **bonne foi**.

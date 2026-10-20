@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Agents, acteurs, relation client-prestataire, modèles économiques |
 | [Étude de cas](02-etude-de-cas.md) | Habitat Valmont : régie ou forfait, SaaS ou licence |
 | [Aide-mémoire](03-aide-memoire.md) | Tableaux et formules à retenir |
+| [Cas réel](04-cas-reels.md) | IBM rachète Red Hat : services autour du logiciel libre |
 
 ## Déroulé conseillé (4 h)
 
