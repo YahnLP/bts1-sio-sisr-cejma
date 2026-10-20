@@ -1,6 +1,6 @@
 # Aide-mémoire – Structures juridiques comparées
 
-*BTS SIO SISR 1re année – CEJMA – S06*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S06*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

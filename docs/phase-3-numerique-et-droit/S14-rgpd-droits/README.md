@@ -6,6 +6,8 @@
 | **Séance** | S14 (séance 14 sur 19) – Phase 3 |
 | **Durée** | 4 heures |
 | **Parcours** | **Complément** – Droits des personnes, cookies, prospection : recoupe le bloc 3 (S07). Garder la prospection et les transferts hors Union européenne, que le bloc 3 ne cite qu'en passant. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM et CEJMA |
+| **Part CEJMA** | RGPD : droits des personnes, consentement, cookies ; à retrouver en [bloc 3, 1re année, S07](https://yahnlp.github.io/bts1-sio-sisr-bloc3/phase-2-donnees-personnelles/S07-collecte-consentement-droits/), [bloc 1, 2e année, S12](https://yahnlp.github.io/bts2-sio-sisr-bloc1/phase-3-presence-en-ligne/S12-mentions-legales-cookies-rgpd/). Voir [CEJM et CEJMA](../../ressources/cejm-et-cejma.md). |
 | **Thème du programme** | Thème 4 – L'impact du numérique sur la vie de l'entreprise (question 3 : protection des données) |
 | **Champs** | Droit |
 | **Prérequis** | S13 |
@@ -60,7 +62,7 @@ Visite un site : la bannière cookies te permet-elle de refuser aussi facilement
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - Règles cookies, prospection et transferts à relire sur le site de la CNIL.
 - Dates de l'étude de cas à ajuster si l'année est bissextile ou selon la rentrée.
 - Entreprise et personnes fictives.

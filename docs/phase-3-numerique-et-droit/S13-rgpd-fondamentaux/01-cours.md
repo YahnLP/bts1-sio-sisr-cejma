@@ -1,6 +1,6 @@
 # Cours – RGPD : définitions, acteurs, principes et bases légales
 
-*BTS SIO SISR 1re année – CEJMA – S13 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S13 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** S11, S12

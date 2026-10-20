@@ -6,6 +6,8 @@
 | **Séance** | S18 (séance 18 sur 19) – Phase 4 |
 | **Durée** | 4 heures |
 | **Parcours** | **Complément** – Preuve électronique et identité numérique : recoupe le bloc 3 (S09 et S17). Garder l'écrit et la signature électroniques et l'e-réputation, que le bloc 3 ne voit qu'en quelques lignes. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM et CEJMA |
+| **Part CEJMA** | preuve électronique, identité numérique de l'organisation ; à retrouver en [bloc 3, 1re année, S09](https://yahnlp.github.io/bts1-sio-sisr-bloc3/phase-2-donnees-personnelles/S09-aipd-identite-numerique-droit/), [bloc 3, 1re année, S17](https://yahnlp.github.io/bts1-sio-sisr-bloc3/phase-4-auditer-reagir-e7/S17-incident-reponse-preuves/), [bloc 1, 2e année, S14](https://yahnlp.github.io/bts2-sio-sisr-bloc1/phase-3-presence-en-ligne/S14-e-reputation-et-identite-numerique/). Voir [CEJM et CEJMA](../../ressources/cejm-et-cejma.md). |
 | **Thème du programme** | Thème 4 – L'impact du numérique sur la vie de l'entreprise ; thème 5 (responsabilités) |
 | **Champs** | Droit, Management |
 | **Prérequis** | S11, S15 |
@@ -60,7 +62,7 @@ Vérifie si les horloges de tes serveurs ou postes d'atelier sont synchronisées
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - Articles 1366-1367 du Code civil, règlement eIDAS, articles 226-4-1 et 323-1 du Code pénal cités de mémoire : à relire.
 - Entreprise et personnes fictives.
 

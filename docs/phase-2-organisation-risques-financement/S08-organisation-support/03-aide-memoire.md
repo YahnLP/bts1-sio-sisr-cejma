@@ -1,6 +1,6 @@
 # Aide-mémoire – Ressources, coordination, styles, support N1-N3
 
-*BTS SIO SISR 1re année – CEJMA – S08*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S08*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

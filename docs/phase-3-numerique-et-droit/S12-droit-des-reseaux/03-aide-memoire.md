@@ -1,6 +1,6 @@
 # Aide-mémoire – Responsabilités des acteurs du réseau
 
-*BTS SIO SISR 1re année – CEJMA – S12*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S12*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

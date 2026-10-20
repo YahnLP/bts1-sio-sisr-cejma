@@ -1,6 +1,6 @@
 # Cours – Preuve électronique, signature et identité numérique
 
-*BTS SIO SISR 1re année – CEJMA – S18 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S18 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** S11, S15

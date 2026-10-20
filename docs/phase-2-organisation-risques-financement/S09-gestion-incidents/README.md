@@ -6,6 +6,8 @@
 | **Séance** | S09 (séance 9 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Gestion d'incident, indicateurs et effets d'expérience : seule séance sur ce point du programme. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM, avec une part de CEJMA |
+| **Part CEJMA** | traitement des incidents et indicateurs de service ; à retrouver en [bloc 1, 1re année, S04](https://yahnlp.github.io/bts1-sio-sisr-bloc1/phase-1-poste-patrimoine/S04-resoudre-un-incident/), [bloc 1, 1re année, S07](https://yahnlp.github.io/bts1-sio-sisr-bloc1/phase-2-support-services/S07-mise-a-disposition-sla/). Voir [CEJM et CEJMA](../../ressources/cejm-et-cejma.md). |
 | **Thème du programme** | Thème 3 – L'organisation de l'activité de l'entreprise (question 4 : processus, effets d'expérience) |
 | **Champs** | Management |
 | **Prérequis** | S03 (indicateurs), S08 (service desk, niveaux de support) |
@@ -61,7 +63,7 @@ Demande à voir un ticket réel anonymisé dans ton entreprise : est-il complet 
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - La grille de priorité et de GTR est un exemple pédagogique, pas un standard.
 - Chiffres fictifs, recalculés.
 

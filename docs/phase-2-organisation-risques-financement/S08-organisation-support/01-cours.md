@@ -1,6 +1,6 @@
 # Cours – Ressources, organisation, management et service de support
 
-*BTS SIO SISR 1re année – CEJMA – S08 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S08 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** S03 (indicateurs), S05 (faire ou faire-faire)

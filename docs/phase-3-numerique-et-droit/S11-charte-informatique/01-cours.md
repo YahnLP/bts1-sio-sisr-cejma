@@ -1,6 +1,6 @@
 # Cours – Charte informatique : valeur juridique, contenu, contrôle et vie privée
 
-*BTS SIO SISR 1re année – CEJMA – S11 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S11 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** S04 (contrat), S07 (responsabilités)

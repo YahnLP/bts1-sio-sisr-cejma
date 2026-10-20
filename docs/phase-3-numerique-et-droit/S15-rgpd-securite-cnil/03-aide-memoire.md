@@ -1,6 +1,6 @@
 # Aide-mémoire – Violation de données : les réflexes
 
-*BTS SIO SISR 1re année – CEJMA – S15*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S15*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

@@ -6,6 +6,8 @@
 | **Séance** | S05 (séance 5 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Coûts et économie du matériel : seule séance de calcul de coûts ; prérequis de S08 et S17. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM, avec une part de CEJMA |
+| **Part CEJMA** | coût total de possession et choix de matériel ; à retrouver en [bloc 2, 2e année, S03](https://yahnlp.github.io/bts2-sio-sisr-bloc2/phase-1-reprendre-concevoir/S03-cout-ethique-environnement/). Voir [CEJM et CEJMA](../../ressources/cejm-et-cejma.md). |
 | **Thème du programme** | Thème 3 – L'organisation de l'activité de l'entreprise (question 1) ; thème 3 (question 3, garanties) ; thème 4 |
 | **Champs** | Économie, droit |
 | **Prérequis** | S02 (coûts fixes et marginaux), S04 (contrats) |
@@ -58,7 +60,7 @@ Dans ton entreprise : quelle est la durée de vie prévue d'un poste, qui le ré
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - Obsolescence programmée (art. L441-2) et peines (art. L454-6) : relus sur les titres Légifrance ; les montants sont à confirmer sur le texte en vigueur.
 - Indices de réparabilité et de durabilité : situation 2025-2026 relue sur une fiche du ministère de l'Économie ; elle évolue.
 - Chiffres fictifs, recalculés.

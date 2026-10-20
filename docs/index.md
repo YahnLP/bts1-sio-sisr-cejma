@@ -2,9 +2,9 @@
 
 <p class="hero-kicker">BTS SIO option SISR – 1re année</p>
 
-# CEJMA · Culture économique, juridique et managériale
+# CEJM et CEJMA · Culture économique, juridique et managériale
 
-<p class="hero-sem"><span>Appliquée aux services informatiques</span><span>19 séances de 4 h</span></p>
+<p class="hero-sem"><span>Pour l'informatique</span><span>19 séances de 4 h</span></p>
 
 <p class="hero-sub">Cours, études de cas et aide-mémoire</p>
 

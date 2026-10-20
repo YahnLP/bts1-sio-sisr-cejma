@@ -1,6 +1,6 @@
 # Cours – Gestion des incidents : processus, priorités, SLA et indicateurs
 
-*BTS SIO SISR 1re année – CEJMA – S09 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S09 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** S03 (indicateurs), S08 (service desk, niveaux de support)

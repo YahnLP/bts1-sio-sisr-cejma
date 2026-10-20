@@ -6,6 +6,8 @@
 | **Séance** | S07 (séance 7 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Responsabilités civile, pénale et disciplinaire : prérequis de S11, S12, S15 et S16. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM et CEJMA |
+| **Part CEJMA** | responsabilité du salarié, de l'administrateur et du concepteur ; à retrouver en [bloc 3, 1re année, S09](https://yahnlp.github.io/bts1-sio-sisr-bloc3/phase-2-donnees-personnelles/S09-aipd-identite-numerique-droit/), [bloc 3, 2e année, S04](https://yahnlp.github.io/bts2-sio-sisr-bloc3/phase-1-reprendre-cadrer/S04-cadre-juridique-responsabilites/), [bloc 2, 2e année, S02](https://yahnlp.github.io/bts2-sio-sisr-bloc2/phase-1-reprendre-concevoir/S02-cahier-des-charges-contrat/). Voir [CEJM et CEJMA](../../ressources/cejm-et-cejma.md). |
 | **Thème du programme** | Thème 3 – L'organisation de l'activité de l'entreprise (question 3) |
 | **Champs** | Droit |
 | **Prérequis** | S01 (obligations de moyens et de résultat), S04 (contrats, clause limitative) |
@@ -58,7 +60,7 @@ Existe-t-il une procédure d'alerte de sécurité dans ton entreprise ? Qui déc
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - Peines relues sur des fiches de Cybermalveillance.gouv.fr (323-1, 323-2, 226-15, 226-18, 226-4-1) ; l'article 226-17 est cité de mémoire : à confirmer sur Légifrance.
 - Légifrance n'étant pas consultable depuis l'environnement de rédaction, relire les articles du Code civil et du Code pénal avant diffusion.
 - Entreprise, personnes et chiffres fictifs, recalculés.

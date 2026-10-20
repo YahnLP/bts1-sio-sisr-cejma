@@ -6,6 +6,7 @@
 | **Séance** | S10 (séance 10 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Comptes et financement : seule séance sur ce point du programme. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM |
 | **Thème du programme** | Thème 3 – L'organisation de l'activité de l'entreprise (question 5) |
 | **Champs** | Économie |
 | **Prérequis** | S02 (banques et marché financier), S06 (structures) |
@@ -58,7 +59,7 @@ Demande à ton tuteur le chiffre d'affaires approximatif de ton entreprise et so
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - Taux de l'impôt sur les sociétés (25 %, 15 % jusqu'à 42 500 €) : à confirmer sur le texte en vigueur.
 - Présentation simplifiée du plan comptable.
 - Entreprise et chiffres fictifs, recalculés (annuité calculée avec la formule du cours).

@@ -1,6 +1,6 @@
 # Cours – Agents économiques, acteurs du numérique et modèles économiques
 
-*BTS SIO SISR 1re année – CEJMA – S01 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S01 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** Aucun

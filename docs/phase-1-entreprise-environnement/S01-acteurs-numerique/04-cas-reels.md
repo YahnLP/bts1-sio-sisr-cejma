@@ -1,6 +1,6 @@
 # Cas réel – IBM rachète Red Hat : gagner de l'argent avec du logiciel libre
 
-*BTS SIO SISR 1re année – CEJMA – S01*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S01*
 
 > [!NOTE]
 > **Comment travailler.** Lis le cas réel et ses sources, réponds par écrit aux questions, puis ouvre « Voir la réponse attendue ». Les faits viennent des sources citées en fin de page ; en cas de doute, **retourne à la source**. Ce cas complète l'étude de cas fictive de la séance.

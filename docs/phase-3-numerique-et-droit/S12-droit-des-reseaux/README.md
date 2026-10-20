@@ -6,6 +6,8 @@
 | **Séance** | S12 (séance 12 sur 19) – Phase 3 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Droit des réseaux (hébergeurs, FAI, neutralité) : seule séance sur ce point ; prérequis de S13. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM, avec une part de CEJMA |
+| **Part CEJMA** | éditeur et hébergeur, droit des contenus, mentions légales ; à retrouver en [bloc 1, 2e année, S11](https://yahnlp.github.io/bts2-sio-sisr-bloc1/phase-3-presence-en-ligne/S11-nom-de-domaine-et-hebergement/), [bloc 1, 2e année, S12](https://yahnlp.github.io/bts2-sio-sisr-bloc1/phase-3-presence-en-ligne/S12-mentions-legales-cookies-rgpd/). Voir [CEJM et CEJMA](../../ressources/cejm-et-cejma.md). |
 | **Thème du programme** | Thème 4 – L'impact du numérique sur la vie de l'entreprise ; thème 5 (responsabilités) |
 | **Champs** | Droit |
 | **Prérequis** | S07 (responsabilités), S11 |
@@ -57,7 +59,7 @@ Cherche les mentions légales d'un site d'entreprise : identifie l'éditeur, l'h
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - LCEN (art. 6), DSA et règlement 2015/2120 cités de mémoire ; durée de conservation d'un an (décret 2011-219) : à vérifier.
 - Entreprise et personnes fictives.
 

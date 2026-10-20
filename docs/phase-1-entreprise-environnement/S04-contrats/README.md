@@ -6,6 +6,8 @@
 | **Séance** | S04 (séance 4 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Contrats : prérequis de S05, S06, S07, S11 et S16. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM, avec une part de CEJMA |
+| **Part CEJMA** | contrat de prestation, cahier des charges ; à retrouver en [bloc 2, 2e année, S02](https://yahnlp.github.io/bts2-sio-sisr-bloc2/phase-1-reprendre-concevoir/S02-cahier-des-charges-contrat/). Voir [CEJM et CEJMA](../../ressources/cejm-et-cejma.md). |
 | **Thème du programme** | Thème 1 – L'intégration de l'entreprise dans son environnement (question 2) ; thème 5 (contrat de travail, notions) |
 | **Champs** | Droit |
 | **Prérequis** | S01 (régie, forfait, obligations de moyens et de résultat) |
@@ -58,7 +60,7 @@ Demande à ton tuteur de te montrer, si c'est possible, un contrat de prestation
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - Articles du Code civil issus de la réforme de 2016 ; citations à relire sur Légifrance (non consultable depuis l'environnement de rédaction).
 - Les seuils Syntec (219 et 218 jours, 115 %) sont issus de fiches pratiques secondaires : à confirmer sur le texte de la convention en vigueur.
 - Portage salarial : articles L1254-1 et suivants du Code du travail ; règles de rémunération minimale non reprises ici (fixées par accord de branche).

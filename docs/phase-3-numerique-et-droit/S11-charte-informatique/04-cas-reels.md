@@ -1,6 +1,6 @@
 # Cas réel – L'arrêt Nikon : la vie privée du salarié au travail
 
-*BTS SIO SISR 1re année – CEJMA – S11*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S11*
 
 > [!NOTE]
 > **Comment travailler.** Lis le cas réel et ses sources, réponds par écrit aux questions, puis ouvre « Voir la réponse attendue ». Les faits viennent des sources citées en fin de page ; en cas de doute, **retourne à la source**. Ce cas complète l'étude de cas fictive de la séance.

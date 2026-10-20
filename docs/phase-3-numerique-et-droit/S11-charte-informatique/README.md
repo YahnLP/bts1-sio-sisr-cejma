@@ -6,6 +6,8 @@
 | **Séance** | S11 (séance 11 sur 19) – Phase 3 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Charte informatique : prérequis de S12, S13 et S18. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM et CEJMA |
+| **Part CEJMA** | charte informatique, droits et devoirs du salarié ; à retrouver en [bloc 1, 1re année, S12](https://yahnlp.github.io/bts1-sio-sisr-bloc1/phase-3-maintenir-evoluer/S12-licences-et-procedures/), [bloc 3, 2e année, S03](https://yahnlp.github.io/bts2-sio-sisr-bloc3/phase-1-reprendre-cadrer/S03-referentiels-normes-pssi/). Voir [CEJM et CEJMA](../../ressources/cejm-et-cejma.md). |
 | **Thème du programme** | Thème 4 – L'impact du numérique sur la vie de l'entreprise (question 2 : usage du numérique au travail) ; thème 5 (question 2, pouvoir de l'employeur) |
 | **Champs** | Droit |
 | **Prérequis** | S04 (contrat), S07 (responsabilités) |
@@ -58,7 +60,7 @@ Demande à lire la charte (ou le règlement intérieur) de ton entreprise. Est-e
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - Articles du Code du travail (L1121-1, L1222-4, L1311-2, L1321-4) et arrêts de la chambre sociale (2 oct. 2001, 17 mai 2005) cités de mémoire : à relire avant diffusion.
 - Une jurisprudence récente peut préciser les conditions de recevabilité des preuves : la vérifier.
 - Entreprise et personnes fictives.

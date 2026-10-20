@@ -1,6 +1,6 @@
 # Cours – RGPD : sécurité, violations de données, AIPD et sanctions
 
-*BTS SIO SISR 1re année – CEJMA – S15 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S15 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** S13, S14, S07

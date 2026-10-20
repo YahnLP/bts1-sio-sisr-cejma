@@ -6,6 +6,8 @@
 | **Séance** | S16 (séance 16 sur 19) – Phase 4 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Propriété intellectuelle : prérequis de S17. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM, avec une part de CEJMA |
+| **Part CEJMA** | droit des contenus et propriété des productions ; à retrouver en [bloc 1, 1re année, S12](https://yahnlp.github.io/bts1-sio-sisr-bloc1/phase-3-maintenir-evoluer/S12-licences-et-procedures/). Voir [CEJM et CEJMA](../../ressources/cejm-et-cejma.md). |
 | **Thème du programme** | Thème 4 – L'impact du numérique sur la vie de l'entreprise ; thème 2 (entreprise innovante) |
 | **Champs** | Droit, Économie |
 | **Prérequis** | S04, S07 |
@@ -57,7 +59,7 @@ Cherche dans la base de l'INPI si le nom de ton entreprise ou d'un produit connu
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - Articles du Code de la propriété intellectuelle, durées et peines de contrefaçon cités de mémoire : à relire.
 - Clause de cession des droits d'un salarié sur création hors mission : à vérifier.
 - Entreprise et personnes fictives.

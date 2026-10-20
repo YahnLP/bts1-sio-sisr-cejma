@@ -1,6 +1,6 @@
 # Aide-mémoire – Offre et demande, formes de marché, imperfections
 
-*BTS SIO SISR 1re année – CEJMA – S02*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S02*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

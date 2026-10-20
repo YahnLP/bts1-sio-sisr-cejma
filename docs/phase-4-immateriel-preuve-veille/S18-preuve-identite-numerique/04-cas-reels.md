@@ -1,6 +1,6 @@
 # Cas réels – E-réputation : faux avis et droit au déréférencement
 
-*BTS SIO SISR 1re année – CEJMA – S18*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S18*
 
 > [!NOTE]
 > **Comment travailler.** Lis chaque cas réel et ses sources, réponds par écrit aux questions, puis ouvre « Voir la réponse attendue ». Les faits viennent des sources citées en fin de page ; en cas de doute, **retourne à la source**. Ces cas complètent l'étude de cas fictive de la séance.

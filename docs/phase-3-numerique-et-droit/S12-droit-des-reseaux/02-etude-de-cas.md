@@ -1,6 +1,6 @@
 # Étude de cas – Le forum d'AtelierPlus
 
-*BTS SIO SISR 1re année – CEJMA – S12*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S12*
 
 > [!NOTE]
 > **Comment travailler.** Lis le dossier, puis réponds **par écrit** à chaque question, avec une réponse **construite et argumentée** : une idée, sa justification, l'exemple tiré du dossier. Ouvre ensuite « Voir la réponse attendue » pour te corriger. À l'épreuve E4, une réponse sans justification n'est pas complète.
