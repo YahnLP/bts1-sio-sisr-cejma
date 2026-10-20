@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Coûts, chaîne de valeur, faire ou faire-faire, TCO, cadre juridique |
 | [Étude de cas](02-etude-de-cas.md) | Le cabinet Brémont renouvelle ses postes |
 | [Aide-mémoire](03-aide-memoire.md) | Formules et règles |
+| [Cas réel](04-cas-reels.md) | 37signals quitte le cloud : coût total de possession |
 
 ## Déroulé conseillé (4 h)
 

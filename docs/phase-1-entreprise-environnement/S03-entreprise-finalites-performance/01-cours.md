@@ -112,6 +112,44 @@ La **disponibilité** d'un service se calcule ainsi : (temps total − temps d'a
 > [!WARNING]
 > Un indicateur peut **tromper** : un taux de résolution élevé peut venir de demandes classées « résolues » trop vite. On croise toujours **plusieurs indicateurs** (délai, satisfaction, réouvertures).
 
+## Comprendre pas à pas
+
+### Finalités : trois couches à distinguer
+
+| Couche | Question | Exemple pour une ESN |
+|---|---|---|
+| **Finalité économique** | Gagner de l'argent, durer | Marge, croissance |
+| **Finalité sociale** | Pour qui, pour quoi ? | Emplois, compétences des salariés |
+| **Finalité sociétale / environnementale** | Quel effet sur la société ? | Numérique responsable, sobriété |
+
+Une entreprise **à mission** inscrit ces dimensions dans ses **statuts** et se dote d'un **organe de suivi** (comité de mission).
+
+### Construire une matrice pouvoir – intérêt, étape par étape
+
+1. **Lister** les parties prenantes (actionnaires, salariés, clients, fournisseurs, État, voisinage…).
+2. **Évaluer le pouvoir** : peut-elle bloquer ou imposer une décision ?
+3. **Évaluer l'intérêt** : le projet la touche-t-elle directement ?
+4. **Placer** chaque partie dans une case :
+
+| | **Intérêt faible** | **Intérêt fort** |
+|---|---|---|
+| **Pouvoir fort** | Garder satisfait | **Gérer de près** |
+| **Pouvoir faible** | Surveiller | Informer |
+
+### Exemple guidé : déployer un nouvel outil de supervision
+
+| Partie prenante | Pouvoir | Intérêt | Action |
+|---|---|---|---|
+| Direction | Fort | Fort | Gérer de près (budget, résultats) |
+| Utilisateurs | Faible | Fort | Informer (formation, calendrier) |
+| Fournisseur de l'outil | Moyen | Fort | Coordonner |
+| Autorité de contrôle (CNIL, séance 13) | Fort | Faible | Garder satisfait (conformité) |
+
+> [!TIP]
+> Une partie prenante n'est **pas immobile** : un utilisateur mécontent qui alerte la direction ou la presse peut **gagner du pouvoir** rapidement.
+
+Un cas réel est détaillé dans [Danone](04-cas-reels.md).
+
 ## À retenir
 
 - L'entreprise a des **finalités multiples** : économique, sociale, sociétale et environnementale ; la loi **PACTE** (2019) les inscrit dans le Code civil.

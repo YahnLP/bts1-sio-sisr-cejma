@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Entreprise, finalités, parties prenantes, indicateurs |
 | [Étude de cas](02-etude-de-cas.md) | Maison Sorel et son service informatique |
 | [Aide-mémoire](03-aide-memoire.md) | Tailles, matrice, indicateurs |
+| [Cas réel](04-cas-reels.md) | Danone : entreprise à mission et pression des actionnaires |
 
 ## Déroulé conseillé (4 h)
 

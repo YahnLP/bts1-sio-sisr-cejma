@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Formation, contenu et sanction du contrat ; Syntec ; portage |
 | [Étude de cas](02-etude-de-cas.md) | Le contrat d'infogérance de la clinique Aubier |
 | [Aide-mémoire](03-aide-memoire.md) | Articles, clauses, sanctions |
+| [Cas réel](04-cas-reels.md) | Lidl abandonne son projet SAP : risques d'un projet informatique |
 
 ## Déroulé conseillé (4 h)
 

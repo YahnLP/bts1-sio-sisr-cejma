@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Offre et demande, formes de marché, imperfections, numérique |
 | [Étude de cas](02-etude-de-cas.md) | Maintenance locale et édition logicielle |
 | [Aide-mémoire](03-aide-memoire.md) | Formules et tableaux à retenir |
+| [Cas réel](04-cas-reels.md) | Google sanctionné pour abus de position dominante (2021) |
 
 ## Déroulé conseillé (4 h)
 
