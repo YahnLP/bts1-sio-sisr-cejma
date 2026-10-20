@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Sécurité, violations, AIPD, sanctions |
 | [Étude de cas](02-etude-de-cas.md) | L'incident du cabinet Delorme |
 | [Aide-mémoire](03-aide-memoire.md) | Violation de données |
+| [Cas réel](04-cas-reels.md) | Dedalus Biologie : fuite de données médicales (2022) |
 
 ## Déroulé conseillé (4 h)
 

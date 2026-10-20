@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Acteurs, responsabilité, neutralité |
 | [Étude de cas](02-etude-de-cas.md) | Le forum d'AtelierPlus |
 | [Aide-mémoire](03-aide-memoire.md) | Responsabilités et pièges |
+| [Cas réel](04-cas-reels.md) | Dailymotion et Tiscali : qui est hébergeur ? |
 
 ## Déroulé conseillé (4 h)
 

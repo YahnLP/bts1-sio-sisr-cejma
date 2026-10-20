@@ -91,6 +91,32 @@ Les dispositifs de contrôle traitent des **données personnelles** : la **final
 | **Devoirs** | **Informer**, consulter le CSE, respecter la **proportionnalité**, protéger les données | **Loyauté**, respect de la charte, **confidentialité**, signalement des incidents |
 | **Sanctions** | Responsabilité civile, pénale, risque d'invalidation d'un contrôle illicite | Responsabilité **disciplinaire**, civile et pénale |
 
+## Comprendre pas à pas
+
+### Qualifier un fichier ou un message : trois situations
+
+| Situation | Qualification | Ce que peut faire l'employeur |
+|---|---|---|
+| Courriel dans la boîte professionnelle, objet « Devis client Dupont » | **Présumé professionnel** | Il peut y accéder |
+| Dossier « PRIVÉ » sur le poste de travail | **Identifié comme personnel** | Il l'ouvre **en présence du salarié** (ou après l'avoir appelé), sauf risque ou événement particulier |
+| Webmail privé consulté depuis le poste | **Correspondance privée** | **Secret des correspondances** : en principe inaccessible |
+
+> [!TIP]
+> **Le critère est l'identification.** Ce n'est pas l'outil (l'ordinateur appartient à l'entreprise dans les trois cas) qui décide, mais ce que le salarié a **clairement marqué comme privé**.
+
+### Avant de contrôler : quatre questions
+
+1. **Pourquoi ?** Une **finalité légitime** : sécurité, bon fonctionnement, preuve d'une faute.
+2. **Est-ce proportionné ?** Contrôler les journaux de connexion est moins intrusif que lire des messages.
+3. **Les salariés sont-ils informés ?** La charte et l'information du CSE doivent précéder le contrôle.
+4. **Que fait-on des données ?** Durée de conservation, accès limité (RGPD, séances 13 à 15).
+
+### Exemple guidé : une charte qui ne protège personne
+
+Une charte dit : « La direction peut lire toute la messagerie à tout moment. » Trois problèmes : elle **ignore le secret des correspondances** (arrêt Nikon), elle n'est pas **proportionnée**, et si elle n'est pas annexée au **règlement intérieur**, elle n'est pas **opposable** aux salariés. Une charte utile est **précise, lisible et conforme**, pas simplement sévère.
+
+Pour un cas réel documenté, voir [l'arrêt Nikon](04-cas-reels.md).
+
 ## À retenir
 
 - La charte **protège** le système, **informe** les utilisateurs, **prouve** la prévention.

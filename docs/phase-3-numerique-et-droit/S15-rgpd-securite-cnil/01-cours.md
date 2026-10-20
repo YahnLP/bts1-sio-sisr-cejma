@@ -166,6 +166,38 @@ La sanction est **proportionnée** : gravité, durée, nombre de personnes, inte
 
 L'administrateur ou le technicien est souvent **le premier à voir** une violation : il doit **savoir qui prévenir** (DPO, RSSI, direction), **préserver les preuves** (séance 18) et **ne rien effacer** qui serve à l'enquête.
 
+## Comprendre pas à pas
+
+### Mesures de sécurité : raisonner par scénario
+
+On ne cherche pas « toutes les mesures », mais celles qui répondent au **risque**.
+
+| Scénario | Risque principal | Mesures proportionnées |
+|---|---|---|
+| Portable d'un commercial avec la liste clients | **Vol, perte** | Chiffrement du disque, verrouillage, effacement à distance |
+| Serveur de fichiers RH | **Accès abusif** | Droits limités, authentification forte, journaux d'accès |
+| Ancien serveur « oublié » avec des données | **Compromission** | Inventaire, mises à jour, **suppression** des données inutiles |
+| Prestataire de maintenance | **Traitement hors instructions** | **Contrat** (article 28), droits limités, traçabilité |
+
+### Violation de données : décider dans l'ordre
+
+Une violation est constatée un **lundi à 10 h**.
+
+1. **Contenir et préserver** les preuves (immédiat).
+2. **Évaluer le risque** pour les personnes : données sensibles ? nombre de personnes ? facilité d'identification ?
+3. **Notifier la CNIL** si la violation présente un **risque** : au plus tard **72 heures** après la prise de connaissance, soit ici **jeudi à 10 h** (\(72 = 3 \times 24\) h).
+4. **Informer les personnes** si le risque est **élevé**.
+5. **Documenter** la violation, même si elle n'est pas notifiée.
+
+> [!TIP]
+> Les 72 heures comptent **les week-ends et jours fériés**. Une violation découverte le vendredi à 10 h se notifie, en principe, avant le lundi à 10 h.
+
+### Exemple guidé : l'amende est proportionnée
+
+Une amende dépend de la **gravité**, de la **durée**, du **nombre de personnes**, de la **nature des données** (santé = très sensible), de la **coopération** et des **mesures prises**. Un petit cabinet qui perd une clé USB chiffrée n'est pas traité comme un éditeur dont une fuite expose des centaines de milliers de dossiers médicaux.
+
+Un cas réel est détaillé dans [Dedalus Biologie](04-cas-reels.md).
+
 ## À retenir
 
 - Sécurité **adaptée au risque** (article 32), documentée.

@@ -67,6 +67,40 @@ La directive « **ePrivacy** » (transposée en France) et le RGPD exigent, pour
 
 Transférer des données hors UE n'est possible que si le pays offre un niveau de protection **adéquat** (décision d'adéquation de la Commission) ou si l'on utilise des **garanties** (clauses contractuelles types, règles d'entreprise contraignantes). Les prestataires **cloud** sont concernés : vérifier le **lieu de traitement** et les **sous-traitants ultérieurs**.
 
+## Comprendre pas à pas
+
+### Traiter une demande d'accès : un calendrier
+
+Une cliente écrit le **3 mars** : « Je veux une copie de mes données. »
+
+| Étape | Ce que tu fais | Échéance |
+|---|---|---|
+| **Réception** | Accuser réception ; demande valable **sans formalisme** | 3 mars |
+| **Identité** | Vérifier **proportionnellement** (pas trop de pièces) | Dès que possible |
+| **Collecte** | Rechercher dans tous les systèmes (CRM, messagerie, sauvegardes concernées) | Avant la fin de la période |
+| **Réponse** | Envoyer la copie et les informations demandées | **3 avril** (un mois) |
+| **Si la demande est complexe** | Informer la personne de la prolongation avant l'échéance | Jusqu'au **3 juin** (deux mois en plus) |
+
+> [!WARNING]
+> **Ne pas répondre** n'est pas une option : la personne peut saisir la **CNIL**. Garde la **trace** de la demande et de la réponse.
+
+### Cookies : lire une bannière comme un auditeur
+
+| Critère | Conforme | Non conforme |
+|---|---|---|
+| Dépôt avant le choix | Aucun traceur non nécessaire déposé | Cookies publicitaires déposés dès l'arrivée |
+| Boutons | « Tout accepter » **et** « Tout refuser » de même niveau | « Refuser » caché dans un sous-menu |
+| Libellés | Clairs | Ambigus (« Continuer », « OK ») |
+| Retrait | Lien permanent pour changer d'avis | Impossible sans vider le navigateur |
+
+### Prospection : l'arbre de décision
+
+1. **La cible est-elle un particulier ?** Oui → **consentement préalable** (sauf clients existants et produits analogues).
+2. **Un professionnel, message en rapport avec sa fonction ?** Oui → possible **sans** consentement préalable, avec **information** et **opposition** facile.
+3. **Dans tous les cas** : lien de **désinscription** dans chaque message, et **opposition** respectée sans condition.
+
+Un cas réel est détaillé dans [Cookies : Google et Facebook](04-cas-reels.md).
+
 ## À retenir
 
 - Droits : information, accès, rectification, effacement, limitation, portabilité, opposition, décision automatisée.
