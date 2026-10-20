@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 1re année – culture économique, juridique et managériale |
 | **Séance** | S02 (séance 2 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Marchés et concurrence : prérequis de S03, S05 et S10. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Thème du programme** | Thème 1 – L'intégration de l'entreprise dans son environnement (question 1) ; thème 4 (question 1, externalités de réseau) |
 | **Champs** | Économie |
 | **Prérequis** | S01 (agents économiques, acteurs du numérique) |

@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 1re année – culture économique, juridique et managériale |
 | **Séance** | S12 (séance 12 sur 19) – Phase 3 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Droit des réseaux (hébergeurs, FAI, neutralité) : seule séance sur ce point ; prérequis de S13. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Thème du programme** | Thème 4 – L'impact du numérique sur la vie de l'entreprise ; thème 5 (responsabilités) |
 | **Champs** | Droit |
 | **Prérequis** | S07 (responsabilités), S11 |

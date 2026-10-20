@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 1re année – culture économique, juridique et managériale |
 | **Séance** | S03 (séance 3 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Finalités, parties prenantes et performance : prérequis de S06, S08 et S09. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Thème du programme** | Thème 1 – L'intégration de l'entreprise dans son environnement (question 3) |
 | **Champs** | Management |
 | **Prérequis** | S01, S02 |

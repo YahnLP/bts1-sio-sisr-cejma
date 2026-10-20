@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 1re année – culture économique, juridique et managériale |
 | **Séance** | S06 (séance 6 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Structures juridiques : prérequis de S10. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Thème du programme** | Thème 3 – L'organisation de l'activité de l'entreprise (question 2) |
 | **Champs** | Droit |
 | **Prérequis** | S03 (finalités, parties prenantes), S04 (contrats) |

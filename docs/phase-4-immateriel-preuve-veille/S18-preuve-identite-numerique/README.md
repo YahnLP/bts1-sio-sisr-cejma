@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 1re année – culture économique, juridique et managériale |
 | **Séance** | S18 (séance 18 sur 19) – Phase 4 |
 | **Durée** | 4 heures |
+| **Parcours** | **Complément** – Preuve électronique et identité numérique : recoupe le bloc 3 (S09 et S17). Garder l'écrit et la signature électroniques et l'e-réputation, que le bloc 3 ne voit qu'en quelques lignes. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Thème du programme** | Thème 4 – L'impact du numérique sur la vie de l'entreprise ; thème 5 (responsabilités) |
 | **Champs** | Droit, Management |
 | **Prérequis** | S11, S15 |

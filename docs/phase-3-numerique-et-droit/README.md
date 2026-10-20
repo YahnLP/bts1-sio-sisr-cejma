@@ -7,12 +7,12 @@
 
 ## Progression
 
-| Séance | Semaine | Thème | Thème du programme | Statut |
-|---|---|---|---|---|
-| S11 | 11 | [Charte informatique et usage du numérique au travail](S11-charte-informatique/README.md) | Thème 4 – L'impact du numérique sur la vie de l'entreprise (question 2 : usage du numérique au travail) ; thème 5 (question 2, pouvoir de l'employeur) | **à valider** |
-| S12 | 12 | [Droit des réseaux : hébergeurs, FAI et neutralité](S12-droit-des-reseaux/README.md) | Thème 4 – L'impact du numérique sur la vie de l'entreprise ; thème 5 (responsabilités) | **à valider** |
-| S13 | 13 | [RGPD : principes, acteurs et bases légales](S13-rgpd-fondamentaux/README.md) | Thème 4 – L'impact du numérique sur la vie de l'entreprise (question 3 : protection des données) | **à valider** |
-| S14 | 14 | [RGPD : droits des personnes, cookies et prospection](S14-rgpd-droits/README.md) | Thème 4 – L'impact du numérique sur la vie de l'entreprise (question 3 : protection des données) | **à valider** |
-| S15 | 15 | [RGPD : sécurité, violations de données et CNIL](S15-rgpd-securite-cnil/README.md) | Thème 4 – L'impact du numérique sur la vie de l'entreprise ; thème 5 (responsabilités) | **à valider** |
+| Séance | Semaine | Thème | Thème du programme | Parcours | Statut |
+|---|---|---|---|---|---|
+| S11 | 11 | [Charte informatique et usage du numérique au travail](S11-charte-informatique/README.md) | Thème 4 – L'impact du numérique sur la vie de l'entreprise (question 2 : usage du numérique au travail) ; thème 5 (question 2, pouvoir de l'employeur) | **Cœur** | **à valider** |
+| S12 | 12 | [Droit des réseaux : hébergeurs, FAI et neutralité](S12-droit-des-reseaux/README.md) | Thème 4 – L'impact du numérique sur la vie de l'entreprise ; thème 5 (responsabilités) | **Cœur** | **à valider** |
+| S13 | 13 | [RGPD : principes, acteurs et bases légales](S13-rgpd-fondamentaux/README.md) | Thème 4 – L'impact du numérique sur la vie de l'entreprise (question 3 : protection des données) | **Cœur** | **à valider** |
+| S14 | 14 | [RGPD : droits des personnes, cookies et prospection](S14-rgpd-droits/README.md) | Thème 4 – L'impact du numérique sur la vie de l'entreprise (question 3 : protection des données) | **Complément** | **à valider** |
+| S15 | 15 | [RGPD : sécurité, violations de données et CNIL](S15-rgpd-securite-cnil/README.md) | Thème 4 – L'impact du numérique sur la vie de l'entreprise ; thème 5 (responsabilités) | **Complément** | **à valider** |
 
 Les numéros de semaine sont ceux de la séquence (semaine 01 à 19) : ils ne correspondent pas à des dates, les 19 semaines d'alternance étant réparties sur l'année.
