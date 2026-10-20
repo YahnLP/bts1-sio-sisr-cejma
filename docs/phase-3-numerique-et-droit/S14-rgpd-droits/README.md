@@ -14,6 +14,9 @@
 > [!NOTE]
 > **Question qui guide la séance :** *« Quels droits ont les personnes sur leurs données et comment l'entreprise doit-elle y répondre ? »*
 
+> [!NOTE]
+> **Recoupement avec d'autres séances.** Les droits des personnes et les cookies sont aussi vus en [bloc 3 (1re année), S07 – Collecte, consentement et droits des personnes](https://yahnlp.github.io/bts1-sio-sisr-bloc3/phase-2-donnees-personnelles/S07-collecte-consentement-droits/). Selon l'ordre de vos séances, la première pose les bases et la seconde les reprend en rappel (15 à 20 minutes). Ici, garder la prospection commerciale et les transferts hors Union européenne.
+
 ## Objectifs
 
 À la fin de la séance, l'étudiant est capable de :

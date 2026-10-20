@@ -14,6 +14,9 @@
 > [!NOTE]
 > **Question qui guide la séance :** *« Comment conserver et présenter une preuve numérique fiable, et comment gérer les identités ? »*
 
+> [!NOTE]
+> **Recoupement avec d'autres séances.** La preuve électronique et l'identité numérique sont aussi vues en [bloc 3 (1re année), S09 – AIPD, identité numérique et responsabilités juridiques](https://yahnlp.github.io/bts1-sio-sisr-bloc3/phase-2-donnees-personnelles/S09-aipd-identite-numerique-droit/). Selon l'ordre de vos séances, la première pose les bases et la seconde les reprend en rappel (15 à 20 minutes). Ici, garder l'écrit et la signature électroniques et l'e-réputation.
+
 ## Objectifs
 
 À la fin de la séance, l'étudiant est capable de :

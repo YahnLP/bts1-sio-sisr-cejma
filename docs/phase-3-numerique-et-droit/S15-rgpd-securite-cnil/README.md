@@ -14,6 +14,9 @@
 > [!NOTE]
 > **Question qui guide la séance :** *« Que faire en cas de violation de données et à quelles sanctions s'expose l'organisation ? »*
 
+> [!NOTE]
+> **Recoupement avec d'autres séances.** La sécurité des données, les violations et l'analyse d'impact sont aussi vues en [bloc 3 (1re année), S08 – Conservation, sécurité, sous-traitance et violations de données](https://yahnlp.github.io/bts1-sio-sisr-bloc3/phase-2-donnees-personnelles/S08-conservation-securite-violations/) et [bloc 3 (1re année), S09 – AIPD, identité numérique et responsabilités juridiques](https://yahnlp.github.io/bts1-sio-sisr-bloc3/phase-2-donnees-personnelles/S09-aipd-identite-numerique-droit/). Selon l'ordre de vos séances, la première pose les bases et la seconde les reprend en rappel (15 à 20 minutes). Ici, garder les pouvoirs de la CNIL et les sanctions.
+
 ## Objectifs
 
 À la fin de la séance, l'étudiant est capable de :

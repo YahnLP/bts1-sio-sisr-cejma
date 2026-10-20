@@ -14,6 +14,9 @@
 > [!NOTE]
 > **Question qui guide la séance :** *« Comment organiser les ressources et un service de support pour que les problèmes soient traités efficacement ? »*
 
+> [!NOTE]
+> **Recoupement avec d'autres séances.** Le centre de services et les niveaux de support sont aussi vus en [bloc 1 (1re année), S03 – ITIL, tickets et niveaux de support](https://yahnlp.github.io/bts1-sio-sisr-bloc1/phase-1-poste-patrimoine/S03-itil-tickets-support/). Selon l'ordre de vos séances, la première pose les bases et la seconde les reprend en rappel (15 à 20 minutes). Ici, garder l'angle organisation et management.
+
 ## Objectifs
 
 À la fin de la séance, l'étudiant est capable de :
