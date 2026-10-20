@@ -58,7 +58,6 @@ Dans ton entreprise : combien de concurrents directs ? Sur quoi se différencie-
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Chiffres fictifs, recalculés dans le corrigé.
 - Le modèle linéaire offre/demande est une simplification : à signaler aux étudiants.
 

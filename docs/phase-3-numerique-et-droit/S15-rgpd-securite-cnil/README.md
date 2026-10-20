@@ -57,7 +57,6 @@ Demande si ton entreprise a une procédure en cas de violation de données : qui
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Articles 32 à 35, plafonds d'amende et articles du Code pénal cités de mémoire : à relire.
 - Position officielle sur le paiement des rançons : à confronter aux recommandations de l'ANSSI et de Cybermalveillance.
 - Entreprise et personnes fictives.

@@ -57,7 +57,6 @@ Vérifie si les horloges de tes serveurs ou postes d'atelier sont synchronisées
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Articles 1366-1367 du Code civil, règlement eIDAS, articles 226-4-1 et 323-1 du Code pénal cités de mémoire : à relire.
 - Entreprise et personnes fictives.
 

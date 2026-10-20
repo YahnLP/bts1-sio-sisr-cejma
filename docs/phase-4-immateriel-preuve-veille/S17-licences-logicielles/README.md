@@ -57,7 +57,6 @@ Repère la licence d'un logiciel que tu utilises (propriétaire ou libre ?) et c
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Descriptions des licences cités de mémoire : à confronter aux textes officiels.
 - Prix de la licence fictif ; entreprise et personnes fictives.
 

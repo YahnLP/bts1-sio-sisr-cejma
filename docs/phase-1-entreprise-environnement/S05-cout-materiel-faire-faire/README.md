@@ -58,7 +58,6 @@ Dans ton entreprise : quelle est la durée de vie prévue d'un poste, qui le ré
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Obsolescence programmée (art. L441-2) et peines (art. L454-6) : relus sur les titres Légifrance ; les montants sont à confirmer sur le texte en vigueur.
 - Indices de réparabilité et de durabilité : situation 2025-2026 relue sur une fiche du ministère de l'Économie ; elle évolue.
 - Chiffres fictifs, recalculés.

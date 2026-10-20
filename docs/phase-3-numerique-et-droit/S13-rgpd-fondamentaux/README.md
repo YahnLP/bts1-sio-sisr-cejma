@@ -57,7 +57,6 @@ Repère dans ton entreprise un formulaire qui collecte des données : l'informat
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Articles du RGPD cités de mémoire et rapprochés du bloc 3 : à relire.
 - Durée de conservation comptable (dix ans) : à vérifier.
 - Entreprise et personnes fictives.

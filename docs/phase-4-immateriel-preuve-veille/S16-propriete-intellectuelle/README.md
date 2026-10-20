@@ -57,7 +57,6 @@ Cherche dans la base de l'INPI si le nom de ton entreprise ou d'un produit connu
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Articles du Code de la propriété intellectuelle, durées et peines de contrefaçon cités de mémoire : à relire.
 - Clause de cession des droits d'un salarié sur création hors mission : à vérifier.
 - Entreprise et personnes fictives.

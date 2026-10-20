@@ -57,7 +57,6 @@ Visite un site : la bannière cookies te permet-elle de refuser aussi facilement
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Règles cookies, prospection et transferts à relire sur le site de la CNIL.
 - Dates de l'étude de cas à ajuster si l'année est bissextile ou selon la rentrée.
 - Entreprise et personnes fictives.

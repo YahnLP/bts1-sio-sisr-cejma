@@ -57,7 +57,6 @@ Cherche les mentions légales d'un site d'entreprise : identifie l'éditeur, l'h
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - LCEN (art. 6), DSA et règlement 2015/2120 cités de mémoire ; durée de conservation d'un an (décret 2011-219) : à vérifier.
 - Entreprise et personnes fictives.
 

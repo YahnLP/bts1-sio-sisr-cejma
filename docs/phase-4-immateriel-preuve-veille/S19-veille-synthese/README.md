@@ -57,7 +57,6 @@ Mets en place trois alertes (CNIL, CERT-FR, une autre source) et rédige un prem
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Arrêté du 8 juillet 2024 (E4 : écrit de 4 h, coefficient 3) : à relire sur le texte officiel.
 - Tous les chiffres du cas ont été vérifiés par un calcul.
 - Entreprises et personnes fictives.

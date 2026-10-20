@@ -58,7 +58,6 @@ Observe dans ton entreprise : qui sont ses clients, ses fournisseurs, et comment
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Chiffres fictifs, tous recalculés (voir le corrigé).
 - Les articles L8231-1 (marchandage) et L8241-1 (prêt de main-d'œuvre) du Code du travail ont été vérifiés sur Légifrance.
 

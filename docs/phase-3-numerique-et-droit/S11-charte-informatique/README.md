@@ -58,7 +58,6 @@ Demande à lire la charte (ou le règlement intérieur) de ton entreprise. Est-e
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Articles du Code du travail (L1121-1, L1222-4, L1311-2, L1321-4) et arrêts de la chambre sociale (2 oct. 2001, 17 mai 2005) cités de mémoire : à relire avant diffusion.
 - Une jurisprudence récente peut préciser les conditions de recevabilité des preuves : la vérifier.
 - Entreprise et personnes fictives.

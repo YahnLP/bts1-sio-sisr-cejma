@@ -58,7 +58,6 @@ Comment ton entreprise reçoit-elle les demandes (téléphone, courriel, outil d
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - ITIL est présenté comme référentiel de bonnes pratiques, sans entrer dans une version précise.
 - Mécanismes de coordination de Mintzberg et styles de management : classifications pédagogiques usuelles.
 - Entreprise et chiffres fictifs, recalculés.

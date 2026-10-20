@@ -58,7 +58,6 @@ Quelle est la structure juridique de ton entreprise ? Qui la dirige, quel est so
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Tableau des structures relu sur le site Bpifrance Création ; règles sociales et fiscales à revérifier avant diffusion.
 - Seuils de la micro-entreprise volontairement non cités (ils changent).
 - Chiffres fictifs, recalculés.

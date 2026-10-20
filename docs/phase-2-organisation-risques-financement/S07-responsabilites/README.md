@@ -58,7 +58,6 @@ Existe-t-il une procédure d'alerte de sécurité dans ton entreprise ? Qui déc
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Peines relues sur des fiches de Cybermalveillance.gouv.fr (323-1, 323-2, 226-15, 226-18, 226-4-1) ; l'article 226-17 est cité de mémoire : à confirmer sur Légifrance.
 - Légifrance n'étant pas consultable depuis l'environnement de rédaction, relire les articles du Code civil et du Code pénal avant diffusion.
 - Entreprise, personnes et chiffres fictifs, recalculés.
