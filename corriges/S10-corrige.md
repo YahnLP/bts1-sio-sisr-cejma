@@ -7,7 +7,7 @@
 | 1 | 3 | 20 000 ; 18 000 ; 2 700 ; 15 300 |
 | 2 | 3 | 15 300 ; totaux 119 300 |
 | 3 | 3 | 39 300 ; 30 000 ; 9 300 |
-| 4 | 2 | Créances clients ; ordre de 59 jours |
+| 4 | 2 | ​Créances clients ; ordre de 59 jours |
 | 5 | 3 | 40 432,88 ; 41 000 ; écart 567,12 |
 | 6 | 2 | Critères autres que le coût |
 | 7 | 1 | 1 440 € ; capital restant dû |
@@ -27,7 +27,7 @@
 
 - Confondre **résultat net** et **trésorerie**.
 - Oublier d'ajouter le **résultat** au passif.
-- Dans le FR, retrancher les **immobilisations brutes** au lieu des nettes.
+- Dans le FR, retrancher les **immobilisations ​brutes** au lieu des nettes.
 
 ## Vérification
 

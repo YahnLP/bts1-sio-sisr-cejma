@@ -4,12 +4,12 @@
 
 | Question | Points | Attendu |
 |---|---|---|
-| 1 | 3 | Violation ; disponibilité, confidentialité probable |
+| 1 | 3 | ​Violation ; disponibilité, confidentialité probable |
 | 2 | 3 | Départ à la connaissance ; lundi 17 h 30 ; week-end compris |
 | 3 | 3 | Risque élevé ; nature des données |
 | 4 | 3 | Contenir, preuves, alerter, notifier |
 | 5 | 2 | Deux arguments |
-| 6 | 4 | Quatre manquements + mesures |
+| 6 | 4 | ​Quatre manquements + mesures |
 | 7 | 2 | Sanctions et critères |
 
 ## Grille de capacités
@@ -26,7 +26,7 @@
 
 - Ne pas compter le week-end.
 - Croire qu'aucune notification n'est nécessaire sans preuve de fuite.
-- Proposer de payer la rançon comme solution.
+- Proposer de payer la rançon ​comme solution.
 
 ## Vérification
 

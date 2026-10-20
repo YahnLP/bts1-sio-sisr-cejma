@@ -5,7 +5,7 @@
 | Question | Points | Attendu |
 |---|---|---|
 | 1 | 2 | PME avec critères ; pas une micro |
-| 2 | 3 | Trois finalités avec un élément du dossier chacune |
+| 2 | 3 | Trois ​finalités avec un élément du dossier chacune |
 | 3 | 3 | Classement correct ; deux attentes opposées |
 | 4 | 2 | Banque : pouvoir et intérêt forts, justifiés |
 | 5 | 4 | 70 %, 85 %, 84 %, 99,58 % ; écarts |
@@ -15,7 +15,7 @@
 
 ## Grille de capacités
 
-| Capacité | Questions |
+| ​Capacité | Questions |
 |---|---|
 | **A** Analyser | 2, 3, 7 |
 | **B** Exploiter la base documentaire | 1, 4, 5, 6 |
@@ -28,7 +28,7 @@
 - Classer Maison Sorel en **micro** parce que c'est « petit ».
 - Donner un pourcentage sans le **comparer à l'objectif**.
 - Écrire « le budget baisse donc c'est efficient » alors que les objectifs ne sont pas atteints.
-- Oublier que la **banque** est une partie prenante **externe** à fort pouvoir.
+- Oublier que la **banque** est une partie ​prenante **externe** à fort pouvoir.
 
 ## Vérification
 
