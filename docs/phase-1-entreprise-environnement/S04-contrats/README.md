@@ -58,7 +58,6 @@ Demande à ton tuteur de te montrer, si c'est possible, un contrat de prestation
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Articles du Code civil issus de la réforme de 2016 ; citations à relire sur Légifrance (non consultable depuis l'environnement de rédaction).
 - Les seuils Syntec (219 et 218 jours, 115 %) sont issus de fiches pratiques secondaires : à confirmer sur le texte de la convention en vigueur.
 - Portage salarial : articles L1254-1 et suivants du Code du travail ; règles de rémunération minimale non reprises ici (fixées par accord de branche).

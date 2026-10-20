@@ -58,7 +58,6 @@ Liste cinq parties prenantes de ton entreprise et, pour chacune, une attente. Y 
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Seuils de taille vérifiés sur les fiches de l'Insee ; article 1833 du Code civil issu de la loi PACTE (22 mai 2019).
 - Entreprise et chiffres fictifs, recalculés.
 
