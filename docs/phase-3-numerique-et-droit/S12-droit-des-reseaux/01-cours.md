@@ -62,6 +62,32 @@ Une entreprise qui héberge des contenus de tiers (forum, espace client) doit : 
 
 Les **mentions légales** d'un site (identité de l'éditeur, de l'hébergeur, du directeur de publication) sont **obligatoires**.
 
+## Comprendre pas à pas
+
+### Éditeur, hébergeur, FAI : trois questions pour trancher
+
+| Question | Si la réponse est… | … alors plutôt |
+|---|---|---|
+| **Qui choisit et met en ligne le contenu ?** | L'entreprise | **Éditeur** (responsable) |
+| **Qui se contente de stocker pour un tiers ?** | Le prestataire | **Hébergeur** (responsable après notification) |
+| **Qui donne seulement l'accès au réseau ?** | L'opérateur | **FAI** (pas d'obligation générale de surveillance) |
+
+> [!NOTE]
+> Un même acteur peut jouer **deux rôles** : par exemple, il édite sa page d'accueil (éditeur) et héberge les commentaires de ses clients (hébergeur).
+
+### Que se passe-t-il quand on signale un contenu ?
+
+1. **Notification** : la personne décrit le contenu, explique pourquoi il est illicite et s'identifie.
+2. **Examen** : l'hébergeur vérifie si le contenu est **manifestement illicite**.
+3. **Réaction** : s'il l'est, il le **retire promptement** ; sinon, il peut demander l'avis d'un juge.
+4. **Traçabilité** : il garde la notification, la décision et les **données d'identification** de l'auteur du contenu (voir partie III).
+
+### Exemple guidé : le commentaire injurieux
+
+Un commentaire visant un salarié est publié sur le forum d'une entreprise. Personne ne le signale pendant trois semaines. L'hébergeur est-il responsable ? **Pas a priori** : il n'a pas à surveiller tout ce qui est publié. Une fois **averti**, en revanche, il doit agir vite. Si le forum est hébergé en interne, l'**entreprise** est elle-même hébergeur : c'est donc **à elle** de réagir, et le technicien doit savoir **qui prévenir**.
+
+Pour une décision de justice qui illustre le critère du « rôle réel », voir [Dailymotion et Tiscali](04-cas-reels.md).
+
 ## À retenir
 
 - Éditeur **responsable** ; hébergeur responsable **seulement s'il ne réagit pas** à un contenu manifestement illicite ; FAI sans obligation générale de surveillance.

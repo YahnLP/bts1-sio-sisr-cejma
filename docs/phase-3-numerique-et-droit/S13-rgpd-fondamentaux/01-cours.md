@@ -76,6 +76,38 @@ Le **consentement** doit être **libre, spécifique, éclairé et univoque** ; i
 | **AIPD** (article 35) | Analyse d'impact pour les traitements **à risque élevé** |
 | **Contrats de sous-traitance** (article 28) | Cadre de la relation avec les prestataires |
 
+## Comprendre pas à pas
+
+### Qui est responsable de traitement, qui est sous-traitant ?
+
+| Situation | Qui décide des finalités et des moyens ? | Rôle |
+|---|---|---|
+| Une boutique collecte les adresses de ses clients pour livrer ses commandes | La boutique | **Responsable de traitement** |
+| L'éditeur d'un logiciel en ligne héberge ces données pour le compte de la boutique | La boutique donne les instructions | **Sous-traitant** |
+| Deux sociétés organisent ensemble un jeu-concours | Ensemble | **Responsables conjoints** |
+
+> [!NOTE]
+> Être **sous-traitant** ne dispense pas de **responsabilité** : le RGPD impose des **obligations directes** au sous-traitant (sécurité, instructions, contrat).
+
+### Choisir la base légale : une méthode en trois questions
+
+1. **Quel est le but du traitement ?** (livrer, facturer, envoyer des offres…)
+2. **Qu'est-ce qui le justifie ?** (un contrat, une loi, l'intérêt légitime, le consentement…)
+3. **Le consentement est-il vraiment nécessaire ?** Il n'est **pas** la base par défaut : pour livrer une commande, on s'appuie sur le **contrat**, pas sur une case à cocher.
+
+### Exemple guidé : un formulaire d'inscription
+
+Un club de sport demande nom, courriel, date de naissance, **numéro de sécurité sociale** et photo pour envoyer sa newsletter. Application des principes :
+
+| Principe | Constat | Correction |
+|---|---|---|
+| **Minimisation** | Le numéro de sécurité sociale n'est **pas nécessaire** | Le supprimer |
+| **Limitation des finalités** | La newsletter n'exige pas la date de naissance complète | Ne demander que ce qui sert |
+| **Transparence** | Aucune mention d'information | Ajouter les mentions (articles 13 et 14) |
+| **Base légale** | Newsletter commerciale | **Consentement**, case **non précochée** |
+
+Pour une sanction réelle sur ces notions, voir [Google et la CNIL](04-cas-reels.md).
+
 ## À retenir
 
 - RGPD : applicable depuis le **25 mai 2018** ; donnée personnelle = personne **identifiée ou identifiable**.

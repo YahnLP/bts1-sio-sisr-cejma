@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Valeur juridique, contenu, contrôle et vie privée |
 | [Étude de cas](02-etude-de-cas.md) | La charte de Bastide Ingénierie |
 | [Aide-mémoire](03-aide-memoire.md) | Règles et pièges |
+| [Cas réel](04-cas-reels.md) | L'arrêt Nikon : vie privée et messagerie |
 
 ## Déroulé conseillé (4 h)
 

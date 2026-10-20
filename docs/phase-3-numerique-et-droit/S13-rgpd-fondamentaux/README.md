@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Définitions, acteurs, principes, bases légales |
 | [Étude de cas](02-etude-de-cas.md) | Le fichier clients de Primeur & Co |
 | [Aide-mémoire](03-aide-memoire.md) | RGPD en une page |
+| [Cas réel](04-cas-reels.md) | Google sanctionné par la CNIL (50 M€, 2019) |
 
 ## Déroulé conseillé (4 h)
 

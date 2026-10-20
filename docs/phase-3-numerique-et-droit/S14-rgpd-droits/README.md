@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Droits, délais, cookies, prospection, transferts |
 | [Étude de cas](02-etude-de-cas.md) | Les demandes reçues par Primeur & Co |
 | [Aide-mémoire](03-aide-memoire.md) | Droits et délais |
+| [Cas réel](04-cas-reels.md) | Cookies : Google et Facebook sanctionnés (2022) |
 
 ## Déroulé conseillé (4 h)
 
