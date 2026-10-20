@@ -25,7 +25,7 @@ Il applique « **faire ou faire-faire** » et le **coût total de possession** �
 <details markdown="1">
 <summary>Voir la réponse attendue</summary>
 
-\(3{,}2 - 1{,}3 = 1{,}9\) million de dollars par an, soit **près de 2 millions**, conforme à l'annonce. L'économie réelle dépend aussi des **coûts propres** (hébergement des serveurs, électricité, personnel) que ce calcul **ne compte pas**.
+3,2 - 1,3 = 1,9 million de dollars par an, soit **près de 2 millions**, conforme à l'annonce. L'économie réelle dépend aussi des **coûts propres** (hébergement des serveurs, électricité, personnel) que ce calcul **ne compte pas**.
 </details>
 
 **2.** Le matériel coûte 700 000 $ ; il est « amorti » en 2023 selon l'entreprise. Calcule en mois le **délai de retour** en supposant 1,9 M$ d'économie annuelle, puis explique pourquoi ce calcul est **trop optimiste**.
@@ -33,7 +33,7 @@ Il applique « **faire ou faire-faire** » et le **coût total de possession** �
 <details markdown="1">
 <summary>Voir la réponse attendue</summary>
 
-\(700\,000 / 1\,900\,000 \approx 0{,}37\) an, soit environ **4,4 mois**. C'est **optimiste** car il **ignore** l'hébergement physique, l'électricité, la maintenance, le **temps** des équipes et le **renouvellement** du matériel : le **coût total de possession** doit tout intégrer.
+700 000 / 1 900 000 ≈ 0,37 an, soit environ **4,4 mois**. C'est **optimiste** car il **ignore** l'hébergement physique, l'électricité, la maintenance, le **temps** des équipes et le **renouvellement** du matériel : le **coût total de possession** doit tout intégrer.
 </details>
 
 **3.** Une PME de 30 postes, avec un seul technicien, envisage de **quitter** son prestataire cloud pour installer ses serveurs. Cite **trois critères** de décision.

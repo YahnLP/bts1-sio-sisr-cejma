@@ -22,7 +22,7 @@ Il met en scène les **finalités** de l'entreprise (profit, mais aussi **utilit
 <details markdown="1">
 <summary>Voir la réponse attendue</summary>
 
-Une baisse de **6,6 %** à **23,6 Md€** donne \(23{,}6 / (1 - 0{,}066) \approx 25{,}27\) Md€ pour l'année précédente. C'est une **estimation** à partir des chiffres arrondis de la source ; vérifie le chiffre publié par l'entreprise.
+Une baisse de **6,6 %** à **23,6 Md€** donne 23,6 / (1 - 0,066) ≈ 25,27 Md€ pour l'année précédente. C'est une **estimation** à partir des chiffres arrondis de la source ; vérifie le chiffre publié par l'entreprise.
 </details>
 
 **2.** Place **quatre parties prenantes** de Danone dans la **matrice pouvoir – intérêt** de la séance, et justifie.

@@ -38,7 +38,7 @@ Il applique les trois conditions de la **responsabilité civile** (faute, dommag
 <details markdown="1">
 <summary>Voir la réponse attendue</summary>
 
-\(38\,530 + 26\,472 + 20\,000 + 9\,100 + 7\,000 = 101\,102\) €, soit environ **101 100 €**. Par rapport à plus de 6,5 M€ réclamés : \(101\,102 / 6\,500\,000 \approx 1{,}6\ \%\) **au plus** (la demande était supérieure à 6,5 M€). Le juge **n'accorde pas** tout ce qui est réclamé : il faut **prouver** chaque préjudice.
+38 530 + 26 472 + 20 000 + 9 100 + 7 000 = 101 102 €, soit environ **101 100 €**. Par rapport à plus de 6,5 M€ réclamés : 101 102 / 6 500 000 ≈ 1,6 % **au plus** (la demande était supérieure à 6,5 M€). Le juge **n'accorde pas** tout ce qui est réclamé : il faut **prouver** chaque préjudice.
 </details>
 
 **2.** Identifie la **faute**, le **dommage** et le **lien de causalité** dans ce cas.

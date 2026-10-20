@@ -110,7 +110,7 @@ Une petite entreprise de services informatiques, sur un exercice :
 | − Impôt sur les sociétés | 9 500 € |
 | **= Résultat net** | **45 500 €** |
 
-**Calcul de l'impôt** (si l'entreprise remplit les conditions du taux réduit, voir la partie II) : \(42\,500 \times 15\ \% = 6\,375\) € et \((55\,000 - 42\,500) \times 25\ \% = 3\,125\) €, soit **9 500 €**.
+**Calcul de l'impôt** (si l'entreprise remplit les conditions du taux réduit, voir la partie II) : 42 500 × 15 % = 6 375 € et (55 000 - 42 500) × 25 % = 3 125 €, soit **9 500 €**.
 
 > [!TIP]
 > Un **bénéfice** ne veut pas dire de **l'argent disponible** : les clients paient à 30 ou 60 jours (cycle d'exploitation) et les investissements consomment de la trésorerie.

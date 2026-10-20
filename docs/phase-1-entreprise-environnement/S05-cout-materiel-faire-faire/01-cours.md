@@ -126,13 +126,13 @@ Un serveur coûte **12 000 €**, utilisé **4 ans**. Maintenance : **1 000 € 
 
 | Poste | Acheter | Louer (cloud) |
 |---|---:|---:|
-| Amortissement | \(12\,000 / 4 = 3\,000\) € | 0 € |
+| Amortissement | 12 000 / 4 = 3 000 € | 0 € |
 | Maintenance | 1 000 € | inclus |
 | Électricité | 500 € | inclus |
-| Abonnement | 0 € | \(400 \times 12 = 4\,800\) € |
+| Abonnement | 0 € | 400 × 12 = 4 800 € |
 | **Coût par an** | **4 500 €** | **4 800 €** |
 
-**Écart :** \(4\,800 - 4\,500 = 300\) € par an en faveur de l'achat. **Mais** le tableau **ignore** le temps de l'administrateur, la sauvegarde, la sécurité et le remplacement en cas de panne : **un écart faible ne suffit pas à décider**.
+**Écart :** 4 800 - 4 500 = 300 € par an en faveur de l'achat. **Mais** le tableau **ignore** le temps de l'administrateur, la sauvegarde, la sécurité et le remplacement en cas de panne : **un écart faible ne suffit pas à décider**.
 
 > [!TIP]
 > Pour décider, compare **le coût total** et les **risques** (compétences, disponibilité, dépendance), pas seulement le prix affiché.
