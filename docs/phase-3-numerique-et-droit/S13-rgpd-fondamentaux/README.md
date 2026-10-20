@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 1re année – culture économique, juridique et managériale |
 | **Séance** | S13 (séance 13 sur 19) – Phase 3 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – RGPD, principes et bases légales : prérequis de S14 et S15 ; point de droit très fréquent à l'épreuve. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Thème du programme** | Thème 4 – L'impact du numérique sur la vie de l'entreprise (question 3 : protection des données) |
 | **Champs** | Droit |
 | **Prérequis** | S11, S12 |

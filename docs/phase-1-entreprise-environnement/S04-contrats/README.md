@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 1re année – culture économique, juridique et managériale |
 | **Séance** | S04 (séance 4 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Contrats : prérequis de S05, S06, S07, S11 et S16. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Thème du programme** | Thème 1 – L'intégration de l'entreprise dans son environnement (question 2) ; thème 5 (contrat de travail, notions) |
 | **Champs** | Droit |
 | **Prérequis** | S01 (régie, forfait, obligations de moyens et de résultat) |

@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 1re année – culture économique, juridique et managériale |
 | **Séance** | S17 (séance 17 sur 19) – Phase 4 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Licences logicielles et contenus libres : seule séance sur ce point. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Thème du programme** | Thème 4 – L'impact du numérique sur la vie de l'entreprise ; thème 1 (offre numérique) |
 | **Champs** | Droit, Management |
 | **Prérequis** | S16, S05 |

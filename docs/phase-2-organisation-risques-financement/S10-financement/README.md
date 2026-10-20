@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 1re année – culture économique, juridique et managériale |
 | **Séance** | S10 (séance 10 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Comptes et financement : seule séance sur ce point du programme. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Thème du programme** | Thème 3 – L'organisation de l'activité de l'entreprise (question 5) |
 | **Champs** | Économie |
 | **Prérequis** | S02 (banques et marché financier), S06 (structures) |

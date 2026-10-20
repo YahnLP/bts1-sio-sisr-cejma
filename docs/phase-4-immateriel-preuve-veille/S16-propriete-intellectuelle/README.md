@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 1re année – culture économique, juridique et managériale |
 | **Séance** | S16 (séance 16 sur 19) – Phase 4 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Propriété intellectuelle : prérequis de S17. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Thème du programme** | Thème 4 – L'impact du numérique sur la vie de l'entreprise ; thème 2 (entreprise innovante) |
 | **Champs** | Droit, Économie |
 | **Prérequis** | S04, S07 |

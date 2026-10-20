@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 1re année – culture économique, juridique et managériale |
 | **Séance** | S14 (séance 14 sur 19) – Phase 3 |
 | **Durée** | 4 heures |
+| **Parcours** | **Complément** – Droits des personnes, cookies, prospection : recoupe le bloc 3 (S07). Garder la prospection et les transferts hors Union européenne, que le bloc 3 ne cite qu'en passant. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Thème du programme** | Thème 4 – L'impact du numérique sur la vie de l'entreprise (question 3 : protection des données) |
 | **Champs** | Droit |
 | **Prérequis** | S13 |

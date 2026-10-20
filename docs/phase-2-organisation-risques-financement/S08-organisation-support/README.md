@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 1re année – culture économique, juridique et managériale |
 | **Séance** | S08 (séance 8 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Organisation du support (ITIL) : prérequis de S09. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Thème du programme** | Thème 3 – L'organisation de l'activité de l'entreprise (question 4) |
 | **Champs** | Management |
 | **Prérequis** | S03 (indicateurs), S05 (faire ou faire-faire) |

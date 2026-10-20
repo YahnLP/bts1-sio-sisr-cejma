@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 1re année – culture économique, juridique et managériale |
 | **Séance** | S11 (séance 11 sur 19) – Phase 3 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Charte informatique : prérequis de S12, S13 et S18. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Thème du programme** | Thème 4 – L'impact du numérique sur la vie de l'entreprise (question 2 : usage du numérique au travail) ; thème 5 (question 2, pouvoir de l'employeur) |
 | **Champs** | Droit |
 | **Prérequis** | S04 (contrat), S07 (responsabilités) |

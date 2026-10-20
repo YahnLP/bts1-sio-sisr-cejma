@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 1re année – culture économique, juridique et managériale |
 | **Séance** | S07 (séance 7 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Responsabilités civile, pénale et disciplinaire : prérequis de S11, S12, S15 et S16. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Thème du programme** | Thème 3 – L'organisation de l'activité de l'entreprise (question 3) |
 | **Champs** | Droit |
 | **Prérequis** | S01 (obligations de moyens et de résultat), S04 (contrats, clause limitative) |
