@@ -1,6 +1,6 @@
 # Cours – Coûts, chaîne de valeur, faire ou faire-faire, TCO et cadre juridique du matériel
 
-*BTS SIO SISR 1re année – CEJMA – S05 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S05 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** S02 (coûts fixes et marginaux), S04 (contrats)

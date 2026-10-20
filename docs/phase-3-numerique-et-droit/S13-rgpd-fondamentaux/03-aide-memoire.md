@@ -1,6 +1,6 @@
 # Aide-mémoire – RGPD : principes et acteurs
 
-*BTS SIO SISR 1re année – CEJMA – S13*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S13*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

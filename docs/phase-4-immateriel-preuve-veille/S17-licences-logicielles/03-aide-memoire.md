@@ -1,6 +1,6 @@
 # Aide-mémoire – Licences : repères
 
-*BTS SIO SISR 1re année – CEJMA – S17*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S17*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

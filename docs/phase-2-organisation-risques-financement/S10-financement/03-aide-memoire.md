@@ -1,6 +1,6 @@
 # Aide-mémoire – Résultat, bilan, FR-BFR, emprunt
 
-*BTS SIO SISR 1re année – CEJMA – S10*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S10*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

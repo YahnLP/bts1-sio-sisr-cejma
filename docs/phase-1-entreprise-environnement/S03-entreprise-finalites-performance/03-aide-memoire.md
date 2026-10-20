@@ -1,6 +1,6 @@
 # Aide-mémoire – Tailles, finalités, parties prenantes, indicateurs
 
-*BTS SIO SISR 1re année – CEJMA – S03*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S03*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

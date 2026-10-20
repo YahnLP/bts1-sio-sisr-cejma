@@ -6,6 +6,8 @@
 | **Séance** | S08 (séance 8 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Organisation du support (ITIL) : prérequis de S09. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM, avec une part de CEJMA |
+| **Part CEJMA** | organisation du support, contrat d'assistance, niveaux de service ; à retrouver en [bloc 1, 1re année, S03](https://yahnlp.github.io/bts1-sio-sisr-bloc1/phase-1-poste-patrimoine/S03-itil-tickets-support/), [bloc 1, 1re année, S07](https://yahnlp.github.io/bts1-sio-sisr-bloc1/phase-2-support-services/S07-mise-a-disposition-sla/). Voir [CEJM et CEJMA](../../ressources/cejm-et-cejma.md). |
 | **Thème du programme** | Thème 3 – L'organisation de l'activité de l'entreprise (question 4) |
 | **Champs** | Management |
 | **Prérequis** | S03 (indicateurs), S05 (faire ou faire-faire) |
@@ -61,7 +63,7 @@ Comment ton entreprise reçoit-elle les demandes (téléphone, courriel, outil d
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - ITIL est présenté comme référentiel de bonnes pratiques, sans entrer dans une version précise.
 - Mécanismes de coordination de Mintzberg et styles de management : classifications pédagogiques usuelles.
 - Entreprise et chiffres fictifs, recalculés.

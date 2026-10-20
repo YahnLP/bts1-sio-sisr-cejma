@@ -1,6 +1,6 @@
 # Cas réels – Framasoft et OVHcloud : deux structures, deux logiques
 
-*BTS SIO SISR 1re année – CEJMA – S06*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S06*
 
 > [!NOTE]
 > **Comment travailler.** Lis le cas réel et ses sources, réponds par écrit aux questions, puis ouvre « Voir la réponse attendue ». Les faits viennent des sources citées en fin de page ; en cas de doute, **retourne à la source**. Ce cas complète l'étude de cas fictive de la séance.

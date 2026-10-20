@@ -6,6 +6,7 @@
 | **Séance** | S02 (séance 2 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Marchés et concurrence : prérequis de S03, S05 et S10. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM |
 | **Thème du programme** | Thème 1 – L'intégration de l'entreprise dans son environnement (question 1) ; thème 4 (question 1, externalités de réseau) |
 | **Champs** | Économie |
 | **Prérequis** | S01 (agents économiques, acteurs du numérique) |
@@ -58,7 +59,7 @@ Dans ton entreprise : combien de concurrents directs ? Sur quoi se différencie-
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - Chiffres fictifs, recalculés dans le corrigé.
 - Le modèle linéaire offre/demande est une simplification : à signaler aux étudiants.
 

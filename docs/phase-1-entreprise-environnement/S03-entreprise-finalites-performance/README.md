@@ -6,6 +6,7 @@
 | **Séance** | S03 (séance 3 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Finalités, parties prenantes et performance : prérequis de S06, S08 et S09. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM |
 | **Thème du programme** | Thème 1 – L'intégration de l'entreprise dans son environnement (question 3) |
 | **Champs** | Management |
 | **Prérequis** | S01, S02 |
@@ -58,7 +59,7 @@ Liste cinq parties prenantes de ton entreprise et, pour chacune, une attente. Y 
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - Seuils de taille vérifiés sur les fiches de l'Insee ; article 1833 du Code civil issu de la loi PACTE (22 mai 2019).
 - Entreprise et chiffres fictifs, recalculés.
 

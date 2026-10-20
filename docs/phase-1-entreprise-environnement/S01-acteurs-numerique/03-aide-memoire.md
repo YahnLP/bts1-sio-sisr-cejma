@@ -1,6 +1,6 @@
 # Aide-mémoire – Acteurs, régie et forfait, modèles économiques
 
-*BTS SIO SISR 1re année – CEJMA – S01*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S01*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

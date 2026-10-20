@@ -6,6 +6,7 @@
 | **Séance** | S01 (séance 1 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Acteurs et modèles économiques du numérique : prérequis de S02, S04 et S07. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM |
 | **Thème du programme** | Thème 1 – L'intégration de l'entreprise dans son environnement (question 1) ; thème 4 (question 1) |
 | **Champs** | Économie, management |
 | **Prérequis** | Aucun |
@@ -58,7 +59,7 @@ Observe dans ton entreprise : qui sont ses clients, ses fournisseurs, et comment
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - Chiffres fictifs, tous recalculés (voir le corrigé).
 - Les articles L8231-1 (marchandage) et L8241-1 (prêt de main-d'œuvre) du Code du travail ont été vérifiés sur Légifrance.
 

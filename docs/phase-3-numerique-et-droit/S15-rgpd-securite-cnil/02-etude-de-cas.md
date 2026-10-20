@@ -1,6 +1,6 @@
 # Étude de cas – L'incident du cabinet Delorme
 
-*BTS SIO SISR 1re année – CEJMA – S15*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S15*
 
 > [!NOTE]
 > **Comment travailler.** Lis le dossier, puis réponds **par écrit** à chaque question, avec une réponse **construite et argumentée** : une idée, sa justification, l'exemple tiré du dossier. Ouvre ensuite « Voir la réponse attendue » pour te corriger. À l'épreuve E4, une réponse sans justification n'est pas complète.

@@ -1,6 +1,6 @@
 # Cas réel – Log4Shell : une veille qui se joue en heures
 
-*BTS SIO SISR 1re année – CEJMA – S19*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S19*
 
 > [!NOTE]
 > **Comment travailler.** Lis chaque cas réel et ses sources, réponds par écrit aux questions, puis ouvre « Voir la réponse attendue ». Les faits viennent des sources citées en fin de page ; en cas de doute, **retourne à la source**. Ces cas complètent l'étude de cas fictive de la séance.

@@ -6,6 +6,8 @@
 | **Séance** | S13 (séance 13 sur 19) – Phase 3 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – RGPD, principes et bases légales : prérequis de S14 et S15 ; point de droit très fréquent à l'épreuve. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM et CEJMA |
+| **Part CEJMA** | RGPD : principes, registre, acteurs ; à retrouver en [bloc 3, 1re année, S06](https://yahnlp.github.io/bts1-sio-sisr-bloc3/phase-2-donnees-personnelles/S06-rgpd-fondamentaux-registre/), [bloc 3, 1re année, S07](https://yahnlp.github.io/bts1-sio-sisr-bloc3/phase-2-donnees-personnelles/S07-collecte-consentement-droits/). Voir [CEJM et CEJMA](../../ressources/cejm-et-cejma.md). |
 | **Thème du programme** | Thème 4 – L'impact du numérique sur la vie de l'entreprise (question 3 : protection des données) |
 | **Champs** | Droit |
 | **Prérequis** | S11, S12 |
@@ -60,7 +62,7 @@ Repère dans ton entreprise un formulaire qui collecte des données : l'informat
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - Articles du RGPD cités de mémoire et rapprochés du bloc 3 : à relire.
 - Durée de conservation comptable (dix ans) : à vérifier.
 - Entreprise et personnes fictives.

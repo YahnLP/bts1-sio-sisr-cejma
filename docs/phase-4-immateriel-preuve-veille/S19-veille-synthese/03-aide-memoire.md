@@ -1,6 +1,6 @@
 # Aide-mémoire – Veille et méthode de réponse
 
-*BTS SIO SISR 1re année – CEJMA – S19*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S19*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

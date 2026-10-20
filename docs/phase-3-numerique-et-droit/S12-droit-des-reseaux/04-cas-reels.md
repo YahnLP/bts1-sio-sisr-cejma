@@ -1,6 +1,6 @@
 # Cas réel – Dailymotion : qui est hébergeur ?
 
-*BTS SIO SISR 1re année – CEJMA – S12*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S12*
 
 > [!NOTE]
 > **Comment travailler.** Lis le cas réel et ses sources, réponds par écrit aux questions, puis ouvre « Voir la réponse attendue ». Les faits viennent des sources citées en fin de page ; en cas de doute, **retourne à la source**. Ce cas complète l'étude de cas fictive de la séance.

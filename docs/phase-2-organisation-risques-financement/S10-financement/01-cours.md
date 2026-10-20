@@ -1,6 +1,6 @@
 # Cours – Cycles, comptes, équilibre financier et modes de financement
 
-*BTS SIO SISR 1re année – CEJMA – S10 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S10 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** S02 (banques et marché financier), S06 (structures)

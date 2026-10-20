@@ -6,6 +6,8 @@
 | **Séance** | S19 (séance 19 sur 19) – Phase 4 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Synthèse de l'année et méthode de l'épreuve E4. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM, avec une part de CEJMA |
+| **Part CEJMA** | veille et développement professionnel ; à retrouver en [bloc 1, 1re année, S14](https://yahnlp.github.io/bts1-sio-sisr-bloc1/phase-3-maintenir-evoluer/S14-changement-et-veille/), [bloc 1, 2e année, S18](https://yahnlp.github.io/bts2-sio-sisr-bloc1/phase-4-support-developpement-pro/S18-portfolio-et-veille/). Voir [CEJM et CEJMA](../../ressources/cejm-et-cejma.md). |
 | **Thème du programme** | Thèmes 1 à 5 – synthèse ; méthode E4 |
 | **Champs** | Économie, Droit, Management |
 | **Prérequis** | S01 à S18 |
@@ -57,7 +59,7 @@ Mets en place trois alertes (CNIL, CERT-FR, une autre source) et rédige un prem
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - Arrêté du 8 juillet 2024 (E4 : écrit de 4 h, coefficient 3) : à relire sur le texte officiel.
 - Tous les chiffres du cas ont été vérifiés par un calcul.
 - Entreprises et personnes fictives.

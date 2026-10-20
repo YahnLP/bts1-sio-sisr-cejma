@@ -6,6 +6,8 @@
 | **Séance** | S15 (séance 15 sur 19) – Phase 3 |
 | **Durée** | 4 heures |
 | **Parcours** | **Complément** – Sécurité, violations, CNIL : recoupe le bloc 3 (S08 et S09). Garder les pouvoirs de la CNIL et les sanctions, que le bloc 3 ne cite qu'en passant. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM et CEJMA |
+| **Part CEJMA** | sécurité des données, violations, notification à la CNIL ; à retrouver en [bloc 3, 1re année, S08](https://yahnlp.github.io/bts1-sio-sisr-bloc3/phase-2-donnees-personnelles/S08-conservation-securite-violations/), [bloc 3, 2e année, S04](https://yahnlp.github.io/bts2-sio-sisr-bloc3/phase-1-reprendre-cadrer/S04-cadre-juridique-responsabilites/). Voir [CEJM et CEJMA](../../ressources/cejm-et-cejma.md). |
 | **Thème du programme** | Thème 4 – L'impact du numérique sur la vie de l'entreprise ; thème 5 (responsabilités) |
 | **Champs** | Droit, Management |
 | **Prérequis** | S13, S14, S07 |
@@ -60,7 +62,7 @@ Demande si ton entreprise a une procédure en cas de violation de données : qui
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - Articles 32 à 35, plafonds d'amende et articles du Code pénal cités de mémoire : à relire.
 - Position officielle sur le paiement des rançons : à confronter aux recommandations de l'ANSSI et de Cybermalveillance.
 - Entreprise et personnes fictives.

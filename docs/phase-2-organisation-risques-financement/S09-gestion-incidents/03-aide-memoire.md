@@ -1,6 +1,6 @@
 # Aide-mémoire – Incident, priorité, SLA, MTTR, disponibilité
 
-*BTS SIO SISR 1re année – CEJMA – S09*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S09*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

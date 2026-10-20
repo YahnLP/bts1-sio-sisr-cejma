@@ -1,6 +1,6 @@
 # Cas réel – Oracle contre Google : peut-on copier des interfaces de programmation ?
 
-*BTS SIO SISR 1re année – CEJMA – S16*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S16*
 
 > [!NOTE]
 > **Comment travailler.** Lis chaque cas réel et ses sources, réponds par écrit aux questions, puis ouvre « Voir la réponse attendue ». Les faits viennent des sources citées en fin de page ; en cas de doute, **retourne à la source**. Ces cas complètent l'étude de cas fictive de la séance.

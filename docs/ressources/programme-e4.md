@@ -38,8 +38,6 @@ Le programme est organisé en thèmes, répartis sur les deux années du BTS. **
 
 Les thèmes **2, 5 et 6** sont approfondis en **seconde année**.
 
-> [!WARNING]
-> Cette répartition est **proposée par l'enseignant** à partir de la lecture de l'arrêté. Elle doit être confrontée à l'**annexe I** du texte officiel (programme détaillé), que cette page ne reproduit pas.
 
 ## Méthode de réponse
 

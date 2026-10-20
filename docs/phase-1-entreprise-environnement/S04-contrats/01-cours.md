@@ -1,6 +1,6 @@
 # Cours – Contrat de prestation, validité et sanctions ; cadre du salarié d'ESN
 
-*BTS SIO SISR 1re année – CEJMA – S04 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
+*BTS SIO SISR 1re année – CEJM et CEJMA – S04 – à lire avant l'[étude de cas](02-etude-de-cas.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** S01 (régie, forfait, obligations de moyens et de résultat)

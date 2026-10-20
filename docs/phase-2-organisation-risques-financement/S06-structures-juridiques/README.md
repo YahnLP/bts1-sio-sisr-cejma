@@ -6,6 +6,7 @@
 | **Séance** | S06 (séance 6 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Structures juridiques : prérequis de S10. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
+| **Enseignement** | CEJM |
 | **Thème du programme** | Thème 3 – L'organisation de l'activité de l'entreprise (question 2) |
 | **Champs** | Droit |
 | **Prérequis** | S03 (finalités, parties prenantes), S04 (contrats) |
@@ -58,7 +59,7 @@ Quelle est la structure juridique de ton entreprise ? Qui la dirige, quel est so
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)) ; la répartition entre les années 1 et 2 est une proposition à valider.
+- **Programme :** le thème est rattaché au programme officiel de culture économique, juridique et managériale (voir [Programme et épreuve E4](../../ressources/programme-e4.md)).
 - Tableau des structures relu sur le site Bpifrance Création ; règles sociales et fiscales à revérifier avant diffusion.
 - Seuils de la micro-entreprise volontairement non cités (ils changent).
 - Chiffres fictifs, recalculés.
