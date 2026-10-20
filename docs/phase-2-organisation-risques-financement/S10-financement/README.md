@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Cycles, compte de résultat, bilan, équilibre, financements |
 | [Étude de cas](02-etude-de-cas.md) | Tango Réseaux, fin de première année |
 | [Aide-mémoire](03-aide-memoire.md) | Formules et définitions |
+| [Cas réel](04-cas-reels.md) | Mistral AI : une levée de fonds de 105 M€ |
 
 ## Déroulé conseillé (4 h)
 

@@ -92,6 +92,44 @@ Exemple : **36 000 €** à **4 %** sur **5 ans** : annuité = 36 000 × 0,04 ÷
 
 Les **intérêts baissent** chaque année, car le capital restant dû diminue (intérêts de l'année = taux × capital restant).
 
+## Comprendre pas à pas
+
+### Lire un compte de résultat : un exemple complet
+
+Une petite entreprise de services informatiques, sur un exercice :
+
+| Ligne | Montant |
+|---|---:|
+| Chiffre d'affaires | 500 000 € |
+| − Achats et charges externes | 220 000 € |
+| − Charges de personnel | 200 000 € |
+| − Dotations aux amortissements | 20 000 € |
+| **= Résultat d'exploitation** | **60 000 €** |
+| − Charges financières (intérêts) | 5 000 € |
+| **= Résultat avant impôt** | **55 000 €** |
+| − Impôt sur les sociétés | 9 500 € |
+| **= Résultat net** | **45 500 €** |
+
+**Calcul de l'impôt** (si l'entreprise remplit les conditions du taux réduit, voir la partie II) : \(42\,500 \times 15\ \% = 6\,375\) € et \((55\,000 - 42\,500) \times 25\ \% = 3\,125\) €, soit **9 500 €**.
+
+> [!TIP]
+> Un **bénéfice** ne veut pas dire de **l'argent disponible** : les clients paient à 30 ou 60 jours (cycle d'exploitation) et les investissements consomment de la trésorerie.
+
+### Capitaux propres ou emprunt : une grille de choix
+
+| Critère | Emprunt | Apport en capital |
+|---|---|---|
+| **Coût** | Intérêts | Part des bénéfices et du pouvoir |
+| **Remboursement** | Obligatoire, échéancier | Aucun |
+| **Contrôle** | Reste aux dirigeants | Partagé |
+| **Risque si l'activité faiblit** | Les annuités restent dues | Porté par les actionnaires |
+
+### Exemple guidé : choisir son financement
+
+Un projet demande **80 000 €** pour des serveurs. L'entreprise a un **résultat stable** et peu de dettes : un **emprunt** sur quelques années est cohérent (le matériel se finance par l'emprunt). Une jeune société à fort potentiel mais sans résultat peut préférer un **apport en capital**, sans remboursement obligatoire.
+
+Un cas réel est détaillé dans [Mistral AI](04-cas-reels.md).
+
 ## À retenir
 
 - **Cycle d'exploitation** (court terme) et **cycle d'investissement** (long terme).

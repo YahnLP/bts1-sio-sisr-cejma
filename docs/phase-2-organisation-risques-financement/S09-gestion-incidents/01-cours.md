@@ -175,6 +175,44 @@ Dans un support, la **base de connaissances**, les **procédures** et la **forma
 - **Incident de sécurité** : atteinte à la **confidentialité**, l'**intégrité** ou la **disponibilité** (attaque, fuite). Il suit un processus voisin avec des étapes supplémentaires : **isoler**, **préserver les preuves** (séance 18), **notifier** si des données personnelles sont concernées (séance 15).
 - Après un incident majeur, on fait un **retour d'expérience** (analyse **sans chercher de coupable**) : chronologie, causes, ce qui a bien fonctionné, actions d'amélioration.
 
+## Comprendre pas à pas
+
+### Prioriser : impact × urgence sur un exemple
+
+| Ticket | Impact | Urgence | Priorité |
+|---|---|---|---|
+| L'imprimante de l'accueil est en panne | **Faible** (une personne gênée) | **Faible** | Basse |
+| La messagerie est inaccessible pour toute l'entreprise | **Fort** | **Forte** | Critique |
+| Un utilisateur ne retrouve plus un fichier avant un rendez-vous dans 20 minutes | **Faible** (une personne) | **Forte** | Moyenne |
+
+> [!TIP]
+> **Impact** = combien de personnes ou de services sont touchés. **Urgence** = dans quel délai il faut agir. Ce sont deux questions **différentes**.
+
+### Calculer une échéance d'engagement de service
+
+Hypothèse : le support est ouvert **de 8 h à 18 h**, du lundi au vendredi ; **GTR** (garantie de temps de rétablissement) de **4 heures ouvrées**. Un ticket est ouvert le **lundi à 16 h**.
+
+| Période | Heures ouvrées consommées |
+|---|---:|
+| Lundi 16 h à 18 h | 2 h |
+| Mardi 8 h à 10 h | 2 h |
+| **Total** | **4 h** |
+
+L'échéance est donc **mardi à 10 h**. Hors heures ouvrées, **le compteur s'arrête**.
+
+### Le cycle d'un incident
+
+1. **Détecter et enregistrer** (ticket avec les informations nécessaires).
+2. **Qualifier et prioriser**.
+3. **Diagnostiquer et résoudre** (ou **escalader**).
+4. **Clôturer** avec l'accord de l'utilisateur.
+5. **Apprendre** : retour d'expérience, base de connaissances.
+
+> [!WARNING]
+> Un incident **majeur** change la méthode : on **communique à heure fixe** et on **coordonne** (voir partie VII).
+
+Deux incidents réels documentés sont décrits dans [GitLab et CrowdStrike](04-cas-reels.md).
+
 ## À retenir
 
 - **Incident** (rétablir), **problème** (supprimer la cause), **demande** (prévue), **changement** (modification).

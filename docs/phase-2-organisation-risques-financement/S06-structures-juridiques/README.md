@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Structures, facteurs de choix, économie sociale et solidaire |
 | [Étude de cas](02-etude-de-cas.md) | Tango Réseaux : SARL ou SAS ? |
 | [Aide-mémoire](03-aide-memoire.md) | Tableau comparatif et règles |
+| [Cas réels](04-cas-reels.md) | Framasoft et OVHcloud : association ou société |
 
 ## Déroulé conseillé (4 h)
 
