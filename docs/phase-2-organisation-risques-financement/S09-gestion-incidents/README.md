@@ -14,6 +14,9 @@
 > [!NOTE]
 > **Question qui guide la séance :** *« Comment traiter un incident de façon fiable et mesurer la qualité du traitement ? »*
 
+> [!NOTE]
+> **Recoupement avec d'autres séances.** Le cycle de vie d'un incident est aussi vu en [bloc 1 (1re année), S04 – Résoudre un incident : diagnostic et base de connaissances](https://yahnlp.github.io/bts1-sio-sisr-bloc1/phase-1-poste-patrimoine/S04-resoudre-un-incident/), et les engagements de service en [bloc 1 (1re année), S07 – Mettre un service à disposition : SLA, disponibilité et procès-verbal](https://yahnlp.github.io/bts1-sio-sisr-bloc1/phase-2-support-services/S07-mise-a-disposition-sla/). Selon l'ordre de vos séances, la première pose les bases et la seconde les reprend en rappel (15 à 20 minutes). Ici, garder les indicateurs et l'effet d'expérience.
+
 ## Objectifs
 
 À la fin de la séance, l'étudiant est capable de :

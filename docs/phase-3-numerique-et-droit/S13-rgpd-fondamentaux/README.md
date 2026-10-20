@@ -14,6 +14,9 @@
 > [!NOTE]
 > **Question qui guide la séance :** *« Qui est responsable des données personnelles et selon quels principes peut-on les traiter ? »*
 
+> [!NOTE]
+> **Recoupement avec d'autres séances.** Les notions de base du RGPD (acteurs, principes de l'article 5, bases légales) sont aussi vues côté technicien en [bloc 3 (1re année), S06 – RGPD : notions, acteurs, principes et registre des traitements](https://yahnlp.github.io/bts1-sio-sisr-bloc3/phase-2-donnees-personnelles/S06-rgpd-fondamentaux-registre/). Selon l'ordre de vos séances, la première pose les bases et la seconde les reprend en rappel (15 à 20 minutes). Ici, garder l'angle juridique ; le registre des traitements et le TP sont en bloc 3.
+
 ## Objectifs
 
 À la fin de la séance, l'étudiant est capable de :
