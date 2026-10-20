@@ -263,8 +263,8 @@ Un projet est estimé à **18 jours** de travail. Le prestataire facture **600 �
 
 | Scénario | Régie | Forfait |
 |---|---:|---:|
-| Le projet dure **18 jours** | \(18 \times 600 = 10\,800\) € | 11 000 € |
-| Le projet dure **24 jours** (dérive) | \(24 \times 600 = 14\,400\) € | 11 000 € |
+| Le projet dure **18 jours** | 18 × 600 = 10 800 € | 11 000 € |
+| Le projet dure **24 jours** (dérive) | 24 × 600 = 14 400 € | 11 000 € |
 
 **Lecture :** en **régie**, le **client** porte le risque de dérive (il paie les jours réels) ; au **forfait**, c'est le **prestataire** (il perd la différence). Le forfait exige un **besoin précisément défini** : voir le cas du projet de Lidl en séance 4.
 

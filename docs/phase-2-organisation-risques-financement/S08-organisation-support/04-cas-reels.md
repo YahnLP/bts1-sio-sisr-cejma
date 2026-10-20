@@ -22,7 +22,7 @@ Il relie les notions de la séance : une **structure** (hiérarchique, matriciel
 <details markdown="1">
 <summary>Voir la réponse attendue</summary>
 
-\(210 / 1\,500 = 0{,}14\), soit **14 %**. Le chiffre de 1 500 est un **ordre de grandeur** (« quelque 1 500 »).
+210 / 1 500 = 0,14, soit **14 %**. Le chiffre de 1 500 est un **ordre de grandeur** (« quelque 1 500 »).
 </details>
 
 **2.** Qu'est-ce qui, dans une organisation **sans chefs**, devient plus difficile à assurer ? Cite **deux fonctions** de la séance.

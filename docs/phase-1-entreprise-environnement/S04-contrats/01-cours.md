@@ -143,7 +143,7 @@ Un contrat de maintenance coûte **12 000 € par an**.
 | Clause | Effet | Calcul |
 |---|---|---|
 | **Clause limitative de responsabilité** : « la responsabilité du prestataire est limitée à 12 000 € » | Plafonne la **réparation** | Pour un dommage de 80 000 €, le client obtient en principe **12 000 €** (limite, voir partie III) |
-| **Clause pénale** : « 50 € par jour de retard » | Fixe **à l'avance** l'indemnité | 12 jours de retard : \(12 \times 50 = 600\) € |
+| **Clause pénale** : « 50 € par jour de retard » | Fixe **à l'avance** l'indemnité | 12 jours de retard : 12 × 50 = 600 € |
 | **Clause de réversibilité** | Prévoit la **restitution** des données et la transition | Évite d'être bloqué si on change de prestataire |
 
 > [!WARNING]

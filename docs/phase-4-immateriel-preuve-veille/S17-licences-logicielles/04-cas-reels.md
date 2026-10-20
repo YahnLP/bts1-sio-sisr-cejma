@@ -42,7 +42,7 @@
 <details markdown="1">
 <summary>Voir la réponse attendue</summary>
 
-\(500\,000 + 150\,000 + 150\,000 + 60\,000 = 860\,000\) €. Attention : les **60 000 €** ne réparent pas le préjudice, ils couvrent les **frais de procès**.
+500 000 + 150 000 + 150 000 + 60 000 = 860 000 €. Attention : les **60 000 €** ne réparent pas le préjudice, ils couvrent les **frais de procès**.
 </details>
 
 **2.** Quelle obligation de la GPL Orange n'a-t-elle pas respectée, selon la cour ? Pourquoi la **distribution** a-t-elle de l'importance ?

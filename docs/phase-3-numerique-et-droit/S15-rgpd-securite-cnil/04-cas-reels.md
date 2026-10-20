@@ -32,7 +32,7 @@ Il montre trois idées du cours : un **sous-traitant** a des **obligations direc
 <details markdown="1">
 <summary>Voir la réponse attendue</summary>
 
-Non : \(1{,}5 / 10 = 0{,}15\), soit **15 %** du plafond de 10 M€. Les manquements de sécurité et de contrat relèvent du **niveau 1** (10 M€ ou 2 % du chiffre d'affaires mondial, le plus élevé). La CNIL **proportionne** la sanction : gravité, nombre de personnes, nature des données, comportement.
+Non : 1,5 / 10 = 0,15, soit **15 %** du plafond de 10 M€. Les manquements de sécurité et de contrat relèvent du **niveau 1** (10 M€ ou 2 % du chiffre d'affaires mondial, le plus élevé). La CNIL **proportionne** la sanction : gravité, nombre de personnes, nature des données, comportement.
 </details>
 
 **2.** Dedalus n'était **pas** responsable de traitement. Pourquoi a-t-elle pourtant été sanctionnée ?

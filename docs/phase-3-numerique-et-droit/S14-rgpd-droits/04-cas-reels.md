@@ -35,7 +35,7 @@ Il traduit en pratique la règle du cours : **« refuser aussi simple qu'accepte
 <details markdown="1">
 <summary>Voir la réponse attendue</summary>
 
-Google : \(90 + 60 = 150\) M€. Total des trois amendes : \(150 + 60 = 210\) M€.
+Google : 90 + 60 = 150 M€. Total des trois amendes : 150 + 60 = 210 M€.
 </details>
 
 **2.** Calcule le coût de l'astreinte pour **12 jours** de retard après le délai de trois mois.
@@ -43,7 +43,7 @@ Google : \(90 + 60 = 150\) M€. Total des trois amendes : \(150 + 60 = 210\) M�
 <details markdown="1">
 <summary>Voir la réponse attendue</summary>
 
-\(12 \times 100\,000 = 1\,200\,000\) €, soit **1,2 M€**, **en plus** des amendes déjà prononcées.
+12 × 100 000 = 1 200 000 €, soit **1,2 M€**, **en plus** des amendes déjà prononcées.
 </details>
 
 **3.** Ton entreprise affiche une bannière avec « Tout accepter » en bouton vert et « Paramétrer » en lien gris discret. Est-ce conforme ? Que corriges-tu ?

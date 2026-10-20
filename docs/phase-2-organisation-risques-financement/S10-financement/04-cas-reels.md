@@ -24,7 +24,7 @@ Il oppose deux modes de financement du cours : **capitaux propres** (investisseu
 <details markdown="1">
 <summary>Voir la réponse attendue</summary>
 
-\(105 / 240 = 0{,}4375\), soit **43,75 %** du capital.
+105 / 240 = 0,4375, soit **43,75 %** du capital.
 </details>
 
 **2.** Si 240 M€ est la valorisation **avant** l'investissement (*pre-money*), que devient cette part ?
@@ -32,7 +32,7 @@ Il oppose deux modes de financement du cours : **capitaux propres** (investisseu
 <details markdown="1">
 <summary>Voir la réponse attendue</summary>
 
-La valorisation après investissement est alors \(240 + 105 = 345\) M€, donc \(105 / 345 \approx 0{,}304\), soit environ **30,4 %** du capital. La **même levée** donne **deux parts différentes** selon la définition : il faut **toujours demander** si la valorisation est avant ou après.
+La valorisation après investissement est alors 240 + 105 = 345 M€, donc 105 / 345 ≈ 0,304, soit environ **30,4 %** du capital. La **même levée** donne **deux parts différentes** selon la définition : il faut **toujours demander** si la valorisation est avant ou après.
 </details>
 
 **3.** Cite **deux avantages** et **deux inconvénients** d'une levée de fonds par rapport à un emprunt bancaire.

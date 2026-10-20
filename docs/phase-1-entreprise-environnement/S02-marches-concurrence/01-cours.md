@@ -108,8 +108,8 @@ Une société d'hébergement paie **100 000 €** de coûts fixes (salle, outils
 
 | Nombre de clients | Coût total | Coût moyen par client |
 |---:|---:|---:|
-| 10 000 | \(100\,000 + 5 \times 10\,000 = 150\,000\) € | **15 €** |
-| 100 000 | \(100\,000 + 5 \times 100\,000 = 600\,000\) € | **6 €** |
+| 10 000 | 100 000 + 5 × 10 000 = 150 000 € | **15 €** |
+| 100 000 | 100 000 + 5 × 100 000 = 600 000 € | **6 €** |
 
 Plus l'entreprise est **grande**, plus son coût par client **baisse** : un nouveau concurrent **petit** ne peut pas proposer les mêmes prix. C'est une **barrière à l'entrée**.
 
