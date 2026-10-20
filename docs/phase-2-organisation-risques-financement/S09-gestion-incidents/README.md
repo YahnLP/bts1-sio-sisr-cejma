@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Processus d'incident, priorités, SLA, indicateurs |
 | [Étude de cas](02-etude-de-cas.md) | Le support de Transports Delorme |
 | [Aide-mémoire](03-aide-memoire.md) | Formules et matrice |
+| [Cas réels](04-cas-reels.md) | GitLab (2017) et CrowdStrike (2024) : incidents majeurs |
 
 ## Déroulé conseillé (4 h)
 

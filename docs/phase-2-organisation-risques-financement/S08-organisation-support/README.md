@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Ressources, structure, coordination, management, ITIL |
 | [Étude de cas](02-etude-de-cas.md) | Le service desk de Maréchal Logistique |
 | [Aide-mémoire](03-aide-memoire.md) | Tableaux et calculs |
+| [Cas réel](04-cas-reels.md) | Zappos : structure sans chefs et départs |
 
 ## Déroulé conseillé (4 h)
 

@@ -178,6 +178,44 @@ Un support traite **1 200 tickets** par mois. Coût moyen d'un ticket : **12 €
 
 Économie : 34 440 − 26 400 = **8 040 € par mois**, soit **23,3 %**. L'idée : faire **monter le taux de résolution du niveau 1** grâce aux **procédures** et à la **base de connaissances** (standardisation des procédés), plus économique.
 
+## Comprendre pas à pas
+
+### Structure, coordination, contrôle : un schéma de lecture
+
+Pour analyser une organisation, pose trois questions :
+
+| Question | Notion | Exemple de service support |
+|---|---|---|
+| **Qui fait quoi ?** | **Structure** | Service desk (N1), experts (N2), spécialistes (N3) |
+| **Comment s'assure-t-on que tout le monde va dans le même sens ?** | **Coordination** | Outil de tickets, réunions, règles d'escalade |
+| **Comment vérifie-t-on ?** | **Contrôle** | Indicateurs : délais, satisfaction, tickets en retard |
+
+### Niveaux de support : un exemple chiffré
+
+Un service reçoit **200 tickets par mois**.
+
+| Niveau | Part des tickets résolus | Tickets |
+|---|---:|---:|
+| **N1** (service desk) | 70 % | 140 |
+| **N2** (techniciens) | 20 % | 40 |
+| **N3** (experts) | 10 % | 20 |
+| **Total** | **100 %** | **200** |
+
+**Pourquoi c'est efficace :** les experts (les plus coûteux) ne traitent que **10 %** des tickets ; la majorité est résolue au niveau le **moins coûteux**.
+
+> [!WARNING]
+> Ces pourcentages sont un **exemple de cours**, pas une norme : ils varient selon le service et la qualité de la base de connaissances.
+
+### Styles de management : quand les utiliser ?
+
+| Style | Quand il convient | Limite |
+|---|---|---|
+| **Directif** | Urgence, incident majeur | Peu d'initiative |
+| **Participatif** | Amélioration du service, équipe expérimentée | Décision plus lente |
+| **Délégation** | Équipe autonome et compétente | Besoin d'un contrôle adapté |
+
+Un cas réel d'organisation sans chefs est détaillé dans [Zappos](04-cas-reels.md).
+
 ## À retenir
 
 - **Ressources** tangibles, intangibles, humaines, financières ; **compétences** = mobiliser savoirs, savoir-faire, comportements.

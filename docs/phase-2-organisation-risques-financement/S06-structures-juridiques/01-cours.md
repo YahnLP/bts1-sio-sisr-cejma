@@ -77,6 +77,31 @@ Trois associés créent une société avec **40 000 €** de capital : Awa 20 00
 
 C'est la **règle de la responsabilité limitée** et son exception, la **caution**.
 
+## Comprendre pas à pas
+
+### Choisir une structure : trois questions dans l'ordre
+
+1. **Quel est le but ?** Partager des bénéfices (**société**) ou servir une cause sans les partager (**association**, ESS) ?
+2. **Combien de personnes et quel capital ?** Seul (entreprise individuelle, société unipersonnelle) ou à plusieurs (société, coopérative) ?
+3. **Quel risque personnel accepte-t-on ?** Responsabilité **limitée aux apports** (sociétés de capitaux) ou patrimoine personnel exposé (selon la forme et les garanties données, par exemple une **caution**).
+
+> [!NOTE]
+> Le régime de protection du patrimoine de l'entrepreneur individuel a évolué ces dernières années : vérifie la règle en vigueur avant de l'appliquer dans une réponse.
+
+### Exemple guidé : trois projets, trois structures
+
+| Projet | Objectif | Structure plausible | Pourquoi |
+|---|---|---|---|
+| Un technicien freelance dépanne des particuliers | Revenu personnel | Entreprise individuelle ou société unipersonnelle | Simplicité ; la société limite le risque |
+| Quatre amis créent une société de services informatiques et veulent des investisseurs | Bénéfices à partager | **SAS** (ou SARL) | Entrée d'investisseurs, responsabilité limitée |
+| Un groupe propose des logiciels libres au public, financé par des dons | Intérêt général | **Association** | But non lucratif, dons déductibles si l'intérêt général est reconnu |
+
+### Piège classique
+
+Une **responsabilité limitée** protège **contre les dettes de la société**, pas contre un engagement **personnel** : le dirigeant qui signe une **caution** pour un emprunt reste tenu **sur ses biens** (voir partie IV).
+
+Pour comparer deux structures réelles, voir [Framasoft et OVHcloud](04-cas-reels.md).
+
 ## À retenir
 
 - Le choix d'une structure dépend de la **responsabilité**, du **régime social**, de la **fiscalité**, du **pouvoir de décision** et de l'**évolution** du projet.

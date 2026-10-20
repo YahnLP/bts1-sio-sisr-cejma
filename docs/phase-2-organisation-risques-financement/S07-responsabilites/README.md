@@ -30,6 +30,7 @@
 | [Cours](01-cours.md) | Trois responsabilités, infractions informatiques, administrateur |
 | [Étude de cas](02-etude-de-cas.md) | Intrusion chez Optimum Compta |
 | [Aide-mémoire](03-aide-memoire.md) | Articles et peines |
+| [Cas réel](04-cas-reels.md) | L'incendie d'OVH à Strasbourg : responsabilité contractuelle |
 
 ## Déroulé conseillé (4 h)
 

@@ -111,6 +111,36 @@ La sanction doit être **proportionnée** et respecter une **procédure** (convo
 4. Ne jamais **divulguer** le contenu de données privées rencontrées.
 5. Connaître la **charte informatique** de l'entreprise (séance 11).
 
+## Comprendre pas à pas
+
+### Les trois conditions de la responsabilité civile, sur un exemple
+
+Un administrateur supprime par erreur le **mauvais volume** d'un serveur de fichiers client ; la comptabilité perd trois jours de travail.
+
+| Condition | Dans l'exemple |
+|---|---|
+| **Une faute** | Suppression sans vérifier le volume, ni vérifier la sauvegarde |
+| **Un dommage** | Trois jours de travail perdus, retard sur les clôtures |
+| **Un lien de causalité** | Sans la suppression, la perte n'aurait pas eu lieu |
+
+> [!TIP]
+> **Il faut les trois.** Sans faute (une panne imprévisible), sans dommage (suppression vite réparée) ou sans lien (la perte vient d'autre chose), la responsabilité civile ne s'engage pas.
+
+### Obligation de moyens ou de résultat : comment le savoir ?
+
+Lis ce que **le contrat promet** :
+
+| Formulation | Nature probable | Ce qu'il faut prouver pour obtenir réparation |
+|---|---|---|
+| « Nous ferons le nécessaire pour rétablir le service » | **Moyens** | Que le prestataire **n'a pas fait** ce qu'on attendait de lui |
+| « Les sauvegardes seront stockées dans un lieu **physiquement isolé** » | **Résultat** (promesse précise) | Que le **résultat promis n'existe pas** |
+
+### Se protéger quand on administre un système
+
+Trois réflexes : **demander** les consignes **par écrit**, **tracer** ses actions importantes, et **signaler** les risques à sa hiérarchie (voir partie V).
+
+Un cas réel illustre ces notions : [l'incendie d'OVH à Strasbourg](04-cas-reels.md).
+
 ## À retenir
 
 - **Civile** (réparer), **pénale** (punir une infraction), **disciplinaire** (sanction de l'employeur).
