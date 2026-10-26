@@ -27,7 +27,7 @@ Elle prend appui sur un **dossier** comprenant :
 
 ## Répartition du programme sur les deux années
 
-Le programme est organisé en thèmes, répartis sur les deux années du BTS. **Première année** (ce site) :
+Le programme est organisé en **six thèmes**. Il n'impose pas de répartition entre les deux années : celle ci-dessous est un **choix de la formation**. **Première année** (ce site) :
 
 | Thème du programme | Séances |
 |---|---|
@@ -36,7 +36,7 @@ Le programme est organisé en thèmes, répartis sur les deux années du BTS. **
 | Thème 4 – L'impact du numérique sur la vie de l'entreprise | S01, S02, S11 à S19 |
 | Début du thème 2 (par la propriété intellectuelle) et éléments de droit du travail | S06, S07, S10, S16 |
 
-Les thèmes **2, 5 et 6** sont approfondis en **seconde année**.
+Les thèmes **2, 5 et 6** sont approfondis en **seconde année**, notamment la régulation de l'activité économique par l'État et l'Union européenne (thème 2, question 2.1), le marché du travail (thème 5, question 5.1) et les options stratégiques (thème 6, question 6.2).
 
 
 ## Méthode de réponse
